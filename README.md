@@ -1,5 +1,5 @@
 # .DDS_TexturesPBR_PLUS
-A textures and materials pack for Doom + Doom II in .DDS format with generated mipmaps that ease the burden of loading mipmaps in GZDoom / UZDoom, improving performance.
+A textures and materials pack for Doom + Doom II in .DDS format with generated mipmaps that ease the burden of generating the mipmaps in GZDoom / UZDoom, improving performance.
 -----------------
 **Salutations!  RENEGADE ANDROiD, here.**  
 **I've blended multiple texture packs together for a dark, crisp feel while also enhancing visual FX.  This texture pack has primarily been converted into DDS format (minus transparencies), preserving impressive visuals while keeping performance in mind.**
