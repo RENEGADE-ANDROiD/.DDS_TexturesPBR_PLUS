@@ -4,7 +4,7 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 **Salutations!  RENEGADE ANDROiD, here.**  
 **I've blended multiple texture packs together for a dark, crisp feel while also enhancing visual FX.  This texture pack has primarily been converted into DDS format (minus transparencies), preserving impressive visuals while keeping performance in mind.**
 
-*Thanks to Decibal/Doc for the inspiration and the excellent OTEX texture pack he put together!  Thanks to DarkShadow for extensive testing and suggestions, thanks to Derpxeon/Project Mask for great texture suggestions and thanks to the community and their effort for all the source materials gathered here!*
+*Thanks to Decibal/Doc for the inspiration and the excellent OTEX texture pack he put together!  Thanks to Generic_Name_Guy for teaching me about DDS format.  Thanks to DarkShadow for extensive testing and suggestions!  Thanks to Derpxeon/Project Mask for great texture suggestions and big thanks to the community and their effort for all the source materials gathered here!*
 -----------------
 **WHAT'S INCLUDED IN THIS PACK:**
 - Deep Water
