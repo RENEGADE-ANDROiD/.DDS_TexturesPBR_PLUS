@@ -144,40 +144,40 @@ pic spdude2B tics 10
 pic spdude2C tics 10
 
 Texture optional BROVINE
-pic BROV1A tics 2
-pic BROV1B tics 2
-pic BROV1C tics 2
-pic BROV1D tics 2
-pic BROV1E tics 2
-pic BROV1F tics 2
-pic BROV1G tics 2
-pic BROV1H tics 2
-pic BROV1I tics 2
-pic BROV1J tics 2
-pic BROV1K tics 2
-pic BROV1L tics 2
-pic BROV1M tics 2
-pic BROV1N tics 2
-pic BROV1O tics 2
-pic BROV1P tics 2
+pic BROV1A tics 4
+pic BROV1B tics 4
+pic BROV1C tics 4
+pic BROV1D tics 4
+pic BROV1E tics 4
+pic BROV1F tics 4
+pic BROV1G tics 4
+pic BROV1H tics 4
+pic BROV1I tics 4
+pic BROV1J tics 4
+pic BROV1K tics 4
+pic BROV1L tics 4
+pic BROV1M tics 4
+pic BROV1N tics 4
+pic BROV1O tics 4
+pic BROV1P tics 4
 
 Texture optional BROVINE2
-pic BROV1A tics 2
-pic BROV1B tics 2
-pic BROV1C tics 2
-pic BROV1D tics 2
-pic BROV1E tics 2
-pic BROV1F tics 2
-pic BROV1G tics 2
-pic BROV1H tics 2
-pic BROV1I tics 2
-pic BROV1J tics 2
-pic BROV1K tics 2
-pic BROV1L tics 2
-pic BROV1M tics 2
-pic BROV1N tics 2
-pic BROV1O tics 2
-pic BROV1P tics 2
+pic BROV1A tics 4
+pic BROV1B tics 4
+pic BROV1C tics 4
+pic BROV1D tics 4
+pic BROV1E tics 4
+pic BROV1F tics 4
+pic BROV1G tics 4
+pic BROV1H tics 4
+pic BROV1I tics 4
+pic BROV1J tics 4
+pic BROV1K tics 4
+pic BROV1L tics 4
+pic BROV1M tics 4
+pic BROV1N tics 4
+pic BROV1O tics 4
+pic BROV1P tics 4
 
 Texture COMPTALL
 pic COMPTALL tics 15
@@ -198,22 +198,22 @@ pic COMPTL1G tics 15
 //pic CCOMPA9G tics 5
 
 Texture COMP01
-pic COMP01 tics 8
-pic CMETLC92 tics 2
-pic CMETLC93 tics 2
-pic CMETLC94 tics 2
-pic CMETLC95 tics 2
-pic COMP01A tics 8
-pic CMETLC92 tics 2
-pic CMETLC93 tics 2
-pic CMETLC94 tics 2
-pic CMETLC95 tics 2
-pic COMP01B tics 8
-pic CMETLC92 tics 2
-pic CMETLC93 tics 2
-pic CMETLC94 tics 2
-pic CMETLC95 tics 2
-pic COMP01C tics 8
+pic COMP01 tics 15
+pic CMETLC92 tics 4
+pic CMETLC93 tics 4
+pic CMETLC94 tics 4
+pic CMETLC95 tics 4
+pic COMP01A tics 15
+pic CMETLC92 tics 4
+pic CMETLC93 tics 4
+pic CMETLC94 tics 4
+pic CMETLC95 tics 4
+pic COMP01B tics 15
+pic CMETLC92 tics 4
+pic CMETLC93 tics 4
+pic CMETLC94 tics 4
+pic CMETLC95 tics 4
+pic COMP01C tics 15
 
 // Teleporter animations -------------------------------------------------------
 
