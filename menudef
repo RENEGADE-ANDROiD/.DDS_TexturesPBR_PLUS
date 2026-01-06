@@ -1,0 +1,134 @@
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "ReLite Options", "relite_options"
+    StaticText ""
+}
+AddOptionMenu "OptionsMenuSimple"
+{
+	Submenu "ReLite Options", "relite_options"
+    StaticText ""
+}
+OptionMenu "relite_options"
+{
+	Class "hd_menu"
+	Title "ReLite"
+	Option "Sprite Shadows", "rl_shadows", "OnOff"
+	Option "End Cam", "ec_enabled", "OnOff"
+	Option "End Cam Intermissions", "ec_intermissions", "OnOff"
+	Submenu "Sector Lighting", "sectorlighting"
+	Submenu "Dynamic Light Strength", "dynamiclightstrength"
+	Submenu "Light Globals", "lightglobals"
+	Submenu "Color Globals", "colorglobals"
+	Submenu "Color Interpretation", "colorinterpretation"
+	Submenu "Ceiling Reflections", "ceilreflections"
+	Submenu "Floor Reflections", "floorreflections"
+	Option "Color Bleeding Shader", "rl_shader", "OnOff"
+	Slider "Bleeding Strength", "rl_bleeding", 0.001, 0.200, 0.001, 3, "rl_shader"
+	Option "Performance Mode", "rl_performance", "OnOff"
+	StaticText ""
+	Option "Restart Current Level", "rl_restart", "OnOff"
+	Option "Reset", "reset", "OnOff"
+}
+OptionMenu "sectorlighting"
+{
+	Title "Sector Lighting"
+	Option "Bias Lighting", "rl_bias", "OnOff"
+	Slider "Darker", "rl_darken", 0.20, 0.50, 0.001, 3, "rl_bias"
+	Slider "Brighter", "rl_brighten", 0.50, 0.80, 0.001, 3, "rl_bias"
+	Slider "Additive Darkness", "rl_additive", -0.5, 0.9, 0.01, 2
+}
+OptionMenu "dynamiclightstrength"
+{
+	Title "Dynamic Light Strength"
+	Slider "Decorative (0 disables)", "rl_decorative", 0.0, 20.0, 0.01, 2 
+	Slider "Texture (0 disables)", "rl_texture", 0.0, 20.0, 0.01, 2
+	Slider "Flat (0 disables)", "rl_flat", 0.0, 20.0, 0.01, 2
+	Slider "Ceiling Grid Size (0 disables)", "rl_ceiling_grid", 0.0, 512.0, 16, 1
+}
+OptionMenu "lightglobals"
+{
+	Title "Light Globals"
+	Option "Platform Lights", "rl_platform", "OnOff"
+	Option "Window Lights", "rl_window", "OnOff"
+	Option "Eave Lights", "rl_eave", "OnOff"
+	Option "Fluid Lights", "rl_fluid", "OnOff"
+	Option "Max Light", "rl_maxlight", "OnOff"
+	Option "More Lights", "rl_morelights", "OnOff"
+	Slider "Lower Area Limit", "rl_area", 128, 2048, 0.1, 1,"rl_morelights"
+	Slider "Lower Length Limit", "rl_length", 64, 512, 0.1, 1,"rl_morelights"
+}
+OptionMenu "colorglobals"
+{
+	Title "Color Globals"
+	Option "Sector Colorization", "rl_color_sec", "OnOff"
+	Option "Sprite Colorization", "rl_color_spr", "OnOff"
+	Option "Texture Colorization", "rl_color_txt", "OnOff"
+	Slider "Palette Shade Adj", "rl_palette_shade", -0.5, 0.5, 0.01, 2
+	Slider "Palette Sat Adj", "rl_palette_sat", -0.5, 0.5, 0.01, 2
+}
+OptionMenu "colorinterpretation"
+{
+	Title "Color Interpretation"
+	Slider "Perceived Light to Keep", "rl_perceived", 0, 255, 1, 0
+	Slider "How Red to Keep", "rl_howred", 0, 255, 1, 0
+	Slider "How Green to Keep", "rl_howgreen", 0, 255, 1, 0
+	Slider "How Blue to Keep", "rl_howblue", 0, 255, 1, 0
+	Slider "Saturation of Interp Color", "rl_saturation", -0.5, 1.5, 0.01, 2
+	StaticText ""
+	Slider "Colorization Brightness", "rl_color_val", 0.0, 100.0, 0.1, 1
+	StaticText "(0=all colors colorize, 100=no colors colorize)", "White"
+}
+OptionMenu "ceilreflections"
+{
+	Title "Ceiling Reflections"
+	Option "Reflections", "rl_ceilreflections", "OnOff"
+	Slider "Tag", "rl_ceil_tag", 255, 32767, 1, 0, "rl_ceilreflections"
+	Slider "Reflection Strength", "rl_ceilstrength", 0, 255, 1, 0, "rl_ceilreflections"
+	TextField "Ceiling 1", "rl_ceil1", "rl_ceilreflections"
+	TextField "Ceiling 2", "rl_ceil2", "rl_ceilreflections"
+	TextField "Ceiling 3", "rl_ceil3", "rl_ceilreflections"
+	TextField "Ceiling 4", "rl_ceil4", "rl_ceilreflections"
+	TextField "Ceiling 5", "rl_ceil5", "rl_ceilreflections"
+	TextField "Ceiling 6", "rl_ceil6", "rl_ceilreflections"
+	TextField "Ceiling 7", "rl_ceil7", "rl_ceilreflections"
+	TextField "Ceiling 8", "rl_ceil8", "rl_ceilreflections"
+	TextField "Ceiling 9", "rl_ceil9", "rl_ceilreflections"
+	TextField "Ceiling 10", "rl_ceil10", "rl_ceilreflections"
+	Command "Clear 1", "rl_ceil1 \"\""
+	Command "Clear 2", "rl_ceil2 \"\""
+	Command "Clear 3", "rl_ceil3 \"\""
+	Command "Clear 4", "rl_ceil4 \"\""
+	Command "Clear 5", "rl_ceil5 \"\""
+	Command "Clear 6", "rl_ceil6 \"\""
+	Command "Clear 7", "rl_ceil7 \"\""
+	Command "Clear 8", "rl_ceil8 \"\""
+	Command "Clear 9", "rl_ceil9 \"\""
+	Command "Clear 10", "rl_ceil10 \"\""
+}
+OptionMenu "floorreflections"
+{
+	Title "Floor Reflections"
+	Option "Reflections", "rl_floorreflections", "OnOff"
+	Slider "Tag", "rl_floor_tag", 255, 32767, 1, 0, "rl_floorreflections"
+	Slider "Reflection Strength", "rl_floorstrength", 0, 255, 1, 0, "rl_floorreflections"
+	TextField "Floor 1", "rl_floor1", "rl_floorreflections"
+	TextField "Floor 2", "rl_floor2", "rl_floorreflections"
+	TextField "Floor 3", "rl_floor3", "rl_floorreflections"
+	TextField "Floor 4", "rl_floor4", "rl_floorreflections"
+	TextField "Floor 5", "rl_floor5", "rl_floorreflections"
+	TextField "Floor 6", "rl_floor6", "rl_floorreflections"
+	TextField "Floor 7", "rl_floor7", "rl_floorreflections"
+	TextField "Floor 8", "rl_floor8", "rl_floorreflections"
+	TextField "Floor 9", "rl_floor9", "rl_floorreflections"
+	TextField "Floor 10", "rl_floor10", "rl_floorreflections"
+	Command "Clear 1", "rl_floor1 \"\""
+	Command "Clear 2", "rl_floor2 \"\""
+	Command "Clear 3", "rl_floor3 \"\""
+	Command "Clear 4", "rl_floor4 \"\""
+	Command "Clear 5", "rl_floor5 \"\""
+	Command "Clear 6", "rl_floor6 \"\""
+	Command "Clear 7", "rl_floor7 \"\""
+	Command "Clear 8", "rl_floor8 \"\""
+	Command "Clear 9", "rl_floor9 \"\""
+	Command "Clear 10", "rl_floor10 \"\""
+}

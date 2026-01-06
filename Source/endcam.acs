@@ -1,0 +1,101 @@
+#library "endcam"
+#include "zcommon.acs"
+
+int camtid[5];
+int camptr = 0;
+
+script "settid" (int tid)
+{
+    camtid[camptr] = tid;
+    camptr++;
+}
+
+script "gettid" (void)
+{
+    SetResultValue(UniqueTID(0));
+}
+
+script "getcameratid" (int tid)
+{
+    SetResultValue(CheckPlayerCamera(tid));
+}
+
+script "getkeypressed" (void)
+{
+    SetResultValue(GetPlayerInput(-1, INPUT_BUTTONS));
+}
+
+script "showstats" (int exittype)
+{
+    int buttons;
+    int flags = 0;
+    int camera = exittype; // where to start
+
+    if (!GetCvar("ec_intermissions"))
+    {
+        flags = CHANGELEVEL_NOINTERMISSION;
+    }
+
+    SetFont("BIGFONT");
+
+    int t = Timer() / 35;
+    int secTotal = GetLevelInfo(LEVELINFO_TOTAL_SECRETS); 
+    int secFound = GetLevelInfo(LEVELINFO_FOUND_SECRETS); 
+    int moTotal = GetLevelInfo(LEVELINFO_TOTAL_MONSTERS);
+    int moKills = GetLevelInfo(LEVELINFO_KILLED_MONSTERS);
+    int itTotal = GetLevelInfo(LEVELINFO_TOTAL_ITEMS);
+    int itFound = GetLevelInfo(LEVELINFO_FOUND_ITEMS);
+
+    int levelname = StrParam(n: PRINTNAME_LEVELNAME);
+    int skillname = StrParam(n: PRINTNAME_SKILL);
+
+    int seconds = 35 * 3;
+
+    HudMessage (s: levelname, s:" COMPLETED"; HUDMSG_PLAIN, 0, CR_DARKBROWN, -0.35, 0.2, 0);
+    HudMessage (s: skillname; HUDMSG_PLAIN, 1, CR_DARKBROWN, -0.35, 0.25, 0);
+
+    HudMessage (s:"Time"; HUDMSG_PLAIN, 2, CR_DARKBROWN, -0.35, 0.35, 0);
+    HudMessage (d:t/60, s:":", d:(t%60)/10, d:t%10; HUDMSG_PLAIN, 3, CR_GOLD, -0.55, 0.35, 0);
+    HudMessage (s:"Secrets"; HUDMSG_PLAIN, 4, CR_DARKBROWN, -0.35, 0.4, 0);
+    HudMessage (d:secFound, s:"/", d:secTotal; HUDMSG_PLAIN, 5, CR_GOLD, -0.55, 0.4, 0);
+    HudMessage (s:"Kills"; HUDMSG_PLAIN, 6, CR_DARKBROWN, -0.35, 0.45, 0);
+    HudMessage (d:moKills, s:"/", d:moTotal; HUDMSG_PLAIN, 7, CR_GOLD, -0.55, 0.45, 0);
+    HudMessage (s:"Items"; HUDMSG_PLAIN, 8, CR_DARKBROWN, -0.35, 0.5, 0);
+    HudMessage (d:itFound, s:"/", d:itTotal; HUDMSG_PLAIN, 9, CR_GOLD, -0.55, 0.5, 0);
+
+    while (TRUE)
+    {
+        buttons = GetPlayerInput(-1, INPUT_BUTTONS);
+
+        if (buttons & (BT_JUMP | BT_ATTACK))
+        {
+            break;
+        }
+        delay(1);
+        seconds--;
+        if (seconds == 0)
+        {
+            camera++;
+            if (camera > camptr)
+            {
+                camera = 0;
+            }
+            if (camtid[camera] != 0)
+            {
+                ChangeCamera(camtid[camera], 1, 0);
+            }
+            seconds = 35 * 3;
+        }
+    }
+
+    int nextlevel;
+    if (exittype == 0)
+    {
+        nextlevel = StrParam(n: PRINTNAME_NEXTLEVEL);
+    }
+    else
+    {
+        nextlevel = StrParam(n: PRINTNAME_NEXTSECRET);
+    }
+    ChangeLevel(nextlevel, GameSkill(), flags);
+}

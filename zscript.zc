@@ -1,4 +1,17 @@
-version "3.7"
+version "4.10.0"
+
+const STAT_HDFLASH = Thinker.STAT_USER + 10;
+
+#include "zscript/hd_relite_Events.zs"
+#include "zscript/hd_shadowactors.zs"
+#include "zscript/hd_lightactors.zs"
+#include "zscript/hd_sector.zs"
+#include "zscript/hd_math.zs"
+#include "zscript/hd_mixin.zs"
+#include "zscript/hd_postprocessor.zs"
+
+#include "hd_initsprites.zs"
+#include "hd_crosswalk.zs"
 
 class DPWipeHandler : EventHandler
 {
