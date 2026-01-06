@@ -1,0 +1,585 @@
+world/test				wrldtest
+////////////////////////////////
+//world/watersplash
+////////////////////////////////
+
+$random world/watersplash		
+	{ world/watersplash1  
+	world/watersplash2 }
+
+world/watersplash1	dssplash
+world/watersplash2	dsspla2
+////////////////////////////////
+
+////////////////////////////////
+//world/watersplashsmall
+////////////////////////////////
+
+$random world/watersplashsmall	
+	{ world/watersplashsmall1  
+	world/watersplashsmall2 }
+
+world/watersplashsmall1	dssplsml
+world/watersplashsmall2	dssplsm2
+////////////////////////////////
+
+////////////////////////////////
+//world/sludgegloop
+////////////////////////////////
+
+$random world/sludgegloop
+	{ world/sludgegloop1  
+	world/sludgegloop2 }
+
+world/sludgegloop1	dsploosh
+world/sludgegloop2	dsploo2
+////////////////////////////////
+
+////////////////////////////////
+//world/sludgegloopsmall
+////////////////////////////////
+
+$random world/sludgegloopsmall
+	{ world/sludgegloopsmall1  
+	world/sludgegloopsmall2 }
+
+world/sludgegloopsmall1	dsplosml
+world/sludgegloopsmall2	dsplosm2
+////////////////////////////////
+
+////////////////////////////////
+//world/lavasizzle
+////////////////////////////////
+
+$random world/lavasizzle
+	{ world/lavasizzle1  
+	world/lavasizzle2 }
+
+world/lavasizzle1	dslvsiz
+world/lavasizzle2	dslvsiz3
+////////////////////////////////
+
+////////////////////////////////
+//world/lavsiz2
+////////////////////////////////
+
+$random world/lavsiz2		
+	{ world/lavsiz21  
+	world/lavsiz22 }
+
+world/lavsiz21	        dslvsiz2
+world/lavsiz22	        dslvsiz4
+////////////////////////////////
+
+////////////////////////////////
+//world/lavasizzlesmall
+////////////////////////////////
+
+$random world/lavasizzlesmall	
+	{ world/lavasizzlesmall1  
+	world/lavasizzlesmall2 }
+
+world/lavasizzlesmall1	dslavsml
+world/lavasizzlesmall2	dslavsm2
+////////////////////////////////
+
+
+// ==== FLOORS ====
+// nukage
+$random world/acid 		{ world/acid1 world/acid2 world/acid3 world/acid4 world/acid5 world/acid6 }
+world/acid1				acid1
+world/acid2				acid2
+world/acid3				acid3
+world/acid4				acid4
+world/acid5				acid5
+world/acid6				acid6
+$volume world/acid 0.03
+
+$random world/acidloop 	{ world/acidloop1 world/acidloop2 world/acidloop3 }
+world/acidloop1			acidlop1
+world/acidloop2			acidlop2
+world/acidloop3			acidlop3
+$volume world/acidloop 0.05
+
+// water
+$random world/waterflow { world/waterflow1 world/waterflow2 world/waterflow3 world/waterflow4 }
+world/waterflow1		wtrflow1
+world/waterflow2		wtrflow2
+world/waterflow3		wtrflow3
+world/waterflow4		wtrflow4
+$volume world/waterflow 0.01
+
+// slime
+$random world/gooflow { world/gooflow1 world/gooflow2 world/gooflow3 world/gooflow4 }
+world/gooflow1		goo1
+world/gooflow2		goo2
+world/gooflow3		goo3
+world/gooflow4		goo4
+$volume world/gooflow 0.005
+
+// lava
+$random world/lava 		{ world/lava1 world/lava2 world/lava3 world/lava4 world/lava5 world/lava6 }
+world/lava1				lava1
+world/lava2				lava2
+world/lava3				lava3
+world/lava4				lava4
+world/lava5				lava5
+world/lava6				lava6
+$volume world/lava 0.05
+
+$random world/lavaflow { world/lavaflow1 world/lavaflow2 world/lavaflow3 world/lavaflow4 }
+world/lavaflow1		lvaflow1
+world/lavaflow2		lvaflow2
+world/lavaflow3		lvaflow3
+world/lavaflow4		lvaflow4
+$volume world/lavaflow 0.03
+
+// hot surfaces
+$random world/hotsurface 	{ world/hotsurface1 world/hotsurface2 world/hotsurface3 }
+world/hotsurface1			hotsurf1
+world/hotsurface2			hotsurf2
+world/hotsurface3			hotsurf3
+$volume world/hotsurface 0.5
+
+// obaddon xwater
+$random world/xwater 	{ world/xwater1 world/xwater2 }
+world/xwater1			xwat1
+world/xwater2			xwat2
+$volume world/xwater 0.1
+
+// floor teleporters
+$random world/floortele 	{ world/floortele1 world/floortele2 world/floortele3 world/floortele4 }
+world/floortele1			fltele1
+world/floortele2			fltele2
+world/floortele3			fltele3
+world/floortele4			fltele4
+$volume world/floortele 0.05
+
+// ==== CEILINGS ====
+// outdoor area
+$random world/fsky 	{ world/fsky1 world/fsky2 world/fsky3 }
+world/fsky1			fsky1
+world/fsky2			fsky2
+world/fsky3			fsky3
+$volume world/fsky 0.1
+
+$random world/ceilite 	{ world/ceilite1 world/ceilite2 world/ceilite3 }
+world/ceilite1			ceilite1
+world/ceilite2			ceilite2
+world/ceilite3			ceilite3
+$volume world/ceilite 0.05
+
+// ==== WALLS ====
+// plutonia waterfall
+$random world/waterfall 	{ world/waterfall1 world/waterfall2 }
+world/waterfall1			watfall1
+world/waterfall2			watfall2
+$volume world/waterfall 0.05
+
+// bloodfall
+$random world/bloodfall 	{ world/bloodfall1 world/bloodfall2 }
+world/bloodfall1			bldfall1
+world/bloodfall2			bldfall2
+$volume world/bloodfall 0.1
+
+// slimefall
+$random world/slimefall 	{ world/slimefall1 world/slimefall2 }
+world/slimefall1			slmfall1
+world/slimefall2			slmfall2
+$volume world/slimefall 0.1
+
+// lavafall
+$random world/lavafall 	{ world/lavafall1 world/lavafall2 }
+world/lavafall1			lvafall1
+world/lavafall2			lvafall2
+$volume world/lavafall 0.1
+
+// doom1 slimedrip
+$random world/slimedrip 	{ world/slimedrip1 world/slimedrip2 }
+world/slimedrip1			sladrip1
+world/slimedrip2			sladrip2
+$volume world/slimedrip 0.1
+
+// compsta
+$random world/compstation 	{ world/compstation1 world/compstation2 world/compstation3 world/compstation4 world/compstation5 }
+world/compstation1			compst1
+world/compstation2			compst2
+world/compstation3			compst3
+world/compstation4			compst4
+world/compstation5			compst5
+$volume world/compstation 0.1
+
+// creepy wall faces
+$random world/faces 	{ world/faces1 world/faces2 }
+world/faces1			faces1
+world/faces2			faces2
+$volume world/faces 0.25
+
+// firey walls
+$random world/firewall 	{ world/firewall1 world/firewall2 }
+world/firewall1			firewal1
+world/firewall2			firewal2
+$volume world/firewall 0.05
+
+// the people's champ
+$random world/fireblu 	{ world/fireblu1 world/fireblu2 world/fireblu3 }
+world/fireblu1			fireblu1
+world/fireblu2			fireblu2
+world/fireblu3			fireblu3
+$volume world/fireblu 0.05
+
+// tech humming
+$random world/techhum 	{ world/techhum1 world/techhum2 }
+world/techhum1			techhum1
+world/techhum2			techhum2
+$volume world/techhum 0.05
+
+// annoying light buzz
+$random world/walllight 	{ world/walllite1 world/walllite2 world/walllite3 }
+world/walllite1			ceilite1
+world/walllite2			ceilite2
+world/walllite3			ceilite3
+$volume world/walllight 0.05
+
+// monitor static
+$random world/static 	{ world/static1 world/static2 }
+world/static1			static1
+world/static2			static2
+$volume world/static 0.05
+
+// Generic Sounds --------------------------------------------
+
+// Weapon Sounds --------------------------------------------
+weapons/chaincut		DSSAWHIT
+weapons/chngun			DSCHNGUN
+$volume weapons/chngun 0.7
+
+weapons/punch			dspunch
+berserk/punch			bpunch
+weapons/sshoto			DSDBOPN
+weapons/sshotc			DSDBCLS
+weapons/sshotl			DSDBLOAD
+
+// Imp Sounds ------------------------------------------------------
+imp/pain				DSBGPAI
+imp/active				DSBGACT
+
+// Shotgun Guy Sounds ------------------------------------------------------
+$random shotguy/sight		{ shotguy/sight1  shotguy/sight2  shotguy/sight3 }
+$random shotguy/death		{ shotguy/death1  shotguy/death2  shotguy/death3 }
+shotguy/sight1			dssgsit1	
+shotguy/sight2			dssgsit2
+shotguy/sight3			dssgsit3
+shotguy/active			dssgsact
+shotguy/pain			dssgpain
+shotguy/death1			dssgdth1
+shotguy/death2			dssgdth2
+shotguy/death3			dssgdth3
+
+// Chaingun Guy Sounds --------------------------------------
+$random chainguy/sight		{ chainguy/sight1  chainguy/sight2  chainguy/sight3 }
+$random chainguy/death		{ chainguy/death1  chainguy/death2  chainguy/death3 }
+chainguy/sight1			dscgsit1
+chainguy/sight2			dscgsit2
+chainguy/sight3			dscgsit3
+chainguy/active			dscgsact
+chainguy/attack			DSCHNGUN
+chainguy/pain			dscgpain
+chainguy/death1 		dscgdth1
+chainguy/death2			dscgdth2
+chainguy/death3			dscgdth3
+
+// Revenant Sounds
+
+skeleton/active 		DSSKEACT
+
+// Monster see sounds
+caco/sight				dscacsit
+spectre/sight			DSSPCSIT
+
+// Monster Pain Sounds --------------------------------------
+
+caco/pain			DSCACPAI
+skull/pain			dssklpn
+skeleton/pain		DSSKEPAI
+cyber/pain			dscybpai
+
+baron/pain 			DSBRPAIN
+
+knight/pain			DSKNTPAI
+
+spectre/pain	DSSPEPAI
+
+spider/pain			dssppain
+baby/pain			DSBSPPAI
+
+// Monster Active Sounds ---------------------------------------------------
+caco/active			DSCACACT
+skull/active		DSSKLIDL
+baron/active		dsbract
+cyber/active		DSCYBACT
+spider/active		DSSPIACT
+knight/active		DSKNTACT
+fatso/active		dsmanact
+pain/active			dspeact
+spectre/active		DSSPCACT
+
+baby/active			Dsbspact		
+
+
+
+
+
+// Monster Attack Sounds
+
+demon/melee		DSSGTATK
+
+spectre/melee	DSSPECTK
+
+baby/attack		dsplasma
+
+//Archvile ------------------------------------------------------------
+
+vile/stop			DSVILBOM
+
+// Death Sounds ------------------------------------------------------------
+spider/death		dsspidth
+spectre/death		dsspcdth
+skull/death			dslsod
+
+// Wolfenstein SS
+
+$random wolfss/active { weinershitzel1 weinershitzel2 }
+weinershitzel1				dsssact1
+weinershitzel2				dsssact2
+
+wolfss/pain				dssspain
+wolfss/attack			dsssgun
+
+dguyfall				DSPLFALL
+
+pl_gibbed 				dsslop
+
+$playeralias	player	male	*gibbed		pl_gibbed	
+
+vile/raise		dsslop
+
+$playersound player male *falling dguyfall
+
+// Quit, etc. -----------------------------------------------------------
+$random menu/quit1 { items/health2 powerups/invis  berserk/punch cyber/pain baron/pain weapons/unmaker player/male/death1 demon/pain grunt/pain misc/gibbed misc/teleport grunt/sight1 grunt/sight3 demon/melee }
+$random menu/quit2 { gibbage/egg1 powerups/megasphere chainguy/sight1 chainguy/sight2 skeleton/head gibbage/vilebody1 vile/active misc/p_pkup brain/cube misc/gibbed skeleton/swing knight/death baby/active demon/melee }
+
+//==============================================================================
+// Ambient and Generator sounds
+//==============================================================================
+
+//Ambient sounds were taken S.T.A.L.K.E.R.: Shadow of Chernobyl, Half-Life 1 Senn_ Remaster & Half-Life 2.
+//Generator sounds come from Silent Hill 1 and Resident Evil 1.
+
+Darker/generator1	NSGENE01
+Darker/generator2	NSGENE02
+Darker/generator3	NSGENE03
+Darker/generator4	NSGENE04
+
+$Pitchshift Darker/generator1 0
+$Pitchshift Darker/generator2 0
+$Pitchshift Darker/generator3 0
+$Pitchshift Darker/generator4 0
+
+$Random darker/amb1 {DAR11 DAR12 DAR13 DAR14}
+$Random darker/amb2 {DAR21 DAR22 DAR23 DAR24}
+$Random darker/amb3 {DAR31 DAR32 DAR33 DAR34}
+$Random darker/amb4 {DAR41 DAR42 DAR43 DAR44}
+$Random darker/amb5 {DAR51 DAR52 DAR53 DAR54}
+$Random darker/amb6 {DAR61 DAR62 DAR63 DAR64}
+$Random darker/amb7 {DAR71 DAR72 DAR73 DAR74}
+$Random darker/amb8 {DAR81 DAR82 DAR83 DAR84}
+$Random darker/amb9 {DAR91 DAR92 DAR93 DAR94}
+$Random darker/amb0 {DAR01 DAR02 DAR03 DAR04}
+
+DAR11	NSDARK11
+DAR12	NSDARK12
+DAR13	NSDARK13
+DAR14	NSDARK14
+
+DAR21	NSDARK21
+DAR22	NSDARK22
+DAR23	NSDARK23
+DAR24	NSDARK24
+
+DAR31	NSDARK31
+DAR32	NSDARK32
+DAR33	NSDARK33
+DAR34	NSDARK34
+
+DAR41	NSDARK41
+DAR42	NSDARK42
+DAR43	NSDARK43
+DAR44	NSDARK44
+
+DAR51	NSDARK51
+DAR52	NSDARK52
+DAR53	NSDARK53
+DAR54	NSDARK54
+
+DAR61	NSDARK61
+DAR62	NSDARK62
+DAR63	NSDARK63
+DAR64	NSDARK64
+
+DAR71	NSDARK71
+DAR72	NSDARK72
+DAR73	NSDARK73
+DAR74	NSDARK74
+
+DAR81	NSDARK81
+DAR82	NSDARK82
+DAR83	NSDARK83
+DAR84	NSDARK84
+
+DAR91	NSDARK91
+DAR92	NSDARK92
+DAR93	NSDARK93
+DAR94	NSDARK94
+
+DAR01	NSDARK01
+DAR02	NSDARK02
+DAR03	NSDARK03
+DAR04	NSDARK04
+
+$Limit Darker/generator1	1
+$Limit Darker/generator2	1
+$Limit Darker/generator3	1
+$Limit Darker/generator4	1
+
+$Limit darker/amb1	1
+$Limit darker/amb2	1
+$Limit darker/amb3	1
+$Limit darker/amb4	1
+$Limit darker/amb5	1
+$Limit darker/amb6	1
+$Limit darker/amb7	1
+$Limit darker/amb8	1
+$Limit darker/amb9	1
+$Limit darker/amb0	1
+
+$Volume Darker/generator1	0.65
+$Volume Darker/generator2	0.65
+$Volume Darker/generator3	0.65
+$Volume Darker/generator4	0.65
+
+//==============================================================================
+// Ambient and Generator sounds
+//==============================================================================
+
+//All ambient sounds were taken S.T.A.L.K.E.R.: Shadow of Chernobyl.
+//Generator sounds come from Silent Hill 1 and Resident Evil 1.
+
+
+// Selects random sounds in some way I guess
+$Random darker/amb1 {DAR11 DAR12 DAR13 DAR14}
+$Random darker/amb2 {DAR21 DAR22 DAR23 DAR24}
+$Random darker/amb3 {DAR31 DAR32 DAR33 DAR34}
+$Random darker/amb4 {DAR41 DAR42 DAR43 DAR44}
+$Random darker/amb5 {DAR51 DAR52 DAR53 DAR54}
+$Random darker/amb6 {DAR61 DAR62 DAR63 DAR64}
+$Random darker/amb7 {DAR71 DAR72 DAR73 DAR74}
+$Random darker/amb8 {DAR81 DAR82 DAR83 DAR84}
+$Random darker/amb9 {DAR91 DAR92 DAR93 DAR94}
+$Random darker/amb0 {DAR01 DAR02 DAR03 DAR04}
+
+// Defining sound files into names, idle ambiance has it as: drone4lp "sounds/drone4lp.wav" etc
+//U Ambience sounds 1
+// ambience 1
+DAR11	NSDARK11
+DAR12	NSDARK12
+DAR13	NSDARK13
+DAR14	NSDARK14
+// ambience 2
+DAR21	NSDARK21
+DAR22	NSDARK22
+DAR23	NSDARK23
+DAR24	NSDARK24
+// ambience 3
+DAR31	NSDARK31
+DAR32	NSDARK32
+DAR33	NSDARK33
+DAR34	NSDARK34
+// ambience 4
+DAR41	NSDARK41
+DAR42	NSDARK42
+DAR43	NSDARK43
+DAR44	NSDARK44
+// ambience 5
+DAR51	NSDARK51
+DAR52	NSDARK52
+DAR53	NSDARK53
+DAR54	NSDARK54
+// ambience 6
+DAR61	NSDARK61
+DAR62	NSDARK62
+DAR63	NSDARK63
+DAR64	NSDARK64
+// ambience 7
+DAR71	NSDARK71
+DAR72	NSDARK72
+DAR73	NSDARK73
+DAR74	NSDARK74
+// ambience 8
+DAR81	NSDARK81
+DAR82	NSDARK82
+DAR83	NSDARK83
+DAR84	NSDARK84
+// ambience 9
+DAR91	NSDARK91
+DAR92	NSDARK92
+DAR93	NSDARK93
+DAR94	NSDARK94
+// ambience 0
+DAR01	NSDARK01
+DAR02	NSDARK02
+DAR03	NSDARK03
+DAR04	NSDARK04
+
+
+
+// not sure in what way this limits
+$Limit darker/amb1	1
+$Limit darker/amb2	1
+$Limit darker/amb3	1
+$Limit darker/amb4	1
+$Limit darker/amb5	1
+$Limit darker/amb6	1
+$Limit darker/amb7	1
+$Limit darker/amb8	1
+$Limit darker/amb9	1
+$Limit darker/amb0	1
+
+//Unneeded for my mod v
+
+/*
+Darker/generator1	NSGENE01
+Darker/generator2	NSGENE02
+Darker/generator3	NSGENE03
+Darker/generator4	NSGENE04
+
+$Pitchshift Darker/generator1 0
+$Pitchshift Darker/generator2 0
+$Pitchshift Darker/generator3 0
+$Pitchshift Darker/generator4 0
+*/
+
+/*
+$Limit Darker/generator1	1
+$Limit Darker/generator2	1
+$Limit Darker/generator3	1
+$Limit Darker/generator4	1
+*/
+
+/*
+$Volume Darker/generator1	0.65
+$Volume Darker/generator2	0.65
+$Volume Darker/generator3	0.65
+$Volume Darker/generator4	0.65
+*/

@@ -1,0 +1,250 @@
+texture nukage4, 64, 64
+texture nukage5, 64, 64
+texture nukage6, 64, 64
+texture nukage7, 64, 64
+texture nukage8, 64, 64
+texture nukage9, 64, 64
+texture nukage10, 64, 64
+texture nukage11, 64, 64
+texture nukage12, 64, 64
+texture nukage13, 64, 64
+texture nukage14, 64, 64
+texture nukage15, 64, 64
+texture nukage16, 64, 64
+
+texture blood1, 64, 64
+texture blood2, 64, 64
+texture blood3, 64, 64
+texture blood4, 64, 64
+texture blood5, 64, 64
+texture blood6, 64, 64
+texture blood7, 64, 64
+texture blood8, 64, 64
+texture blood9, 64, 64
+texture blood10, 64, 64
+texture blood11, 64, 64
+texture blood12, 64, 64
+texture blood13, 64, 64
+texture blood14, 64, 64
+texture blood15, 64, 64
+texture blood16, 64, 64
+
+texture fwater4, 64, 64
+texture fwater5, 64, 64
+texture fwater6, 64, 64
+texture fwater7, 64, 64
+texture fwater8, 64, 64
+texture fwater9, 64, 64
+texture fwater10, 64, 64
+texture fwater11, 64, 64
+texture fwater12, 64, 64
+texture fwater13, 64, 64
+texture fwater14, 64, 64
+texture fwater15, 64, 64
+texture fwater16, 64, 64
+
+texture rrip1, 64, 128
+texture rrip2, 64, 128
+texture rrip3, 64, 128
+texture rrip4, 64, 128
+texture rrip5, 64, 128
+texture rrip6, 64, 128
+texture rrip7, 64, 128
+texture rrip8, 64, 128
+texture rrip9, 64, 128
+texture rrip10, 64, 128
+texture rrip11, 64, 128
+texture rrip12, 64, 128
+texture rrip13, 64, 128
+texture rrip14, 64, 128
+texture rrip15, 64, 128
+
+Flat STEP1, 64, 64
+{
+	Patch F_STEP1, 0, 0
+}
+
+Flat STEP2, 64, 64
+{
+	Patch F_STEP2, 0, 0
+}
+
+WallTexture STEP1, 32, 16
+{
+	Patch W_STEP1, 0, 0
+}
+
+WallTexture STEP2, 32, 16
+{
+	Patch W_STEP2, 0, 0
+}
+
+WALLTEXTURE optional ROCKRED10, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED1, 0, 0
+	patch ROCKRED2, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+WALLTEXTURE optional ROCKRED11, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED1, 0, 0
+	patch ROCKRED2, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+WALLTEXTURE optional ROCKRED12, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED1, 0, 0
+	patch ROCKRED2, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+WALLTEXTURE optional ROCKRED13, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED1, 0, 0
+	patch ROCKRED2, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+WALLTEXTURE optional ROCKRED14, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED1, 0, 0
+	patch ROCKRED2, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+WALLTEXTURE optional ROCKRED15, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED1, 0, 0
+	patch ROCKRED2, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+WALLTEXTURE optional ROCKRED16, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED1, 0, 0
+	patch ROCKRED2, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+WALLTEXTURE optional ROCKRED17, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED1, 0, 0
+	patch ROCKRED2, 0, 0 { Style Translucent; Alpha 0.875 }
+}
+
+WALLTEXTURE optional ROCKRED20, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED2, 0, 0
+	patch ROCKRED3, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+WALLTEXTURE optional ROCKRED21, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED2, 0, 0
+	patch ROCKRED3, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+WALLTEXTURE optional ROCKRED22, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED2, 0, 0
+	patch ROCKRED3, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+WALLTEXTURE optional ROCKRED23, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED2, 0, 0
+	patch ROCKRED3, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+WALLTEXTURE optional ROCKRED24, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED2, 0, 0
+	patch ROCKRED3, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+WALLTEXTURE optional ROCKRED25, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED2, 0, 0
+	patch ROCKRED3, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+WALLTEXTURE optional ROCKRED26, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED2, 0, 0
+	patch ROCKRED3, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+WALLTEXTURE optional ROCKRED27, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED2, 0, 0
+	patch ROCKRED3, 0, 0 { Style Translucent; Alpha 0.875 }
+}
+WALLTEXTURE optional ROCKRED30, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED3, 0, 0
+	patch ROCKRED1, 0, 0 { Style Translucent; Alpha 0.0 }
+}
+WALLTEXTURE optional ROCKRED31, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED3, 0, 0
+	patch ROCKRED1, 0, 0 { Style Translucent; Alpha 0.125 }
+}
+WALLTEXTURE optional ROCKRED32, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED3, 0, 0
+	patch ROCKRED1, 0, 0 { Style Translucent; Alpha 0.25 }
+}
+WALLTEXTURE optional ROCKRED33, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED3, 0, 0
+	patch ROCKRED1, 0, 0 { Style Translucent; Alpha 0.375 }
+}
+WALLTEXTURE optional ROCKRED34, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED3, 0, 0
+	patch ROCKRED1, 0, 0 { Style Translucent; Alpha 0.5 }
+}
+WALLTEXTURE optional ROCKRED35, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED3, 0, 0
+	patch ROCKRED1, 0, 0 { Style Translucent; Alpha 0.625 }
+}
+WALLTEXTURE optional ROCKRED36, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED3, 0, 0
+	patch ROCKRED1, 0, 0 { Style Translucent; Alpha 0.75 }
+}
+WALLTEXTURE optional ROCKRED37, 1024, 1024
+{
+	XScale 8
+	YScale 8
+	patch ROCKRED3, 0, 0
+	patch ROCKRED1, 0, 0 { Style Translucent; Alpha 0.875 }
+}

@@ -1,0 +1,267 @@
+# How it works:
+# Each texture definition starts with the name and a number of light "hotspots"
+# An optional extra parameter can be used to specify a type in case there's
+# some conflicting name dickery (e.g. a flat and a wall texture with same name)
+# in which case you'd add T or F after the name
+# Each hotspot can have either 6 or 8 parameters
+# The parameters are x and y positions in the texture, then a rgb color, and
+# a radius. If the other two parameters are given, then this hotspot is
+# turned into a spotlight, and they become the inner/outer angles
+# Spotlights are automatically oriented to face away from the surface
+#
+
+compute3 2
+25 32 215 187 67 30
+25 95 191 123 75 30
+
+
+bigbrik3 2
+32 124 90 76 11 128
+48 124 90 76 11 128
+
+
+bricklit 1
+32 32 90 76 22 200
+
+
+bronze4 2
+16 124 90 76 11 128
+48 124 90 76 11 128
+
+
+bstone3 1
+32 32 90 76 22 200
+
+
+compute2 4
+35 25 103 223 95 30
+95 25 207 131 83 30
+160 25 100 0 0 10
+224 25 150 50 50 30
+
+
+doorblu 3
+4 20 0 0 222 30
+4 64 0 0 222 30
+4 108 0 0 222 30
+
+doorblu2 1
+8 58 0 00 222 80
+
+doorred 3
+4 20 211 00 0 128
+4 64 211 00 0 128
+4 108 211 00 0 128
+
+doorred2 1
+8 58 211 00 0 80
+
+dooryel 3
+4 20 188 188 0 30
+4 64 188 188 0 30
+4 108 188 188 0 30
+
+dooryel2 3
+8 20 188 188 0 30
+8 64 188 188 0 30
+8 108 188 188 0 30
+
+
+exitsign 1
+16 8 64 0 0 64
+
+
+exitston 1
+32 32 64 0 0 64
+
+
+fireblu1 1
+64 64 200 22 177 244
+
+
+fireblu2 1
+64 64 177 22 200 244
+
+
+firelava 1
+64 64 200 55 0 244
+
+
+firelav2 1
+64 64 200 55 0 244
+
+
+firelav3 1
+64 64 200 55 0 244
+
+
+firemag1 1
+64 64 200 55 0 244
+
+
+firemag2 1
+64 64 200 55 0 244
+
+
+firemag3 1
+64 64 200 55 0 244
+
+
+firewall 1
+64 53 200 55 0 244
+
+
+firewal2 1
+64 53 200 55 0 244
+
+
+firewal3 1
+64 53 200 55 0 244
+
+
+# FLOOR1_1 1
+# 32 32 00 09 33 88
+
+FLOOR1_7 1
+32 32 122 22 00 88
+
+FLOOR1_6 1
+32 32 250 00 00 64
+
+FLOOR6_1 1
+32 32 44 00 09 88
+
+FLOOR6_2 1
+32 32 44 00 09 88
+
+
+lite2 1
+32 32 255 160 64 70
+
+
+lite3 2
+16 32 250 250 250 144
+16 96 250 250 250 144
+
+
+lite4 2
+8 32 250 250 250 90
+8 96 250 250 250 90
+
+
+lite5 2
+8 32 250 250 250 111
+8 96 250 250 250 111
+
+
+lite96 2
+15 96 255 255 255 70
+49 96 255 255 255 70
+
+
+liteblu1 2
+4 16 255 0 0 32
+4 112 255 0 0 32
+
+
+liteblu2 2
+8 16 151 0 0 20
+8 54 151 0 0 20
+
+
+liteblu3 2
+8 32 151 0 0 32
+8 96 151 0 0 32
+
+
+liteblu4 2
+8 32 151 0 0 32
+8 96 151 0 0 32
+
+
+litemet 2
+29 70 255 255 255 155
+92 70 255 255 255 155
+
+liteston 2
+15 96 255 255 255 70
+49 96 255 255 255 70
+
+
+litered 2
+8 16 151 0 0 200
+8 99 151 0 0 200
+
+
+metal6 1
+32 8 188 188 0 128
+
+
+metal7 1
+32 120 188 188 0 128
+
+
+metal6 T 1
+32 8 188 188 0 128
+
+
+metal7 T 1
+32 120 188 188 0 128
+
+
+silver2 2
+32 32 0 44 199 88
+32 77 0 44 199 88
+
+
+spacew2 2
+32 32 255 255 255 16
+32 96 255 255 255 16
+
+
+spacew3 2
+32 24 255 255 255 24
+32 96 255 255 255 24
+
+
+support2 2
+12 60 250 250 250 30
+52 60 250 250 250 30
+
+
+tekbron2 2
+32 32 255 255 255 16
+32 96 255 255 255 16
+
+
+tekgren5 1
+32 10 144 144 00 75
+
+
+teklite 2
+32 32 255 255 255 16
+32 96 255 255 255 16
+
+
+TLITE6_5 1
+#16 16 188 0 0 148 30 60
+#16 48 188 0 0 148 30 60
+#48 16 188 0 0 148 30 60
+#48 48 188 0 0 148 30 60
+32 32 255 0 0 64 64 64
+
+
+TLITE6_6 1
+#16 16 255 247 201 80
+#16 48 255 247 201 80
+#48 16 255 247 201 80
+#48 48 255 247 201 80
+32 32 255 255 100 64 64 64
+
+
+ZZWOLF3 1
+64 10 144 144 00 75
+
+
+ZZWOLF6 1
+64 64 216 244 244 75

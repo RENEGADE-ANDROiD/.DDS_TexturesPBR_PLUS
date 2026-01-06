@@ -1,0 +1,44 @@
+#library "Ambience"
+#include "zcommon.acs"
+
+// I assume this acs needs to be compiled to be used/changed
+
+Script 890 ENTER CLIENTSIDE
+{
+    int benis;
+    int butts;
+
+    Thing_ChangeTid(0,12000);
+    delay(random(350,1050)); // Between 10 to 30 seconds.
+    while(1)
+    {
+        benis = random(1,14); //can affect rarity
+
+        if (benis == 1) { LocalAmbientSound("darker/amb1",random(16,48)); } // dont know if the lack of delay here causes the spam
+        if (benis == 2) { LocalAmbientSound("darker/amb2",random(16,48)); delay(350); }
+        if (benis == 3) { LocalAmbientSound("darker/amb3",random(16,48)); delay(105); }
+        if (benis == 4)
+        {
+            butts = random(16,48);
+            LocalAmbientSound("darker/amb4",butts);
+            delay(35);
+            LocalAmbientSound("darker/amb4",butts);
+            delay(35);
+            LocalAmbientSound("darker/amb4",butts);
+            delay(35);
+            LocalAmbientSound("darker/amb4",butts);
+            delay(35);
+        }
+        if (benis == 5) { LocalAmbientSound("darker/amb5",random(16,48)); }
+        if (benis == 6)
+        {
+            LocalAmbientSound("darker/amb6",random(16,48));
+            delay(105);
+        }
+        if (benis == 7)  { LocalAmbientSound("darker/amb7",random(16,48)); }
+        if (benis == 8)  { LocalAmbientSound("darker/amb8",random(16,48)); }
+        if (benis == 9)  { LocalAmbientSound("darker/amb9",random(16,48)); }
+        if (benis == 10) { LocalAmbientSound("darker/amb0",random(16,48)); }
+        delay(random(350,2100)); // Between ten seconds to a minute.
+    }
+}

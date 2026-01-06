@@ -1,0 +1,60 @@
+//===========================================================================
+//
+// NASH GORE VOXELS
+//
+//===========================================================================
+
+// Crushed Corpses
+CRS1A = "CRS1A" { UseActorPitch UseActorRoll }
+CRS2A = "CRS2A" { UseActorPitch UseActorRoll }
+CRS3A = "CRS3A" { UseActorPitch UseActorRoll }
+
+// Gibs
+
+GIB0A = "GIB0A" { UseActorPitch UseActorRoll }
+GIB0B = "GIB0B" { UseActorPitch UseActorRoll }
+GIB1A = "GIB1A" { UseActorPitch UseActorRoll }
+GIB1B = "GIB1B" { UseActorPitch UseActorRoll }
+GIB2A = "GIB2A" { UseActorPitch UseActorRoll }
+GIB2B = "GIB2B" { UseActorPitch UseActorRoll }
+GIB3A = "GIB3A" { UseActorPitch UseActorRoll }
+GIB3B = "GIB3B" { UseActorPitch UseActorRoll }
+GIB4A = "GIB4A" { UseActorPitch UseActorRoll }
+GIB4B = "GIB4B" { UseActorPitch UseActorRoll }
+GIB5A = "GIB5A" { UseActorPitch UseActorRoll }
+GIB5B = "GIB5B" { UseActorPitch UseActorRoll }
+GIB6A = "GIB6A" { UseActorPitch UseActorRoll }
+GIB6B = "GIB6B" { UseActorPitch UseActorRoll }
+GIB7A = "GIB7A" { UseActorPitch UseActorRoll }
+GIB7B = "GIB7B" { UseActorPitch UseActorRoll }
+GIB8A = "GIB8A" { UseActorPitch UseActorRoll }
+GIB8B = "GIB8B" { UseActorPitch UseActorRoll }
+GIB9A = "GIB9A" { UseActorPitch UseActorRoll }
+GIB9B = "GIB9B" { UseActorPitch UseActorRoll }
+
+// Sticky Gib Ceiling
+
+SGC1A = "SGC1A" { UseActorPitch UseActorRoll }
+SGC1B = "SGC1B" { UseActorPitch UseActorRoll }
+SGC2A = "SGC2A" { UseActorPitch UseActorRoll }
+SGC2B = "SGC2B" { UseActorPitch UseActorRoll }
+
+// Sticky Wall Gib
+
+SGW1A = "SGW1A" { UseActorPitch UseActorRoll }
+SGW1B = "SGW1B" { UseActorPitch UseActorRoll }
+SGW2A = "SGW2A" { UseActorPitch UseActorRoll }
+SGW2B = "SGW2B" { UseActorPitch UseActorRoll }
+
+// Squished Gib
+
+SQSHA = "SQSHA" { UseActorPitch UseActorRoll }
+
+// Ice Gibs
+
+ICENA = "ICENA" { UseActorPitch UseActorRoll }
+ICENB = "ICENB" { UseActorPitch UseActorRoll }
+ICENC = "ICENC" { UseActorPitch UseActorRoll }
+ICEND = "ICEND" { UseActorPitch UseActorRoll }
+
+

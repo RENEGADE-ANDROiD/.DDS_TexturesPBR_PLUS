@@ -1,0 +1,19 @@
+brightmap flat CEIL5_1 { map "brightmaps/DOOM/CEIL5_1.dds" DISABLEFULLBRIGHT }
+brightmap flat CEIL5_2 { map "brightmaps/DOOM/CEIL5_2.dds" DISABLEFULLBRIGHT }
+brightmap flat flat17 { map "brightmaps/DOOM/flat17.dds" DISABLEFULLBRIGHT }
+brightmap flat flat18 { map "brightmaps/DOOM/flat18.dds" DISABLEFULLBRIGHT }
+brightmap flat FLOOR52A { map "brightmaps/DOOM/FLOOR52A.dds" DISABLEFULLBRIGHT }
+brightmap flat FLOOR52B { map "brightmaps/DOOM/FLOOR52B.dds" DISABLEFULLBRIGHT }
+brightmap flat FLOOR52C { map "brightmaps/DOOM/FLOOR52C.dds" DISABLEFULLBRIGHT }
+brightmap flat FLOOR52D { map "brightmaps/DOOM/FLOOR52D.dds" DISABLEFULLBRIGHT }
+brightmap flat FLOOR52E { map "brightmaps/DOOM/FLOOR52E.dds" DISABLEFULLBRIGHT }
+//
+brightmap flat FLOOR1_7 { map "brightmaps/DOOM/flr1_6A.dds" DISABLEFULLBRIGHT }
+brightmap texture COMPTALL { map "materials/brightmaps/doom/COMPTALL.dds" DISABLEFULLBRIGHT }
+brightmap texture COMPTALL { map "materials/brightmaps/doom/BCOMPA9H.dds" DISABLEFULLBRIGHT }
+brightmap texture COMPTALL { map "materials/brightmaps/doom/BCOMPA9I.dds" DISABLEFULLBRIGHT }
+brightmap texture COMPTALL { map "materials/brightmaps/doom/BCOMPA9J.dds" DISABLEFULLBRIGHT }
+brightmap texture COMPTALL { map "materials/brightmaps/doom/BCOMPA9K.dds" DISABLEFULLBRIGHT }
+brightmap texture COMPTALL { map "materials/brightmaps/doom/BCOMPA9L.dds" DISABLEFULLBRIGHT }
+brightmap texture COMPTALL { map "materials/brightmaps/doom/BCOMPA9M.dds" DISABLEFULLBRIGHT }
+brightmap texture COMPTALL { map "materials/brightmaps/doom/BCOMPA9N.dds" DISABLEFULLBRIGHT }

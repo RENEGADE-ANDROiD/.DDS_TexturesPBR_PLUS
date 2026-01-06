@@ -1,0 +1,528 @@
+//OTEX//
+Texture CEIL5_1
+pic FLOOR52A tics 12
+pic FLOOR52B tics 8
+pic FLOOR52C tics 8
+pic FLOOR52D tics 8
+pic FLOOR52E tics 8
+pic FLOOR52D tics 8
+pic FLOOR52C tics 8
+pic FLOOR52B tics 8
+
+Texture flat17
+pic FLOOR52A tics 12
+pic FLOOR52B tics 8
+pic FLOOR52C tics 8
+pic FLOOR52D tics 8
+pic FLOOR52E tics 8
+pic FLOOR52D tics 8
+pic FLOOR52C tics 8
+pic FLOOR52B tics 8
+
+Texture flat18
+pic FLOOR52A tics 12
+pic FLOOR52B tics 8
+pic FLOOR52C tics 8
+pic FLOOR52D tics 8
+pic FLOOR52E tics 8
+pic FLOOR52D tics 8
+pic FLOOR52C tics 8
+pic FLOOR52B tics 8
+
+texture COMPSTA2
+pic COMPST2A tics 5
+pic COMPST2B tics 5
+pic COMPST2C tics 5
+pic COMPST2D tics 5
+pic COMPST2E tics 5
+pic COMPST2F tics 5
+
+texture COMPUTE2
+pic COMPUT2A tics 3
+pic COMPUT2B tics 3
+pic COMPUT2C tics 3
+pic COMPUT2D tics 3
+pic COMPUT2E tics 3
+pic COMPUT2F tics 3
+pic COMPUT2G tics 3
+
+texture COMPUTE3
+pic COMPUT3A tics 3
+pic COMPUT3B tics 3
+pic COMPUT3C tics 3
+pic COMPUT3D tics 3
+
+texture SPACEW3
+pic SPACM0 tics 2
+pic SPACM1 tics 2
+pic SPACM2 tics 2
+pic SPACM3 tics 2
+pic SPACM4 tics 2
+
+flat GATE1
+pic GATE1A tics 3
+pic GATE1B tics 3
+pic GATE1C tics 3
+pic GATE1D tics 3
+pic GATE1E tics 3
+pic GATE1F tics 3
+pic GATE1G tics 3
+pic GATE1H tics 3
+pic GATE1I tics 3
+pic GATE1J tics 3
+
+flat GATE2
+pic GATE1A tics 3
+pic GATE1B tics 3
+pic GATE1C tics 3
+pic GATE1D tics 3
+pic GATE1E tics 3
+pic GATE1F tics 3
+pic GATE1G tics 3
+pic GATE1H tics 3
+pic GATE1I tics 3
+pic GATE1J tics 3
+
+flat GATE3
+pic GATE1A tics 3
+pic GATE1B tics 3
+pic GATE1C tics 3
+pic GATE1D tics 3
+pic GATE1E tics 3
+pic GATE1F tics 3
+pic GATE1G tics 3
+pic GATE1H tics 3
+pic GATE1I tics 3
+pic GATE1J tics 3
+
+flat GATE4
+pic GATE4A tics 3
+pic GATE4B tics 3
+pic GATE4C tics 3
+pic GATE4D tics 3
+pic GATE4E tics 3
+pic GATE4F tics 3
+pic GATE4G tics 3
+pic GATE4H tics 3
+pic GATE4I tics 3
+pic GATE4J tics 3
+
+texture GRAY2
+pic GRAY2A tics 2
+pic GRAY2B tics 2
+pic GRAY2C tics 2
+pic GRAY2D tics 2
+
+Texture GSTGARG
+pic spdude2A tics 10
+pic spdude2B tics 10
+pic spdude2C tics 10
+
+Texture GSTLION
+pic spdude2A tics 10
+pic spdude2B tics 10
+pic spdude2C tics 10
+
+Texture GSTSATYR
+pic spdude2A tics 10
+pic spdude2B tics 10
+pic spdude2C tics 10
+
+Texture sp_dude2
+pic spdude2A tics 10
+pic spdude2B tics 10
+pic spdude2C tics 10
+
+Texture sp_dude4
+pic spdude2A tics 10
+pic spdude2B tics 10
+pic spdude2C tics 10
+
+Texture sp_dude6
+pic spdude2A tics 10
+pic spdude2B tics 10
+pic spdude2C tics 10
+
+Texture optional BROVINE
+pic BROV1A tics 2
+pic BROV1B tics 2
+pic BROV1C tics 2
+pic BROV1D tics 2
+pic BROV1E tics 2
+pic BROV1F tics 2
+pic BROV1G tics 2
+pic BROV1H tics 2
+pic BROV1I tics 2
+pic BROV1J tics 2
+pic BROV1K tics 2
+pic BROV1L tics 2
+pic BROV1M tics 2
+pic BROV1N tics 2
+pic BROV1O tics 2
+pic BROV1P tics 2
+
+Texture optional BROVINE2
+pic BROV1A tics 2
+pic BROV1B tics 2
+pic BROV1C tics 2
+pic BROV1D tics 2
+pic BROV1E tics 2
+pic BROV1F tics 2
+pic BROV1G tics 2
+pic BROV1H tics 2
+pic BROV1I tics 2
+pic BROV1J tics 2
+pic BROV1K tics 2
+pic BROV1L tics 2
+pic BROV1M tics 2
+pic BROV1N tics 2
+pic BROV1O tics 2
+pic BROV1P tics 2
+
+Texture COMPTALL
+pic COMPTALL tics 15
+//pic CCOMPA90 tics 10
+pic COMPTL1A tics 15
+//pic CCOMPA9A tics 10
+pic COMPTL1B tics 15
+//pic CCOMPA9B tics 10
+pic COMPTL1C tics 15
+//pic CCOMPA9C tics 10
+pic COMPTL1D tics 15
+//pic CCOMPA9D tics 10
+pic COMPTL1E tics 15
+//pic CCOMPA9E tics 10
+pic COMPTL1F tics 15
+//pic CCOMPA9F tics 10
+pic COMPTL1G tics 15
+//pic CCOMPA9G tics 5
+
+Texture COMP01
+pic COMP01 tics 8
+pic CMETLC92 tics 2
+pic CMETLC93 tics 2
+pic CMETLC94 tics 2
+pic CMETLC95 tics 2
+pic COMP01A tics 8
+pic CMETLC92 tics 2
+pic CMETLC93 tics 2
+pic CMETLC94 tics 2
+pic CMETLC95 tics 2
+pic COMP01B tics 8
+pic CMETLC92 tics 2
+pic CMETLC93 tics 2
+pic CMETLC94 tics 2
+pic CMETLC95 tics 2
+pic COMP01C tics 8
+
+// Teleporter animations -------------------------------------------------------
+
+texture CTEL
+pic CTEL1 tics 2
+pic CTEL2 tics 2
+pic CTEL3 tics 2
+pic CTEL4 tics 2
+pic CTEL5 tics 2
+pic CTEL6 tics 2
+pic CTEL7 tics 2
+pic CTEL8 tics 4
+
+texture CTEL1
+pic CTEL1 tics 2
+pic CTEL2 tics 2
+pic CTEL3 tics 2
+pic CTEL4 tics 2
+pic CTEL5 tics 2
+pic CTEL6 tics 2
+pic CTEL7 tics 2
+pic CTEL8 tics 4
+
+texture HTEL1
+pic HTEL1 tics 40
+pic HTEL2 tics 2
+pic HTEL3 tics 2
+pic HTEL4 tics 40
+pic HTEL3 tics 2
+pic HTEL2 tics 2
+
+texture HTELA
+pic HTELA tics 40
+pic HTELB tics 2
+pic HTELC tics 2
+pic HTELD tics 40
+pic HTELC tics 2
+pic HTELB tics 2
+
+texture SPORTA
+pic SPORT1 tics 4
+pic SPORT2 tics 2
+pic SPORT3 tics 2
+pic SPORT4 tics 2
+pic SPORT5 tics 2
+pic SPORT4 tics 2
+pic SPORT3 tics 2
+pic SPORT2 tics 2
+
+texture SPORT1
+pic SPORT1 tics 4
+pic SPORT2 tics 2
+pic SPORT3 tics 2
+pic SPORT4 tics 2
+pic SPORT5 tics 2
+pic SPORT4 tics 2
+pic SPORT3 tics 2
+pic SPORT2 tics 2
+
+texture GATE1
+pic CTEL1 tics 2
+pic CTEL2 tics 2
+pic CTEL3 tics 2
+pic CTEL4 tics 2
+pic CTEL5 tics 2
+pic CTEL6 tics 2
+pic CTEL7 tics 2
+pic CTEL8 tics 4
+
+texture GATE2
+pic GTEL1 tics 2
+pic GTEL2 tics 2
+pic GTEL3 tics 2
+pic GTEL4 tics 2
+pic GTEL5 tics 2
+pic GTEL6 tics 2
+pic GTEL7 tics 2
+pic GTEL8 tics 4
+
+texture GATE3
+pic HTEL1 tics 40
+pic HTEL2 tics 2
+pic HTEL3 tics 2
+pic HTEL4 tics 40
+pic HTEL3 tics 2
+pic HTEL2 tics 2
+
+texture GATE4
+pic SPORT1 tics 4
+pic SPORT2 tics 2
+pic SPORT3 tics 2
+pic SPORT4 tics 2
+pic SPORT5 tics 2
+pic SPORT4 tics 2
+pic SPORT3 tics 2
+pic SPORT2 tics 2
+
+WARP flat SFLR6_1
+WARP flat SFLR6_4
+WARP flat SFLR7_1
+WARP flat SFLR7_4
+
+WARP texture SKSNAKE1
+WARP texture SKSNAKE2
+WARP texture SP_FACE1
+
+////Ultra
+ TEXTURE nukage1
+ pic nukage1 tics 2
+ pic nukage2 tics 2
+ pic nukage3 tics 2
+ pic nukage4 tics 2
+ pic nukage5 tics 2
+ pic nukage6 tics 2
+ pic nukage7 tics 2
+ pic nukage8 tics 2
+ pic nukage9 tics 2
+ pic nukage10 tics 2
+ pic nukage11 tics 2
+ pic nukage12 tics 2
+ pic nukage13 tics 2
+ pic nukage14 tics 2
+ pic nukage15 tics 2
+ pic nukage16 tics 2
+
+ TEXTURE nukage2
+ pic nukage2 tics 2
+ pic nukage3 tics 2
+ pic nukage4 tics 2
+ pic nukage5 tics 2
+ pic nukage6 tics 2
+ pic nukage7 tics 2
+ pic nukage8 tics 2
+ pic nukage9 tics 2
+ pic nukage10 tics 2
+ pic nukage11 tics 2
+ pic nukage12 tics 2
+ pic nukage13 tics 2
+ pic nukage14 tics 2
+ pic nukage15 tics 2
+ pic nukage16 tics 2
+ pic nukage1 tics 2
+
+ TEXTURE nukage3
+ pic nukage3 tics 2
+ pic nukage4 tics 2
+ pic nukage5 tics 2
+ pic nukage6 tics 2
+ pic nukage7 tics 2
+ pic nukage8 tics 2
+ pic nukage9 tics 2
+ pic nukage10 tics 2
+ pic nukage11 tics 2
+ pic nukage12 tics 2
+ pic nukage13 tics 2
+ pic nukage14 tics 2
+ pic nukage15 tics 2
+ pic nukage16 tics 2
+ pic nukage1 tics 2
+ pic nukage2 tics 2
+
+TEXTURE optional ROCKRED4
+	PIC ROCKRED10 tics 2
+	PIC ROCKRED11 tics 2
+	PIC ROCKRED12 tics 2
+	PIC ROCKRED13 tics 2
+	PIC ROCKRED14 tics 2
+	PIC ROCKRED15 tics 2
+	PIC ROCKRED16 tics 2
+	PIC ROCKRED17 tics 2
+	PIC ROCKRED20 tics 2
+	PIC ROCKRED21 tics 2
+	PIC ROCKRED22 tics 2
+	PIC ROCKRED23 tics 2
+	PIC ROCKRED24 tics 2
+	PIC ROCKRED25 tics 2
+	PIC ROCKRED26 tics 2
+	PIC ROCKRED27 tics 2
+	PIC ROCKRED30 tics 2
+	PIC ROCKRED31 tics 2
+	PIC ROCKRED32 tics 2
+	PIC ROCKRED33 tics 2
+	PIC ROCKRED34 tics 2
+	PIC ROCKRED35 tics 2
+	PIC ROCKRED36 tics 2
+	PIC ROCKRED37 tics 2
+	
+TEXTURE optional ROCKRED3
+	PIC ROCKRED10 tics 2
+	PIC ROCKRED11 tics 2
+	PIC ROCKRED12 tics 2
+	PIC ROCKRED13 tics 2
+	PIC ROCKRED14 tics 2
+	PIC ROCKRED15 tics 2
+	PIC ROCKRED16 tics 2
+	PIC ROCKRED17 tics 2
+	PIC ROCKRED20 tics 2
+	PIC ROCKRED21 tics 2
+	PIC ROCKRED22 tics 2
+	PIC ROCKRED23 tics 2
+	PIC ROCKRED24 tics 2
+	PIC ROCKRED25 tics 2
+	PIC ROCKRED26 tics 2
+	PIC ROCKRED27 tics 2
+	PIC ROCKRED30 tics 2
+	PIC ROCKRED31 tics 2
+	PIC ROCKRED32 tics 2
+	PIC ROCKRED33 tics 2
+	PIC ROCKRED34 tics 2
+	PIC ROCKRED35 tics 2
+	PIC ROCKRED36 tics 2
+	PIC ROCKRED37 tics 2
+TEXTURE optional ROCKRED2
+	PIC ROCKRED10 tics 2
+	PIC ROCKRED11 tics 2
+	PIC ROCKRED12 tics 2
+	PIC ROCKRED13 tics 2
+	PIC ROCKRED14 tics 2
+	PIC ROCKRED15 tics 2
+	PIC ROCKRED16 tics 2
+	PIC ROCKRED17 tics 2
+	PIC ROCKRED20 tics 2
+	PIC ROCKRED21 tics 2
+	PIC ROCKRED22 tics 2
+	PIC ROCKRED23 tics 2
+	PIC ROCKRED24 tics 2
+	PIC ROCKRED25 tics 2
+	PIC ROCKRED26 tics 2
+	PIC ROCKRED27 tics 2
+	PIC ROCKRED30 tics 2
+	PIC ROCKRED31 tics 2
+	PIC ROCKRED32 tics 2
+	PIC ROCKRED33 tics 2
+	PIC ROCKRED34 tics 2
+	PIC ROCKRED35 tics 2
+	PIC ROCKRED36 tics 2
+	PIC ROCKRED37 tics 2
+TEXTURE optional ROCKRED1
+	PIC ROCKRED10 tics 2
+	PIC ROCKRED11 tics 2
+	PIC ROCKRED12 tics 2
+	PIC ROCKRED13 tics 2
+	PIC ROCKRED14 tics 2
+	PIC ROCKRED15 tics 2
+	PIC ROCKRED16 tics 2
+	PIC ROCKRED17 tics 2
+	PIC ROCKRED20 tics 2
+	PIC ROCKRED21 tics 2
+	PIC ROCKRED22 tics 2
+	PIC ROCKRED23 tics 2
+	PIC ROCKRED24 tics 2
+	PIC ROCKRED25 tics 2
+	PIC ROCKRED26 tics 2
+	PIC ROCKRED27 tics 2
+	PIC ROCKRED30 tics 2
+	PIC ROCKRED31 tics 2
+	PIC ROCKRED32 tics 2
+	PIC ROCKRED33 tics 2
+	PIC ROCKRED34 tics 2
+	PIC ROCKRED35 tics 2
+	PIC ROCKRED36 tics 2
+	PIC ROCKRED37 tics 2
+
+TEXTURE sladrip1
+ pic rrip1 tics 2
+ pic rrip2 tics 2
+ pic rrip3 tics 2
+ pic rrip4 tics 2
+ pic rrip5 tics 2
+ pic rrip6 tics 2
+ pic rrip7 tics 2
+ pic rrip8 tics 2
+ pic rrip9 tics 2
+ pic rrip10 tics 2
+ pic rrip11 tics 2
+ pic rrip12 tics 2
+ pic rrip13 tics 2
+ pic rrip14 tics 2
+ pic rrip15 tics 2
+
+ TEXTURE sladrip2
+ pic rrip2 tics 2
+ pic rrip3 tics 2
+ pic rrip4 tics 2
+ pic rrip5 tics 2
+ pic rrip6 tics 2
+ pic rrip7 tics 2
+ pic rrip8 tics 2
+ pic rrip9 tics 2
+ pic rrip10 tics 2
+ pic rrip11 tics 2
+ pic rrip12 tics 2
+ pic rrip14 tics 2
+ pic rrip15 tics 2
+ pic rrip1 tics 2
+
+ TEXTURE sladrip3
+ pic rrip3 tics 2
+ pic rrip4 tics 2
+ pic rrip5 tics 2
+ pic rrip6 tics 2
+ pic rrip7 tics 2
+ pic rrip8 tics 2
+ pic rrip9 tics 2
+ pic rrip10 tics 2
+ pic rrip11 tics 2
+ pic rrip12 tics 2
+ pic rrip13 tics 2
+ pic rrip14 tics 2
+ pic rrip15 tics 2
+ pic rrip1 tics 2
+ pic rrip2 tics 2

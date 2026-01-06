@@ -1,0 +1,82 @@
+Material Texture "models/nashgore/CorpseBlood/CorpseBlood01.png"
+{
+    Normal "materials/nashgore/normalmaps/CorpseBlood01_n.png"
+	Specular "materials/nashgore/specularmaps/CorpseBlood01_s.png"
+	Glossiness 200
+	SpecularLevel 100
+}
+
+Material Texture "models/nashgore/CorpseBlood/CorpseBlood02.png"
+{
+    Normal "materials/nashgore/normalmaps/CorpseBlood02_n.png"
+	Specular "materials/nashgore/specularmaps/CorpseBlood02_s.png"
+	Glossiness 200
+	SpecularLevel 100
+}
+
+Material Texture "models/nashgore/CorpseBlood/CorpseBlood03.png"
+{
+    Normal "materials/nashgore/normalmaps/CorpseBlood03_n.png"
+	Specular "materials/nashgore/specularmaps/CorpseBlood03_s.png"
+	Glossiness 200
+	SpecularLevel 100
+}
+
+Material Texture "models/nashgore/CorpseBlood/CorpseBlood04.png"
+{
+    Normal "materials/nashgore/normalmaps/CorpseBlood04_n.png"
+	Specular "materials/nashgore/specularmaps/CorpseBlood04_s.png"
+	Glossiness 200
+	SpecularLevel 100
+}
+
+Material Texture "models/nashgore/CorpseBlood/CorpseBlood05.png"
+{
+    Normal "materials/nashgore/normalmaps/CorpseBlood05_n.png"
+	Specular "materials/nashgore/specularmaps/CorpseBlood05_s.png"
+	Glossiness 200
+	SpecularLevel 230
+}
+
+
+Material Texture "models/nashgore/BloodTrail/BloodTrail01.png"
+{
+    Normal "materials/nashgore/normalmaps/BloodTrail01_n.png"
+	Specular "materials/nashgore/specularmaps/BloodTrail01_s.png"
+	Glossiness 200
+	SpecularLevel 200
+}
+
+
+
+Material Texture "models/nashgore/BloodTrail/BloodTrail02.png"
+{
+    Normal "materials/nashgore/normalmaps/BloodTrail02_n.png"
+	Specular "materials/nashgore/specularmaps/BloodTrail02_s.png"
+	Glossiness 200
+	SpecularLevel 200
+}
+
+
+
+
+
+Material Texture "models/nashgore/BloodTrail/BloodTrail03.png"
+{
+    Normal "materials/nashgore/normalmaps/BloodTrail03_n.png"
+	Specular "materials/nashgore/specularmaps/BloodTrail03_s.png"
+	Glossiness 200
+	SpecularLevel 100
+}
+
+
+
+
+
+
+
+
+
+
+
+

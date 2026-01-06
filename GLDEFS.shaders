@@ -1,0 +1,9 @@
+
+hardwareshader postprocess scene
+{
+	shader "SHADERS/DPWipe.fp" 330
+	name "DPWipe"
+	Uniform int timer
+}
+
+
