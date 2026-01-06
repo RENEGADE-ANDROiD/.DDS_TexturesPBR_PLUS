@@ -18,7 +18,20 @@ Nashgore/Cheelo Gore Voxels Official
 RealGore v3.0
 Better Wall Blood Compressed
 
-**DHTP+PBR & TEXTURE PACKS USED:**  
-*DHTP+PBR Optimised, DHTP_Normal, Aliens Trilogy Textures, DarkTexture HQ Pack, DK's, Doc's OTEX, D64ifier Alt, HD Endmaps, HOOVER, Kurikai, LRHQ, MMDCXIV-Cyberpunk_City mapwad, Ultra Pack & several assets from the actual OTEX texture source with new animations*
+**DHTP+PBR & TEXTURE PACKS USED:**
+DHTP+PBR Optimised
+DHTP_Normal
+Aliens Trilogy Textures
+DarkTexture HQ Pack
+DK's Texture Pack
+Doc's OTEX
+D64ifier Alt
+HD Endmaps
+HOOVER
+Kurikai
+LRHQ
+MMDCXIV-Cyberpunk_City mapwad
+Ultra Pack
+*several assets from the actual OTEX texture source with new animations AND Brightmaps*
 :doomguylasereyes:
 -----------------
