@@ -2,6 +2,45 @@
 #include "materials/nashgore/bloodpoolmats.txt"
 #include "materials/nashgore/footprintmats.txt"
 
+// Rocket
+pointlight LIGHTNING1
+{
+    color 1.0 1.0 1.0
+    size 1024
+	attenuate 1
+	dontlightactors 1
+	dontlightself 1
+}
+
+flickerlight  LIGHTNING2
+{
+    color 1.0 1.0 1.0
+    size 512
+	secondarySize 1024
+    chance 0.5
+	attenuate 1
+	dontlightactors 1
+	dontlightself 1
+}
+
+flickerlight2  LIGHTNING3
+{
+    color 1.0 1.0 1.0
+    size 512
+	secondarySize 1024
+    interval 0.1
+	attenuate 1
+	dontlightactors 1
+	dontlightself 1
+}
+
+object RottSFX
+{
+    frame RSFXA { light LIGHTNING1    }
+    frame RSFXB { light LIGHTNING2    }
+    frame RSFXC { light LIGHTNING3    }
+}
+
 material texture BIGDOOR1  { 
 	//shader "SHADERS/env.fp"
 	texture displacement "MATERIALS/DISPLACEMENT/AUTO/BIGDOOR1.dds"

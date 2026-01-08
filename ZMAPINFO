@@ -1,4 +1,4 @@
 gameinfo 
 {
-	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "hd_relite_Events"
+	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "hd_relite_Events", "VerySimpleRainHandler"
 }

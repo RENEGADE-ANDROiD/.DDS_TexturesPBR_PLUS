@@ -1,3 +1,48 @@
+"weather/quake" QUAKERR
+"weather/quakelower" QUAKERR
+$volume "weather/quakelower" 0.5
+"weather/quakeevenlower" QUAKERR
+$volume "weather/quakeevenlower" 0.25
+"weather/quakeveryquiet" QUAKERR
+$volume "weather/quakeveryquiet" 0.1
+"weather/wind" WINDRR
+"weather/windlower" WINDRR
+$volume "weather/windlower" 0.5
+"weather/windevenlower" WINDRR
+$volume "weather/windevenlower" 0.25
+"weather/windveryquiet" WINDRR
+$volume "weather/windveryquiet" 0.1
+"rott/thunder" ROTTSFX
+"rott/thunderlower" ROTTSFX
+$volume "rott/thunderlower" 0.5
+"rott/thunderevenlower" ROTTSFX
+$volume "rott/thunderevenlower" 0.25
+"rott/thunderveryquiet" ROTTSFX
+$volume "rott/thunderveryquiet" 0.1
+"weather/rain" RAINRR
+"weather/rainlower" RAINRR
+$volume "weather/rainlower" 0.5
+"weather/rainevenlower" RAINRR
+$volume "weather/rainevenlower" 0.25
+"weather/rainveryquiet" RAINRR
+$volume "weather/rainveryquiet" 0.1
+$pitchshift "weather/rain" 0
+$pitchshift "weather/rainlower" 0
+$pitchshift "weather/rainevenlower" 0
+$pitchshift "weather/rainveryquiet" 0
+$pitchshift "weather/wind" 0
+$pitchshift "weather/windlower" 0
+$pitchshift "weather/windevenlower" 0
+$pitchshift "weather/windveryquiet" 0
+$pitchshift "weather/quake" 0
+$pitchshift "weather/quakelower" 0
+$pitchshift "weather/quakeevenlower" 0
+$pitchshift "weather/quakeveryquiet" 0
+$pitchshift "rott/thunder" 0
+$pitchshift "rott/thunderlower" 0
+$pitchshift "rott/thunderevenlower" 0
+$pitchshift "rott/thunderveryquiet" 0
+
 world/test				wrldtest
 ////////////////////////////////
 //world/watersplash

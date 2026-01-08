@@ -1,3 +1,25 @@
+user int rainactive = 1;
+user int raincolor = 0;
+user int raincoloractive = 0;
+user int rainrandom = 0;
+user int rainintensity = 1;
+user int rottsfx = 1;
+user int rottindoors = 0;
+user int rottfrequency = 1;
+user int rottlightning = 0;
+user int audiolevel = 1;
+user int weathermode = 0;
+user int weatheractive = 0;
+user int weatherrandom = 0;
+user int windchange = 0;
+user int quakeactive = 0;
+user int weatherchange = 0;
+user int raincolorchange = 0;
+user int quakedelay = 0;
+user int indoordelay = 0;
+user int outdoordelay = 0;
+user int audiodelay = 1;
+
 user bool ReLiteIsOn = true;
 user bool ec_enabled = true;
 user bool ec_intermissions = false;

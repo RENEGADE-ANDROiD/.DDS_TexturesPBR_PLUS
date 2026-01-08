@@ -1,3 +1,97 @@
+OptionValue RainActive
+{
+	0, "No"
+	1, "Yes"
+}
+
+OptionValue RainColor
+{
+	0, "Normal"
+	1, "Red"
+	2, "Green"
+	3, "Blue"
+	4, "Black"
+	5, "Purple"
+	6, "Fireblu"
+	7, "Random Cyclic"
+	8, "Random Every Level"
+}
+
+OptionValue RottSFX
+{
+	0, "No"
+	1, "Yes"
+}
+
+OptionValue RottFrequency
+{
+	0, "Low"
+	1, "Medium"
+	2, "High"
+}
+
+OptionValue AudioLevel
+{
+	-1, "Mute"
+	0, "Quiet"
+	1, "Medium"
+	2, "Loud"
+}
+
+OptionValue AudioDelay
+{
+	0, "Off"
+	1, "On"
+}
+
+OptionValue WeatherMode
+{
+	0, "Rain"
+	1, "Snow"
+	2, "Ashes"
+	3, "Random Cyclic"
+	4, "Random Every Level"
+}
+
+OptionValue RainIntensity
+{
+	0, "Low"
+	1, "Medium"
+	2, "High"
+}
+
+OptionValue QuakeActive
+{
+	0, "No"
+	1, "Yes"
+	2, "Random"
+}
+
+AddOptionMenu "OptionsMenu"
+{
+	StaticText " "
+	Submenu "Rain Remixed", "Rain Remixed"
+}
+
+OptionMenu "Rain Remixed"
+{
+Title "Rain Remixed++"
+StaticText " "
+Option "Active","rainactive","RainActive"
+Option "Mode","weathermode","WeatherMode"
+Option "Intensity","rainintensity","RainIntensity"
+StaticText " "
+Option "Rain Color","raincolor","RainColor"
+StaticText " "
+Option "ROTT Thunder & Lightning","rottsfx","RottSFX"
+Option "Frequency","rottfrequency","RottFrequency"
+StaticText " "
+Option "Audio Level","audiolevel","AudioLevel"
+Option "Delay","audiodelay","AudioDelay"
+StaticText " "
+Option "Quake","quakeactive","QuakeActive"
+}
+
 AddOptionMenu "OptionsMenu"
 {
 	Submenu "ReLite Options", "relite_options"
