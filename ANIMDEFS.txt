@@ -59,54 +59,6 @@ pic SPACM2 tics 2
 pic SPACM3 tics 2
 pic SPACM4 tics 2
 
-flat GATE1
-pic GATE1A tics 3
-pic GATE1B tics 3
-pic GATE1C tics 3
-pic GATE1D tics 3
-pic GATE1E tics 3
-pic GATE1F tics 3
-pic GATE1G tics 3
-pic GATE1H tics 3
-pic GATE1I tics 3
-pic GATE1J tics 3
-
-flat GATE2
-pic GATE1A tics 3
-pic GATE1B tics 3
-pic GATE1C tics 3
-pic GATE1D tics 3
-pic GATE1E tics 3
-pic GATE1F tics 3
-pic GATE1G tics 3
-pic GATE1H tics 3
-pic GATE1I tics 3
-pic GATE1J tics 3
-
-flat GATE3
-pic GATE1A tics 3
-pic GATE1B tics 3
-pic GATE1C tics 3
-pic GATE1D tics 3
-pic GATE1E tics 3
-pic GATE1F tics 3
-pic GATE1G tics 3
-pic GATE1H tics 3
-pic GATE1I tics 3
-pic GATE1J tics 3
-
-flat GATE4
-pic GATE4A tics 3
-pic GATE4B tics 3
-pic GATE4C tics 3
-pic GATE4D tics 3
-pic GATE4E tics 3
-pic GATE4F tics 3
-pic GATE4G tics 3
-pic GATE4H tics 3
-pic GATE4I tics 3
-pic GATE4J tics 3
-
 texture GRAY2
 pic GRAY2A tics 2
 pic GRAY2B tics 2
