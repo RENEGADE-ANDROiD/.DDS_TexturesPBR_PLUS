@@ -3,7 +3,7 @@ AddOptionMenu "OptionsMenu" {
 }
 AddOptionMenu "OptionsMenuSimple"
 {
-	Submenu ".DDS Pack Settings", "texturepackextras"
+	Submenu ".DDS Pack EXTRAS", "texturepackextras"
 }
 ListMenu "MainMenu"
 {
