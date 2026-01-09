@@ -1,5 +1,22 @@
 version "3.7"
 
+#include "zscript/Gore/Pools.zs"
+#include "zscript/Gore/Gibs.zs"
+#include "zscript/Gore/Droplets.zs"
+#include "zscript/Gore/Squirts.zs"
+#include "zscript/Gore/Ceiling.zs"
+#include "zscript/Gore/Liquid.zs"
+#include "zscript/Gore/Events.zs"
+#include "zscript/Gore/FloorSplat.zs"
+#include "zscript/Gore/Wall.zs"
+#include "zscript/Gore/Mist.zs"
+#include "zscript/Gore/Hideous.zs"
+
+// global constants
+const STAT_NashGore_Gore = Thinker.STAT_USER + 1;
+const SLAUGHTERMAP_DIST = 1000.0;
+const MAP_EPSILON = 1 / 65536.;
+
 class DPWipeHandler : EventHandler
 {
 	PlayerInfo p ;

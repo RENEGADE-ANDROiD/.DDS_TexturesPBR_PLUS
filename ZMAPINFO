@@ -1,4 +1,10 @@
+gameinfo
+{
+	defaultbloodcolor = "6f0000"
+	gibfactor = 0.666667
+}
 gameinfo 
 {
-	AddEventHandlers = "LightTextureHandler", "DPWipeHandler"
+	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "VerySimpleRainHandler", "DropletsEventHandler"
+
 }
