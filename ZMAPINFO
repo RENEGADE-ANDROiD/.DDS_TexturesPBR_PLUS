@@ -1,6 +1,9 @@
-gameinfo 
+gameinfo
 {
 	defaultbloodcolor = "6f0000"
 	gibfactor = 0.666667
-	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "hd_relite_Events", "VerySimpleRainHandler". "PB_AutoClearGore_Handler", "DropletsEventHandler"
+}
+gameinfo 
+{
+	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "hd_relite_Events", "VerySimpleRainHandler", "DropletsEventHandler"
 }

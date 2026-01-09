@@ -7,8 +7,8 @@ user int udv_getblue = 0;
 user bool udv_fogcolor = false;
 user bool udv_ambient = false;
 
-server int pb_sv_goreclearinterval = 30;
-server bool pb_sv_autocleargore = true;
+server int pb_sv_goreclearinterval = 120;
+server bool pb_sv_autocleargore = false;
 server bool pb_sv_alertclear = false;
 
 server int blood_amt = 1;
@@ -16,13 +16,14 @@ server float blood_rand = 1.0;
 server float blood_alpha = 0.75;
 server float blood_size = 1.0;
 server float blood_grav = 1.0;
-server bool blood_pools = false;
-server bool blood_gibs = false;
-server bool blood_chunky = false;
+server bool blood_pools = true;
+server bool blood_gibs = true;
+server bool blood_chunky = true;
 server bool blood_alwaysgib = false;
-server bool blood_splash = false;
+server bool blood_splash = true;
 server bool blood_mist = true;
 server bool nashgore_slaughtermapmode = false;
+
 user int rainactive = 1;
 user int raincolor = 0;
 user int raincoloractive = 0;
