@@ -20,6 +20,8 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - Nashgore/Cheelo Gore Voxels Official
 - RealGore v3.0
 - Better Wall Blood Compressed
+- ExtraBloodGorev4.0
+- UDV Fog
 -----------------
 **DHTP+PBR & TEXTURE PACKS USED:**
 - DHTP+PBR Optimised
