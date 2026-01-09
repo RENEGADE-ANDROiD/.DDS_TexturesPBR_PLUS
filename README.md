@@ -1,3 +1,5 @@
+# .DDS_TexturesPBR_PLUS
+
 https://youtu.be/C875YAxJpRk?si=Pzp4KTUplhHCUWTT
 
 A textures and materials pack for Doom + Doom II in .DDS format with generated mipmaps which relieves the burden on GZDoom / UZDoom from having to generate the mipmaps, vastly improving performance despite the higher quality textures being used.
