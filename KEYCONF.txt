@@ -1,3 +1,22 @@
+alias MRGoreParts_Uninstall "NetEvent MRGoreParts_Uninstall"
+
+alias MRGoreParts_UpdateBlacklist "NetEvent MRGP_UpdateBlacklist"
+alias MRGoreParts_UpdateColors "NetEvent MRGP_UpdateColors"
+alias MRGoreParts_UpdateSounds "NetEvent MRGP_UpdateSounds"
+alias MRGoreParts_UpdateRemoveBlood "NetEvent MRGP_UpdateRemoveBlood"
+alias MRGoreParts_UpdateEffectsData "NetEvent MRGP_UpdateEffectsData"
+alias MRGoreParts_UpdateEffects "NetEvent MRGP_UpdateEffects"
+
+alias MRGoreParts_DemoEffect "NetEvent MRGoreParts_DemoEffect %1 %2 %3"
+alias MRGoreParts_DemoRandomEffect "NetEvent MRGoreParts_DemoRandom %1 %2"
+alias MRGoreParts_DemoAlwaysEffect "NetEvent MRGoreparts_DemoAlways %1 %2"
+alias MRGoreParts_DemoNoBloodEffect "NetEvent MRGoreparts_DemoNoBlood %1 %2"
+
+alias MRGoreParts_ClearWounds "NetEvent MRGoreParts_ClearWounds"
+alias MRGoreParts_ClearSpots "NetEvent MRGoreParts_ClearSpots"
+alias MRGoreParts_ClearCrushed "NetEvent MRGoreParts_ClearCrushed"
+
+
 Alias "ApplyFog" "Puke 1129"
 
 Alias "fog_default" "udv_fogcolor 0; udv_getred 25; udv_getgreen 25; udv_getblue 25"
