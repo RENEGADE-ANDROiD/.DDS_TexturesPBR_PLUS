@@ -93,19 +93,6 @@ material texture MODELS/BloodSpot/bloodspothd2.png  {
 
 
 
-material texture MODELS/BloodSpot/bloodspothd3.png  { 
-	shader "SHADERS/env.fp"
-	texture displacement "MATERIALS2/ENV/env3.dds"
-	texture envmask "MATERIALS2/ENVMASK/bloodspothd3.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
-	specularlevel 0.4
-	glossiness 40
-}
-
-
-
-
 material texture MODELS/BloodSpot/DECBLOD.png  { 
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
@@ -162,19 +149,6 @@ material texture MODELS/BloodSpot/FTPR.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/FTPR.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
-	specularlevel 0.4
-	glossiness 40
-}
-
-
-
-
-material texture MODELS/BloodSpot/SPLTBLD.png  { 
-	shader "SHADERS/env.fp"
-	texture displacement "MATERIALS2/ENV/env3.dds"
-	texture envmask "MATERIALS2/ENVMASK/SPLTBLD.dds"
 	normal MATERIALS2/NORMAL/normal.dds
 	specular MATERIALS2/SPEC/spec.dds
 	specularlevel 0.4
