@@ -5,5 +5,5 @@ gameinfo
 }
 gameinfo 
 {
-	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "hd_relite_Events", "VerySimpleRainHandler", "DropletsEventHandler", "MRGP_Handler", "MRGP_StaticHandler"
+	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "hd_relite_Events", "VerySimpleRainHandler", "DropletsEventHandler", "MRGP_Handler", "MRGP_StaticHandler", "TeleporterEffects"
 }

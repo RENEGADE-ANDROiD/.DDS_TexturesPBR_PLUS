@@ -67,7 +67,8 @@ OptionMenu "texturepackextras"
 	StaticText ""
 	Submenu "Rain Remixed", "Rain Remixed"
 	StaticText " "
-
+    	Submenu "$TELEPORT_SETTINGS", "TeleportBase"
+	StaticText " "
 	Title "ExtraBloodGorev4.0"
 	StaticText ""
 
@@ -109,6 +110,26 @@ OptionMenu "texturepackextras"
 	StaticText "The option below will toggle UDV Fog Effects"
 	StaticText "and requires level restart if disabled"
 	StaticText " "
+}
+
+OptionMenu "TeleportBase"
+{
+    Title "$TELEPORT_SETTINGS"
+    //SubMenu "$TELEPORT_FLAT_SETTINGS", "TeleportFlatSettings"
+    Option "$TELEPORT_DEST", "teleporter_use_dests", YesNo
+    StaticText "$TELEPORT_DEST_DESC", 1
+    StaticText "$TELEPORT_DEST_DESC2", 1
+    StaticText ""
+    Option "$TELEPORT_CEIL", "teleporter_match_ceiling", YesNo
+    StaticText "$TELEPORT_CEIL_DESC", 1
+    StaticText "$TELEPORT_CEIL_DESC2", 1
+    StaticText "$TELEPORT_CEIL_DESC3", 1
+    StaticText ""
+    Option "$TELEPORT_EXIT", "teleporter_allow_exits", YesNo
+    StaticText "$TELEPORT_EXIT_DESC", 1
+    StaticText ""
+    Option "$TELEPORT_MONSTER", "teleporter_allow_monster", YesNo
+    StaticText "$TELEPORT_MONSTER_DESC", 1
 }
 
 OptionValue RainActive

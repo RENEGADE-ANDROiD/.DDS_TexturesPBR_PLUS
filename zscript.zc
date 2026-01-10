@@ -1,5 +1,8 @@
 version "4.10.0"
 
+#include "zsc/fountain.zsc"
+#include "zsc/teleporter_effects.zsc"
+
 Const MRGP_MaxWounds = 15;//Max wounds per entity
 Const MRGP_DistanceMult = 2.;//Effects scaling by distance
 Const MRGP_GibbingTime = 60.;
