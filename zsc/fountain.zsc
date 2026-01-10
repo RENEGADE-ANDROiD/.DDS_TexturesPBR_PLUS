@@ -61,6 +61,9 @@ class TeleporterEffect : Actor
         //Set the fountain health. This determines it's colour. See here for more info
         //https://zdoom.org/wiki/Particles
         fountain.Health = fountainColor;
+
+ // Double the particle density
+ fountain.Density = 3.0;
     }
     
     private void DeleteFountain()
@@ -106,13 +109,13 @@ class TeleporterEffect : Actor
     
     private void RefreshTextures()
     {
-        sanitise_cvar(teleporter_flats_purple).Split(PurpleGateTextures, ",");
-        sanitise_cvar(teleporter_flats_black).Split(BlackGateTextures, ",");
-        sanitise_cvar(teleporter_flats_green).Split(GreenGateTextures, ",");
+        sanitise_cvar(teleporter_flats_red).Split(PurpleGateTextures, ",");
+        sanitise_cvar(teleporter_flats_red).Split(BlackGateTextures, ",");
+        sanitise_cvar(teleporter_flats_red).Split(GreenGateTextures, ",");
         sanitise_cvar(teleporter_flats_red).Split(RedGateTextures, ",");
-        sanitise_cvar(teleporter_flats_blue).Split(BlueGateTextures, ",");
-        sanitise_cvar(teleporter_flats_white).Split(WhiteGateTextures, ",");
-        sanitise_cvar(teleporter_flats_yellow).Split(YellowGateTextures, ",");
+        sanitise_cvar(teleporter_flats_red).Split(BlueGateTextures, ",");
+        sanitise_cvar(teleporter_flats_red).Split(WhiteGateTextures, ",");
+        sanitise_cvar(teleporter_flats_red).Split(YellowGateTextures, ",");
         fountainColor = GetFountainColour(self.cursector.GetTexture(0));
     }
     
