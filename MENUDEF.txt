@@ -59,12 +59,13 @@ OptionValue "BloodAmount"
 OptionMenu "texturepackextras"
 {
 	Title ".DDS Textures Pack EXTRAS"
-	StaticText "Gore particles"
-	SubMenu "$MRGoreParts_Settings", "MRGoreParts_Menu"
-	StaticText ""
-
-	Title "Fog & Gore"
 	Position -32
+	StaticText ""
+	SubMenu "Gore Particles", "MRGoreParts_Menu"
+    	StaticText ""
+    	Submenu "$TELEPORT_SETTINGS", "TeleportBase"
+	StaticText " "
+	Title "ExtraBloodGorev4.0"
 	StaticText ""
 
 	Slider "Blood Opacity", "blood_alpha", 0.5, 1.0, 0.05
@@ -84,27 +85,26 @@ OptionMenu "texturepackextras"
 	StaticText " "
                  Option "Enable Fog Effects", "UDV_ToggleFog", "YesNo"
 	StaticText ""
-	StaticText "Fog Options"
-                 SafeCommand "Apply All Changes Now", "Puke 1129"
-	StaticText " "
-                 Option "Random Fog Density", "udv_fograndom", "YesNo"
-                 Slider "Max Fog Density", "udv_fogdensity", 0, 20, 1, 0
-                 StaticText " "
-	Command "Preset: Default", "fog_default"
-	Command "Preset: Dark", "fog_dark"
-	Command "Preset: Red", "fog_red"
-	Command "Preset: Green", "fog_green"
-	Command "Preset: Blue", "fog_blue"
-	StaticText " "
-        Option "Random Fog Color", "udv_fogcolor", "YesNo"
-	StaticText "Manual Fog Color"
-	Slider "Red", "udv_getred", 1, 255, 1, 0
-	Slider "Green", "udv_getgreen", 1, 255, 1, 0
-	Slider "Blue", "udv_getblue", 1, 255, 1, 0
-	StaticText " "
-	StaticText "The option below will toggle UDV Fog Effects"
-	StaticText "and requires level restart if disabled"
-	StaticText " "
+}
+
+OptionMenu "TeleportBase"
+{
+    Title "$TELEPORT_SETTINGS"
+    //SubMenu "$TELEPORT_FLAT_SETTINGS", "TeleportFlatSettings"
+    Option "$TELEPORT_DEST", "teleporter_use_dests", YesNo
+    StaticText "$TELEPORT_DEST_DESC", 1
+    StaticText "$TELEPORT_DEST_DESC2", 1
+    StaticText ""
+    Option "$TELEPORT_CEIL", "teleporter_match_ceiling", YesNo
+    StaticText "$TELEPORT_CEIL_DESC", 1
+    StaticText "$TELEPORT_CEIL_DESC2", 1
+    StaticText "$TELEPORT_CEIL_DESC3", 1
+    StaticText ""
+    Option "$TELEPORT_EXIT", "teleporter_allow_exits", YesNo
+    StaticText "$TELEPORT_EXIT_DESC", 1
+    StaticText ""
+    Option "$TELEPORT_MONSTER", "teleporter_allow_monster", YesNo
+    StaticText "$TELEPORT_MONSTER_DESC", 1
 }
 
 OptionMenu "MRGoreParts_Menu"
