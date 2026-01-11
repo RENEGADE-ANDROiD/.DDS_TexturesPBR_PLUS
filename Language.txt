@@ -1,3 +1,6 @@
+[enu default]
+
+//General Settings
 TELEPORT_SETTINGS = "Simple Teleporter Effects Settings";
 TELEPORT_FLAT_SETTINGS = "Flat settings";
 TELEPORT_DEST = "Create Particles at Destinations";
@@ -27,8 +30,6 @@ TELEPORT_FLATS_YELLOW = "Yellow Particles";
 TELEPORT_FLATS_DESC_1 = "Floors matching these textures, with a valid teleport line,";
 TELEPORT_FLATS_DESC_2 = "will create particles of the specified color.";
 TELEPORT_FLATS_DESC_3 = "Floor names should be comma separated and are case-insensitive";
-
-[eng enu default en]
 
 MRGoreParts_Settings = "\cg✺\c- Configure Particle gore";
 
