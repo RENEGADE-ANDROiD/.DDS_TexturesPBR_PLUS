@@ -29,6 +29,8 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - ExtraBloodGorev4.0
 - Gore Particles
 - UDV Fog
+- Teleport FX
+- Lamp FX
 
 -----------------
 
