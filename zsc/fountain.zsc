@@ -61,9 +61,6 @@ class TeleporterEffect : Actor
         //Set the fountain health. This determines it's colour. See here for more info
         //https://zdoom.org/wiki/Particles
         fountain.Health = fountainColor;
-
- // Double the particle density
- fountain.Density = 3.0;
     }
     
     private void DeleteFountain()
