@@ -106,13 +106,13 @@ class TeleporterEffect : Actor
     
     private void RefreshTextures()
     {
-        sanitise_cvar(teleporter_flats_red).Split(PurpleGateTextures, ",");
-        sanitise_cvar(teleporter_flats_red).Split(BlackGateTextures, ",");
-        sanitise_cvar(teleporter_flats_red).Split(GreenGateTextures, ",");
+        sanitise_cvar(teleporter_flats_purple).Split(PurpleGateTextures, ",");
+        sanitise_cvar(teleporter_flats_black).Split(BlackGateTextures, ",");
+        sanitise_cvar(teleporter_flats_green).Split(GreenGateTextures, ",");
         sanitise_cvar(teleporter_flats_red).Split(RedGateTextures, ",");
-        sanitise_cvar(teleporter_flats_red).Split(BlueGateTextures, ",");
-        sanitise_cvar(teleporter_flats_red).Split(WhiteGateTextures, ",");
-        sanitise_cvar(teleporter_flats_red).Split(YellowGateTextures, ",");
+        sanitise_cvar(teleporter_flats_blue).Split(BlueGateTextures, ",");
+        sanitise_cvar(teleporter_flats_white).Split(WhiteGateTextures, ",");
+        sanitise_cvar(teleporter_flats_yellow).Split(YellowGateTextures, ",");
         fountainColor = GetFountainColour(self.cursector.GetTexture(0));
     }
     
