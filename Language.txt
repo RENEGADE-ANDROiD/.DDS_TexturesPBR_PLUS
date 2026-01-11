@@ -1,4 +1,4 @@
-[enu default]
+[eng enu default en]
 
 //General Settings
 TELEPORT_SETTINGS = "Simple Teleporter Effects Settings";
