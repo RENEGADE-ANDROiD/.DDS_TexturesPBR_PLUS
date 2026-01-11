@@ -1,5 +1,3 @@
-TELEPORT_FLATS_DESC_2 = "will create particles of the specified colour.";
-
 TELEPORT_SETTINGS = "Simple Teleporter Effects Settings";
 TELEPORT_FLAT_SETTINGS = "Flat settings";
 TELEPORT_DEST = "Create Particles at Destinations";
