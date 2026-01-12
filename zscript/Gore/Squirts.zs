@@ -94,7 +94,7 @@ class BloodHitPuff : Droplets
 			user_force = frandom(12.0,18.0);
 			user_angmom = frandom(3.75, 15.0);
 			pitch = frandom(-67.5,67.5);
-			//A_StartSound("blood/hit",0,0.3);
+			//A_PlaySound("blood/hit",0,0.3);
 			scale.x = frandom(0.4,0.6);
 			scale.y = 1.0 - scale.x;
 			scale.x *= randompick(1,-1);
@@ -145,7 +145,7 @@ class BloodHitPuffMid : BloodHitPuff
 			user_force = frandom(14.0,21.0);
 			user_angmom = frandom(-10.0,10.0);
 			pitch = frandom(-67.5,67.5);
-			//A_StartSound("blood/hit",0,0.2);
+			//A_PlaySound("blood/hit",0,0.2);
 			scale.x = frandom(0.3,0.4);
 			scale.y = 0.7 - scale.x;
 			scale.x *= randompick(1,-1);
@@ -189,7 +189,7 @@ class BloodHitPuffSmall : BloodHitPuff
 			user_force = frandom(16.0,24.0);
 			user_angmom = frandom(-5.0,5.0);
 			pitch = frandom(-67.5,67.5);
-			//A_StartSound("blood/hit",0,0.1);
+			//A_PlaySound("blood/hit",0,0.1);
 			scale.x = frandom(0.175,0.225);
 			scale.y = 0.4 - scale.x;
 			scale.x *= randompick(1,-1);
