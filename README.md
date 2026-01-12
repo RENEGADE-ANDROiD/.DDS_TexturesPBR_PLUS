@@ -25,6 +25,7 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - RealGore v3.0
 - Better Wall Blood Compressed
 - ExtraBloodGorev4.0
+- New_blood
 - Gore Particles
 - UDV Fog
 - Teleport FX
