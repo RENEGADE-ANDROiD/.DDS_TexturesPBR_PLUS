@@ -58,4 +58,5 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - LRHQ
 - MMDCXIV-Cyberpunk_City mapwad
 - Ultra Pack
-- *several assets from the actual OTEX texture source with new animations AND Brightmaps*
+- RaZZor's Neural Upscaled Items, Decorations, FX & Monsters
+- *several assets from OTEX texture source with new animations AND Brightmaps*
