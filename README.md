@@ -38,6 +38,7 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - Better Wall Blood Compressed
 - ExtraBloodGorev4.0
 - New_blood
+- Cheelo Voxel (Gore/Decorations/Monsters/Player)
 - Teleport FX
 - Lamp FX
 - Gore Particles (not on Delta Touch)
@@ -60,5 +61,4 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - LRHQ
 - MMDCXIV-Cyberpunk_City mapwad
 - Ultra Pack
-- RaZZor's Neural Upscaled Items, Decorations, FX & Monsters
 - *several assets from OTEX texture source with new animations AND Brightmaps*
