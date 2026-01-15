@@ -1,48 +1,5 @@
 //===========================================================================
 //
-// POWERUPS
-//
-//===========================================================================
-
-// Berserk
-pstra = "pstra" {}
-
-// Light Amp Goggles
-pvisa = "pvisa" { PlacedSpin = 150 }
-pvisb = "pvisb" { PlacedSpin = 150 }
-
-// Computer Area Map
-pmapa = "pmapa" { PlacedSpin = 150 DroppedSpin = 150 }
-pmapb = "pmapb" { PlacedSpin = 150 DroppedSpin = 150 }
-pmapc = "pmapc" { PlacedSpin = 150 DroppedSpin = 150 }
-pmapd = "pmapd" { PlacedSpin = 150 DroppedSpin = 150 }
-
-// Radiation Suit
-suita = "suita" { PlacedSpin = 150 }
-
-// Invulnerability Sphere
-pinva = "pinva" {}
-pinvb = "pinvb" {}
-pinvc = "pinvc" {}
-pinvd = "pinvd" {}
-pinve = "voxels/pinv_shell.kvx" { PlacedSpin = 15 }
-
-// Soul Sphere
-soula = "soula" {}
-soulb = "soulb" {}
-soulc = "soulc" {}
-sould = "sould" {}
-soule = "voxels/soul_shell.kvx" { PlacedSpin = 15 }
-
-// Invisibility Sphere
-pinsa = "pinsa" {}
-pinsb = "pinsb" {}
-pinsc = "pinsc" {}
-pinsd = "pinsd" {}
-pinse = "voxels/pins_shell.kvx" { PlacedSpin = 15 }
-
-//===========================================================================
-//
 // ITEMS
 //
 //===========================================================================
