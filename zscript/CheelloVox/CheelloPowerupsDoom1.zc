@@ -1,0 +1,54 @@
+//===========================================================================
+//
+// CHEELLO VOXEL DOOM
+//
+// ZScript code: Copyright (C) 2022 Nash Muhandes
+//
+// License: MIT
+//
+//===========================================================================
+
+//===========================================================================
+//
+// Invulnerability Sphere
+//
+//===========================================================================
+
+class CheelloInvulnerabilitySphere : InvulnerabilitySphere replaces InvulnerabilitySphere
+{
+	override void PostBeginPlay(void)
+	{
+		Super.PostBeginPlay();
+		CheelloSphereShell.SpawnShell(self);
+	}
+}
+
+//===========================================================================
+//
+// Soul Sphere
+//
+//===========================================================================
+
+class CheelloSoulsphere : Soulsphere replaces Soulsphere
+{
+	override void PostBeginPlay(void)
+	{
+		Super.PostBeginPlay();
+		CheelloSphereShell.SpawnShell(self);
+	}
+}
+
+//===========================================================================
+//
+// Invisibility Sphere
+//
+//===========================================================================
+
+class CheelloBlurSphere : BlurSphere replaces BlurSphere
+{
+	override void PostBeginPlay(void)
+	{
+		Super.PostBeginPlay();
+		CheelloSphereShell.SpawnShell(self);
+	}
+}

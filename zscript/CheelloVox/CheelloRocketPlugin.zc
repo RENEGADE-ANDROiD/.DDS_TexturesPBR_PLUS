@@ -1,0 +1,44 @@
+//===========================================================================
+//
+// CHEELLO VOXEL DOOM
+//
+// ZScript code: Copyright (C) 2022 Nash Muhandes
+//
+// License: MIT
+//
+//===========================================================================
+
+//===========================================================================
+//
+// CheelloRocketPlugin
+// Sets the pitch of the rocket projectile so that the voxel model can
+// rotate the pitch correctly
+//
+//===========================================================================
+
+class CheelloRocketPlugin : Inventory
+{
+	Default
+	{
+		Inventory.MaxAmount 1;
+	}
+
+	//===========================================================================
+	//
+	//
+	//
+	//===========================================================================
+
+	override void DoEffect(void)
+	{
+		Super.DoEffect();
+
+		Rocket r = NULL;
+
+		if (Owner is "Rocket")
+			r = Rocket(Owner);
+
+		if (r && r.InStateSequence(r.SpawnState, r.CurState))
+			r.A_FaceMovementDirection();
+	}
+}

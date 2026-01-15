@@ -1,0 +1,33 @@
+//===========================================================================
+//
+// CHEELLO VOXEL DOOM
+//
+// ZScript code: Copyright (C) 2022 Nash Muhandes
+//
+// License: MIT
+//
+//===========================================================================
+
+//===========================================================================
+//
+// CheelloVoxHandler
+// General helper functionality
+//
+//===========================================================================
+
+class CheelloVoxHandler : EventHandler
+{
+	override void WorldThingDied(WorldEvent e)
+	{
+		// make monsters face the player who killed them
+		if (e.Thing && e.Thing.bIsMonster && e.Thing.Target && e.Thing.Target is "PlayerPawn")
+			e.Thing.Angle = e.Thing.AngleTo(e.Thing.Target);
+	}
+
+	override void WorldThingSpawned(WorldEvent e)
+	{
+		// install the rocket plugin
+		if (e.Thing && e.Thing is "Rocket")
+			e.Thing.A_GiveInventory("CheelloRocketPlugin", 1);
+	}
+}

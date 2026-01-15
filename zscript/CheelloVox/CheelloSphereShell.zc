@@ -1,0 +1,141 @@
+//===========================================================================
+//
+// CHEELLO VOXEL DOOM
+//
+// ZScript code: Copyright (C) 2022 Nash Muhandes
+//
+// License: MIT
+//
+//===========================================================================
+
+//===========================================================================
+//
+// CheelloSphereShell
+// The outer shell spawned by the sphere powerups
+//
+//===========================================================================
+
+class CheelloSphereShell : Actor
+{
+	int alphaOffset;
+
+	//===========================================================================
+	//
+	//
+	//
+	//===========================================================================
+
+	Default
+	{
+		RenderStyle "Translucent";
+		Alpha 0.5;
+		+NOINTERACTION
+	}
+
+	//===========================================================================
+	//
+	//
+	//
+	//===========================================================================
+
+	override void BeginPlay(void)
+	{
+		alphaOffset = random[rnd_SphereShellAlphaOffset](0, Thinker.TICRATE * 20);
+		Super.BeginPlay();
+	}
+
+	override void Tick(void)
+	{
+		Super.Tick();
+
+		if (!Master)
+		{
+			Destroy();
+			return;
+		}
+
+		// special handling for respawning items...
+		if (sv_itemrespawn && (bInvisible = !Master.bSpecial))
+			return;
+
+		// update position
+		SetXYZ(Master.Pos);
+
+		// strobing translucency effect
+		int steps = Thinker.TICRATE;
+		double a = sin((90. / steps) * (alphaOffset + Level.maptime));
+		a *= a;
+		a = clamp(a, 0.25, Default.Alpha);
+		Alpha = a;
+	}
+
+	//===========================================================================
+	//
+	//
+	//
+	//===========================================================================
+
+	static void SpawnShell(Actor mo)
+	{
+		String clss = mo.GetClassName();
+		clss = clss .. "Shell";
+		class<Actor> cls = clss;
+		if (cls)
+		{
+			let smo = mo.Spawn(cls, mo.Pos, ALLOW_REPLACE);
+			if (smo)
+			{
+				smo.Master = mo;
+				smo.Angle = mo.Angle;
+			}
+		}
+	}
+}
+
+//===========================================================================
+//
+// CheelloInvulnerabilitySphereShell
+//
+//===========================================================================
+
+class CheelloInvulnerabilitySphereShell : CheelloSphereShell
+{
+	States
+	{
+	Spawn:
+		PINV E -1;
+		Stop;
+	}
+}
+
+//===========================================================================
+//
+// CheelloSoulsphereShell
+//
+//===========================================================================
+
+class CheelloSoulsphereShell : CheelloSphereShell
+{
+	States
+	{
+	Spawn:
+		SOUL E -1;
+		Stop;
+	}
+}
+
+//===========================================================================
+//
+// CheelloBlurSphereShell
+//
+//===========================================================================
+
+class CheelloBlurSphereShell : CheelloSphereShell
+{
+	States
+	{
+	Spawn:
+		PINS E -1;
+		Stop;
+	}
+}
