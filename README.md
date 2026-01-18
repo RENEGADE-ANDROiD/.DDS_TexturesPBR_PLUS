@@ -26,6 +26,7 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 
 **WHAT'S INCLUDED IN THIS PACK:**
 
+- CodeFX Smoke and Splashes
 - Deep Water
 - Morelights
 - FancyWorld
