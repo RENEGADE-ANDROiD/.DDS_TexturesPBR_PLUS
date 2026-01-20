@@ -69,434 +69,434 @@ brightmap flat BROV1P {
 
 brightmap flat BLOOD1
 {
-	map "brightmaps/doom/BLOOD1.png"
+	map "brightmaps/doom/BLOOD1.dds"
 	iwad
 }
 brightmap flat BLOOD2
 {
-	map "brightmaps/doom/BLOOD2.png"
+	map "brightmaps/doom/BLOOD2.dds"
 	iwad
 }
 brightmap flat BLOOD3
 {
-	map "brightmaps/doom/BLOOD3.png"
+	map "brightmaps/doom/BLOOD3.dds"
 	iwad
 }
 
 brightmap flat CEIL1_2
 {
-	map "brightmaps/doom/CEIL1_2.png"
+	map "brightmaps/doom/CEIL1_2.dds"
 	iwad
 }
 
 brightmap flat CEIL1_3
 {
-	map "brightmaps/doom/CEIL1_3.png"
+	map "brightmaps/doom/CEIL1_3.dds"
 	iwad
 }
 
 
 brightmap flat CEIL3_4
 {
-	map "brightmaps/doom/CEIL3_4.png"
+	map "brightmaps/doom/CEIL3_4.dds"
 	iwad
 }
 
 brightmap flat CEIL3_6
 {
-	map "brightmaps/doom/CEIL3_6.png"
+	map "brightmaps/doom/CEIL3_6.dds"
 	iwad
 }
 
 brightmap flat CEIL4_3
 {
-	map "brightmaps/doom/CEIL4_3.png"
+	map "brightmaps/doom/CEIL4_3.dds"
 	iwad
 }
 
 
 brightmap flat CONS1_1
 {
-	map "brightmaps/doom/CONS1_1.png"
+	map "brightmaps/doom/CONS1_1.dds"
 	iwad
 }
 
 brightmap flat CONS1_5
 {
-	map "brightmaps/doom/CONS1_5.png"
+	map "brightmaps/doom/CONS1_5.dds"
 	iwad
 }
 
 brightmap flat CONS1_7
 {
-	map "brightmaps/doom/CONS1_7.png"
+	map "brightmaps/doom/CONS1_7.dds"
 	iwad
 }
 
 
 brightmap flat DEM1_1
 {
-	map "brightmaps/doom/DEM1_1.png"
+	map "brightmaps/doom/DEM1_1.dds"
 	iwad
 }
 brightmap flat DEM1_2
 {
-	map "brightmaps/doom/DEM1_2.png"
+	map "brightmaps/doom/DEM1_2.dds"
 	iwad
 }
 brightmap flat DEM1_3
 {
-	map "brightmaps/doom/DEM1_3.png"
+	map "brightmaps/doom/DEM1_3.dds"
 	iwad
 }
 brightmap flat DEM1_4
 {
-	map "brightmaps/doom/DEM1_4.png"
+	map "brightmaps/doom/DEM1_4.dds"
 	iwad
 }
 
 
 brightmap flat FLAT17
 {
-	map "brightmaps/doom/FLAT17.png"
+	map "brightmaps/doom/FLAT17.dds"
 	iwad
 }
 
 brightmap flat FLOOR1_7
 {
-	map "brightmaps/doom/FLAT17.png"
+	map "brightmaps/doom/FLAT17.dds"
 	iwad
 }
 
 brightmap flat FLAT2
 {
-	map "brightmaps/doom/FLAT2.png"
+	map "brightmaps/doom/FLAT2.dds"
 	iwad
 }
 
 brightmap flat FLAT22
 {
-	map "brightmaps/doom/FLAT22.png"
+	map "brightmaps/doom/FLAT22.dds"
 	iwad
 }
 
 brightmap flat FWATER1
 {
-	map "brightmaps/doom/FWATER1.png"
+	map "brightmaps/doom/FWATER1.dds"
 	iwad
 }
 brightmap flat FWATER2
 {
-	map "brightmaps/doom/FWATER2.png"
+	map "brightmaps/doom/FWATER2.dds"
 	iwad
 }
 brightmap flat FWATER3
 {
-	map "brightmaps/doom/FWATER3.png"
+	map "brightmaps/doom/FWATER3.dds"
 	iwad
 }
 brightmap flat FWATER4
 {
-	map "brightmaps/doom/FWATER4.png"
+	map "brightmaps/doom/FWATER4.dds"
 	iwad
 }
 
 
 brightmap flat GATE1
 {
-	map "brightmaps/doom/GATE1.png"
+	map "brightmaps/doom/GATE1.dds"
 	iwad
 }
 
 brightmap flat GATE2
 {
-	map "brightmaps/doom/GATE1.png"
+	map "brightmaps/doom/GATE1.dds"
 	iwad
 }
 
 brightmap flat GATE3
 {
-	map "brightmaps/doom/GATE1.png"
+	map "brightmaps/doom/GATE1.dds"
 	iwad
 }
 
 brightmap flat GATE4
 {
-	map "brightmaps/doom/GATE4.png"
+	map "brightmaps/doom/GATE4.dds"
 	iwad
 }
 
 
 brightmap flat GRNLITE1
 {
-	map "brightmaps/doom/GRNLITE1.png"
+	map "brightmaps/doom/GRNLITE1.dds"
 	iwad
 }
 
 brightmap flat LAVA1
 {
-	map "brightmaps/doom/LAVA1.png"
+	map "brightmaps/doom/LAVA1.dds"
 	iwad
 }
 brightmap flat LAVA2
 {
-	map "brightmaps/doom/LAVA2.png"
+	map "brightmaps/doom/LAVA2.dds"
 	iwad
 }
 brightmap flat LAVA3
 {
-	map "brightmaps/doom/LAVA3.png"
+	map "brightmaps/doom/LAVA3.dds"
 	iwad
 }
 brightmap flat LAVA4
 {
-	map "brightmaps/doom/LAVA4.png"
+	map "brightmaps/doom/LAVA4.dds"
 	iwad
 }
 
 
 brightmap flat NUKAGE1
 {
-	map "brightmaps/doom/NUKAGE1.png"
+	map "brightmaps/doom/NUKAGE1.dds"
 	iwad
 }
 brightmap flat NUKAGE2
 {
-	map "brightmaps/doom/NUKAGE2.png"
+	map "brightmaps/doom/NUKAGE2.dds"
 	iwad
 }
 brightmap flat NUKAGE3
 {
-	map "brightmaps/doom/NUKAGE3.png"
+	map "brightmaps/doom/NUKAGE3.dds"
 	iwad
 }
 
 
 brightmap flat RROCK01
 {
-	map "brightmaps/doom/RROCK01.png"
+	map "brightmaps/doom/RROCK01.dds"
 	iwad
 }
 
 brightmap flat RROCK02
 {
-	map "brightmaps/doom/RROCK02.png"
+	map "brightmaps/doom/RROCK02.dds"
 	iwad
 }
 
 brightmap flat RROCK05
 {
-	map "brightmaps/doom/RROCK05.png"
+	map "brightmaps/doom/RROCK05.dds"
 	iwad
 }
 brightmap flat RROCK06
 {
-	map "brightmaps/doom/RROCK06.png"
+	map "brightmaps/doom/RROCK06.dds"
 	iwad
 }
 brightmap flat RROCK07
 {
-	map "brightmaps/doom/RROCK07.png"
+	map "brightmaps/doom/RROCK07.dds"
 	iwad
 }
 brightmap flat RROCK08
 {
-	map "brightmaps/doom/RROCK08.png"
+	map "brightmaps/doom/RROCK08.dds"
 	iwad
 }
 
 
 brightmap flat SLIME01
 {
-	map "brightmaps/doom/SLIME01.png"
+	map "brightmaps/doom/SLIME01.dds"
 	iwad
 }
 brightmap flat SLIME02
 {
-	map "brightmaps/doom/SLIME02.png"
+	map "brightmaps/doom/SLIME02.dds"
 	iwad
 }
 brightmap flat SLIME03
 {
-	map "brightmaps/doom/SLIME03.png"
+	map "brightmaps/doom/SLIME03.dds"
 	iwad
 }
 brightmap flat SLIME04
 {
-	map "brightmaps/doom/SLIME04.png"
+	map "brightmaps/doom/SLIME04.dds"
 	iwad
 }
 
 brightmap flat SLIME05
 {
-	map "brightmaps/doom/SLIME05.png"
+	map "brightmaps/doom/SLIME05.dds"
 	iwad
 }
 brightmap flat SLIME06
 {
-	map "brightmaps/doom/SLIME06.png"
+	map "brightmaps/doom/SLIME06.dds"
 	iwad
 }
 brightmap flat SLIME07
 {
-	map "brightmaps/doom/SLIME07.png"
+	map "brightmaps/doom/SLIME07.dds"
 	iwad
 }
 brightmap flat SLIME08
 {
-	map "brightmaps/doom/SLIME08.png"
+	map "brightmaps/doom/SLIME08.dds"
 	iwad
 }
 
 brightmap flat SLIME09
 {
-	map "brightmaps/doom/SLIME09.png"
+	map "brightmaps/doom/SLIME09.dds"
 	iwad
 }
 brightmap flat SLIME10
 {
-	map "brightmaps/doom/SLIME10.png"
+	map "brightmaps/doom/SLIME10.dds"
 	iwad
 }
 brightmap flat SLIME11
 {
-	map "brightmaps/doom/SLIME11.png"
+	map "brightmaps/doom/SLIME11.dds"
 	iwad
 }
 brightmap flat SLIME12
 {
-	map "brightmaps/doom/SLIME12.png"
+	map "brightmaps/doom/SLIME12.dds"
 	iwad
 }
 
 brightmap flat TLITE6_1
 {
-	map "brightmaps/doom/TLITE6_1.png"
+	map "brightmaps/doom/TLITE6_1.dds"
 	iwad
 }
 
 brightmap flat TLITE6_4
 {
-	map "brightmaps/doom/TLITE6_1.png"
+	map "brightmaps/doom/TLITE6_1.dds"
 	iwad
 }
 
 brightmap flat TLITE6_5
 {
-	map "brightmaps/doom/TLITE6_5.png"
+	map "brightmaps/doom/TLITE6_5.dds"
 	iwad
 }
 
 brightmap flat TLITE6_6
 {
-	map "brightmaps/doom/TLITE6_5.png"
+	map "brightmaps/doom/TLITE6_5.dds"
 	iwad
 }
 ////
 brightmap flat ceil1_2
 {
-	map "materials/brightmaps/doom/ceil1_2.png"
+	map "brightmaps/doom/ceil1_2.dds"
 	iwad
 }
 
 brightmap flat ceil1_3
 {
-	map "materials/brightmaps/doom/ceil1_3.png"
+	map "brightmaps/doom/ceil1_3.dds"
 	iwad
 }
 
 brightmap flat ceil3_4
 {
-	map "materials/brightmaps/doom/ceil3_4.png"
+	map "brightmaps/doom/ceil3_4.dds"
 	iwad
 }
 
 brightmap flat ceil3_6
 {
-	map "materials/brightmaps/doom/ceil3_6.png"
+	map "brightmaps/doom/ceil3_6.dds"
 	iwad
 }
 
 brightmap flat flat17
 {
-	map "materials/brightmaps/doom/flat17.png"
+	map "brightmaps/doom/flat17.dds"
 	iwad
 }
 
 brightmap flat flat2
 {
-	map "materials/brightmaps/doom/flat2.png"
+	map "brightmaps/doom/flat2.dds"
 	iwad
 }
 
 brightmap flat gate1
 {
-	map "materials/brightmaps/doom/gate1.png"
+	map "brightmaps/doom/gate1.dds"
 	iwad
 }
 
 brightmap flat gate2
 {
-	map "materials/brightmaps/doom/gate2.png"
+	map "brightmaps/doom/gate2.dds"
 	iwad
 }
 
 brightmap flat gate3
 {
-	map "materials/brightmaps/doom/gate3.png"
+	map "brightmaps/doom/gate3.dds"
 	iwad
 }
 
 brightmap flat gate4
 {
-	map "materials/brightmaps/doom/gate4.png"
+	map "brightmaps/doom/gate4.dds"
 	iwad
 }
 
 brightmap flat grnlite1
 {
-	map "materials/brightmaps/doom/grnlite1.png"
+	map "brightmaps/doom/grnlite1.dds"
 	iwad
 }
 
 brightmap flat lava1
 {
-	map "materials/brightmaps/doom/lava1.png"
+	map "brightmaps/doom/lava1.dds"
 	iwad
 }
 
 brightmap flat lava2
 {
-	map "materials/brightmaps/doom/lava2.png"
+	map "brightmaps/doom/lava2.dds"
 	iwad
 }
 
 brightmap flat lava3
 {
-	map "materials/brightmaps/doom/lava3.png"
+	map "brightmaps/doom/lava3.dds"
 	iwad
 }
 
 brightmap flat lava4
 {
-	map "materials/brightmaps/doom/lava4.png"
+	map "brightmaps/doom/lava4.dds"
 	iwad
 }
 
 brightmap flat NUKAGE1
 {
-	map "materials/brightmaps/doom/NUKAGE1.png"
+	map "brightmaps/doom/NUKAGE1.dds"
 	iwad
 }
 
 brightmap flat NUKAGE2
 {
-	map "materials/brightmaps/doom/NUKAGE2.png"
+	map "brightmaps/doom/NUKAGE2.dds"
 	iwad
 }
 
 brightmap flat NUKAGE3
 {
-	map "materials/brightmaps/doom/NUKAGE3.png"
+	map "brightmaps/doom/NUKAGE3.dds"
 	iwad
 }

@@ -74,11 +74,6 @@ WallTexture STEP1, 32, 16
 	Patch W_STEP1, 0, 0
 }
 
-WallTexture STEP2, 32, 16
-{
-	Patch W_STEP2, 0, 0
-}
-
 WALLTEXTURE optional ROCKRED10, 1024, 1024
 {
 	XScale 8

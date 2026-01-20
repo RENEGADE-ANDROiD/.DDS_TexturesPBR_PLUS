@@ -28,8 +28,6 @@ rskub = "rskub" { PlacedSpin = 150 }
 yskua = "yskua" { PlacedSpin = 150 }
 yskub = "yskub" { PlacedSpin = 150 }
 
-// Backpack
-bpaka = "bpaka" {}
 
 //===========================================================================
 //
@@ -283,9 +281,6 @@ gor4a = "gor4a" {}
 // Meat 5
 gor5a = "gor5a" {}
 
-// Stalagtite
-smita = "smita" {}
-
 // Gibs (crushed)
 pol5a = "pol5a" {}
 
@@ -318,24 +313,6 @@ pol3b = "pol3b" {}
 // Head on a stick
 pol4a = "pol4a" {}
 
-// Short red torch
-smrta = "smrta" {}
-smrtb = "smrtb" {}
-smrtc = "smrtc" {}
-smrtd = "smrtd" {}
-
-// Short blue torch
-smbta = "smbta" {}
-smbtb = "smbtb" {}
-smbtc = "smbtc" {}
-smbtd = "smbtd" {}
-
-// Short green torch
-smgta = "smgta" {}
-smgtb = "smgtb" {}
-smgtc = "smgtc" {}
-smgtd = "smgtd" {}
-
 // Still alive on a stick
 pol6a = "pol6a" {}
 pol6b = "pol6b" {}
@@ -357,9 +334,6 @@ treda = "treda" {}
 tredb = "tredb" {}
 tredc = "tredc" {}
 tredd = "tredd" {}
-
-// Grey stalagmite (unused Doom sprite)
-smt2a = "smt2a" {}
 
 //===========================================================================
 //

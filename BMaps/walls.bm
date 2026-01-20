@@ -1,10 +1,9 @@
-
-brightmap texture BIGDOOR2 { map "materials/brightmaps/auto/bigdoor7.dds" }
-brightmap texture BIGDOOR3 { map "materials/brightmaps/auto/bigdoor7.dds" }
-brightmap texture BIGDOOR4 { map "materials/brightmaps/auto/bigdoor7.dds" }
-brightmap texture BIGDOOR4 { map "materials/brightmaps/auto/bigdoor7.dds" }
-brightmap texture BIGDOOR4 { map "materials/brightmaps/auto/bigdoor7.dds" }
-brightmap texture BIGDOOR4 { map "materials/brightmaps/auto/bigdoor7.dds" }
+brightmap texture BIGDOOR2 { map "brightmaps/doom/bigdoor7.dds" }
+brightmap texture BIGDOOR3 { map "brightmaps/doom/bigdoor7.dds" }
+brightmap texture BIGDOOR4 { map "brightmaps/doom/bigdoor7.dds" }
+brightmap texture BIGDOOR4 { map "brightmaps/doom/bigdoor7.dds" }
+brightmap texture BIGDOOR4 { map "brightmaps/doom/bigdoor7.dds" }
+brightmap texture BIGDOOR4 { map "brightmaps/doom/bigdoor7.dds" }
 
 // Walls
 
@@ -533,515 +532,515 @@ brightmap texture ZZZFACE4
 ////
 brightmap texture Zeldoor
 {
-	map "materials/brightmaps/doom/Zeldoor.dds"
+	map "brightmaps/doom/Zeldoor.dds"
 	//iwad
 }
 
 brightmap texture ashwall4
 {
-	map "materials/brightmaps/doom/ashwall4.dds"
+	map "brightmaps/doom/ashwall4.dds"
 	//iwad
 }
 brightmap texture ashwall6
 {
-	map "materials/brightmaps/doom/ashwall6.dds"
+	map "brightmaps/doom/ashwall6.dds"
 	//iwad
 }
 brightmap texture ashwall7
 {
-	map "materials/brightmaps/doom/ashwall7.dds"
+	map "brightmaps/doom/ashwall7.dds"
 	//iwad
 }
 
 brightmap texture A-yellow
 {
-	map "materials/brightmaps/doom/A-yellow.dds"
+	map "brightmaps/doom/A-yellow.dds"
 	//iwad
 }
 
 brightmap texture brownwel
 {
-	map "materials/brightmaps/doom/brownwel.dds"
+	map "brightmaps/doom/brownwel.dds"
 	//iwad
 }
 
 brightmap texture BIGBRIK3
 {
-	map "materials/brightmaps/doom/BIGBRIK3.dds"
+	map "brightmaps/doom/BIGBRIK3.dds"
 	//iwad
 }
 
 brightmap texture brick1
 {
-	map "materials/brightmaps/doom/brick1.dds"
+	map "brightmaps/doom/brick1.dds"
 	//iwad
 }
 
 brightmap texture brick11
 {
-	map "materials/brightmaps/doom/brick11.dds"
+	map "brightmaps/doom/brick11.dds"
 	//iwad
 }
 
 brightmap texture brick3
 {
-	map "materials/brightmaps/doom/brick3.dds"
+	map "brightmaps/doom/brick3.dds"
 	//iwad
 }
 
 brightmap texture brick4
 {
-	map "materials/brightmaps/doom/brick4.dds"
+	map "brightmaps/doom/brick4.dds"
 	//iwad
 }
 
 brightmap texture bstone3
 {
-	map "materials/brightmaps/doom/bstone3.dds"
+	map "brightmaps/doom/bstone3.dds"
 	//iwad
 }
 
 brightmap texture COMPSTA1
 {
-	map "materials/brightmaps/doom/COMPSTA1.dds"
+	map "brightmaps/doom/COMPSTA1.dds"
 	//iwad
 }
 
 brightmap texture COMPSTA2
 {
-	map "materials/brightmaps/doom/COMPSTA2.dds"
+	map "brightmaps/doom/COMPSTA2.dds"
 	//iwad
 }
 
 brightmap texture COMPTILE
 {
-	map "materials/brightmaps/doom/COMPTILE.dds"
+	map "brightmaps/doom/COMPTILE.dds"
 	//iwad
 }
 
 brightmap texture CUBICLE
 {
-	map "materials/brightmaps/doom/CUBICLE.dds"
+	map "brightmaps/doom/CUBICLE.dds"
 	//iwad
 }
 
 brightmap texture DOORBLU
 {
-	map "materials/brightmaps/doom/DOORBLU.dds"
+	map "brightmaps/doom/DOORBLU.dds"
 	//iwad
 }
 
 brightmap texture DOORRED
 {
-	map "materials/brightmaps/doom/DOORBLU.dds"
+	map "brightmaps/doom/DOORBLU.dds"
 	//iwad
 }
 
 brightmap texture DOORYEL
 {
-	map "materials/brightmaps/doom/DOORBLU.dds"
+	map "brightmaps/doom/DOORBLU.dds"
 	//iwad
 }
 
 brightmap texture DOORBLU2
 {
-	map "materials/brightmaps/doom/DOORBLU2.dds"
+	map "brightmaps/doom/DOORBLU2.dds"
 	//iwad
 }
 
 brightmap texture DOORRED2
 {
-	map "materials/brightmaps/doom/DOORBLU2.dds"
+	map "brightmaps/doom/DOORBLU2.dds"
 	//iwad
 }
 
 brightmap texture DOORYEL2
 {
-	map "materials/brightmaps/doom/DOORBLU2.dds"
+	map "brightmaps/doom/DOORBLU2.dds"
 	//iwad
 }
 
 brightmap texture doorstop
 {
-	map "materials/brightmaps/doom/doorstop.dds"
+	map "brightmaps/doom/doorstop.dds"
 	//iwad
 }
 
 brightmap texture EXITSIGN
 {
-	map "materials/brightmaps/doom/EXITSIGN.dds"
+	map "brightmaps/doom/EXITSIGN.dds"
 	//iwad
 }
 
 brightmap texture Eggreeni
 {
-	map "materials/brightmaps/doom/Eggreeni.dds"
+	map "brightmaps/doom/Eggreeni.dds"
 	//iwad
 }
 
 brightmap texture Egredi
 {
-	map "materials/brightmaps/doom/Egredi.dds"
+	map "brightmaps/doom/Egredi.dds"
 	//iwad
 }
 
 brightmap texture EXITSTON
 {
-	map "materials/brightmaps/doom/EXITSTON.dds"
+	map "brightmaps/doom/EXITSTON.dds"
 	//iwad
 }
 
 brightmap texture firelav2
 {
-	map "materials/brightmaps/doom/firelav2.dds"
+	map "brightmaps/doom/firelav2.dds"
 	//iwad
 }
 brightmap texture firelav3
 {
-	map "materials/brightmaps/doom/firelav3.dds"
+	map "brightmaps/doom/firelav3.dds"
 	//iwad
 }
 
 brightmap texture Firelava
 {
-	map "materials/brightmaps/doom/Firelava.dds"
+	map "brightmaps/doom/Firelava.dds"
 	//iwad
 }
 
 brightmap texture FIREMAG1
 {
-	map "materials/brightmaps/doom/FIREMAG1.dds"
+	map "brightmaps/doom/FIREMAG1.dds"
 	//iwad
 }
 
 brightmap texture FIREMAG2
 {
-	map "materials/brightmaps/doom/FIREMAG2.dds"
+	map "brightmaps/doom/FIREMAG2.dds"
 	//iwad
 }
 
 brightmap texture FIREMAG3
 {
-	map "materials/brightmaps/doom/FIREMAG3.dds"
+	map "brightmaps/doom/FIREMAG3.dds"
 	//iwad
 }
 
 brightmap texture FIREWALA
 {
-	map "materials/brightmaps/doom/FIREWALA.dds"
+	map "brightmaps/doom/FIREWALA.dds"
 	//iwad
 }
 
 brightmap texture FIREWALB
 {
-	map "materials/brightmaps/doom/FIREWALB.dds"
+	map "brightmaps/doom/FIREWALB.dds"
 	//iwad
 }
 
 brightmap texture FIREWALL
 {
-	map "materials/brightmaps/doom/FIREWALL.dds"
+	map "brightmaps/doom/FIREWALL.dds"
 	//iwad
 }
 
 
 brightmap texture LITE2
 {
-	map "materials/brightmaps/doom/LITE2.dds"
+	map "brightmaps/doom/LITE2.dds"
 	//iwad
 }
 
 brightmap texture Lite3
 {
-	map "materials/brightmaps/doom/Lite3.dds"
+	map "brightmaps/doom/Lite3.dds"
 	//iwad
 }
 
 brightmap texture LITE4
 {
-	map "materials/brightmaps/doom/LITE4.dds"
+	map "brightmaps/doom/LITE4.dds"
 	//iwad
 }
 
 brightmap texture Lite5
 {
-	map "materials/brightmaps/doom/Lite5.dds"
+	map "brightmaps/doom/Lite5.dds"
 	//iwad
 }
 
 brightmap texture LITE96
 {
-	map "materials/brightmaps/doom/LITE96.dds"
+	map "brightmaps/doom/LITE96.dds"
 	//iwad
 }
 
 brightmap texture LITEBLU1
 {
-	map "materials/brightmaps/doom/LITEBLU1.dds"
+	map "brightmaps/doom/LITEBLU1.dds"
 	//iwad
 }
 
 brightmap texture LITEBLU2
 {
-	map "materials/brightmaps/doom/LITEBLU2.dds"
+	map "brightmaps/doom/LITEBLU2.dds"
 	//iwad
 }
 
 brightmap texture LITEBLU3
 {
-	map "materials/brightmaps/doom/LITEBLU3.dds"
+	map "brightmaps/doom/LITEBLU3.dds"
 	//iwad
 }
 
 brightmap texture LITEBLU4
 {
-	map "materials/brightmaps/doom/LITEBLU4.dds"
+	map "brightmaps/doom/LITEBLU4.dds"
 	//iwad
 }
 
 brightmap texture LITEGRN1
 {
-	map "materials/brightmaps/doom/LITEGRN1.dds"
+	map "brightmaps/doom/LITEGRN1.dds"
 	//iwad
 }
 
 brightmap texture LITEMET
 {
-	map "materials/brightmaps/doom/LITEMET.dds"
+	map "brightmaps/doom/LITEMET.dds"
 	//iwad
 }
 
 brightmap texture LITERED
 {
-	map "materials/brightmaps/doom/LITERED.dds"
+	map "brightmaps/doom/LITERED.dds"
 	//iwad
 }
 
 brightmap texture LITERED1
 {
-	map "materials/brightmaps/doom/LITERED1.dds"
+	map "brightmaps/doom/LITERED1.dds"
 	//iwad
 }
 
 brightmap texture LITERED2
 {
-	map "materials/brightmaps/doom/LITERED2.dds"
+	map "brightmaps/doom/LITERED2.dds"
 	//iwad
 }
 
 brightmap texture LITESTON
 {
-	map "materials/brightmaps/doom/LITESTON.dds"
+	map "brightmaps/doom/LITESTON.dds"
 	//iwad
 }
 
 brightmap texture LITEYEL1
 {
-	map "materials/brightmaps/doom/LITEYEL1.dds"
+	map "brightmaps/doom/LITEYEL1.dds"
 	//iwad
 }
 
 brightmap texture LITEYEL2
 {
-	map "materials/brightmaps/doom/LITEYEL2.dds"
+	map "brightmaps/doom/LITEYEL2.dds"
 	//iwad
 }
 
 brightmap texture LITEYEL3
 {
-	map "materials/brightmaps/doom/LITEYEL3.dds"
+	map "brightmaps/doom/LITEYEL3.dds"
 	//iwad
 }
 
 brightmap texture M_RDOOR
 {
-	map "materials/brightmaps/doom/M_RDOOR.dds"
+	map "brightmaps/doom/M_RDOOR.dds"
 	//iwad
 }
 
 brightmap texture M_Tec
 {
-	map "materials/brightmaps/doom/M_Tec.dds"
+	map "brightmaps/doom/M_Tec.dds"
 	//iwad
 }
 
 brightmap texture M_YDOOR
 {
-	map "materials/brightmaps/doom/M_YDOOR.dds"
+	map "brightmaps/doom/M_YDOOR.dds"
 	//iwad
 }
 
 brightmap texture modwall1
 {
-	map "materials/brightmaps/doom/modwall1.dds"
+	map "brightmaps/doom/modwall1.dds"
 	//iwad
 }
 
 brightmap texture panbook
 {
-	map "materials/brightmaps/doom/panbook.dds"
+	map "brightmaps/doom/panbook.dds"
 	//iwad
 }
 
 brightmap texture panbord1
 {
-	map "materials/brightmaps/doom/panbord1.dds"
+	map "brightmaps/doom/panbord1.dds"
 	//iwad
 }
 
 brightmap texture panbord2
 {
-	map "materials/brightmaps/doom/panbord2.dds"
+	map "brightmaps/doom/panbord2.dds"
 	//iwad
 }
 
 brightmap texture pancase1
 {
-	map "materials/brightmaps/doom/pancase1.dds"
+	map "brightmaps/doom/pancase1.dds"
 	//iwad
 }
 
 brightmap texture pancase2
 {
-	map "materials/brightmaps/doom/pancase2.dds"
+	map "brightmaps/doom/pancase2.dds"
 	//iwad
 }
 
 brightmap texture panel4
 {
-	map "materials/brightmaps/doom/panel4.dds"
+	map "brightmaps/doom/panel4.dds"
 	//iwad
 }
 
 brightmap texture panel6
 {
-	map "materials/brightmaps/doom/panel6.dds"
+	map "brightmaps/doom/panel6.dds"
 	//iwad
 }
 
 brightmap texture panel7
 {
-	map "materials/brightmaps/doom/panel7.dds"
+	map "brightmaps/doom/panel7.dds"
 	//iwad
 }
 
 brightmap texture panel8
 {
-	map "materials/brightmaps/doom/panel8.dds"
+	map "brightmaps/doom/panel8.dds"
 	//iwad
 }
 
 brightmap texture panel9
 {
-	map "materials/brightmaps/doom/panel9.dds"
+	map "brightmaps/doom/panel9.dds"
 	//iwad
 }
 
 brightmap texture PLANET1
 {
-	map "materials/brightmaps/doom/PLANET1.dds"
+	map "brightmaps/doom/PLANET1.dds"
 	//iwad
 }
 
 brightmap texture Pnk4exit
 {
-	map "materials/brightmaps/doom/Pnk4exit.dds"
+	map "brightmaps/doom/Pnk4exit.dds"
 	//iwad
 }
 
 brightmap texture Sp_dude1
 {
-	map "materials/brightmaps/doom/Sp_dude1.dds"
+	map "brightmaps/doom/Sp_dude1.dds"
 	//iwad
 }
 
 brightmap texture Sp_dude2
 {
-	map "materials/brightmaps/doom/Sp_dude2.dds"
+	map "brightmaps/doom/Sp_dude2.dds"
 	//iwad
 }
 
 brightmap texture Sp_dude7
 {
-	map "materials/brightmaps/doom/Sp_dude7.dds"
+	map "brightmaps/doom/Sp_dude7.dds"
 	//iwad
 }
 
 brightmap texture Sp_dude8
 {
-	map "materials/brightmaps/doom/Sp_dude8.dds"
+	map "brightmaps/doom/Sp_dude8.dds"
 	//iwad
 }
 
 brightmap texture Step1
 {
-	map "materials/brightmaps/doom/Step1.dds"
+	map "brightmaps/doom/Step1.dds"
 	//iwad
 }
 
 brightmap texture steplad1
 {
-	map "materials/brightmaps/doom/steplad1.dds"
+	map "brightmaps/doom/steplad1.dds"
 	//iwad
 }
 
 brightmap texture stucco1
 {
-	map "materials/brightmaps/doom/stucco1.dds"
+	map "brightmaps/doom/stucco1.dds"
 	//iwad
 }
 
 brightmap texture stucco2
 {
-	map "materials/brightmaps/doom/stucco2.dds"
+	map "brightmaps/doom/stucco2.dds"
 	//iwad
 }
 
 brightmap texture stucco3
 {
-	map "materials/brightmaps/doom/stucco3.dds"
+	map "brightmaps/doom/stucco3.dds"
 	//iwad
 }
 
 brightmap texture TEKBRON2
 {
-	map "materials/brightmaps/doom/TEKBRON2.dds"
+	map "brightmaps/doom/TEKBRON2.dds"
 	//iwad
 }
 
 brightmap texture tanrock7
 {
-	map "materials/brightmaps/doom/tanrock7.dds"
+	map "brightmaps/doom/tanrock7.dds"
 	//iwad
 }
 
 brightmap texture tekwall6
 {
-	map "materials/brightmaps/doom/tekwall6.dds"
+	map "brightmaps/doom/tekwall6.dds"
 	//iwad
 }
 
 brightmap texture WOODSKUL
 {
-	map "materials/brightmaps/doom/WOODSKUL.dds"
+	map "brightmaps/doom/WOODSKUL.dds"
 	//iwad
 }
 
 brightmap texture ZZZFACE1
 {
-	map "materials/brightmaps/doom/ZZZFACE1.dds"
+	map "brightmaps/doom/ZZZFACE1.dds"
 	//iwad
 }
 
 brightmap texture ZZZFACE2
 {
-	map "materials/brightmaps/doom/ZZZFACE2.dds"
+	map "brightmaps/doom/ZZZFACE2.dds"
 	//iwad
 }
 
 brightmap texture ZZZFACE3
 {
-	map "materials/brightmaps/doom/ZZZFACE3.dds"
+	map "brightmaps/doom/ZZZFACE3.dds"
 	//iwad
 }
 
@@ -1052,73 +1051,73 @@ brightmap texture ZZZFACE3
 // Off Switches
 brightmap texture SW1BIRK
 {
-	map "materials/brightmaps/doom/SW1BIRK.dds"
+	map "brightmaps/doom/SW1BIRK.dds"
 	//iwad
 }
 
 brightmap texture SW1BLUE
 {
-	map "materials/brightmaps/doom/SW1BLUE.dds"
+	map "brightmaps/doom/SW1BLUE.dds"
 	//iwad
 }
 
 brightmap texture SW1BRCOM
 {
-	map "materials/brightmaps/doom/SW1BRCOM.dds"
+	map "brightmaps/doom/SW1BRCOM.dds"
 	//iwad
 }
 
 brightmap texture Sw1brik
 {
-	map "materials/brightmaps/doom/Sw1brik.dds"
+	map "brightmaps/doom/Sw1brik.dds"
 	//iwad
 }
 
 brightmap texture Sw1brn2
 {
-	map "materials/brightmaps/doom/Sw1brn2.dds"
+	map "brightmaps/doom/Sw1brn2.dds"
 	//iwad
 }
 
 brightmap texture SW1BRNGRN
 {
-	map "materials/brightmaps/doom/SW1BRNGRN.dds"
+	map "brightmaps/doom/SW1BRNGRN.dds"
 	//iwad
 }
 
 brightmap texture SW1COMM
 {
-	map "materials/brightmaps/doom/SW1COMM.dds"
+	map "brightmaps/doom/SW1COMM.dds"
 	//iwad
 }
 
 brightmap texture sw1comp
 {
-	map "materials/brightmaps/doom/sw1comp.dds"
+	map "brightmaps/doom/sw1comp.dds"
 	//iwad
 }
 
 brightmap texture SW1GRAY
 {
-	map "materials/brightmaps/doom/SW1GRAY.dds"
+	map "brightmaps/doom/SW1GRAY.dds"
 	//iwad
 }
 
 brightmap texture SW1PANEL
 {
-	map "materials/brightmaps/doom/SW1PANEL.dds"
+	map "brightmaps/doom/SW1PANEL.dds"
 	//iwad
 }
 
 brightmap texture sw1pipe
 {
-	map "materials/brightmaps/doom/sw1pipe.dds"
+	map "brightmaps/doom/sw1pipe.dds"
 	//iwad
 }
 
 brightmap texture SW1WDMET
 {
-	map "materials/brightmaps/doom/SW1WDMET.dds"
+	map "brightmaps/doom/SW1WDMET.dds"
 	//iwad
 }
 
@@ -1131,74 +1130,74 @@ brightmap texture SW1WDMET
 // On Switches
 brightmap texture SW2BIRK
 {
-	map "materials/brightmaps/doom/SW2BIRK.dds"
+	map "brightmaps/doom/SW2BIRK.dds"
 	//iwad
 }
 
 brightmap texture SW2BLUE
 {
-	map "materials/brightmaps/doom/SW2BLUE.dds"
+	map "brightmaps/doom/SW2BLUE.dds"
 	//iwad
 }
 
 brightmap texture SW2BRCOM
 {
-	map "materials/brightmaps/doom/SW2BRCOM.dds"
+	map "brightmaps/doom/SW2BRCOM.dds"
 	//iwad
 }
 
 
 brightmap texture SW2BRNGRN
 {
-	map "materials/brightmaps/doom/SW2BRNGRN.dds"
+	map "brightmaps/doom/SW2BRNGRN.dds"
 	//iwad
 }
 
 brightmap texture SW2BRIK
 {
-	map "materials/brightmaps/doom/SW2BRIK.dds"
+	map "brightmaps/doom/SW2BRIK.dds"
 	//iwad
 }
 
 brightmap texture SW2BRN2
 {
-	map "materials/brightmaps/doom/SW2BRN2.dds"
+	map "brightmaps/doom/SW2BRN2.dds"
 	//iwad
 }
 
 brightmap texture SW2TEK
 {
-	map "materials/brightmaps/doom/SW2TEK.dds"
+	map "brightmaps/doom/SW2TEK.dds"
 	//iwad
 }
 
 brightmap texture SW2MOD1
 {
-	map "materials/brightmaps/doom/SW2MOD1.dds"
+	map "brightmaps/doom/SW2MOD1.dds"
 	//iwad
 }
 
 brightmap texture SW2COMM
 {
-	map "materials/brightmaps/doom/SW2COMM.dds"
+	map "brightmaps/doom/SW2COMM.dds"
 	//iwad
 }
 
 brightmap texture SW2COMP
 {
-	map "materials/brightmaps/doom/SW2COMP.dds"
+	map "brightmaps/doom/SW2COMP.dds"
 	//iwad
 }
 
 brightmap texture SW2STON6
 {
-	map "materials/brightmaps/doom/SW2STON6.dds"
+	map "brightmaps/doom/SW2STON6.dds"
 	//iwad
 }
 
 brightmap texture SW2MET2
 {
-	map "materials/brightmaps/doom/SW2MET2.dds"
+	map "brightmaps/doom/SW2MET2.dds"
 	//iwad
 }
 
@@ -1206,75 +1205,75 @@ brightmap texture SW2MET2
 
 brightmap texture SW2GRAY
 {
-	map "materials/brightmaps/doom/SW2GRAY.dds"
+	map "brightmaps/doom/SW2GRAY.dds"
 	//iwad
 }
 
 brightmap texture SW2GRAY1
 {
-	map "materials/brightmaps/doom/SW2GRAY1.dds"
+	map "brightmaps/doom/SW2GRAY1.dds"
 	//iwad
 }
 
 brightmap texture SW2METAL
 {
-	map "materials/brightmaps/doom/SW2METAL.dds"
+	map "brightmaps/doom/SW2METAL.dds"
 	//iwad
 }
 
 brightmap texture sw2pipe
 {
-	map "materials/brightmaps/doom/sw2pipe.dds"
+	map "brightmaps/doom/sw2pipe.dds"
 	//iwad
 }
 
 
 brightmap texture SW2STRTN
 {
-	map "materials/brightmaps/doom/SW2STRTN.dds"
+	map "brightmaps/doom/SW2STRTN.dds"
 	//iwad
 }
 
 
 brightmap texture SW2GARG
 {
-	map "materials/brightmaps/doom/SW2GARG.dds"
+	map "brightmaps/doom/SW2GARG.dds"
 	//iwad
 }
 
 brightmap texture SW2LION
 {
-	map "materials/brightmaps/doom/SW2LION.dds"
+	map "brightmaps/doom/SW2LION.dds"
 	//iwad
 }
 
 brightmap texture SW2SATYR
 {
-	map "materials/brightmaps/doom/SW2SATYR.dds"
+	map "brightmaps/doom/SW2SATYR.dds"
 	//iwad
 }
 
 brightmap texture SW2ROCK
 {
-	map "materials/brightmaps/doom/SW2ROCK.dds"
+	map "brightmaps/doom/SW2ROCK.dds"
 	//iwad
 }
 
 brightmap texture SW2PANEL
 {
-	map "materials/brightmaps/doom/SW2PANEL.dds"
+	map "brightmaps/doom/SW2PANEL.dds"
 	//iwad
 }
 
 brightmap texture SW2MARB
 {
-	map "materials/brightmaps/doom/SW2MARB.dds"
+	map "brightmaps/doom/SW2MARB.dds"
 	//iwad
 }
 
 brightmap texture SW2WDMET
 {
-	map "materials/brightmaps/doom/SW2WDMET.dds"
+	map "brightmaps/doom/SW2WDMET.dds"
 	//iwad
 }
 

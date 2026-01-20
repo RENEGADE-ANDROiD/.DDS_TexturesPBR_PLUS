@@ -1,7 +1,7 @@
 #include BMaps/z.bm
 #include BMaps/pickups.bm
 #include BMaps/deco.bm
-//#include BMaps/flats.bm
+#include BMaps/flats.bm
 #include BMaps/walls.bm
 // Lights
 #include BMaps/gllumps/Dlights
