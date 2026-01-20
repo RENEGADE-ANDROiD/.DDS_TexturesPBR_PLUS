@@ -1,10 +1,11 @@
 # .DDS_TexturesPBR_PLUS
+
+- Fog
+- Gore Particles
 - ReLite Version
 - Incl. Rain Remixed
 
 ![Demo](https://github.com/user-attachments/assets/7a6d1392-5618-4db4-a9cc-ad5327d502d5)
-
-- with-ReLite-&-Rain-Remixed
 
 Comparison Trailer by Shickley aka CACODEMON:
 https://youtu.be/STJPOUyMFAA
@@ -40,8 +41,6 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - Cheelo Voxel (Gore/Decorations/Monsters/Player)
 - Teleport FX
 - Lamp FX
-- Gore Particles 
-- UDV Fog 
 
 -----------------
 
