@@ -3,7 +3,6 @@
 ![Demo](https://github.com/user-attachments/assets/7a6d1392-5618-4db4-a9cc-ad5327d502d5)
 
 - without-ReLite-&-Rain-Remixed
-- with-ReLite-&-Rain-Remixed
 
 Comparison Trailer by Shickley aka CACODEMON:
 https://youtu.be/STJPOUyMFAA
