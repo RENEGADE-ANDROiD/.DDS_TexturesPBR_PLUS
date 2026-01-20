@@ -2,9 +2,8 @@
 
 ![Demo](https://github.com/user-attachments/assets/7a6d1392-5618-4db4-a9cc-ad5327d502d5)
 
-- MAIN:  Has a lot of extras, except for the most tasking, i.e. ReLite and Rain_Remixed
-- DELTA TOUCH: Has an edit to a shader file allowing for compatibility.  This version also does not include a few Extras for compatibility.
-- RELITE_INCLUDED:  Same as MAIN, however it includes ReLite and Rain_Remixed.
+- without-ReLite-&-Rain-Remixed
+- with-ReLite-&-Rain-Remixed
 
 Comparison Trailer by Shickley aka CACODEMON:
 https://youtu.be/STJPOUyMFAA
@@ -18,7 +17,7 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 
 ![Demo](https://github.com/user-attachments/assets/2140b228-40ae-422c-abec-5d66365b3202)
 
-*Thanks to Decibal/Doc for the inspiration and the excellent OTEX texture pack he put together!  Thanks to Generic_Name_Guy for teaching me about DDS format.  Thanks to DarkShadow for extensive testing and suggestions!  Thanks to Derpxeon/Project Mask for great texture suggestions and big thanks to the community and their effort for all the source materials gathered here!*
+*Thanks to Decibal/Doc for the inspiration and the excellent OTEX texture pack he put together!  Thanks to Generic_Name_Guy for teaching me about DDS format.  Thanks to DarkShadow for extensive testing on Delta Touch and for suggestions!  Thanks to Derpxeon/Project Mask for great texture suggestions and big thanks to the community and their effort for all the source materials gathered here!*
 
 -----------------
 
@@ -40,8 +39,8 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - Cheelo Voxel (Gore/Decorations/Monsters/Player)
 - Teleport FX
 - Lamp FX
-- Gore Particles (not on Delta Touch)
-- UDV Fog (not on Delta Touch)
+- Gore Particles 
+- UDV Fog 
 
 -----------------
 
