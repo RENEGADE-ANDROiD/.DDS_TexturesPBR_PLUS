@@ -72,7 +72,7 @@ vec2 ParallaxMap(mat3 tbn)
     float numLayers = mix(maxLayers, minLayers, clamp(abs(V.z), 0.0, 1.0)); // clamp is required due to precision loss
 
     // calculate the size of each layer
-    const float layerDepth = 1.0 / numLayers;
+    float layerDepth = 1.0 / numLayers;
 
     // depth of current layer
     float currentLayerDepth = 0.0;
