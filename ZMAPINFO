@@ -5,6 +5,6 @@ gameinfo
 }
 gameinfo 
 {
-	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "DropletsEventHandler", "MRGP_Handler", "MRGP_StaticHandler", "TeleporterEffects", "CheelloVoxHandler"
+	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "DropletsEventHandler", "TeleporterEffects", "CheelloVoxHandler"
 
 }
