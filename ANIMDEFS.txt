@@ -181,7 +181,6 @@ WARP texture SKSNAKE1
 WARP texture SKSNAKE2
 WARP texture SP_FACE1
 
-////Ultra
  TEXTURE nukage1
  pic nukage1 tics 2
  pic nukage2 tics 2
@@ -235,6 +234,182 @@ WARP texture SP_FACE1
  pic nukage16 tics 2
  pic nukage1 tics 2
  pic nukage2 tics 2
+
+ TEXTURE fwater1
+ pic fwater1 tics 2
+ pic fwater2 tics 2
+ pic fwater3 tics 2
+ pic fwater4 tics 2
+ pic fwater5 tics 2
+ pic fwater6 tics 2
+ pic fwater7 tics 2
+ pic fwater8 tics 2
+ pic fwater9 tics 2
+ pic fwater10 tics 2
+ pic fwater11 tics 2
+ pic fwater12 tics 2
+ pic fwater13 tics 2
+ pic fwater14 tics 2
+ pic fwater15 tics 2
+ pic fwater16 tics 2
+
+ TEXTURE fwater2
+ pic fwater2 tics 2
+ pic fwater3 tics 2
+ pic fwater4 tics 2
+ pic fwater5 tics 2
+ pic fwater6 tics 2
+ pic fwater7 tics 2
+ pic fwater8 tics 2
+ pic fwater9 tics 2
+ pic fwater10 tics 2
+ pic fwater11 tics 2
+ pic fwater12 tics 2
+ pic fwater13 tics 2
+ pic fwater14 tics 2
+ pic fwater15 tics 2
+ pic fwater16 tics 2
+ pic fwater1 tics 2
+
+ TEXTURE fwater3
+ pic fwater3 tics 2
+ pic fwater4 tics 2
+ pic fwater5 tics 2
+ pic fwater6 tics 2
+ pic fwater7 tics 2
+ pic fwater8 tics 2
+ pic fwater9 tics 2
+ pic fwater10 tics 2
+ pic fwater11 tics 2
+ pic fwater12 tics 2
+ pic fwater13 tics 2
+ pic fwater14 tics 2
+ pic fwater15 tics 2
+ pic fwater16 tics 2
+ pic fwater1 tics 2
+ pic fwater2 tics 2
+
+ TEXTURE fwater4
+ pic fwater4 tics 2
+ pic fwater5 tics 2
+ pic fwater6 tics 2
+ pic fwater7 tics 2
+ pic fwater8 tics 2
+ pic fwater9 tics 2
+ pic fwater10 tics 2
+ pic fwater11 tics 2
+ pic fwater12 tics 2
+ pic fwater13 tics 2
+ pic fwater14 tics 2
+ pic fwater15 tics 2
+ pic fwater16 tics 2
+ pic fwater1 tics 2
+ pic fwater2 tics 2
+ pic fwater3 tics 2
+
+ TEXTURE blood1
+ pic blood1 tics 3
+ pic blood2 tics 3
+ pic blood3 tics 3
+ pic blood4 tics 3
+ pic blood5 tics 3
+ pic blood6 tics 3
+ pic blood7 tics 3
+ pic blood8 tics 3
+ pic blood9 tics 3
+ pic blood10 tics 3
+ pic blood11 tics 3
+ pic blood12 tics 3
+ pic blood13 tics 3
+ pic blood14 tics 3
+ pic blood15 tics 3
+ pic blood16 tics 3
+
+ TEXTURE blood2
+ pic blood2 tics 3
+ pic blood3 tics 3
+ pic blood4 tics 3
+ pic blood5 tics 3
+ pic blood6 tics 3
+ pic blood7 tics 3
+ pic blood8 tics 3
+ pic blood9 tics 3
+ pic blood10 tics 3
+ pic blood11 tics 3
+ pic blood12 tics 3
+ pic blood13 tics 3
+ pic blood14 tics 3
+ pic blood15 tics 3
+ pic blood16 tics 3
+ pic blood1 tics 3
+
+ TEXTURE blood3
+ pic blood3 tics 3
+ pic blood4 tics 3
+ pic blood5 tics 3
+ pic blood6 tics 3
+ pic blood7 tics 3
+ pic blood8 tics 3
+ pic blood9 tics 3
+ pic blood10 tics 3
+ pic blood11 tics 3
+ pic blood12 tics 3
+ pic blood13 tics 3
+ pic blood14 tics 3
+ pic blood15 tics 3
+ pic blood16 tics 3
+ pic blood1 tics 3
+ pic blood2 tics 3
+
+ TEXTURE sladrip1
+ pic rrip1 tics 2
+ pic rrip2 tics 2
+ pic rrip3 tics 2
+ pic rrip4 tics 2
+ pic rrip5 tics 2
+ pic rrip6 tics 2
+ pic rrip7 tics 2
+ pic rrip8 tics 2
+ pic rrip9 tics 2
+ pic rrip10 tics 2
+ pic rrip11 tics 2
+ pic rrip12 tics 2
+ pic rrip13 tics 2
+ pic rrip14 tics 2
+ pic rrip15 tics 2
+
+ TEXTURE sladrip2
+ pic rrip2 tics 2
+ pic rrip3 tics 2
+ pic rrip4 tics 2
+ pic rrip5 tics 2
+ pic rrip6 tics 2
+ pic rrip7 tics 2
+ pic rrip8 tics 2
+ pic rrip9 tics 2
+ pic rrip10 tics 2
+ pic rrip11 tics 2
+ pic rrip12 tics 2
+ pic rrip14 tics 2
+ pic rrip15 tics 2
+ pic rrip1 tics 2
+
+ TEXTURE sladrip3
+ pic rrip3 tics 2
+ pic rrip4 tics 2
+ pic rrip5 tics 2
+ pic rrip6 tics 2
+ pic rrip7 tics 2
+ pic rrip8 tics 2
+ pic rrip9 tics 2
+ pic rrip10 tics 2
+ pic rrip11 tics 2
+ pic rrip12 tics 2
+ pic rrip13 tics 2
+ pic rrip14 tics 2
+ pic rrip15 tics 2
+ pic rrip1 tics 2
+ pic rrip2 tics 2
 
 TEXTURE optional ROCKRED4
 	PIC ROCKRED10 tics 2
@@ -337,53 +512,3 @@ TEXTURE optional ROCKRED1
 	PIC ROCKRED35 tics 2
 	PIC ROCKRED36 tics 2
 	PIC ROCKRED37 tics 2
-
-TEXTURE sladrip1
- pic rrip1 tics 2
- pic rrip2 tics 2
- pic rrip3 tics 2
- pic rrip4 tics 2
- pic rrip5 tics 2
- pic rrip6 tics 2
- pic rrip7 tics 2
- pic rrip8 tics 2
- pic rrip9 tics 2
- pic rrip10 tics 2
- pic rrip11 tics 2
- pic rrip12 tics 2
- pic rrip13 tics 2
- pic rrip14 tics 2
- pic rrip15 tics 2
-
- TEXTURE sladrip2
- pic rrip2 tics 2
- pic rrip3 tics 2
- pic rrip4 tics 2
- pic rrip5 tics 2
- pic rrip6 tics 2
- pic rrip7 tics 2
- pic rrip8 tics 2
- pic rrip9 tics 2
- pic rrip10 tics 2
- pic rrip11 tics 2
- pic rrip12 tics 2
- pic rrip14 tics 2
- pic rrip15 tics 2
- pic rrip1 tics 2
-
- TEXTURE sladrip3
- pic rrip3 tics 2
- pic rrip4 tics 2
- pic rrip5 tics 2
- pic rrip6 tics 2
- pic rrip7 tics 2
- pic rrip8 tics 2
- pic rrip9 tics 2
- pic rrip10 tics 2
- pic rrip11 tics 2
- pic rrip12 tics 2
- pic rrip13 tics 2
- pic rrip14 tics 2
- pic rrip15 tics 2
- pic rrip1 tics 2
- pic rrip2 tics 2
