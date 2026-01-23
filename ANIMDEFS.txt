@@ -1,8 +1,3 @@
-//Rain Remixed//
-WARP flat ASH1A0 30
-WARP flat ASH2A0 30
-WARP flat RAINA0 60
-
 //OTEX//
 Texture CEIL5_1
 pic FLOOR52A tics 12
