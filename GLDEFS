@@ -110,6 +110,70 @@ Texture tex_heightmap "materials/heightmaps/bigdoor7.dds"
 Define "Foobar"
 }
 
+material Texture "starg1"
+{
+Shader "shaders/parallax.fp"
+
+normal "materials/normalmaps/auto/starg1.dds"
+metallic "materials/metallic/auto/browngrn.dds"
+roughness "materials/roughness/auto/starg1.dds"
+ao "materials/ao/auto/ao_blank.dds"
+Texture tex_heightmap "materials/heightmaps/starg1.dds"
+}
+
+material Texture "startan1"
+{
+normal "materials/normalmaps/auto/starg1.dds"
+metallic "materials/metallic/auto/browngrn.dds"
+roughness "materials/roughness/auto/starg1.dds"
+ao "materials/ao/auto/ao_blank.dds"
+}
+
+material Texture "stargr1"
+{
+Shader "shaders/parallax.fp"
+
+normal "materials/normalmaps/auto/starg1.dds"
+metallic "materials/metallic/auto/browngrn.dds"
+roughness "materials/roughness/auto/starg1.dds"
+ao "materials/ao/auto/ao_blank.dds"
+Texture tex_heightmap "materials/heightmaps/starg1.dds"
+}
+
+material Texture "starg3"
+{
+Shader "shaders/parallax.fp"
+
+normal "materials/normalmaps/auto/startan3.dds"
+metallic "materials/metallic/auto/startan3.dds"
+roughness "materials/roughness/auto/startan3.dds"
+Texture tex_heightmap "materials/heightmaps/startan3.dds"
+}
+
+material Texture "startan3"
+{
+Shader "shaders/parallax.fp"
+
+normal "materials/normalmaps/auto/startan3.dds"
+metallic "materials/metallic/auto/startan3.dds"
+roughness "materials/roughness/auto/startan3.dds"
+ao "materials/ao/auto/ao_blank2.dds"
+Texture tex_heightmap "materials/heightmaps/startan3.dds"
+Define "Foobar"
+}
+
+material Texture "startan2"
+{
+Shader "shaders/parallax.fp"
+
+normal "materials/normalmaps/auto/startan2.dds"
+metallic "materials/metallic/auto/startan3.dds"
+roughness "materials/roughness/auto/startan2.dds"
+ao "materials/ao/auto/ao_blank2.dds"
+Texture tex_heightmap "materials/heightmaps/startan2.dds"
+Define "Foobar"
+}
+
 ////////
 material Texture "nukage1"
 {
@@ -574,72 +638,6 @@ material texture "floor5_3"
 	ao "materials/ao/auto/floor5_2.dds"
 	texture displacement "materials/displacement/auto/floor5_2.dds"		
 	Texture tex_heightmap "materials/heightmaps/floor5_2.dds"
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "starg3"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/starg3.dds"
-	metallic "materials/metallic/auto/starg3.dds"
-	roughness "materials/roughness/auto/starg3.dds"
-	ao "materials/ao/auto/starg3.dds"
-	texture displacement "materials/displacement/auto/starg3.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "startan3"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/starg3.dds"
-	metallic "materials/metallic/auto/starg3.dds"
-	roughness "materials/roughness/auto/starg3.dds"
-	ao "materials/ao/auto/starg3.dds"
-	texture displacement "materials/displacement/auto/starg3.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "startan2"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/startan2.dds"
-	metallic "materials/metallic/auto/starg3.dds"
-	roughness "materials/roughness/auto/starg3.dds"
-	ao "materials/ao/auto/starg3.dds"
-	texture displacement "materials/displacement/auto/startan2.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "stargr1"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/stargr1.dds"
-	metallic "materials/metallic/auto/stargr1.dds"
-	roughness "materials/roughness/auto/stargr1.dds"
-	ao "materials/ao/auto/stargr1.dds"
-	texture displacement "materials/displacement/auto/stargr1.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "starg1"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/stargr1.dds"
-	metallic "materials/metallic/auto/stargr1.dds"
-	roughness "materials/roughness/auto/stargr1.dds"
-	ao "materials/ao/auto/stargr1.dds"
-	texture displacement "materials/displacement/auto/stargr1.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "startan1"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/stargr1.dds"
-	metallic "materials/metallic/auto/stargr1.dds"
-	roughness "materials/roughness/auto/stargr1.dds"
-	ao "materials/ao/auto/stargr1.dds"
-	texture displacement "materials/displacement/auto/stargr1.dds"	
 	glossiness 2.0
 	specularlevel 1.0
 }
