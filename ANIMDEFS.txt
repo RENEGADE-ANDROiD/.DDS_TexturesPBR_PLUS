@@ -350,56 +350,6 @@ WARP texture SP_FACE1
  pic blood1 tics 3
  pic blood2 tics 3
 
- TEXTURE sladrip1
- pic rrip1 tics 2
- pic rrip2 tics 2
- pic rrip3 tics 2
- pic rrip4 tics 2
- pic rrip5 tics 2
- pic rrip6 tics 2
- pic rrip7 tics 2
- pic rrip8 tics 2
- pic rrip9 tics 2
- pic rrip10 tics 2
- pic rrip11 tics 2
- pic rrip12 tics 2
- pic rrip13 tics 2
- pic rrip14 tics 2
- pic rrip15 tics 2
-
- TEXTURE sladrip2
- pic rrip2 tics 2
- pic rrip3 tics 2
- pic rrip4 tics 2
- pic rrip5 tics 2
- pic rrip6 tics 2
- pic rrip7 tics 2
- pic rrip8 tics 2
- pic rrip9 tics 2
- pic rrip10 tics 2
- pic rrip11 tics 2
- pic rrip12 tics 2
- pic rrip14 tics 2
- pic rrip15 tics 2
- pic rrip1 tics 2
-
- TEXTURE sladrip3
- pic rrip3 tics 2
- pic rrip4 tics 2
- pic rrip5 tics 2
- pic rrip6 tics 2
- pic rrip7 tics 2
- pic rrip8 tics 2
- pic rrip9 tics 2
- pic rrip10 tics 2
- pic rrip11 tics 2
- pic rrip12 tics 2
- pic rrip13 tics 2
- pic rrip14 tics 2
- pic rrip15 tics 2
- pic rrip1 tics 2
- pic rrip2 tics 2
-
 TEXTURE optional ROCKRED4
 	PIC ROCKRED10 tics 2
 	PIC ROCKRED11 tics 2
