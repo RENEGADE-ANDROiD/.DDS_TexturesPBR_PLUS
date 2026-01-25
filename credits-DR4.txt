@@ -1,0 +1,5 @@
+Liquid patch for Doom1, Doom2, Plutonia by Doomenator.
+
+Credits:
+ Monsterovich (warp shaders).
+KuriKai: eunbolt@gmail.com (Nukage, Water, Slime, and Blood Flat and Fall Textures from DHTP).
