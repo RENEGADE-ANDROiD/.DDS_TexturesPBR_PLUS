@@ -1,0 +1,55 @@
+	Doom liquid texture pack V1.3
+
+- this texture pack has 2 "base files", one is to suit GZDoom and the other file is for zandronum.
+  the base file uses around 0.2gb of gpu vram 
+  if all of the textures in this pack are being used in 1 map
+
+- there is also a HD texture pack file if you want more crisp looking textures,
+  this file works the same as any other hd texture pack so you need to load this file after the base file.( low resolution textures )
+
+  do note the hd textures use around 0.6GB of gpu vram,
+  this happens only if all of the textures in this pack are being used in 1 map,
+  with zandronum 3.0 the renderer used for this version does not have the pre cache texture feature working,
+  so you will probably experiance frame drops while textures are being cached to the gpu while in game.
+  once the textures are cached the game will run like normal for the rest of the level
+  when you start a new level all textures will have to be cahced again. 
+  if zandronum updates to a version where the pre cache feature works this pack will utilize this feature.
+  gzdoom pre cache feature works correctly so you wont experiance any frame drops with the hd textures only longer loading times 
+  before each level starts. ( an ssd drive can help with loading textures more quickly to the gpu while in game) 
+
+- the shader pack has been made seperate for your personal prefrence and for 
+  custom maps that use there own glowing color flats or custom lighting,
+  also for some reason this effect makes the sprites appear at full brightnees, not sure why, maybe a bug
+  so i thought it was best to keep it seperate.
+
+--------------------- map building info --------------------------------------------------
+
+- the doom builder resource file is for mappers wanting to make custom maps that use these textures,
+  when this file is used in gzdoom builder there is 2 folders named,
+ 
+	--- Doom LTP V1.3---
+ 
+- this folder contains the textures that you will see replace the standard doom textures while in game when using this texture pack,
+  try to use these textures as a tool to scale or align the surfaces in your map, 
+  as the resolution of the " base file " textures are larger then original doom textures,
+  and can cause aliment issues if you use the original doom textures to align the texturesthe surfaces in your map.
+
+	( original flat liquid textures) 	( doom liquid texture pack v1.3 base file )	  ( LTP HD Texture pack )
+		   64 x 64				      256 x 256				        512 x 512
+
+  
+  once you have scaled / aligned the textures,
+  its best to revert back to the original doom textures
+  this way mods that add effects to the original doom liquid textures should work.
+  
+  *do note that if you dont revert back to the original textures the textures will still animate 
+   and may cause confusion as to why the mod is not interating with the textures*
+
+	--- Doom missing liquids V1.3---
+
+- this folder contains the extra waterfall type textures that doom did not come out with when released,
+  these are - waterfall, slimefall and lavafall 
+  you need to place these textures in your map for the animated textures to work in game.
+
+ if you make a map that requires this texture pack please add a description or a wep page link on where to download the texture pack.
+ thanks.
