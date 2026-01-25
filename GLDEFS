@@ -52,11 +52,13 @@ material Texture "ceil3_5"
 {
 Shader "shaders/parallax2.fp"
 
-normal "materials/normalmaps/auto/CRATOP1.dds"
+normal "materials/normalmaps/auto/ceil3_5.dds"
 metallic "materials/metallic/auto/brown1.dds"
 roughness "materials/roughness/auto/FLAT10.dds"
 ao "materials/ao/auto/ceil3_5.dds"
+specular "materials/specular/auto/ceil3_5.dds"
 Texture tex_heightmap "materials/heightmaps/flat5_1.dds"
+specularlevel 3
 }
 
 material texture BIGDOOR1  { 
