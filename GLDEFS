@@ -20,7 +20,7 @@ normal "materials/normalmaps/auto/ceil3_5.dds"
 metallic "materials/metallic/auto/brown1.dds"
 roughness "materials/roughness/auto/ceil3_5.dds"
 ao "materials/ao/auto/ceil3_5.dds"
-//Texture tex_heightmap "materials/heightmaps/ceil3_5.dds"
+Texture tex_heightmap "materials/heightmaps/ceil3_5.dds"
 }
 
 material texture BIGDOOR1  { 
