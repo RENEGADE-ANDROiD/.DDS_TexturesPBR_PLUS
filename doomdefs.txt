@@ -32,8 +32,8 @@ material texture MODELS/BloodSpot/bigbloodpool.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/bigbloodpool.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -45,8 +45,8 @@ material texture MODELS/BloodSpot/bloodpool.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/bloodpool.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -58,8 +58,8 @@ material texture MODELS/BloodSpot/bloodpool2.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/bloodpool2.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -71,8 +71,8 @@ material texture MODELS/BloodSpot/bloodspothd.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/bloodspothd.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -84,8 +84,8 @@ material texture MODELS/BloodSpot/bloodspothd2.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/bloodspothd2.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -97,8 +97,8 @@ material texture MODELS/BloodSpot/DECBLOD.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/DECBLOD.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -110,8 +110,8 @@ material texture MODELS/BloodSpot/FRPL.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/FRPL.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -123,8 +123,8 @@ material texture MODELS/BloodSpot/FRPR.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/FRPR.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -136,8 +136,8 @@ material texture MODELS/BloodSpot/FTPL.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/FTPL.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
@@ -149,12 +149,11 @@ material texture MODELS/BloodSpot/FTPR.png  {
 	shader "SHADERS/env.fp"
 	texture displacement "MATERIALS2/ENV/env3.dds"
 	texture envmask "MATERIALS2/ENVMASK/FTPR.dds"
-	normal MATERIALS2/NORMAL/normal.dds
-	specular MATERIALS2/SPEC/spec.dds
+	normal materials/normalmaps/auto/normal.dds
+	specular materials/specular/auto/spec.dds
 	specularlevel 0.4
 	glossiness 40
 }
-
 
 //DR4
 
@@ -164,256 +163,256 @@ material texture MODELS/BloodSpot/FTPR.png  {
 
 material texture Sw1 //original texture
 { 
-   normal "normalmaps/water/nsw1.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw1.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw2 //original texture
 { 
-   normal "normalmaps/water/nsw2.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw2.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw3 //original texture
 { 
-   normal "normalmaps/water/nsw3.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw3.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw4 //original texture
 { 
-   normal "normalmaps/water/nsw4.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw4.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw5 //original texture
 { 
-   normal "normalmaps/water/nsw5.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw5.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw6 //original texture
 { 
-   normal "normalmaps/water/nsw6.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw6.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw7 //original texture
 { 
-   normal "normalmaps/water/nsw7.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw7.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw8 //original texture
 { 
-   normal "normalmaps/water/nsw8.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw8.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw9 //original texture
 { 
-   normal "normalmaps/water/nsw9.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw9.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw10 //original texture
 { 
-   normal "normalmaps/water/nsw10.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw10.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw11 //original texture
 { 
-   normal "normalmaps/water/nsw11.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw11.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw12 //original texture
 { 
-   normal "normalmaps/water/nsw12.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw12.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw13 //original texture
 { 
-   normal "normalmaps/water/nsw13.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw13.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw14 //original texture
 { 
-   normal "normalmaps/water/nsw14.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw14.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw15 //original texture
 { 
-   normal "normalmaps/water/nsw15.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw15.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw16 //original texture
 { 
-   normal "normalmaps/water/nsw16.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw16.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw17 //original texture
 { 
-   normal "normalmaps/water/nsw17.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw17.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw18 //original texture
 { 
-   normal "normalmaps/water/nsw18.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw18.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw19 //original texture
 { 
-   normal "normalmaps/water/nsw19.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw19.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw20 //original texture
 { 
-   normal "normalmaps/water/nsw20.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw20.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw21 //original texture
 { 
-   normal "normalmaps/water/nsw21.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw21.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw22 //original texture
 { 
-   normal "normalmaps/water/nsw22.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw22.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw23 //original texture
 { 
-   normal "normalmaps/water/nsw23.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw23.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw24 //original texture
 { 
-   normal "normalmaps/water/nsw24.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw24.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw25 //original texture
 { 
-   normal "normalmaps/water/nsw25.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw25.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw26 //original texture
 { 
-   normal "normalmaps/water/nsw26.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw26.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw27 //original texture
 { 
-   normal "normalmaps/water/nsw27.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw27.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw28 //original texture
 { 
-   normal "normalmaps/water/nsw28.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw28.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw29 //original texture
 { 
-   normal "normalmaps/water/nsw29.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw29.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw30 //original texture
 { 
-   normal "normalmaps/water/nsw30.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw30.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw31 //original texture
 { 
-   normal "normalmaps/water/nsw31.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw31.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture Sw32 //original texture
 { 
-   normal "normalmaps/water/nsw32.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw32.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
@@ -425,290 +424,290 @@ material texture Sw32 //original texture
 
 material texture SN1 //original texture
 { 
-   normal "normalmaps/water/nsw1.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw1.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN2 //original texture
 { 
-   normal "normalmaps/water/nsw2.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw2.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN3 //original texture
 { 
-   normal "normalmaps/water/nsw3.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw3.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN4 //original texture
 { 
-   normal "normalmaps/water/nsw4.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw4.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN5 //original texture
 { 
-   normal "normalmaps/water/nsw5.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw5.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN6 //original texture
 { 
-   normal "normalmaps/water/nsw6.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw6.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN7 //original texture
 { 
-   normal "normalmaps/water/nsw7.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw7.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN8 //original texture
 { 
-   normal "normalmaps/water/nsw8.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw8.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN9 //original texture
 { 
-   normal "normalmaps/water/nsw9.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw9.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN10 //original texture
 { 
-   normal "normalmaps/water/nsw10.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw10.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN11 //original texture
 { 
-   normal "normalmaps/water/nsw11.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw11.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN12 //original texture
 { 
-   normal "normalmaps/water/nsw12.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw12.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN13 //original texture
 { 
-   normal "normalmaps/water/nsw13.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw13.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN14 //original texture
 { 
-   normal "normalmaps/water/nsw14.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw14.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN15 //original texture
 { 
-   normal "normalmaps/water/nsw15.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw15.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN16 //original texture
 { 
-   normal "normalmaps/water/nsw16.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw16.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN17 //original texture
 { 
-   normal "normalmaps/water/nsw17.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw17.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN18 //original texture
 { 
-   normal "normalmaps/water/nsw18.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw18.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN19 //original texture
 { 
-   normal "normalmaps/water/nsw19.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw19.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN20 //original texture
 { 
-   normal "normalmaps/water/nsw20.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw20.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN21 //original texture
 { 
-   normal "normalmaps/water/nsw21.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw21.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN22 //original texture
 { 
-   normal "normalmaps/water/nsw22.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw22.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN23 //original texture
 { 
-   normal "normalmaps/water/nsw23.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw23.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN24 //original texture
 { 
-   normal "normalmaps/water/nsw24.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw24.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN25 //original texture
 { 
-   normal "normalmaps/water/nsw25.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw25.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN26 //original texture
 { 
-   normal "normalmaps/water/nsw26.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw26.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN27 //original texture
 { 
-   normal "normalmaps/water/nsw27.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw27.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN28 //original texture
 { 
-   normal "normalmaps/water/nsw28.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw28.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN29 //original texture
 { 
-   normal "normalmaps/water/nsw29.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw29.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN30 //original texture
 { 
-   normal "normalmaps/water/nsw30.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw30.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN31 //original texture
 { 
-   normal "normalmaps/water/nsw31.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw31.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 material texture SN32 //original texture
 { 
-   normal "normalmaps/water/nsw32.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw32.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
-   brightmap "Brightmaps/BMSN.png"
+   brightmap "Brightmaps/BMSN.dds"
 }
 
 
@@ -719,256 +718,256 @@ material texture SN32 //original texture
 
 material texture SB1 //original texture
 { 
-   normal "normalmaps/water/nsw1.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw1.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB2 //original texture
 { 
-   normal "normalmaps/water/nsw2.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw2.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB3 //original texture
 { 
-   normal "normalmaps/water/nsw3.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw3.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB4 //original texture
 { 
-   normal "normalmaps/water/nsw4.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw4.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB5 //original texture
 { 
-   normal "normalmaps/water/nsw5.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw5.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB6 //original texture
 { 
-   normal "normalmaps/water/nsw6.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw6.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB7 //original texture
 { 
-   normal "normalmaps/water/nsw7.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw7.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB8 //original texture
 { 
-   normal "normalmaps/water/nsw8.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw8.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB9 //original texture
 { 
-   normal "normalmaps/water/nsw9.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw9.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB10 //original texture
 { 
-   normal "normalmaps/water/nsw10.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw10.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB11 //original texture
 { 
-   normal "normalmaps/water/nsw11.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw11.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB12 //original texture
 { 
-   normal "normalmaps/water/nsw12.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw12.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB13 //original texture
 { 
-   normal "normalmaps/water/nsw13.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw13.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB14 //original texture
 { 
-   normal "normalmaps/water/nsw14.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw14.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB15 //original texture
 { 
-   normal "normalmaps/water/nsw15.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw15.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB16 //original texture
 { 
-   normal "normalmaps/water/nsw16.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw16.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB17 //original texture
 { 
-   normal "normalmaps/water/nsw17.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw17.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB18 //original texture
 { 
-   normal "normalmaps/water/nsw18.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw18.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB19 //original texture
 { 
-   normal "normalmaps/water/nsw19.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw19.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB20 //original texture
 { 
-   normal "normalmaps/water/nsw20.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw20.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB21 //original texture
 { 
-   normal "normalmaps/water/nsw21.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw21.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB22 //original texture
 { 
-   normal "normalmaps/water/nsw22.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw22.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB23 //original texture
 { 
-   normal "normalmaps/water/nsw23.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw23.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB24 //original texture
 { 
-   normal "normalmaps/water/nsw24.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw24.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB25 //original texture
 { 
-   normal "normalmaps/water/nsw25.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw25.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB26 //original texture
 { 
-   normal "normalmaps/water/nsw26.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw26.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB27 //original texture
 { 
-   normal "normalmaps/water/nsw27.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw27.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB28 //original texture
 { 
-   normal "normalmaps/water/nsw28.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw28.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB29 //original texture
 { 
-   normal "normalmaps/water/nsw29.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw29.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB30 //original texture
 { 
-   normal "normalmaps/water/nsw30.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw30.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB31 //original texture
 { 
-   normal "normalmaps/water/nsw31.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw31.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SB32 //original texture
 { 
-   normal "normalmaps/water/nsw32.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw32.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
@@ -981,256 +980,256 @@ material texture SB32 //original texture
 
 material texture SS1 //original texture
 { 
-   normal "normalmaps/water/nsw1.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw1.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS2 //original texture
 { 
-   normal "normalmaps/water/nsw2.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw2.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS3 //original texture
 { 
-   normal "normalmaps/water/nsw3.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw3.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS4 //original texture
 { 
-   normal "normalmaps/water/nsw4.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw4.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS5 //original texture
 { 
-   normal "normalmaps/water/nsw5.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw5.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS6 //original texture
 { 
-   normal "normalmaps/water/nsw6.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw6.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS7 //original texture
 { 
-   normal "normalmaps/water/nsw7.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw7.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS8 //original texture
 { 
-   normal "normalmaps/water/nsw8.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw8.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS9 //original texture
 { 
-   normal "normalmaps/water/nsw9.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw9.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS10 //original texture
 { 
-   normal "normalmaps/water/nsw10.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw10.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS11 //original texture
 { 
-   normal "normalmaps/water/nsw11.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw11.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS12 //original texture
 { 
-   normal "normalmaps/water/nsw12.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw12.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS13 //original texture
 { 
-   normal "normalmaps/water/nsw13.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw13.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS14 //original texture
 { 
-   normal "normalmaps/water/nsw14.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw14.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS15 //original texture
 { 
-   normal "normalmaps/water/nsw15.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw15.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS16 //original texture
 { 
-   normal "normalmaps/water/nsw16.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw16.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS17 //original texture
 { 
-   normal "normalmaps/water/nsw17.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw17.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS18 //original texture
 { 
-   normal "normalmaps/water/nsw18.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw18.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS19 //original texture
 { 
-   normal "normalmaps/water/nsw19.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw19.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS20 //original texture
 { 
-   normal "normalmaps/water/nsw20.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw20.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS21 //original texture
 { 
-   normal "normalmaps/water/nsw21.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw21.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS22 //original texture
 { 
-   normal "normalmaps/water/nsw22.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw22.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS23 //original texture
 { 
-   normal "normalmaps/water/nsw23.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw23.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS24 //original texture
 { 
-   normal "normalmaps/water/nsw24.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw24.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS25 //original texture
 { 
-   normal "normalmaps/water/nsw25.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw25.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS26 //original texture
 { 
-   normal "normalmaps/water/nsw26.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw26.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS27 //original texture
 { 
-   normal "normalmaps/water/nsw27.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw27.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS28 //original texture
 { 
-   normal "normalmaps/water/nsw28.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw28.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS29 //original texture
 { 
-   normal "normalmaps/water/nsw29.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw29.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS30 //original texture
 { 
-   normal "normalmaps/water/nsw30.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw30.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS31 //original texture
 { 
-   normal "normalmaps/water/nsw31.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw31.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
 
 material texture SS32 //original texture
 { 
-   normal "normalmaps/water/nsw32.png"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   normal "normalmaps/water/nsw32.dds"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "6"
    glossiness "15"
 }
