@@ -156,7 +156,7 @@ material texture "door3"
 	ao "materials/ao/auto/door3.dds"
 	texture displacement "materials/displacement/auto/door3.dds"	
 	glossiness 1.0
-	specularlevel 1.0
+	specularlevel 3.0
 }
 
 ////OTEX
@@ -238,8 +238,8 @@ ao "materials/ao/auto/ao_blank2.dds"
 material texture COMPUTE1  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/COMPUTE1.dds"
-	//normal MATERIALS/normalmaps/auto/COMPUTE1.dds
-	//specular MATERIALS/specular/auto/COMPUTE1.dds
+	normal MATERIALS/normalmaps/auto/COMPUTE1.dds
+	specular MATERIALS/specular/auto/COMPUTE1.dds
 	normal "materials/normalmaps/auto/compute1.dds"
 	metallic "materials/metallic/auto/compute1.dds"
 	roughness "materials/roughness/auto/compute1.dds"
@@ -254,8 +254,8 @@ material texture COMPUTE1  {
 material texture COMPUTE3  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/COMPUTE3.dds"
-	//normal MATERIALS/normalmaps/auto/COMPUTE3.dds
-	//specular MATERIALS/specular/auto/COMPUTE3.dds
+	normal MATERIALS/normalmaps/auto/COMPUTE3.dds
+	specular MATERIALS/specular/auto/COMPUTE3.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -265,8 +265,8 @@ material texture COMPUTE3  {
 material texture DOORBLU  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORBLU.dds"
-	//normal MATERIALS/normalmaps/auto/DOORBLU.dds
-	//specular MATERIALS/specular/auto/DOORBLU.dds
+	normal MATERIALS/normalmaps/auto/DOORBLU.dds
+	specular MATERIALS/specular/auto/DOORBLU.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -276,8 +276,8 @@ material texture DOORBLU  {
 material texture DOORBLU2  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORBLU2.dds"
-	//normal MATERIALS/normalmaps/auto/DOORBLU2.dds
-	//specular MATERIALS/specular/auto/DOORBLU2.dds
+	normal MATERIALS/normalmaps/auto/DOORBLU2.dds
+	specular MATERIALS/specular/auto/DOORBLU2.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -287,8 +287,8 @@ material texture DOORBLU2  {
 material texture DOORRED  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORRED.dds"
-	//normal MATERIALS/normalmaps/auto/DOORRED.dds
-	//specular MATERIALS/specular/auto/DOORRED.dds
+	normal MATERIALS/normalmaps/auto/DOORRED.dds
+	specular MATERIALS/specular/auto/DOORRED.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -298,8 +298,8 @@ material texture DOORRED  {
 material texture DOORRED2  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORRED2.dds"
-	//normal MATERIALS/normalmaps/auto/DOORRED2.dds
-	//specular MATERIALS/specular/auto/DOORRED2.dds
+	normal MATERIALS/normalmaps/auto/DOORRED2.dds
+	specular MATERIALS/specular/auto/DOORRED2.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -310,8 +310,8 @@ material texture DOORSTOP  {
 	//shader "SHADERS/env.fp"
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORSTOP.dds"
-	//normal MATERIALS/normalmaps/auto/DOORSTOP.dds
-	//specular MATERIALS/specular/auto/DOORSTOP.dds
+	normal MATERIALS/normalmaps/auto/DOORSTOP.dds
+	specular MATERIALS/specular/auto/DOORSTOP.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -322,8 +322,8 @@ material texture DOORTRAK  {
 	//shader "SHADERS/env.fp"
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORTRAK.dds"
-	//normal MATERIALS/normalmaps/auto/DOORTRAK.dds
-	//specular MATERIALS/specular/auto/DOORTRAK.dds
+	normal MATERIALS/normalmaps/auto/DOORTRAK.dds
+	specular MATERIALS/specular/auto/DOORTRAK.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -333,8 +333,8 @@ material texture DOORTRAK  {
 material texture DOORYEL  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORYEL.dds"
-	//normal MATERIALS/normalmaps/auto/DOORYEL.dds
-	//specular MATERIALS/specular/auto/DOORYEL.dds
+	normal MATERIALS/normalmaps/auto/DOORYEL.dds
+	specular MATERIALS/specular/auto/DOORYEL.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -344,8 +344,8 @@ material texture DOORYEL  {
 material texture DOORYEL2  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORYEL2.dds"
-	//normal MATERIALS/normalmaps/auto/DOORYEL2.dds
-	//specular MATERIALS/specular/auto/DOORYEL2.dds
+	normal MATERIALS/normalmaps/auto/DOORYEL2.dds
+	specular MATERIALS/specular/auto/DOORYEL2.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -356,8 +356,8 @@ material texture DOORYEL2  {
 material texture LITEBLU1  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU1.dds"
-	//normal MATERIALS/normalmaps/auto/LITEBLU1.dds
-	//specular MATERIALS/specular/auto/LITEBLU1.dds
+	normal MATERIALS/normalmaps/auto/LITEBLU1.dds
+	specular MATERIALS/specular/auto/LITEBLU1.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -367,8 +367,8 @@ material texture LITEBLU1  {
 material texture LITEBLU2  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU2.dds"
-	//normal MATERIALS/normalmaps/auto/LITEBLU2.dds
-	//specular MATERIALS/specular/auto/LITEBLU2.dds
+	normal MATERIALS/normalmaps/auto/LITEBLU2.dds
+	specular MATERIALS/specular/auto/LITEBLU2.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -378,8 +378,8 @@ material texture LITEBLU2  {
 material texture LITEBLU3  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU3.dds"
-	//normal MATERIALS/normalmaps/auto/LITEBLU3.dds
-	//specular MATERIALS/specular/auto/LITEBLU3.dds
+	normal MATERIALS/normalmaps/auto/LITEBLU3.dds
+	specular MATERIALS/specular/auto/LITEBLU3.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -389,8 +389,8 @@ material texture LITEBLU3  {
 material texture LITEBLU4  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU4.dds"
-	//normal MATERIALS/normalmaps/auto/LITEBLU4.dds
-	//specular MATERIALS/specular/auto/LITEBLU4.dds
+	normal MATERIALS/normalmaps/auto/LITEBLU4.dds
+	specular MATERIALS/specular/auto/LITEBLU4.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -400,7 +400,7 @@ material texture LITEBLU4  {
 material texture LITEMET  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEMET.dds"
-	//normal MATERIALS/normalmaps/auto/LITEMET.dds
+	normal MATERIALS/normalmaps/auto/LITEMET.dds
 	specular MATERIALS/specular/auto/LITEMET.dds
 	specularlevel 4.5
 	glossiness 35
@@ -411,8 +411,8 @@ material texture LITEMET  {
 material texture LITERED  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITERED.dds"
-	//normal MATERIALS/normalmaps/auto/LITERED.dds
-	//specular MATERIALS/specular/auto/LITERED.dds
+	normal MATERIALS/normalmaps/auto/LITERED.dds
+	specular MATERIALS/specular/auto/LITERED.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -632,7 +632,7 @@ material texture "GRASS1"
 	shader "shaders/displacement.fp"
 	texture displacement "materials/displacement/auto/GRASS1_d.dds"	
 	glossiness 2.0
-	specularlevel 1.0
+	specularlevel 3.0
 }
 
 GLOW
@@ -675,63 +675,63 @@ TEXTURE "TLITE6_6", E5D4BC, 128, FULLBRIGHT
 material Texture "doorblu"
 {
 normal "materials/normalmaps/auto/doorblu.dds"
-//roughness "//materials/roughness/auto/doorblu.dds"
-//ao "materials/ao/auto/doorstop.dds"
-//metallic "materials/metallic/auto/doorblu.dds"
+roughness "materials/roughness/auto/doorblu.dds"
+ao "materials/ao/auto/doorstop.dds"
+metallic "materials/metallic/auto/doorblu.dds"
 brightmap "materials/Brightmaps/auto/doorblu.dds"
 }
 
 material Texture "doorred"
 {
 normal "materials/normalmaps/auto/doorblu.dds"
-//roughness "//materials/roughness/auto/doorblu.dds"
-//ao "materials/ao/auto/doorstop.dds"
-//metallic "materials/metallic/auto/doorblu.dds"
+roughness "materials/roughness/auto/doorblu.dds"
+ao "materials/ao/auto/doorstop.dds"
+metallic "materials/metallic/auto/doorblu.dds"
 brightmap "materials/Brightmaps/auto/doorred.dds"
 }
 
 material Texture "dooryel"
 {
 normal "materials/normalmaps/auto/doorblu.dds"
-//roughness "//materials/roughness/auto/doorblu.dds"
-//ao "materials/ao/auto/doorstop.dds"
-//metallic "materials/metallic/auto/doorblu.dds"
+roughness "materials/roughness/auto/doorblu.dds"
+ao "materials/ao/auto/doorstop.dds"
+metallic "materials/metallic/auto/doorblu.dds"
 brightmap "materials/Brightmaps/auto/dooryel.dds"
 }
 
 material Texture "liteblu1"
 {
 normal "materials/normalmaps/auto/liteblu1.dds"
-//roughness "materials/roughness/auto/liteblu1.dds"
-//ao "materials/ao/auto/doorstop.dds"
-//metallic "materials/metallic/auto/liteblu1.dds"
+roughness "materials/roughness/auto/liteblu1.dds"
+ao "materials/ao/auto/doorstop.dds"
+metallic "materials/metallic/auto/liteblu1.dds"
 brightmap "materials/Brightmaps/auto/liteblu1.dds"
 }
 
 material Texture "liteblu2"
 {
 normal "materials/normalmaps/auto/liteblu2.dds"
-//roughness "materials/roughness/auto/liteblu2.dds"
-//ao "materials/ao/auto/liteblu3.dds"
-//metallic "materials/metallic/auto/liteblu2.dds"
+roughness "materials/roughness/auto/liteblu2.dds"
+ao "materials/ao/auto/liteblu3.dds"
+metallic "materials/metallic/auto/liteblu2.dds"
 brightmap "materials/Brightmaps/auto/liteblu2.dds"
 }
 
 material Texture "liteblu4"
 {
 normal "materials/normalmaps/auto/liteblu4.dds"
-//roughness "materials/roughness/auto/liteblu4.dds"
-//ao "materials/ao/auto/liteblu3.dds"
-//metallic "materials/metallic/auto/liteblu4.dds"
+roughness "materials/roughness/auto/liteblu4.dds"
+ao "materials/ao/auto/liteblu3.dds"
+metallic "materials/metallic/auto/liteblu4.dds"
 brightmap "materials/Brightmaps/auto/liteblu4.dds"
 }
 
 material Texture "liteblu3"
 {
 normal "materials/normalmaps/auto/liteblu3.dds"
-//roughness "materials/roughness/auto/liteblu3.dds"
-//ao "materials/ao/auto/liteblu3.dds"
-//metallic "materials/metallic/auto/liteblu3.dds"
+roughness "materials/roughness/auto/liteblu3.dds"
+ao "materials/ao/auto/liteblu3.dds"
+metallic "materials/metallic/auto/liteblu3.dds"
 brightmap "materials/Brightmaps/auto/liteblu3.dds"
 }
 
@@ -745,7 +745,7 @@ material texture "BRNPOIS"
 	specular "materials/specular/auto/BRNPOIS.dds"
 	texture displacement "materials/displacement/BRNPOIS.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "BRNPOIS2"
@@ -755,7 +755,7 @@ material texture "BRNPOIS2"
 	specular "materials/specular/auto/BRNPOIS2.dds"
 	texture displacement "materials/displacement/BRNPOIS2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 
@@ -767,7 +767,7 @@ material texture "BROWN1"
 	specular "materials/specular/auto/BROWN1.dds"
 	texture displacement "materials/displacement/BROWN1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material Texture "brown1"
@@ -788,7 +788,7 @@ material texture "BROWNGRN"
 	specular "materials/specular/auto/BROWNGRN.dds"
 	texture displacement "materials/displacement/BROWNGRN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "BROWNPIP"
@@ -798,7 +798,7 @@ material texture "BROWNPIP"
 	specular "materials/specular/auto/BROWNPIP.dds"
 	texture displacement "materials/displacement/BROWNPIP.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material Texture "brownpip"
@@ -826,7 +826,7 @@ material texture "CEMENT3"
 	specular "materials/specular/auto/CEMENT3.dds"
 	texture displacement "materials/displacement/CEMENT3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 
@@ -837,7 +837,7 @@ material texture "COMPOHSO"
 	specular "materials/specular/auto/COMPOHSO.dds"
 	texture displacement "materials/displacement/COMPOHSO.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "COMPSPAN"
@@ -847,7 +847,7 @@ material texture "COMPSPAN"
 	specular "materials/specular/auto/COMPSPAN.dds"
 	texture displacement "materials/displacement/COMPSPAN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "COMPTILE"
@@ -857,7 +857,7 @@ material texture "COMPTILE"
 	specular "materials/specular/auto/COMPTILE.dds"
 	texture displacement "materials/displacement/COMPTILE.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "COMPWERD"
@@ -867,7 +867,7 @@ material texture "COMPWERD"
 	specular "materials/specular/auto/COMPWERD.dds"
 	texture displacement "materials/displacement/COMPWERD.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "CRATE1"
@@ -877,7 +877,7 @@ material texture "CRATE1"
 	specular "materials/specular/auto/CRATE1.dds"
 	texture displacement "materials/displacement/CRATE1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "CRATE2"
@@ -887,7 +887,7 @@ material texture "CRATE2"
 	specular "materials/specular/auto/CRATE2.dds"
 	texture displacement "materials/displacement/CRATE2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "CRATELIT"
@@ -897,7 +897,7 @@ material texture "CRATELIT"
 	specular "materials/specular/auto/CRATELIT.dds"
 	texture displacement "materials/displacement/CRATELIT.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "CRATWIDE"
@@ -907,7 +907,7 @@ material texture "CRATWIDE"
 	specular "materials/specular/auto/CRATWIDE.dds"
 	texture displacement "materials/displacement/CRATWIDE.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "DOORHI"
@@ -917,7 +917,7 @@ material texture "DOORHI"
 	specular "materials/specular/auto/DOORHI.dds"
 	texture displacement "materials/displacement/DOORHI.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "EXITSIGN"
@@ -927,7 +927,7 @@ material texture "EXITSIGN"
 	specular "materials/specular/auto/EXITSIGN.dds"
 	texture displacement "materials/displacement/EXITSIGN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "EXITSTON"
@@ -937,7 +937,7 @@ material texture "EXITSTON"
 	specular "materials/specular/auto/EXITSTON.dds"
 	texture displacement "materials/displacement/EXITSTON.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "GRAY1"
@@ -947,7 +947,7 @@ material texture "GRAY1"
 	specular "materials/specular/auto/GRAY1.dds"
 	texture displacement "materials/displacement/GRAY1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "GRAY2"
@@ -957,7 +957,7 @@ material texture "GRAY2"
 	specular "materials/specular/auto/GRAY2.dds"
 	texture displacement "materials/displacement/GRAY2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "GRAY4"
@@ -967,7 +967,7 @@ material texture "GRAY4"
 	specular "materials/specular/auto/GRAY4.dds"
 	texture displacement "materials/displacement/GRAY4.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "GRAY5"
@@ -977,7 +977,7 @@ material texture "GRAY5"
 	specular "materials/specular/auto/GRAY5.dds"
 	texture displacement "materials/displacement/GRAY5.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "GRAYDANG"
@@ -987,7 +987,7 @@ material texture "GRAYDANG"
 	specular "materials/specular/auto/GRAYDANG.dds"
 	texture displacement "materials/displacement/GRAYDANG.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 
@@ -999,7 +999,7 @@ material texture "GSTONE1"
 	specular "materials/specular/auto/GSTONE1.dds"
 	texture displacement "materials/displacement/GSTONE1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "GSTONE2"
@@ -1009,7 +1009,7 @@ material texture "GSTONE2"
 	specular "materials/specular/auto/GSTONE2.dds"
 	texture displacement "materials/displacement/GSTONE2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 
@@ -1021,7 +1021,7 @@ material texture "ICKDOOR1"
 	specular "materials/specular/auto/ICKDOOR1.dds"
 	texture displacement "materials/displacement/ICKDOOR1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "ICKWALL1"
@@ -1031,7 +1031,7 @@ material texture "ICKWALL1"
 	specular "materials/specular/auto/ICKWALL1.dds"
 	texture displacement "materials/displacement/ICKWALL1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "ICKWALL2"
@@ -1041,7 +1041,7 @@ material texture "ICKWALL2"
 	specular "materials/specular/auto/ICKWALL2.dds"
 	texture displacement "materials/displacement/ICKWALL2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "ICKWALL3"
@@ -1051,7 +1051,7 @@ material texture "ICKWALL3"
 	specular "materials/specular/auto/ICKWALL3.dds"
 	texture displacement "materials/displacement/ICKWALL3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "ICKWALL4"
@@ -1061,7 +1061,7 @@ material texture "ICKWALL4"
 	specular "materials/specular/auto/ICKWALL4.dds"
 	texture displacement "materials/displacement/ICKWALL4.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "ICKWALL5"
@@ -1071,7 +1071,7 @@ material texture "ICKWALL5"
 	specular "materials/specular/auto/ICKWALL5.dds"
 	texture displacement "materials/displacement/ICKWALL5.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "ICKWALL6"
@@ -1081,7 +1081,7 @@ material texture "ICKWALL6"
 	specular "materials/specular/auto/ICKWALL6.dds"
 	texture displacement "materials/displacement/ICKWALL6.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "LITE96"
@@ -1091,7 +1091,7 @@ material texture "LITE96"
 	specular "materials/specular/auto/LITE96.dds"
 	texture displacement "materials/displacement/LITE96.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "LITEMET"
@@ -1101,7 +1101,7 @@ material texture "LITEMET"
 	specular "materials/specular/auto/LITEMET.dds"
 	texture displacement "materials/displacement/LITEMET.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "LITESTON"
@@ -1111,7 +1111,7 @@ material texture "LITESTON"
 	specular "materials/specular/auto/LITESTON.dds"
 	texture displacement "materials/displacement/LITESTON.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "METAL"
@@ -1121,7 +1121,7 @@ material texture "METAL"
 	specular "materials/specular/auto/METAL.dds"
 	texture displacement "materials/displacement/METAL.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 
@@ -1133,7 +1133,7 @@ material texture "SHAWN3"
 	specular "materials/specular/auto/SHAWN3.dds"
 	texture displacement "materials/displacement/SHAWN3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SP_HOT1"
@@ -1143,7 +1143,7 @@ material texture "SP_HOT1"
 	specular "materials/specular/auto/SP_HOT1.dds"
 	texture displacement "materials/displacement/SP_HOT1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARBR2"
@@ -1153,7 +1153,7 @@ material texture "STARBR2"
 	specular "materials/specular/auto/STARBR2.dds"
 	texture displacement "materials/displacement/STARBR2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARG1"
@@ -1163,7 +1163,7 @@ material texture "STARG1"
 	specular "materials/specular/auto/STARG1.dds"
 	texture displacement "materials/displacement/STARG1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARG2"
@@ -1173,7 +1173,7 @@ material texture "STARG2"
 	specular "materials/specular/auto/STARG2.dds"
 	texture displacement "materials/displacement/STARG2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARG3"
@@ -1183,7 +1183,7 @@ material texture "STARG3"
 	specular "materials/specular/auto/STARG3.dds"
 	texture displacement "materials/displacement/STARG3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARGR1"
@@ -1193,7 +1193,7 @@ material texture "STARGR1"
 	specular "materials/specular/auto/STARGR1.dds"
 	texture displacement "materials/displacement/STARGR1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARGR2"
@@ -1203,7 +1203,7 @@ material texture "STARGR2"
 	specular "materials/specular/auto/STARGR2.dds"
 	texture displacement "materials/displacement/STARGR2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARTAN1"
@@ -1213,7 +1213,7 @@ material texture "STARTAN1"
 	specular "materials/specular/auto/STARTAN1.dds"
 	texture displacement "materials/displacement/STARTAN1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARTAN2"
@@ -1223,7 +1223,7 @@ material texture "STARTAN2"
 	specular "materials/specular/auto/STARTAN2.dds"
 	texture displacement "materials/displacement/STARTAN2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STARTAN3"
@@ -1233,7 +1233,7 @@ material texture "STARTAN3"
 	specular "materials/specular/auto/STARTAN3.dds"
 	texture displacement "materials/displacement/STARTAN3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STONE2"
@@ -1243,7 +1243,7 @@ material texture "STONE2"
 	specular "materials/specular/auto/STONE2.dds"
 	texture displacement "materials/displacement/STONE2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STONE3"
@@ -1253,7 +1253,7 @@ material texture "STONE3"
 	specular "materials/specular/auto/STONE3.dds"
 	texture displacement "materials/displacement/STONE3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "STONGARG"
@@ -1263,7 +1263,7 @@ material texture "STONGARG"
 	specular "materials/specular/auto/STONGARG.dds"
 	texture displacement "materials/displacement/STONGARG.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SUPPORT2"
@@ -1273,7 +1273,7 @@ material texture "SUPPORT2"
 	specular "materials/specular/auto/SUPPORT2.dds"
 	texture displacement "materials/displacement/SUPPORT2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1BRCOM"
@@ -1283,7 +1283,7 @@ material texture "SW1BRCOM"
 	specular "materials/specular/auto/SW1BRCOM.dds"
 	texture displacement "materials/displacement/SW1BRCOM.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1BRN1"
@@ -1293,7 +1293,7 @@ material texture "SW1BRN1"
 	specular "materials/specular/auto/SW1BRN1.dds"
 	texture displacement "materials/displacement/SW1BRN1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1BRN2"
@@ -1303,7 +1303,7 @@ material texture "SW1BRN2"
 	specular "materials/specular/auto/SW1BRN2.dds"
 	texture displacement "materials/displacement/SW1BRN2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1BRNGN"
@@ -1313,7 +1313,7 @@ material texture "SW1BRNGN"
 	specular "materials/specular/auto/SW1BRNGN.dds"
 	texture displacement "materials/displacement/SW1BRNGN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1BROWN"
@@ -1323,7 +1323,7 @@ material texture "SW1BROWN"
 	specular "materials/specular/auto/SW1BROWN.dds"
 	texture displacement "materials/displacement/SW1BROWN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1CMT"
@@ -1333,7 +1333,7 @@ material texture "SW1CMT"
 	specular "materials/specular/auto/SW1CMT.dds"
 	texture displacement "materials/displacement/SW1CMT.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1COMP"
@@ -1343,7 +1343,7 @@ material texture "SW1COMP"
 	specular "materials/specular/auto/SW1COMP.dds"
 	texture displacement "materials/displacement/SW1COMP.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1GRAY"
@@ -1353,7 +1353,7 @@ material texture "SW1GRAY"
 	specular "materials/specular/auto/SW1GRAY.dds"
 	texture displacement "materials/displacement/SW1GRAY.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1GRAY1"
@@ -1363,7 +1363,7 @@ material texture "SW1GRAY1"
 	specular "materials/specular/auto/SW1GRAY1.dds"
 	texture displacement "materials/displacement/SW1GRAY1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1GSTON"
@@ -1373,7 +1373,7 @@ material texture "SW1GSTON"
 	specular "materials/specular/auto/SW1GSTON.dds"
 	texture displacement "materials/displacement/SW1GSTON.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1HOT"
@@ -1383,7 +1383,7 @@ material texture "SW1HOT"
 	specular "materials/specular/auto/SW1HOT.dds"
 	texture displacement "materials/displacement/SW1HOT.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1METAL"
@@ -1393,7 +1393,7 @@ material texture "SW1METAL"
 	specular "materials/specular/auto/SW1METAL.dds"
 	texture displacement "materials/displacement/SW1METAL.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1STARG"
@@ -1403,7 +1403,7 @@ material texture "SW1STARG"
 	specular "materials/specular/auto/SW1STARG.dds"
 	texture displacement "materials/displacement/SW1STARG.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1STON1"
@@ -1413,7 +1413,7 @@ material texture "SW1STON1"
 	specular "materials/specular/auto/SW1STON1.dds"
 	texture displacement "materials/displacement/SW1STON1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1STON2"
@@ -1423,7 +1423,7 @@ material texture "SW1STON2"
 	specular "materials/specular/auto/SW1STON2.dds"
 	texture displacement "materials/displacement/SW1STON2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1STRTN"
@@ -1433,7 +1433,7 @@ material texture "SW1STRTN"
 	specular "materials/specular/auto/SW1STRTN.dds"
 	texture displacement "materials/displacement/SW1STRTN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1VINE"
@@ -1443,7 +1443,7 @@ material texture "SW1VINE"
 	specular "materials/specular/auto/SW1VINE.dds"
 	texture displacement "materials/displacement/SW1VINE.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW1WOOD"
@@ -1453,7 +1453,7 @@ material texture "SW1WOOD"
 	specular "materials/specular/auto/SW1WOOD.dds"
 	texture displacement "materials/displacement/SW1WOOD.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2BRCOM"
@@ -1463,7 +1463,7 @@ material texture "SW2BRCOM"
 	specular "materials/specular/auto/SW2BRCOM.dds"
 	texture displacement "materials/displacement/SW2BRCOM.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2BRN1"
@@ -1473,7 +1473,7 @@ material texture "SW2BRN1"
 	specular "materials/specular/auto/SW2BRN1.dds"
 	texture displacement "materials/displacement/SW2BRN1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2BRN2"
@@ -1483,7 +1483,7 @@ material texture "SW2BRN2"
 	specular "materials/specular/auto/SW2BRN2.dds"
 	texture displacement "materials/displacement/SW2BRN2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2BRNGN"
@@ -1493,7 +1493,7 @@ material texture "SW2BRNGN"
 	specular "materials/specular/auto/SW2BRNGN.dds"
 	texture displacement "materials/displacement/SW2BRNGN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2BROWN"
@@ -1503,7 +1503,7 @@ material texture "SW2BROWN"
 	specular "materials/specular/auto/SW2BROWN.dds"
 	texture displacement "materials/displacement/SW2BROWN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2CMT"
@@ -1513,7 +1513,7 @@ material texture "SW2CMT"
 	specular "materials/specular/auto/SW2CMT.dds"
 	texture displacement "materials/displacement/SW2CMT.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2COMP"
@@ -1523,7 +1523,7 @@ material texture "SW2COMP"
 	specular "materials/specular/auto/SW2COMP.dds"
 	texture displacement "materials/displacement/SW2COMP.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2GRAY"
@@ -1533,7 +1533,7 @@ material texture "SW2GRAY"
 	specular "materials/specular/auto/SW2GRAY.dds"
 	texture displacement "materials/displacement/SW2GRAY.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2GRAY1"
@@ -1543,7 +1543,7 @@ material texture "SW2GRAY1"
 	specular "materials/specular/auto/SW2GRAY1.dds"
 	texture displacement "materials/displacement/SW2GRAY1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2GSTON"
@@ -1553,7 +1553,7 @@ material texture "SW2GSTON"
 	specular "materials/specular/auto/SW2GSTON.dds"
 	texture displacement "materials/displacement/SW2GSTON.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2HOT"
@@ -1563,7 +1563,7 @@ material texture "SW2HOT"
 	specular "materials/specular/auto/SW2HOT.dds"
 	texture displacement "materials/displacement/SW2HOT.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2METAL"
@@ -1573,7 +1573,7 @@ material texture "SW2METAL"
 	specular "materials/specular/auto/SW2METAL.dds"
 	texture displacement "materials/displacement/SW2METAL.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2STARG"
@@ -1583,7 +1583,7 @@ material texture "SW2STARG"
 	specular "materials/specular/auto/SW2STARG.dds"
 	texture displacement "materials/displacement/SW2STARG.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2STON1"
@@ -1593,7 +1593,7 @@ material texture "SW2STON1"
 	specular "materials/specular/auto/SW2STON1.dds"
 	texture displacement "materials/displacement/SW2STON1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2STON2"
@@ -1603,7 +1603,7 @@ material texture "SW2STON2"
 	specular "materials/specular/auto/SW2STON2.dds"
 	texture displacement "materials/displacement/SW2STON2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "SW2STRTN"
@@ -1613,7 +1613,7 @@ material texture "SW2STRTN"
 	specular "materials/specular/auto/SW2STRTN.dds"
 	texture displacement "materials/displacement/SW2STRTN.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 
@@ -1625,7 +1625,7 @@ material texture "SW2WOOD"
 	specular "materials/specular/auto/SW2WOOD.dds"
 	texture displacement "materials/displacement/SW2WOOD.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "WOOD1"
@@ -1635,7 +1635,7 @@ material texture "WOOD1"
 	specular "materials/specular/auto/WOOD1.dds"
 	texture displacement "materials/displacement/WOOD1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "WOOD3"
@@ -1645,7 +1645,7 @@ material texture "WOOD3"
 	specular "materials/specular/auto/WOOD3.dds"
 	texture displacement "materials/displacement/WOOD3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "WOOD4"
@@ -1655,7 +1655,7 @@ material texture "WOOD4"
 	specular "materials/specular/auto/WOOD4.dds"
 	texture displacement "materials/displacement/WOOD4.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "WOOD5"
@@ -1665,7 +1665,7 @@ material texture "WOOD5"
 	specular "materials/specular/auto/WOOD5.dds"
 	texture displacement "materials/displacement/WOOD5.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "WOODGARG"
@@ -1675,7 +1675,7 @@ material texture "WOODGARG"
 	specular "materials/specular/auto/WOODGARG.dds"
 	texture displacement "materials/displacement/WOODGARG.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "WOODSKUL"
@@ -1685,7 +1685,7 @@ material texture "WOODSKUL"
 	specular "materials/specular/auto/WOODSKUL.dds"
 	texture displacement "materials/displacement/WOODSKUL.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "cons1_1"
@@ -1695,7 +1695,7 @@ material texture "cons1_1"
 	specular "materials/specular/auto/cons1_1.dds"
 	texture displacement "materials/displacement/cons1_1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "cons1_5"
@@ -1705,7 +1705,7 @@ material texture "cons1_5"
 	specular "materials/specular/auto/cons1_5.dds"
 	texture displacement "materials/displacement/cons1_5.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "cons1_7"
@@ -1715,7 +1715,7 @@ material texture "cons1_7"
 	specular "materials/specular/auto/cons1_7.dds"
 	texture displacement "materials/displacement/cons1_7.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat1"
@@ -1728,7 +1728,7 @@ roughness "materials/roughness/auto/flat1.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 	texture displacement "materials/displacement/flat1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat17"
@@ -1738,7 +1738,7 @@ material texture "flat17"
 	specular "materials/specular/auto/flat17.dds"
 	texture displacement "materials/displacement/flat17.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat18"
@@ -1748,7 +1748,7 @@ material texture "flat18"
 	specular "materials/specular/auto/flat18.dds"
 	texture displacement "materials/displacement/flat18.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat2"
@@ -1762,7 +1762,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 brightmap "materials/Brightmaps/auto/flat2.dds"
 	texture displacement "materials/displacement/flat2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material Flat "flat23"
@@ -1780,7 +1780,7 @@ material texture "flat22"
 	specular "materials/specular/auto/flat22.dds"
 	texture displacement "materials/displacement/flat22.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat3"
@@ -1790,7 +1790,7 @@ material texture "flat3"
 	specular "materials/specular/auto/flat3.dds"
 	texture displacement "materials/displacement/flat3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat4"
@@ -1800,7 +1800,7 @@ material texture "flat4"
 	specular "materials/specular/auto/flat4.dds"
 	texture displacement "materials/displacement/flat4.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat5_2"
@@ -1810,7 +1810,7 @@ material texture "flat5_2"
 	specular "materials/specular/auto/flat5_2.dds"
 	texture displacement "materials/displacement/flat5_2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat8"
@@ -1820,7 +1820,7 @@ material texture "flat8"
 	specular "materials/specular/auto/flat8.dds"
 	texture displacement "materials/displacement/flat8.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "flat9"
@@ -1830,7 +1830,7 @@ material texture "flat9"
 	specular "materials/specular/auto/flat9.dds"
 	texture displacement "materials/displacement/flat9.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor0_1"
@@ -1840,7 +1840,7 @@ material texture "floor0_1"
 	specular "materials/specular/auto/floor0_1.dds"
 	texture displacement "materials/displacement/floor0_1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor0_2"
@@ -1850,7 +1850,7 @@ material texture "floor0_2"
 	specular "materials/specular/auto/floor0_2.dds"
 	texture displacement "materials/displacement/floor0_2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor0_3"
@@ -1860,7 +1860,7 @@ material texture "floor0_3"
 	specular "materials/specular/auto/floor0_3.dds"
 	texture displacement "materials/displacement/floor0_3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor0_5"
@@ -1870,7 +1870,7 @@ material texture "floor0_5"
 	specular "materials/specular/auto/floor0_5.dds"
 	texture displacement "materials/displacement/floor0_5.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor0_6"
@@ -1880,7 +1880,7 @@ material texture "floor0_6"
 	specular "materials/specular/auto/floor0_6.dds"
 	texture displacement "materials/displacement/floor0_6.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor0_7"
@@ -1890,7 +1890,7 @@ material texture "floor0_7"
 	specular "materials/specular/auto/floor0_7.dds"
 	texture displacement "materials/displacement/floor0_7.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material Flat "floor1_6"
@@ -1912,7 +1912,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 brightmap "materials/Brightmaps/auto/floor1_7.dds"
 	texture displacement "materials/displacement/floor1_7.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor4_1"
@@ -1922,7 +1922,7 @@ material texture "floor4_1"
 	specular "materials/specular/auto/floor4_1.dds"
 	texture displacement "materials/displacement/floor4_1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material Flat "ceil4_2"
@@ -1954,7 +1954,7 @@ roughness "materials/roughness/auto/floor4_5.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 	texture displacement "materials/displacement/floor4_5.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor4_6"
@@ -1967,7 +1967,7 @@ roughness "materials/roughness/auto/floor4_6.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 	texture displacement "materials/displacement/floor4_6.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor4_8"
@@ -1977,7 +1977,7 @@ material texture "floor4_8"
 	specular "materials/specular/auto/floor4_8.dds"
 	texture displacement "materials/displacement/floor4_8.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor5_1"
@@ -1990,7 +1990,7 @@ material texture "floor5_1"
 	ao "materials/ao/auto/floor4_8.dds"
 	texture displacement "materials/displacement/floor5_1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor5_2"
@@ -2000,7 +2000,7 @@ material texture "floor5_2"
 	specular "materials/specular/auto/floor5_2.dds"
 	texture displacement "materials/displacement/floor5_2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor5_3"
@@ -2010,7 +2010,7 @@ material texture "floor5_3"
 	specular "materials/specular/auto/floor5_3.dds"
 	texture displacement "materials/displacement/floor5_3.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor5_4"
@@ -2023,7 +2023,7 @@ roughness "materials/roughness/auto/floor5_4.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 	texture displacement "materials/displacement/floor5_4.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "floor7_1"
@@ -2033,7 +2033,7 @@ material texture "floor7_1"
 	specular "materials/specular/auto/floor7_1.dds"
 	texture displacement "materials/displacement/floor7_1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "mflr8_1"
@@ -2043,7 +2043,7 @@ material texture "mflr8_1"
 	specular "materials/specular/auto/mflr8_1.dds"
 	texture displacement "materials/displacement/mflr8_1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 
@@ -2056,7 +2056,7 @@ material texture "step1"
 	specular "materials/specular/auto/step1.dds"
 	texture displacement "materials/displacement/step1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "step2"
@@ -2066,7 +2066,7 @@ material texture "step2"
 	specular "materials/specular/auto/step2.dds"
 	texture displacement "materials/displacement/step2.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "tlite6_1"
@@ -2076,7 +2076,7 @@ material texture "tlite6_1"
 	specular "materials/specular/auto/tlite6_1.dds"
 	texture displacement "materials/displacement/tlite6_1.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "tlite6_4"
@@ -2086,7 +2086,7 @@ material texture "tlite6_4"
 	specular "materials/specular/auto/tlite6_4.dds"
 	texture displacement "materials/displacement/tlite6_4.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "tlite6_5"
@@ -2096,7 +2096,7 @@ material texture "tlite6_5"
 	specular "materials/specular/auto/tlite6_5.dds"
 	texture displacement "materials/displacement/tlite6_5.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material texture "tlite6_6"
@@ -2106,7 +2106,7 @@ material texture "tlite6_6"
 	specular "materials/specular/auto/tlite6_6.dds"
 	texture displacement "materials/displacement/tlite6_6.dds"
 	glossiness 10.0
-	specularlevel 1
+	specularlevel 3
 }
 
 material Texture "bigdoor2"
