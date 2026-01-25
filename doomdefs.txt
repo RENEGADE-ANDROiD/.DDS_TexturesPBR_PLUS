@@ -156,4 +156,2911 @@ material texture MODELS/BloodSpot/FTPR.png  {
 }
 
 
+//DR4
 
+/////////////////////////////////////////////
+//WATER/////////////////////////////////////
+////////////////////////////////////////////
+
+material texture Sw1 //original texture
+{ 
+   normal "normalmaps/water/nsw1.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw2 //original texture
+{ 
+   normal "normalmaps/water/nsw2.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw3 //original texture
+{ 
+   normal "normalmaps/water/nsw3.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw4 //original texture
+{ 
+   normal "normalmaps/water/nsw4.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw5 //original texture
+{ 
+   normal "normalmaps/water/nsw5.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw6 //original texture
+{ 
+   normal "normalmaps/water/nsw6.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw7 //original texture
+{ 
+   normal "normalmaps/water/nsw7.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw8 //original texture
+{ 
+   normal "normalmaps/water/nsw8.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw9 //original texture
+{ 
+   normal "normalmaps/water/nsw9.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw10 //original texture
+{ 
+   normal "normalmaps/water/nsw10.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw11 //original texture
+{ 
+   normal "normalmaps/water/nsw11.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw12 //original texture
+{ 
+   normal "normalmaps/water/nsw12.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw13 //original texture
+{ 
+   normal "normalmaps/water/nsw13.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw14 //original texture
+{ 
+   normal "normalmaps/water/nsw14.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw15 //original texture
+{ 
+   normal "normalmaps/water/nsw15.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw16 //original texture
+{ 
+   normal "normalmaps/water/nsw16.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw17 //original texture
+{ 
+   normal "normalmaps/water/nsw17.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw18 //original texture
+{ 
+   normal "normalmaps/water/nsw18.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw19 //original texture
+{ 
+   normal "normalmaps/water/nsw19.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw20 //original texture
+{ 
+   normal "normalmaps/water/nsw20.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw21 //original texture
+{ 
+   normal "normalmaps/water/nsw21.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw22 //original texture
+{ 
+   normal "normalmaps/water/nsw22.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw23 //original texture
+{ 
+   normal "normalmaps/water/nsw23.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw24 //original texture
+{ 
+   normal "normalmaps/water/nsw24.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw25 //original texture
+{ 
+   normal "normalmaps/water/nsw25.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw26 //original texture
+{ 
+   normal "normalmaps/water/nsw26.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw27 //original texture
+{ 
+   normal "normalmaps/water/nsw27.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw28 //original texture
+{ 
+   normal "normalmaps/water/nsw28.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw29 //original texture
+{ 
+   normal "normalmaps/water/nsw29.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw30 //original texture
+{ 
+   normal "normalmaps/water/nsw30.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw31 //original texture
+{ 
+   normal "normalmaps/water/nsw31.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture Sw32 //original texture
+{ 
+   normal "normalmaps/water/nsw32.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+////////////////////////////////////////////////////////////////
+//NUKADGE///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+
+material texture SN1 //original texture
+{ 
+   normal "normalmaps/water/nsw1.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN2 //original texture
+{ 
+   normal "normalmaps/water/nsw2.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN3 //original texture
+{ 
+   normal "normalmaps/water/nsw3.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN4 //original texture
+{ 
+   normal "normalmaps/water/nsw4.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN5 //original texture
+{ 
+   normal "normalmaps/water/nsw5.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN6 //original texture
+{ 
+   normal "normalmaps/water/nsw6.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN7 //original texture
+{ 
+   normal "normalmaps/water/nsw7.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN8 //original texture
+{ 
+   normal "normalmaps/water/nsw8.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN9 //original texture
+{ 
+   normal "normalmaps/water/nsw9.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN10 //original texture
+{ 
+   normal "normalmaps/water/nsw10.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN11 //original texture
+{ 
+   normal "normalmaps/water/nsw11.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN12 //original texture
+{ 
+   normal "normalmaps/water/nsw12.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN13 //original texture
+{ 
+   normal "normalmaps/water/nsw13.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN14 //original texture
+{ 
+   normal "normalmaps/water/nsw14.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN15 //original texture
+{ 
+   normal "normalmaps/water/nsw15.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN16 //original texture
+{ 
+   normal "normalmaps/water/nsw16.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN17 //original texture
+{ 
+   normal "normalmaps/water/nsw17.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN18 //original texture
+{ 
+   normal "normalmaps/water/nsw18.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN19 //original texture
+{ 
+   normal "normalmaps/water/nsw19.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN20 //original texture
+{ 
+   normal "normalmaps/water/nsw20.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN21 //original texture
+{ 
+   normal "normalmaps/water/nsw21.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN22 //original texture
+{ 
+   normal "normalmaps/water/nsw22.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN23 //original texture
+{ 
+   normal "normalmaps/water/nsw23.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN24 //original texture
+{ 
+   normal "normalmaps/water/nsw24.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN25 //original texture
+{ 
+   normal "normalmaps/water/nsw25.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN26 //original texture
+{ 
+   normal "normalmaps/water/nsw26.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN27 //original texture
+{ 
+   normal "normalmaps/water/nsw27.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN28 //original texture
+{ 
+   normal "normalmaps/water/nsw28.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN29 //original texture
+{ 
+   normal "normalmaps/water/nsw29.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN30 //original texture
+{ 
+   normal "normalmaps/water/nsw30.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN31 //original texture
+{ 
+   normal "normalmaps/water/nsw31.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+material texture SN32 //original texture
+{ 
+   normal "normalmaps/water/nsw32.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+   brightmap "Brightmaps/BMSN.png"
+}
+
+
+///////////////////////////////////////////////////////////////////
+//BLOOD////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
+
+
+material texture SB1 //original texture
+{ 
+   normal "normalmaps/water/nsw1.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB2 //original texture
+{ 
+   normal "normalmaps/water/nsw2.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB3 //original texture
+{ 
+   normal "normalmaps/water/nsw3.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB4 //original texture
+{ 
+   normal "normalmaps/water/nsw4.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB5 //original texture
+{ 
+   normal "normalmaps/water/nsw5.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB6 //original texture
+{ 
+   normal "normalmaps/water/nsw6.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB7 //original texture
+{ 
+   normal "normalmaps/water/nsw7.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB8 //original texture
+{ 
+   normal "normalmaps/water/nsw8.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB9 //original texture
+{ 
+   normal "normalmaps/water/nsw9.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB10 //original texture
+{ 
+   normal "normalmaps/water/nsw10.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB11 //original texture
+{ 
+   normal "normalmaps/water/nsw11.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB12 //original texture
+{ 
+   normal "normalmaps/water/nsw12.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB13 //original texture
+{ 
+   normal "normalmaps/water/nsw13.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB14 //original texture
+{ 
+   normal "normalmaps/water/nsw14.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB15 //original texture
+{ 
+   normal "normalmaps/water/nsw15.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB16 //original texture
+{ 
+   normal "normalmaps/water/nsw16.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB17 //original texture
+{ 
+   normal "normalmaps/water/nsw17.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB18 //original texture
+{ 
+   normal "normalmaps/water/nsw18.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB19 //original texture
+{ 
+   normal "normalmaps/water/nsw19.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB20 //original texture
+{ 
+   normal "normalmaps/water/nsw20.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB21 //original texture
+{ 
+   normal "normalmaps/water/nsw21.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB22 //original texture
+{ 
+   normal "normalmaps/water/nsw22.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB23 //original texture
+{ 
+   normal "normalmaps/water/nsw23.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB24 //original texture
+{ 
+   normal "normalmaps/water/nsw24.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB25 //original texture
+{ 
+   normal "normalmaps/water/nsw25.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB26 //original texture
+{ 
+   normal "normalmaps/water/nsw26.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB27 //original texture
+{ 
+   normal "normalmaps/water/nsw27.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB28 //original texture
+{ 
+   normal "normalmaps/water/nsw28.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB29 //original texture
+{ 
+   normal "normalmaps/water/nsw29.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB30 //original texture
+{ 
+   normal "normalmaps/water/nsw30.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB31 //original texture
+{ 
+   normal "normalmaps/water/nsw31.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SB32 //original texture
+{ 
+   normal "normalmaps/water/nsw32.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+
+////////////////////////////////////////////////////////////
+//SLIME/////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+
+material texture SS1 //original texture
+{ 
+   normal "normalmaps/water/nsw1.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS2 //original texture
+{ 
+   normal "normalmaps/water/nsw2.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS3 //original texture
+{ 
+   normal "normalmaps/water/nsw3.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS4 //original texture
+{ 
+   normal "normalmaps/water/nsw4.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS5 //original texture
+{ 
+   normal "normalmaps/water/nsw5.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS6 //original texture
+{ 
+   normal "normalmaps/water/nsw6.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS7 //original texture
+{ 
+   normal "normalmaps/water/nsw7.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS8 //original texture
+{ 
+   normal "normalmaps/water/nsw8.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS9 //original texture
+{ 
+   normal "normalmaps/water/nsw9.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS10 //original texture
+{ 
+   normal "normalmaps/water/nsw10.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS11 //original texture
+{ 
+   normal "normalmaps/water/nsw11.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS12 //original texture
+{ 
+   normal "normalmaps/water/nsw12.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS13 //original texture
+{ 
+   normal "normalmaps/water/nsw13.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS14 //original texture
+{ 
+   normal "normalmaps/water/nsw14.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS15 //original texture
+{ 
+   normal "normalmaps/water/nsw15.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS16 //original texture
+{ 
+   normal "normalmaps/water/nsw16.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS17 //original texture
+{ 
+   normal "normalmaps/water/nsw17.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS18 //original texture
+{ 
+   normal "normalmaps/water/nsw18.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS19 //original texture
+{ 
+   normal "normalmaps/water/nsw19.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS20 //original texture
+{ 
+   normal "normalmaps/water/nsw20.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS21 //original texture
+{ 
+   normal "normalmaps/water/nsw21.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS22 //original texture
+{ 
+   normal "normalmaps/water/nsw22.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS23 //original texture
+{ 
+   normal "normalmaps/water/nsw23.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS24 //original texture
+{ 
+   normal "normalmaps/water/nsw24.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS25 //original texture
+{ 
+   normal "normalmaps/water/nsw25.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS26 //original texture
+{ 
+   normal "normalmaps/water/nsw26.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS27 //original texture
+{ 
+   normal "normalmaps/water/nsw27.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS28 //original texture
+{ 
+   normal "normalmaps/water/nsw28.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS29 //original texture
+{ 
+   normal "normalmaps/water/nsw29.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS30 //original texture
+{ 
+   normal "normalmaps/water/nsw30.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS31 //original texture
+{ 
+   normal "normalmaps/water/nsw31.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+material texture SS32 //original texture
+{ 
+   normal "normalmaps/water/nsw32.png"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.png" //gloss map   (black and white texture)
+   specularlevel "6"
+   glossiness "15"
+}
+
+//Explosion
+pulselight EXPLOSIONFLASH
+{
+    color 1.0 0.3 0.0
+    size 100
+    secondarySize 120
+    interval 0.1
+    offset 0 60 0
+}
+
+//
+// ------------------------------------------------------
+// ------------------ DOOM GAME LIGHTS ------------------
+// ------------------------------------------------------
+
+// ------------------
+// -- Doom Weapons --
+// ------------------
+
+// Bullet puff
+flickerlight BPUFF1
+{
+    color 0.5 0.5 0.0
+    size 9
+    secondarySize 12
+    chance 0.8
+	attenuate 1
+}
+
+flickerlight BPUFF2
+{
+    color 0.5 0.5 0.0
+    size 4
+    secondarySize 6
+    chance 0.8
+	attenuate 1
+}
+
+object BulletPuff
+{
+    frame PUFFA { light BPUFF1 }
+    frame PUFFB { light BPUFF2 }
+}
+
+// Rocket
+pointlight ROCKET
+{
+    color 1.0 0.7 0.0
+    size 84
+	attenuate 1
+}
+
+flickerlight ROCKET_X1
+{
+    color 1.0 0.7 0.5
+    size 96
+    secondarySize 108
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight ROCKET_X2
+{
+    color 0.5 0.3 0.2
+    size 120
+    secondarySize 132
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight ROCKET_X3
+{
+    color 0.3 0.1 0.1
+    size 144
+    secondarySize 156
+    chance 0.3
+	attenuate 1
+}
+
+object Rocket2
+{
+    frame MISLA { light ROCKET    }
+
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+// Plasma
+pointlight PLASMABALL
+{
+    color 0.5 0.5 1.0
+    size 84
+	attenuate 1
+}
+
+flickerlight PLASMA_X1
+{
+    color 0.5 0.5 1.0
+    size 96
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA_X2
+{
+    color 0.4 0.4 0.8
+    size 120
+    secondarySize 132
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA_X3
+{
+    color 0.25 0.25 0.5
+    size 96
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA_X4
+{
+    color 0.1 0.1 0.2
+    size 12
+    secondarySize 24
+    chance 0.4
+	attenuate 1
+}
+
+object PlasmaBall
+{
+    frame PLSSA { light PLASMABALL }
+    frame PLSSB { light PLASMABALL }
+
+    frame PLSEA { light PLASMA_X1 }
+    frame PLSEB { light PLASMA_X2 }
+    frame PLSEC { light PLASMA_X2 }
+    frame PLSED { light PLASMA_X3 }
+    frame PLSEE { light PLASMA_X4 }
+}
+
+// Beta Plasma 1
+pointlight PLASMABALL1
+{
+    color 0.1 1.0 0.0
+    size 84
+	attenuate 1
+}
+
+flickerlight PLASMA1_X1
+{
+    color 0.2 1.0 0.2
+    size 96
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA1_X2
+{
+    color 0.2 0.8 0.2
+    size 120
+    secondarySize 132
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA1_X3
+{
+    color 0.1 0.5 0.1
+    size 96
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA1_X4
+{
+    color 0.0 0.2 0.0
+    size 12
+    secondarySize 24
+    chance 0.4
+	attenuate 1
+}
+
+object PlasmaBall1
+{
+    frame PLS1A { light PLASMABALL1 }
+    frame PLS1B { light PLASMABALL1 }
+
+    frame PLS1C { light PLASMA1_X1 }
+    frame PLS1D { light PLASMA1_X2 }
+    frame PLS1E { light PLASMA1_X2 }
+    frame PLS1F { light PLASMA1_X3 }
+    frame PLS1G { light PLASMA1_X4 }
+}
+
+// Beta Plasma 2
+pointlight PLASMABALL2
+{
+    color 1.0 0.1 0.0
+    size 84
+	attenuate 1
+}
+
+flickerlight PLASMA1_X1
+{
+    color 0.9 0.2 0.2
+    size 96
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA1_X2
+{
+    color 0.6 0.2 0.2
+    size 120
+    secondarySize 132
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA1_X3
+{
+    color 0.2 0.0 0.0
+    size 12
+    secondarySize 24
+    chance 0.4
+	attenuate 1
+}
+
+object PlasmaBall2
+{
+    frame PLS2A { light PLASMABALL2 }
+    frame PLS2B { light PLASMABALL2 }
+
+    frame PLS2C { light PLASMA2_X1 }
+    frame PLS2D { light PLASMA2_X2 }
+    frame PLS2E { light PLASMA2_X3 }
+}
+
+// BFG
+pointlight BFGBALL
+{
+    color 0.5 1.0 0.5
+    size 120
+	attenuate 1
+}
+
+flickerlight BFGBALL_X1
+{
+    color 0.5 1.0 0.5
+    size 120
+    secondarySize 132
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight BFGBALL_X2
+{
+    color 0.6 1.0 0.6
+    size 156
+    secondarySize 168
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight BFGBALL_X3
+{
+    color 0.7 1.0 0.7
+    size 180
+    secondarySize 192
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight BFGBALL_X4
+{
+    color 0.4 0.7 0.4
+    size 84
+    secondarySize 96
+    chance 0.3
+	attenuate 1
+	attenuate 1
+}
+
+flickerlight BFGBALL_X5
+{
+    color 0.1 0.3 0.1
+    size 72
+    secondarySize 84
+    chance 0.3
+	attenuate 1
+}
+
+object BFGBall
+{
+    frame BFS1A { light BFGBALL }
+    frame BFS1B { light BFGBALL }
+
+    frame BFE1A { light BFGBALL_X1 }
+    frame BFE1B { light BFGBALL_X2 }
+    frame BFE1C { light BFGBALL_X3 }
+    frame BFE1D { light BFGBALL_X1 }
+    frame BFE1E { light BFGBALL_X4 }
+    frame BFE1F { light BFGBALL_X5 }
+}
+
+
+object BFGExtra
+{
+    frame BFE2A { light BFGBALL    }
+    frame BFE2B { light BFGBALL_X1 }
+    frame BFE2C { light BFGBALL_X4 }
+    frame BFE2D { light BFGBALL_X5 }
+}
+
+
+
+// ----------------------
+// -- Doom Decorations --
+// ----------------------
+
+// Barrel
+pulselight BARREL
+{
+    color 0.0 0.3 0.0
+    size 20
+    secondarySize 21
+    interval 0.5
+    offset 0 36 0
+	dontlightself 1
+	attenuate 1
+}
+
+object ExplosiveBarrel
+{
+    frame BAR1  { light BARREL    }
+
+    frame BEXPC { light ROCKET_X1 }
+    frame BEXPD { light ROCKET_X2 }
+    frame BEXPE { light ROCKET_X3 }
+}
+
+// Floor lamp
+pointlight LAMP
+{
+    color 1.0 1.0 0.8
+    size 84
+    offset 0 44 0
+	attenuate 1
+}
+
+object Column
+{
+    frame COLU { light LAMP }
+}
+
+// Short tech lamp
+pulselight SMALLLAMP
+{
+    color 0.8 0.8 1.0
+    size 84
+    secondarySize 87
+    interval 0.4
+    offset 0 44 0
+	attenuate 1
+}
+
+object TechLamp2
+{
+    frame TLP2 { light SMALLLAMP }
+}
+
+// Tall tech lamp
+pulselight BIGLAMP
+{
+    color 0.8 0.8 1.0
+    size 96
+    secondarySize 99
+    interval 0.4
+    offset 0 72 0
+	attenuate 1
+}
+
+object TechLamp
+{
+    frame TLMP { light BIGLAMP }
+}
+
+// Tall red torch
+flickerlight2 BIGREDTORCH
+{
+    color 1.0 0.5 0.2
+    size 90
+    secondarySize 99
+    interval 0.1
+    offset 0 60 0
+	attenuate 1
+}
+
+object RedTorch
+{
+    frame TRED { light BIGREDTORCH }
+}
+
+// Tall green torch
+flickerlight2 BIGGREENTORCH
+{
+    color 0.3 1.0 0.3
+    size 90
+    secondarySize 99
+    interval 0.1
+    offset 0 60 0
+	attenuate 1
+}
+
+object GreenTorch
+{
+    frame TGRN { light BIGGREENTORCH }
+}
+
+// Tall blue torch
+flickerlight2 BIGBLUETORCH
+{
+    color 0.3 0.3 1.0
+    size 90
+    secondarySize 99
+    interval 0.1
+    offset 0 60 0
+	attenuate 1
+}
+
+object BlueTorch
+{
+    frame TBLU { light BIGBLUETORCH }
+}
+
+// Small red torch
+flickerlight2 SMALLREDTORCH
+{
+    color 1.0 0.5 0.2
+    size 72
+    secondarySize 81
+    interval 0.1
+    offset 0 35 0
+	attenuate 1
+}
+
+object ShortRedTorch
+{
+    frame SMRT { light SMALLREDTORCH }
+}
+
+// Small green torch
+flickerlight2 SMALLGREENTORCH
+{
+    color 0.3 1.0 0.3
+    size 72
+    secondarySize 81
+    interval 0.1
+    offset 0 35 0
+	attenuate 1
+}
+
+object ShortGreenTorch
+{
+    frame SMGT { light SMALLGREENTORCH }
+}
+
+// Small blue torch
+flickerlight2 SMALLBLUETORCH
+{
+    color 0.3 0.3 1.0
+    size 72
+    secondarySize 81
+    interval 0.1
+    offset 0 35 0
+	attenuate 1
+}
+
+object ShortBlueTorch
+{
+    frame SMBT { light SMALLBLUETORCH }
+}
+
+// Burning barrel
+flickerlight2 FIREBARREL
+{
+    color 1.0 0.9 0.4
+    size 72
+    secondarySize 81
+    interval 0.1
+    offset 0 32 0
+	attenuate 1
+}
+
+object BurningBarrel
+{
+    frame FCAN { light FIREBARREL }
+}
+
+// Skulls w/candles
+flickerlight2 SKULLCANDLES
+{
+    color 1.0 1.0 0.3
+    size 48
+    secondarySize 51
+    interval 0.1
+    offset 0 24 0
+	attenuate 1
+}
+
+object HeadCandles
+{
+    frame POL3 { light SKULLCANDLES }
+}
+
+// Candle
+pointlight CANDLE
+{
+    color 1.0 1.0 0.3
+    size 24
+    offset 0 16 0
+	attenuate 1
+}
+
+object Candlestick
+{
+    frame CAND { light CANDLE }
+}
+
+// Candelabra
+pointlight CANDELABRA
+{
+    color 1.0 1.0 0.3
+    size 67
+    offset 0 52 0
+	attenuate 1
+}
+
+object Candelabra
+{
+    frame CBRA { light CANDELABRA }
+}
+
+
+
+// ----------------
+// -- Doom Items --
+// ----------------
+
+// Soul Sphere
+pulselight SOULSPHERE
+{
+    color 0.3 0.3 1.0
+    size 60
+    secondarySize 63
+    interval 2.0
+    offset 0 16 0
+	attenuate 1
+}
+
+object SoulSphere
+{
+    frame SOUL { light SOULSPHERE }
+}
+
+pulselight MEGASPHERE
+{
+    color 0.5 0.5 0.4
+    size 60
+    secondarySize 63
+    interval 2.0
+    offset 0 16 0
+	attenuate 1
+}
+
+object MegaSphere
+{
+    frame MEGA { light MEGASPHERE }
+}
+
+// Invulnerability Sphere
+pulselight INVULN
+{
+    color 0.3 1.0 0.3
+    size 60
+    secondarySize 63
+    interval 2.0
+    offset 0 16 0
+	attenuate 1
+}
+
+object InvulnerabilitySphere
+{
+    frame PINV { light INVULN }
+}
+
+// Blur Sphere
+pointlight BLURSPHERE1
+{
+    color 1.0 0.0 0.0
+    size 60
+    offset 0 16 0
+	attenuate 1
+}
+
+pointlight BLURSPHERE2
+{
+    color 0.0 0.0 1.0
+    size 48
+    offset 0 16 0
+	attenuate 1
+}
+
+pointlight BLURSPHERE3
+{
+    color 0.0 0.0 1.0
+    size 36
+    offset 0 16 0
+	attenuate 1
+}
+
+pointlight BLURSPHERE4
+{
+    color 0.0 0.0 1.0
+    size 24
+    offset 0 16 0
+	attenuate 1
+}
+
+pointlight BLURSPHERE5
+{
+    color 0.0 0.0 1.0
+    size 12
+    offset 0 16 0
+	attenuate 1
+}
+
+object BlurSphere
+{
+    frame PINS { light BLURSPHERE1 }
+
+    frame PINSA { light BLURSPHERE2 }
+    frame PINSB { light BLURSPHERE3 }
+    frame PINSC { light BLURSPHERE4 }
+    frame PINSD { light BLURSPHERE5 }
+}
+
+// Health Potion
+pulselight HEALTHPOTION
+{
+    color 0.0 0.0 0.3
+    size 16
+    secondarySize 20
+    interval 2.0
+	attenuate 1
+    offset 0 10 0
+}
+
+object HealthBonus
+{
+    frame BON1 { light HEALTHPOTION }
+}
+
+// Armour Helmet
+pulselight ARMORBONUS
+{
+    color 0.1 0.3 0.1
+    size 16
+    secondarySize 20
+    interval 1.0
+	dontlightself 1
+	attenuate 1
+    offset 0 10 0
+}
+
+object ArmorBonus
+{
+    frame BON2 { light ARMORBONUS }
+}
+
+
+// Green armour
+pointlight GREENARMOR1
+{
+    color 0.0 0.3 0.0
+    size 40
+	attenuate 1
+    offset 0 10 0
+}
+
+pointlight GREENARMOR2
+{
+    color 0.0 0.3 0.0
+    size 30
+	attenuate 1
+    offset 0 10 0
+}
+
+object GreenArmor
+{
+    frame ARM1A { light GREENARMOR1 }
+    frame ARM1B { light GREENARMOR2 }
+}
+
+// Blue armour
+pointlight BLUEARMOR1
+{
+    color 0.0 0.0 0.3
+    size 40
+	attenuate 1
+    offset 0 10 0
+}
+
+pointlight BLUEARMOR2
+{
+    color 0.0 0.0 0.3
+    size 30
+	attenuate 1
+    offset 0 10 0
+}
+
+object BlueArmor
+{
+    frame ARM2A { light BLUEARMOR1 }
+    frame ARM2B { light BLUEARMOR2 }
+}
+
+
+
+// ------------------
+// -- Doom Enemies --
+// ------------------
+
+// Zombies
+flickerlight2 ZOMBIEATK
+{
+    color 1.0 0.8 0.2
+    size 72
+    secondarySize 84
+    interval 1
+    offset 0 40 0
+	attenuate 1
+}
+
+object ZombieMan
+{
+    frame POSSF { light ZOMBIEATK }
+}
+
+object ShotgunGuy
+{
+    frame SPOSF { light ZOMBIEATK }
+}
+
+object ChaingunGuy
+{
+    frame CPOSE { light ZOMBIEATK }
+    frame CPOSF { light ZOMBIEATK }
+}
+
+object DoomPlayer
+{
+    frame PLAYF { light ZOMBIEATK }
+}
+
+
+// Doom Imp Fireball
+pointlight IMPBALL
+{
+    color 1.0 0.7 0.4
+    size 96
+	attenuate 1
+}
+
+// Doom imp fireball explosion
+flickerlight IMPBALL_X1
+{
+    color 0.7 0.4 0.25
+    size 120
+    secondarySize 132
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight IMPBALL_X2
+{
+    color 0.4 0.2 0.1
+    size 144
+    secondarySize 156
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight IMPBALL_X3
+{
+    color 0.2 0.1 0.0
+    size 168
+    secondarySize 180
+    chance 0.25
+	attenuate 1
+}
+
+object DoomImpBall
+{
+    frame BAL1A { light IMPBALL    }
+    frame BAL1B { light IMPBALL    }
+
+    frame BAL1C { light IMPBALL_X1 }
+    frame BAL1D { light IMPBALL_X2 }
+    frame BAL1E { light IMPBALL_X3 }
+}
+
+pointlight SPECTRE
+{
+    color 0.5 0.5 0.5
+    size 72
+    offset 0 24 0
+    subtractive 1
+	attenuate 1
+}
+
+/*
+object Spectre
+{
+    frame SARG { light SPECTRE }
+}
+*/
+
+// Cacodemon fireball
+flickerlight CACOBALL
+{
+    color 1.0 0.5 0.8
+    size 84
+    secondarySize 96
+    chance 0.5
+	attenuate 1
+}
+
+flickerlight CACOBALL_X1
+{
+    color 0.9 0.4 0.7
+    size 108
+    secondarySize 120
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight CACOBALL_X2
+{
+    color 0.6 0.3 0.5
+    size 132
+    secondarySize 144
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight CACOBALL_X3
+{
+    color 0.3 0.1 0.1
+    size 156
+    secondarySize 168
+    chance 0.25
+	attenuate 1
+}
+
+object CacodemonBall
+{
+    frame BAL2A { light CACOBALL }
+    frame BAL2B { light CACOBALL }
+
+    frame BAL2C { light CACOBALL_X1 }
+    frame BAL2D { light CACOBALL_X2 }
+    frame BAL2E { light CACOBALL_X3 }
+}
+
+// Baron / Hell Knight fireball
+pointlight BARONBALL
+{
+    color 0.0 1.0 0.0
+    size 96
+	attenuate 1
+}
+
+flickerlight BARONBALL_X1
+{
+    color 0.6 0.9 0.6
+    size 120
+    secondarySize 132
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight BARONBALL_X2
+{
+    color 0.45 0.6 0.45
+    size 144
+    secondarySize 156
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight BARONBALL_X3
+{
+    color 0.2 0.3 0.2
+    size 168
+    secondarySize 180
+    chance 0.25
+	attenuate 1
+}
+
+object BaronBall
+{
+    frame BAL7A { light BARONBALL    }
+    frame BAL7B { light BARONBALL    }
+
+    frame BAL7C { light BARONBALL_X1 }
+    frame BAL7D { light BARONBALL_X2 }
+    frame BAL7E { light BARONBALL_X3 }
+}
+
+// Lost Soul
+flickerlight LOSTSOUL
+{
+    color 1.0 0.6 0.3
+    size 84
+    secondarysize 64
+    chance 0.1
+	attenuate 1
+}
+
+flickerlight LOSTSOUL_X1
+{
+    color 0.8 0.5 0.3
+    size 108
+    secondarySize 120
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight LOSTSOUL_X2
+{
+    color 0.6 0.3 0.2
+    size 132
+    secondarySize 144
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight LOSTSOUL_X3
+{
+    color 0.4 0.1 0.0
+    size 156
+    secondarySize 168
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight LOSTSOUL_X4
+{
+    color 0.2 0.0 0.0
+    size 168
+    secondarySize 180
+    chance 0.25
+	attenuate 1
+}
+
+object LostSoul
+{
+    frame SKULA { light LOSTSOUL    }
+    frame SKULB { light LOSTSOUL    }
+    frame SKULC { light LOSTSOUL    }
+    frame SKULD { light LOSTSOUL    }
+    frame SKULE { light LOSTSOUL    }
+    frame SKULF { light LOSTSOUL    }
+    frame SKULG { light LOSTSOUL    }
+
+    frame SKULH { light LOSTSOUL_X1 }
+    frame SKULI { light LOSTSOUL_X2 }
+    frame SKULJ { light LOSTSOUL_X3 }
+    frame SKULK { light LOSTSOUL_X4 }
+}
+
+// Mancubus Fireball
+object FatShot
+{
+    frame MANFA { light IMPBALL   }
+    frame MANFB { light IMPBALL   }
+
+    frame MISLB { light ROCKET_X1 }
+    frame MISLC { light ROCKET_X2 }
+    frame MISLD { light ROCKET_X3 }
+}
+
+// Arachnotron Fireball
+pointlight ARACHPLAS
+{
+    color 0.6 1.0 0.4
+    size 84
+	attenuate 1
+}
+
+flickerlight ARACHPLAS_X1
+{
+    color 0.4 0.8 0.3
+    size 108
+    secondarySize 120
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight ARACHPLAS_X2
+{
+    color 0.6 0.6 0.3
+    size 132
+    secondarySize 144
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight ARACHPLAS_X3
+{
+    color 0.4 0.4 0.2
+    size 72
+    secondarySize 48
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight ARACHPLAS_X4
+{
+    color 0.2 0.2 0.1
+    size 36
+    secondarySize 24
+    chance 0.3
+	attenuate 1
+}
+
+object ArachnotronPlasma
+{
+    frame APLSA { light ARACHPLAS }
+    frame APLSB { light ARACHPLAS }
+
+    frame APBXA { light ARACHPLAS_X1 }
+    frame APBXB { light ARACHPLAS_X2 }
+    frame APBXC { light ARACHPLAS_X2 }
+    frame APBXD { light ARACHPLAS_X3 }
+    frame APBXE { light ARACHPLAS_X4 }
+}
+
+// Revenant tracer
+pointlight TRACER
+{
+    color 1.0 0.5 0.3
+    size 72
+	attenuate 1
+}
+
+flickerlight TRACER_X1
+{
+    color 1.0 0.5 0.2
+    size 96
+    secondarySize 108
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight TRACER_X2
+{
+    color 0.6 0.3 0.1
+    size 120
+    secondarySize 132
+    chance 0.25
+	attenuate 1
+}
+
+flickerlight TRACER_X3
+{
+    color 0.3 0.1 0.0
+    size 144
+    secondarySize 156
+    chance 0.25
+	attenuate 1
+}
+
+object RevenantTracer
+{
+    frame FATBA { light TRACER    }
+    frame FATBB { light TRACER    }
+
+    frame FBXPA { light TRACER_X1 }
+    frame FBXPB { light TRACER_X2 }
+    frame FBXPC { light TRACER_X3 }
+}
+
+// Arch Vile Fire
+flickerlight ARCHFIRE1
+{
+    color 1.0 1.0 0.5
+    size 36
+    secondarySize 48
+    chance 0.3
+    offset 0 8 0
+	attenuate 1
+}
+
+flickerlight ARCHFIRE2
+{
+    color 1.0 1.0 0.5
+    size 60
+    secondarySize 72
+    chance 0.3
+    offset 0 24 0
+	attenuate 1
+}
+
+flickerlight ARCHFIRE3
+{
+    color 1.0 1.0 0.5
+    size 96
+    secondarySize 108
+    chance 0.3
+    offset 0 32 0
+	attenuate 1
+}
+
+flickerlight ARCHFIRE4
+{
+    color 0.8 0.8 0.4
+    size 96
+    secondarySize 108
+    chance 0.3
+    offset 0 40 0
+	attenuate 1
+}
+
+flickerlight ARCHFIRE5
+{
+    color 0.8 0.8 0.4
+    size 96
+    secondarySize 108
+    chance 0.3
+    offset 0 48 0
+	attenuate 1
+}
+
+flickerlight ARCHFIRE6
+{
+    color 0.6 0.6 0.3
+    size 72
+    secondarySize 84
+    chance 0.3
+    offset 0 64 0
+	attenuate 1
+}
+
+flickerlight ARCHFIRE7
+{
+    color 0.4 0.4 0.2
+    size 48
+    secondarySize 60
+    chance 0.3
+    offset 0 72 0
+	attenuate 1
+}
+
+flickerlight ARCHFIRE8
+{
+    color 0.2 0.2 0.1
+    size 24
+    secondarySize 36
+    chance 0.3
+    offset 0 80 0
+	attenuate 1
+}
+
+object ArchvileFire
+{
+    frame FIREA { light ARCHFIRE1 }
+    frame FIREB { light ARCHFIRE2 }
+    frame FIREC { light ARCHFIRE3 }
+    frame FIRED { light ARCHFIRE4 }
+    frame FIREE { light ARCHFIRE5 }
+    frame FIREF { light ARCHFIRE6 }
+    frame FIREG { light ARCHFIRE7 }
+    frame FIREH { light ARCHFIRE8 }
+}
+
+// Arch-vile
+flickerlight ARCHATK1
+{
+    color 1.0 1.0 0.4
+    size 48
+    secondarySize 72
+    chance 0.3
+    offset 0 80 0
+	attenuate 1
+}
+
+flickerlight ARCHATK2
+{
+    color 1.0 1.0 0.4
+    size 84
+    secondarySize 96
+    chance 0.3
+    offset 0 80 0
+	attenuate 1
+}
+
+flickerlight ARCHATK3
+{
+    color 1.0 1.0 0.4
+    size 84
+    secondarySize 96
+    chance 0.3
+    offset 0 64 0
+	attenuate 1
+}
+
+flickerlight ARCHATK4
+{
+    color 1.0 1.0 0.4
+    size 96
+    secondarySize 108
+    chance 0.3
+    offset 0 48 0
+	attenuate 1
+}
+
+flickerlight ARCHATK5
+{
+    color 1.0 1.0 0.4
+    size 120
+    secondarySize 132
+    chance 0.3
+    offset 0 40 0
+	attenuate 1
+}
+
+flickerlight ARCHATK6
+{
+    color 0.7 0.7 0.3
+    size 144
+    secondarySize 156
+    chance 0.3
+    offset 0 40 0
+	attenuate 1
+}
+
+flickerlight ARCHATK7
+{
+    color 0.3 0.3 0.1
+    size 156
+    secondarySize 168
+    chance 0.3
+    offset 0 40 0
+	attenuate 1
+}
+
+pulselight ARCHRES
+{
+    color 0.6 0.3 0.3
+    size 96
+    secondarySize 105
+    interval 0.5
+    offset 0 36 0
+	attenuate 1
+}
+
+object Archvile
+{
+    frame VILEH { light ARCHATK1 }
+    frame VILEI { light ARCHATK2 }
+    frame VILEJ { light ARCHATK3 }
+    frame VILEK { light ARCHATK4 }
+    frame VILEL { light ARCHATK4 }
+    frame VILEM { light ARCHATK4 }
+    frame VILEN { light ARCHATK5 }
+    frame VILEO { light ARCHATK6 }
+    frame VILEP { light ARCHATK7 }
+
+    frame VILE[ { light ARCHRES }
+    frame VILE\ { light ARCHRES }
+    frame VILE] { light ARCHRES }
+}
+
+Glow 
+{ 
+   Flats 
+   { 
+   }    
+   Walls 
+   { 
+   FIREBLU1 
+      FIREBLU2 
+   FIRELAVA 
+      FIRELAV2 
+      FIRELAV3 
+   FIREMAG1 
+      FIREMAG2 
+      FIREMAG3 
+   FIREWALL 
+      FIREWALA 
+      FIREWALB 
+   } 
+} 
+
+/////////////////////////////////
+
+
+flickerlight2 GunFlash
+{
+    color 1.0 0.8 0.5
+    size 200
+    secondarySize 156
+    interval 0.5
+    offset 0 40 0
+}
+
+flickerlight2 GunFlash1
+{
+    color 1.0 0.8 0.5
+    size 100
+    secondarySize 50
+    interval 0.5
+    offset 0 40 0
+}
+
+flickerlight2 PlasmaFlash
+{
+    color 0.8 0.8 1.2
+    size 200
+    secondarySize 156
+    interval 0.5
+    offset 0 40 0
+}
+
+object QD_MuzzleFlash1
+{
+    frame SFLMC { light GunFlash }
+    frame SFLMD { light GunFlash1 }
+}
+
+object QD_MuzzleFlash3
+{
+    frame PFL1A { light GunFlash }
+    frame PFL1B { light GunFlash }
+    frame PFL1C { light GunFlash }
+    frame PFL1D { light GunFlash }
+}
+
+flickerlight2 NewPuff1
+{
+    color 0.5 0.4 0.4
+    size 15
+    secondarySize 20
+    interval 0.5
+    offset 0 0 0
+}
+
+flickerlight2 Puff
+{
+    color 0.5 0.4 0.4
+    size 45
+    secondarySize 50
+    interval 0.5
+    offset 0 0 0
+}
+
+object NewPuff
+{
+    frame CORNA { light NewPuff1 }
+}
+
+object Puff01
+{
+    frame CORNA { light Puff }
+}
+
+object Puff02
+{
+    frame CORNA { light Puff }
+}
+
+flickerlight2 CacodemonBall1
+{
+    color 1.1 0.5 1.0
+    size 120
+    secondarySize 56
+    interval 0.5
+    offset 0 40 0
+}
+
+object CacodemonBall1
+{
+    frame CORND { light CacodemonBall1 }
+}
+
+// explosives ------------------------------------------------------------------
+
+pointlight ROCKET
+{
+    color 1.0 0.4 0.0
+    size 84
+	offset -25 0 0
+	attenuate 1
+}
+
+flickerlight ROCKET_X1
+{
+    color 1.0 0.5 0.1
+    size 96
+    secondarySize 108
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight ROCKET_X2
+{
+    color 0.5 0.2 0.0
+    size 120
+    secondarySize 132
+    chance 0.3
+	//attenuate 1
+}
+
+flickerlight ROCKET_X3
+{
+    color 0.3 0.1 0.0
+    size 144
+    secondarySize 156
+    chance 0.3
+	//attenuate 1
+}
+
+pointlight IMPBALL
+{
+    color 1.0 0.4 0.1
+    size 96
+	//attenuate 1
+}
+
+flickerlight IMPBALL_X1
+{
+    color 0.7 0.3 0.25
+    size 120
+    secondarySize 132
+    chance 0.25
+	//attenuate 1
+}
+
+flickerlight IMPBALL_X2
+{
+    color 0.4 0.1 0.1
+    size 144
+    secondarySize 156
+    chance 0.25
+	//attenuate 1
+}
+
+flickerlight IMPBALL_X3
+{
+    color 0.2 0.05 0.0
+    size 168
+    secondarySize 180
+    chance 0.25
+	//attenuate 1
+}
+
+pointlight LAMP
+{
+    color 0.8 0.7 0.3
+    size 128
+    offset 0 40 0
+	dontlightself 1
+	//attenuate 1
+}
+
+object Column
+{
+    frame COLU { light LAMP }
+}
+
+pointlight SMALLLAMP1
+{
+    color 0.8 0.8 1.0
+    size 176
+    offset 0 50 0
+	//dontlightself 1
+	//attenuate 1
+}
+pointlight SMALLLAMP2
+{
+    color 0.75 0.75 0.95
+    size 172
+    offset 0 50 0
+	//dontlightself 1
+	//attenuate 1
+}
+pointlight SMALLLAMP3
+{
+    color 0.7 0.7 0.9
+    size 168
+    offset 0 50 0
+	//dontlightself 1
+	//attenuate 1
+}
+object TechLamp2
+{
+    frame TLP2A { light SMALLLAMP1 }
+    frame TLP2B { light SMALLLAMP2 }
+    frame TLP2C { light SMALLLAMP3 }
+    frame TLP2D { light SMALLLAMP2 }
+}
+object TechLamp2
+{
+    frame TLP2A { light SMALLLAMP1 }
+    frame TLP2B { light SMALLLAMP2 }
+    frame TLP2C { light SMALLLAMP3 }
+    frame TLP2D { light SMALLLAMP2 }
+}
+
+pointlight BIGLAMP1
+{
+    color 0.8 0.8 1.0
+    size 200
+    offset 0 66 0
+	dontlightself 1
+	//attenuate 1
+}
+pointlight BIGLAMP2
+{
+    color 0.7 0.7 0.9
+    size 196
+    offset 0 66 0
+	dontlightself 1
+	//attenuate 1
+}
+pointlight BIGLAMP3
+{
+    color 0.6 0.6 0.8
+    size 194
+    offset 0 66 0
+	dontlightself 1
+	//attenuate 1
+}
+
+object TechLamp
+{
+    frame TLMPA { light BIGLAMP1 }
+    frame TLMPB { light BIGLAMP2 }
+    frame TLMPC { light BIGLAMP3 }
+    frame TLMPD { light BIGLAMP2 }
+}
+object TechLamp
+{
+    frame TLMPA { light BIGLAMP1 }
+    frame TLMPB { light BIGLAMP2 }
+    frame TLMPC { light BIGLAMP3 }
+    frame TLMPD { light BIGLAMP2 }
+}
+
+flickerlight2 BIGREDTORCH
+{
+    color 0.7 0.3 0.2
+    size 180
+    secondarySize 198
+    interval 0.1
+    offset 0 60 0
+	dontlightself 1
+	//attenuate 1
+}
+object RedTorch
+{
+    frame TSTD { light BIGREDTORCH }
+}
+
+flickerlight2 BIGGREENTORCH
+{
+    color 0.25 0.7 0.2
+    size 180
+    secondarySize 198
+    interval 0.1
+    offset 0 60 0
+	dontlightself 1
+	//attenuate 1
+}
+object GreenTorch
+{
+    frame TSTD { light BIGGREENTORCH }
+}
+
+flickerlight2 BIGBLUETORCH
+{
+    color 0.15 0.2 0.7
+    size 180
+    secondarySize 198
+    interval 0.1
+    offset 0 60 0
+	dontlightself 1
+	//attenuate 1
+}
+object BlueTorch
+{
+    frame TSTD { light BIGBLUETORCH }
+}
+
+flickerlight2 SMALLREDTORCH
+{
+    color 0.6 0.2 0.1
+    size 144
+    secondarySize 162
+    interval 0.1
+    offset 0 35 0
+	dontlightself 1
+	//attenuate 1
+}
+object ShortRedTorch
+{
+    frame SMNT { light SMALLREDTORCH }
+}
+
+flickerlight2 SMALLGREENTORCH
+{
+    color 0.1 0.6 0.15
+    size 144
+    secondarySize 162
+    interval 0.1
+    offset 0 35 0
+	dontlightself 1
+	//attenuate 1
+}
+object ShortGreenTorch
+{
+    frame SMNT { light SMALLGREENTORCH }
+}
+
+flickerlight2 SMALLBLUETORCH
+{
+    color 0.1 0.15 0.6
+    size 144
+    secondarySize 162
+    interval 0.1
+    offset 0 35 0
+	dontlightself 1
+	//attenuate 1
+}
+object ShortBlueTorch
+{
+    frame SMNT { light SMALLBLUETORCH }
+}
+
+
+
+flickerlight2 FIREBARREL
+{
+    color 1.0 0.6 0.3
+    size 104
+    secondarySize 113
+    interval 0.1
+    offset 0 32 0
+	//dontlightself 1
+	//attenuate 1
+}
+
+object BurningBarrel
+{
+    frame FCAN { light FIREBARREL }
+}
+
+flickerlight2 SKULLCANDLES
+{
+    color 1.0 0.5 0.1
+    size 72
+    secondarySize 77
+    interval 0.1
+    offset 0 24 0
+	//attenuate 1
+}
+
+object HeadCandles
+{
+    frame POL3 { light SKULLCANDLES }
+}
+
+flickerlight2 CANDLE
+{
+    color 0.6 0.4 0.2
+    size 44
+    secondarySize 48
+    interval 0.01
+    offset 0 13 0
+	//attenuate 1
+}
+
+object Candlestick
+{
+    frame CAND { light CANDLE }
+}
+
+
+flickerlight2 CANDELABRA
+{
+    color 1.0 0.7 0.4
+    size 67
+    secondarySize 72
+    interval 0.01
+    offset 0 58 0
+	//attenuate 1
+}
+object Candelabra
+{
+    frame CBRA { light CANDELABRA }
+}
+
+Glow
+{
+	//teleporters
+	Texture "GATE1", 800000, 48
+	Texture "GATE2", 800000, 48
+	Texture "GATE3", 800000, 48
+	Texture "GATE4", 808080, 48
+	
+	//glowing rocks
+	Texture "RROCK01", 800000, 64
+	Texture "RROCK02", 808000, 64
+	Texture "RROCK05", 400000, 64
+	Texture "RROCK06", 300000, 64
+	Texture "RROCK07", 100000, 64
+	Texture "RROCK08", 080000, 64
+	Texture "SLIME09", 400000, 64
+	Texture "SLIME10", 300000, 64
+	Texture "SLIME11", 100000, 64
+	Texture "SLIME12", 080000, 64
+	
+	//lights
+	Texture "CEIL3_4", 5F5347, 128
+	Texture "CEIL4_3", 000010, 16
+	Texture "FLAT22", 000040, 32
+	Texture "FLOOR1_7", ff8080, 64
+	Texture "TLITE6_1", 807570, 128
+	Texture "TLITE6_4", 807570, 128
+	Texture "TLITE6_5", 804040, 128
+	Texture "TLITE6_6", 806040, 128
+	Texture "CEIL1_2", 808080, 64
+	Texture "CEIL1_3", 808080, 64
+	Texture "CEIL3_6", 404040, 32
+	Texture "FLAT2", 909090, 96
+	Texture "FLAT17", a0a0a0, 128
+	Texture "GRNLITE1", 606060, 48
+
+	Texture "F_SKY1", 604050, 256
+}
+
+Glow
+{
+	Flats
+	{
+		RROCK01
+		RROCK02
+		//
+		RROCK05
+		RROCK06
+		RROCK07
+		RROCK08
+		}
+}
+
+//DECORATIONS =====================================================================
+
+object ExplosiveBarrel_Particles
+{
+    frame BAR1 { light BARREL }
+
+    frame BEXPC { light ROCKET_X1 }
+    frame BEXPD { light ROCKET_X2 }
+    frame BEXPE { light ROCKET_X3 }
+}
+
+object RedTorch_ADD_Flame
+{
+    frame TRED { light BIGREDTORCH }
+}
+
+object GreenTorch_ADD_Flame
+{
+    frame TGRN { light BIGGREENTORCH }
+}
+
+object BlueTorch_ADD_Flame
+{
+    frame TBLU { light BIGBLUETORCH }
+}
+
+object ShortRedTorch_ADD_Flame
+{
+    frame SMRT { light SMALLREDTORCH }
+}
+
+object ShortGreenTorch_ADD_Flame
+{
+    frame SMGT { light SMALLGREENTORCH }
+}
+
+object ShortBlueTorch_ADD_Flame
+{
+    frame SMBT { light SMALLBLUETORCH }
+}
+
+object BurningBarrel_ADD_Flame
+{
+    frame FCAN { light FIREBARREL }
+}
+
+object HeadCandles_ADD_Flame
+{
+    frame POL3 { light SKULLCANDLES }
+}
+
+object Candlestick_ADD_Flame
+{
+    frame CAND { light CANDLE }
+}

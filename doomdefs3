@@ -1,0 +1,5802 @@
+material texture "A-askin1"
+{
+	normal "materials2/normal/A-askin1.dds"
+	specular "materials2/spec/A-askin1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-askin2"
+{
+	normal "materials2/normal/A-askin2.dds"
+	specular "materials2/spec/A-askin2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-ASKIN3"
+{
+	normal "materials2/normal/A-ASKIN3.dds"
+	specular "materials2/spec/A-ASKIN3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-ASKIN4"
+{
+	normal "materials2/normal/A-ASKIN4.dds"
+	specular "materials2/spec/A-ASKIN4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-ASKIN5"
+{
+	normal "materials2/normal/A-ASKIN5.dds"
+	specular "materials2/spec/A-ASKIN5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-BRBRK"
+{
+	normal "materials2/normal/A-BRBRK.dds"
+	specular "materials2/spec/A-BRBRK.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-BRBRK2"
+{
+	normal "materials2/normal/A-BRBRK2.dds"
+	specular "materials2/spec/A-BRBRK2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-BRICK1"
+{
+	normal "materials2/normal/A-BRICK1.dds"
+	specular "materials2/spec/A-BRICK1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-BRICK2"
+{
+	normal "materials2/normal/A-BRICK2.dds"
+	specular "materials2/spec/A-BRICK2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-BRICK3"
+{
+	normal "materials2/normal/A-BRICK3.dds"
+	specular "materials2/spec/A-BRICK3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-BROCK2"
+{
+	normal "materials2/normal/A-BROCK2.dds"
+	specular "materials2/spec/A-BROCK2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-brown1"
+{
+	normal "materials2/normal/A-brown1.dds"
+	specular "materials2/spec/A-brown1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-brown2"
+{
+	normal "materials2/normal/A-brown2.dds"
+	specular "materials2/spec/A-brown2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-brown3"
+{
+	normal "materials2/normal/A-brown3.dds"
+	specular "materials2/spec/A-brown3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-BROWN4"
+{
+	normal "materials2/normal/A-BROWN4.dds"
+	specular "materials2/spec/A-BROWN4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-brown5"
+{
+	normal "materials2/normal/A-brown5.dds"
+	specular "materials2/spec/A-brown5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-camo1"
+{
+	normal "materials2/normal/A-camo1.dds"
+	specular "materials2/spec/A-camo1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-camo2"
+{
+	normal "materials2/normal/A-camo2.dds"
+	specular "materials2/spec/A-camo2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-camo3"
+{
+	normal "materials2/normal/A-camo3.dds"
+	specular "materials2/spec/A-camo3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-camo4"
+{
+	normal "materials2/normal/A-camo4.dds"
+	specular "materials2/spec/A-camo4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-camo5"
+{
+	normal "materials2/normal/A-camo5.dds"
+	specular "materials2/spec/A-camo5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-concte"
+{
+	normal "materials2/normal/A-concte.dds"
+	specular "materials2/spec/A-concte.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-DBRI1"
+{
+	normal "materials2/normal/A-DBRI1.dds"
+	specular "materials2/spec/A-DBRI1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-DBRI2"
+{
+	normal "materials2/normal/A-DBRI2.dds"
+	specular "materials2/spec/A-DBRI2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-drock1"
+{
+	normal "materials2/normal/A-drock1.dds"
+	specular "materials2/spec/A-drock1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-drock2"
+{
+	normal "materials2/normal/A-drock2.dds"
+	specular "materials2/spec/A-drock2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-marble"
+{
+	normal "materials2/normal/A-marble.dds"
+	specular "materials2/spec/A-marble.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-MOSBRI"
+{
+	normal "materials2/normal/A-MOSBRI.dds"
+	specular "materials2/spec/A-MOSBRI.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-mosrk2"
+{
+	normal "materials2/normal/A-mosrk2.dds"
+	specular "materials2/spec/A-mosrk2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-mosrok"
+{
+	normal "materials2/normal/A-mosrok.dds"
+	specular "materials2/spec/A-mosrok.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "a-mould"
+{
+	normal "materials2/normal/a-mould.dds"
+	specular "materials2/spec/a-mould.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-mud"
+{
+	normal "materials2/normal/A-mud.dds"
+	specular "materials2/spec/A-mud.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-mywood"
+{
+	normal "materials2/normal/A-mywood.dds"
+	specular "materials2/spec/A-mywood.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-pois"
+{
+	normal "materials2/normal/A-pois.dds"
+	specular "materials2/spec/A-pois.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-redrok"
+{
+	normal "materials2/normal/A-redrok.dds"
+	specular "materials2/spec/A-redrok.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-rock"
+{
+	normal "materials2/normal/A-rock.dds"
+	specular "materials2/spec/A-rock.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-tile"
+{
+	normal "materials2/normal/A-tile.dds"
+	specular "materials2/spec/A-tile.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-vine3"
+{
+	normal "materials2/normal/A-vine3.dds"
+	specular "materials2/spec/A-vine3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-vine4"
+{
+	normal "materials2/normal/A-vine4.dds"
+	specular "materials2/spec/A-vine4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-vines"
+{
+	normal "materials2/normal/A-vines.dds"
+	specular "materials2/spec/A-vines.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-WOOD1"
+{
+	normal "materials2/normal/A-WOOD1.dds"
+	specular "materials2/spec/A-WOOD1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "A-yellow"
+{
+	normal "materials2/normal/A-yellow.dds"
+	specular "materials2/spec/A-yellow.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "aashitty"
+{
+	normal "materials2/normal/aashitty.dds"
+	specular "materials2/spec/aashitty.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "AASTINKY"
+{
+	normal "materials2/normal/AASTINKY.dds"
+	specular "materials2/spec/AASTINKY.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Altaqua"
+{
+	normal "materials2/normal/Altaqua.dds"
+	specular "materials2/spec/Altaqua.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Arock2"
+{
+	normal "materials2/normal/Arock2.dds"
+	specular "materials2/spec/Arock2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Arock3"
+{
+	normal "materials2/normal/Arock3.dds"
+	specular "materials2/spec/Arock3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Arock4"
+{
+	normal "materials2/normal/Arock4.dds"
+	specular "materials2/spec/Arock4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Arock5"
+{
+	normal "materials2/normal/Arock5.dds"
+	specular "materials2/spec/Arock5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Asphalt"
+{
+	normal "materials2/normal/Asphalt.dds"
+	specular "materials2/spec/Asphalt.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Bcratel1"
+{
+	normal "materials2/normal/Bcratel1.dds"
+	specular "materials2/spec/Bcratel1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Bcratem1"
+{
+	normal "materials2/normal/Bcratem1.dds"
+	specular "materials2/spec/Bcratem1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Bcrater1"
+{
+	normal "materials2/normal/Bcrater1.dds"
+	specular "materials2/spec/Bcrater1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "bfall1"
+{
+	normal "materials2/normal/bfall1.dds"
+	specular "materials2/spec/bfall1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "bfall2"
+{
+	normal "materials2/normal/bfall2.dds"
+	specular "materials2/spec/bfall2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "bfall3"
+{
+	normal "materials2/normal/bfall3.dds"
+	specular "materials2/spec/bfall3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "bfall4"
+{
+	normal "materials2/normal/bfall4.dds"
+	specular "materials2/spec/bfall4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "bigbrik3"
+{
+	normal "materials2/normal/bigbrik3.dds"
+	specular "materials2/spec/bigbrik3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blakwal1"
+{
+	normal "materials2/normal/blakwal1.dds"
+	specular "materials2/spec/blakwal1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blakwal2"
+{
+	normal "materials2/normal/blakwal2.dds"
+	specular "materials2/spec/blakwal2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "BLOD3"
+{
+	normal "materials2/normal/BLOD3.dds"
+	specular "materials2/spec/BLOD3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blodgr1"
+{
+	normal "materials2/normal/blodgr1.dds"
+	specular "materials2/spec/blodgr1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blodgr2"
+{
+	normal "materials2/normal/blodgr2.dds"
+	specular "materials2/spec/blodgr2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blodgr3"
+{
+	normal "materials2/normal/blodgr3.dds"
+	specular "materials2/spec/blodgr3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blodgr4"
+{
+	normal "materials2/normal/blodgr4.dds"
+	specular "materials2/spec/blodgr4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blodrip1"
+{
+	normal "materials2/normal/blodrip1.dds"
+	specular "materials2/spec/blodrip1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blodrip2"
+{
+	normal "materials2/normal/blodrip2.dds"
+	specular "materials2/spec/blodrip2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blodrip3"
+{
+	normal "materials2/normal/blodrip3.dds"
+	specular "materials2/spec/blodrip3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blodrip4"
+{
+	normal "materials2/normal/blodrip4.dds"
+	specular "materials2/spec/blodrip4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blood1"
+{
+	normal "materials2/normal/blood1.dds"
+	specular "materials2/spec/blood1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blood2"
+{
+	normal "materials2/normal/blood2.dds"
+	specular "materials2/spec/blood2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blood3"
+{
+	normal "materials2/normal/blood3.dds"
+	specular "materials2/spec/blood3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "blood4"
+{
+	normal "materials2/normal/blood4.dds"
+	specular "materials2/spec/blood4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "BODIES"
+{
+	normal "materials2/normal/BODIES.dds"
+	specular "materials2/spec/BODIES.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "bossback"
+{
+	normal "materials2/normal/bossback.dds"
+	specular "materials2/spec/bossback.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick1"
+{
+	normal "materials2/normal/brick1.dds"
+	specular "materials2/spec/brick1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick2"
+{
+	normal "materials2/normal/brick2.dds"
+	specular "materials2/spec/brick2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick3"
+{
+	normal "materials2/normal/brick3.dds"
+	specular "materials2/spec/brick3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick4"
+{
+	normal "materials2/normal/brick4.dds"
+	specular "materials2/spec/brick4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick5"
+{
+	normal "materials2/normal/brick5.dds"
+	specular "materials2/spec/brick5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick6"
+{
+	normal "materials2/normal/brick6.dds"
+	specular "materials2/spec/brick6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick7"
+{
+	normal "materials2/normal/brick7.dds"
+	specular "materials2/spec/brick7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick8"
+{
+	normal "materials2/normal/brick8.dds"
+	specular "materials2/spec/brick8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brick9"
+{
+	normal "materials2/normal/brick9.dds"
+	specular "materials2/spec/brick9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "bricklit"
+{
+	normal "materials2/normal/bricklit.dds"
+	specular "materials2/spec/bricklit.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Brown2"
+{
+	normal "materials2/normal/Brown2.dds"
+	specular "materials2/spec/Brown2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Brown3"
+{
+	normal "materials2/normal/Brown3.dds"
+	specular "materials2/spec/Brown3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brownhug"
+{
+	normal "materials2/normal/brownhug.dds"
+	specular "materials2/spec/brownhug.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+
+material texture "brownwel"
+{
+	normal "materials2/normal/brownwel.dds"
+	specular "materials2/spec/brownwel.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "brwindow"
+{
+	normal "materials2/normal/brwindow.dds"
+	specular "materials2/spec/brwindow.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "BSTNVINE"
+{
+	normal "materials2/normal/BSTNVINE.dds"
+	specular "materials2/spec/BSTNVINE.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "BSTNVINF"
+{
+	normal "materials2/normal/BSTNVINF.dds"
+	specular "materials2/spec/BSTNVINF.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "bstone1"
+{
+	normal "materials2/normal/bstone1.dds"
+	specular "materials2/spec/bstone1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Btntmetl"
+{
+	normal "materials2/normal/Btntmetl.dds"
+	specular "materials2/spec/Btntmetl.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Btntslvr"
+{
+	normal "materials2/normal/Btntslvr.dds"
+	specular "materials2/spec/Btntslvr.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CARLLF1"
+{
+	normal "materials2/normal/CARLLF1.dds"
+	specular "materials2/spec/CARLLF1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CARLLF2"
+{
+	normal "materials2/normal/CARLLF2.dds"
+	specular "materials2/spec/CARLLF2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CARLRT1"
+{
+	normal "materials2/normal/CARLRT1.dds"
+	specular "materials2/spec/CARLRT1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CARLRT2"
+{
+	normal "materials2/normal/CARLRT2.dds"
+	specular "materials2/spec/CARLRT2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CAVERN1"
+{
+	normal "materials2/normal/CAVERN1.dds"
+	specular "materials2/spec/CAVERN1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CAVERN4"
+{
+	normal "materials2/normal/CAVERN4.dds"
+	specular "materials2/spec/CAVERN4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CAVERN6"
+{
+	normal "materials2/normal/CAVERN6.dds"
+	specular "materials2/spec/CAVERN6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CAVERN7"
+{
+	normal "materials2/normal/CAVERN7.dds"
+	specular "materials2/spec/CAVERN7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CLY1_1"
+{
+	normal "materials2/normal/CLY1_1.dds"
+	specular "materials2/spec/CLY1_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "compblue"
+{
+	normal "materials2/normal/compblue.dds"
+	specular "materials2/spec/compblue.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "compohso"
+{
+	normal "materials2/normal/compohso.dds"
+	specular "materials2/spec/compohso.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "compwerd"
+{
+	normal "materials2/normal/compwerd.dds"
+	specular "materials2/spec/compwerd.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "cons1_1"
+{
+	normal "materials2/normal/cons1_1.dds"
+	specular "materials2/spec/cons1_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "cons1_5"
+{
+	normal "materials2/normal/cons1_5.dds"
+	specular "materials2/spec/cons1_5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "cons1_7"
+{
+	normal "materials2/normal/cons1_7.dds"
+	specular "materials2/spec/cons1_7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR128HGB"
+{
+	normal "materials2/normal/CR128HGB.dds"
+	specular "materials2/spec/CR128HGB.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR128LB"
+{
+	normal "materials2/normal/CR128LB.dds"
+	specular "materials2/spec/CR128LB.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR128LG"
+{
+	normal "materials2/normal/CR128LG.dds"
+	specular "materials2/spec/CR128LG.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64HBB"
+{
+	normal "materials2/normal/CR64HBB.dds"
+	specular "materials2/spec/CR64HBB.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64HBBP"
+{
+	normal "materials2/normal/CR64HBBP.dds"
+	specular "materials2/spec/CR64HBBP.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64HBG"
+{
+	normal "materials2/normal/CR64HBG.dds"
+	specular "materials2/spec/CR64HBG.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64HBRM"
+{
+	normal "materials2/normal/CR64HBRM.dds"
+	specular "materials2/spec/CR64HBRM.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64HGB"
+{
+	normal "materials2/normal/CR64HGB.dds"
+	specular "materials2/spec/CR64HGB.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64HGBP"
+{
+	normal "materials2/normal/CR64HGBP.dds"
+	specular "materials2/spec/CR64HGBP.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64HGG"
+{
+	normal "materials2/normal/CR64HGG.dds"
+	specular "materials2/spec/CR64HGG.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64LB"
+{
+	normal "materials2/normal/CR64LB.dds"
+	specular "materials2/spec/CR64LB.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64LG"
+{
+	normal "materials2/normal/CR64LG.dds"
+	specular "materials2/spec/CR64LG.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CR64SLGB"
+{
+	normal "materials2/normal/CR64SLGB.dds"
+	specular "materials2/spec/CR64SLGB.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "crackle2"
+{
+	normal "materials2/normal/crackle2.dds"
+	specular "materials2/spec/crackle2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "crackle4"
+{
+	normal "materials2/normal/crackle4.dds"
+	specular "materials2/spec/crackle4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "crate1"
+{
+	normal "materials2/normal/crate1.dds"
+	specular "materials2/spec/crate1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "crate2"
+{
+	normal "materials2/normal/crate2.dds"
+	specular "materials2/spec/crate2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "crate3"
+{
+	normal "materials2/normal/crate3.dds"
+	specular "materials2/spec/crate3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "cratelit"
+{
+	normal "materials2/normal/cratelit.dds"
+	specular "materials2/spec/cratelit.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "cratiny"
+{
+	normal "materials2/normal/cratiny.dds"
+	specular "materials2/spec/cratiny.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "cratwide"
+{
+	normal "materials2/normal/cratwide.dds"
+	specular "materials2/spec/cratwide.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRAWHBP"
+{
+	normal "materials2/normal/CRAWHBP.dds"
+	specular "materials2/spec/CRAWHBP.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRAWLBP"
+{
+	normal "materials2/normal/CRAWLBP.dds"
+	specular "materials2/spec/CRAWLBP.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRBLWDH6"
+{
+	normal "materials2/normal/CRBLWDH6.dds"
+	specular "materials2/spec/CRBLWDH6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRBWDH64"
+{
+	normal "materials2/normal/CRBWDH64.dds"
+	specular "materials2/spec/CRBWDH64.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRBWDL12"
+{
+	normal "materials2/normal/CRBWDL12.dds"
+	specular "materials2/spec/CRBWDL12.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRBWHBP"
+{
+	normal "materials2/normal/CRBWHBP.dds"
+	specular "materials2/spec/CRBWHBP.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRBWLBP"
+{
+	normal "materials2/normal/CRBWLBP.dds"
+	specular "materials2/spec/CRBWLBP.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CREDIT"
+{
+	normal "materials2/normal/CREDIT.dds"
+	specular "materials2/spec/CREDIT.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CREEPY"
+{
+	normal "materials2/normal/CREEPY.dds"
+	specular "materials2/spec/CREEPY.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDH6"
+{
+	normal "materials2/normal/CRLWDH6.dds"
+	specular "materials2/spec/CRLWDH6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDH6B"
+{
+	normal "materials2/normal/CRLWDH6B.dds"
+	specular "materials2/spec/CRLWDH6B.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDL12"
+{
+	normal "materials2/normal/CRLWDL12.dds"
+	specular "materials2/spec/CRLWDL12.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDL6"
+{
+	normal "materials2/normal/CRLWDL6.dds"
+	specular "materials2/spec/CRLWDL6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDL6B"
+{
+	normal "materials2/normal/CRLWDL6B.dds"
+	specular "materials2/spec/CRLWDL6B.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDL6C"
+{
+	normal "materials2/normal/CRLWDL6C.dds"
+	specular "materials2/spec/CRLWDL6C.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDL6D"
+{
+	normal "materials2/normal/CRLWDL6D.dds"
+	specular "materials2/spec/CRLWDL6D.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDL6E"
+{
+	normal "materials2/normal/CRLWDL6E.dds"
+	specular "materials2/spec/CRLWDL6E.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDS6"
+{
+	normal "materials2/normal/CRLWDS6.dds"
+	specular "materials2/spec/CRLWDS6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDT3"
+{
+	normal "materials2/normal/CRLWDT3.dds"
+	specular "materials2/spec/CRLWDT3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRLWDVS"
+{
+	normal "materials2/normal/CRLWDVS.dds"
+	specular "materials2/spec/CRLWDVS.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRSMB"
+{
+	normal "materials2/normal/CRSMB.dds"
+	specular "materials2/spec/CRSMB.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRTINYB"
+{
+	normal "materials2/normal/CRTINYB.dds"
+	specular "materials2/spec/CRTINYB.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRWDH64"
+{
+	normal "materials2/normal/CRWDH64.dds"
+	specular "materials2/spec/CRWDH64.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRWDH64B"
+{
+	normal "materials2/normal/CRWDH64B.dds"
+	specular "materials2/spec/CRWDH64B.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRWDL128"
+{
+	normal "materials2/normal/CRWDL128.dds"
+	specular "materials2/spec/CRWDL128.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRWDL64A"
+{
+	normal "materials2/normal/CRWDL64A.dds"
+	specular "materials2/spec/CRWDL64A.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRWDL64B"
+{
+	normal "materials2/normal/CRWDL64B.dds"
+	specular "materials2/spec/CRWDL64B.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRWDL64C"
+{
+	normal "materials2/normal/CRWDL64C.dds"
+	specular "materials2/spec/CRWDL64C.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRWDS64"
+{
+	normal "materials2/normal/CRWDS64.dds"
+	specular "materials2/spec/CRWDS64.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CRWDT32"
+{
+	normal "materials2/normal/CRWDT32.dds"
+	specular "materials2/spec/CRWDT32.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CUBICLE"
+{
+	normal "materials2/normal/CUBICLE.dds"
+	specular "materials2/spec/CUBICLE.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "CYL1_1"
+{
+	normal "materials2/normal/CYL1_1.dds"
+	specular "materials2/spec/CYL1_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dbrain1"
+{
+	normal "materials2/normal/Dbrain1.dds"
+	specular "materials2/spec/Dbrain1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dbrain2"
+{
+	normal "materials2/normal/Dbrain2.dds"
+	specular "materials2/spec/Dbrain2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dbrain3"
+{
+	normal "materials2/normal/Dbrain3.dds"
+	specular "materials2/spec/Dbrain3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dbrain4"
+{
+	normal "materials2/normal/Dbrain4.dds"
+	specular "materials2/spec/Dbrain4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "dem1_1"
+{
+	normal "materials2/normal/dem1_1.dds"
+	specular "materials2/spec/dem1_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "dem1_2"
+{
+	normal "materials2/normal/dem1_2.dds"
+	specular "materials2/spec/dem1_2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "dem1_3"
+{
+	normal "materials2/normal/dem1_3.dds"
+	specular "materials2/spec/dem1_3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "dem1_4"
+{
+	normal "materials2/normal/dem1_4.dds"
+	specular "materials2/spec/dem1_4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "dem1_5"
+{
+	normal "materials2/normal/dem1_5.dds"
+	specular "materials2/spec/dem1_5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "dem1_6"
+{
+	normal "materials2/normal/dem1_6.dds"
+	specular "materials2/spec/dem1_6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON1"
+{
+	normal "materials2/normal/DEMON1.dds"
+	specular "materials2/spec/DEMON1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON2"
+{
+	normal "materials2/normal/DEMON2.dds"
+	specular "materials2/spec/DEMON2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON3"
+{
+	normal "materials2/normal/DEMON3.dds"
+	specular "materials2/spec/DEMON3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON4"
+{
+	normal "materials2/normal/DEMON4.dds"
+	specular "materials2/spec/DEMON4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON5"
+{
+	normal "materials2/normal/DEMON5.dds"
+	specular "materials2/spec/DEMON5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON6"
+{
+	normal "materials2/normal/DEMON6.dds"
+	specular "materials2/spec/DEMON6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON7"
+{
+	normal "materials2/normal/DEMON7.dds"
+	specular "materials2/spec/DEMON7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON7LT"
+{
+	normal "materials2/normal/DEMON7LT.dds"
+	specular "materials2/spec/DEMON7LT.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON8"
+{
+	normal "materials2/normal/DEMON8.dds"
+	specular "materials2/spec/DEMON8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON8LT"
+{
+	normal "materials2/normal/DEMON8LT.dds"
+	specular "materials2/spec/DEMON8LT.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DEMON9"
+{
+	normal "materials2/normal/DEMON9.dds"
+	specular "materials2/spec/DEMON9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DESLOK1"
+{
+	normal "materials2/normal/DESLOK1.dds"
+	specular "materials2/spec/DESLOK1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DESLOK2"
+{
+	normal "materials2/normal/DESLOK2.dds"
+	specular "materials2/spec/DESLOK2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DESLOK2A"
+{
+	normal "materials2/normal/DESLOK2A.dds"
+	specular "materials2/spec/DESLOK2A.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Disaster"
+{
+	normal "materials2/normal/Disaster.dds"
+	specular "materials2/spec/Disaster.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DOC1"
+{
+	normal "materials2/normal/DOC1.dds"
+	specular "materials2/spec/DOC1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dogldir"
+{
+	normal "materials2/normal/Dogldir.dds"
+	specular "materials2/spec/Dogldir.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Doglpanl"
+{
+	normal "materials2/normal/Doglpanl.dds"
+	specular "materials2/spec/Doglpanl.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dogrmsc"
+{
+	normal "materials2/normal/Dogrmsc.dds"
+	specular "materials2/spec/Dogrmsc.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dokgrir"
+{
+	normal "materials2/normal/Dokgrir.dds"
+	specular "materials2/spec/Dokgrir.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dokodo1b"
+{
+	normal "materials2/normal/Dokodo1b.dds"
+	specular "materials2/spec/Dokodo1b.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dokodo2b"
+{
+	normal "materials2/normal/Dokodo2b.dds"
+	specular "materials2/spec/Dokodo2b.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "doorhi"
+{
+	normal "materials2/normal/doorhi.dds"
+	specular "materials2/spec/doorhi.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "DOORMET1"
+{
+	normal "materials2/normal/DOORMET1.dds"
+	specular "materials2/spec/DOORMET1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dopunk4"
+{
+	normal "materials2/normal/Dopunk4.dds"
+	specular "materials2/spec/Dopunk4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dored"
+{
+	normal "materials2/normal/Dored.dds"
+	specular "materials2/spec/Dored.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Dowindow"
+{
+	normal "materials2/normal/Dowindow.dds"
+	specular "materials2/spec/Dowindow.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Drfront"
+{
+	normal "materials2/normal/Drfront.dds"
+	specular "materials2/spec/Drfront.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Drside1"
+{
+	normal "materials2/normal/Drside1.dds"
+	specular "materials2/spec/Drside1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Drside2"
+{
+	normal "materials2/normal/Drside2.dds"
+	specular "materials2/spec/Drside2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Drtopfr"
+{
+	normal "materials2/normal/Drtopfr.dds"
+	specular "materials2/spec/Drtopfr.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Drtopsid"
+{
+	normal "materials2/normal/Drtopsid.dds"
+	specular "materials2/spec/Drtopsid.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Eggreeni"
+{
+	normal "materials2/normal/Eggreeni.dds"
+	specular "materials2/spec/Eggreeni.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "EGREDI"
+{
+	normal "materials2/normal/EGREDI.dds"
+	specular "materials2/spec/EGREDI.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "EGSUPRT3"
+{
+	normal "materials2/normal/EGSUPRT3.dds"
+	specular "materials2/spec/EGSUPRT3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Exit1"
+{
+	normal "materials2/normal/Exit1.dds"
+	specular "materials2/spec/Exit1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "exitsign"
+{
+	normal "materials2/normal/exitsign.dds"
+	specular "materials2/spec/exitsign.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "exitston"
+{
+	normal "materials2/normal/exitston.dds"
+	specular "materials2/spec/exitston.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "FALL3"
+{
+	normal "materials2/normal/FALL3.dds"
+	specular "materials2/spec/FALL3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firelav2"
+{
+	normal "materials2/normal/firelav2.dds"
+	specular "materials2/spec/firelav2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firelav3"
+{
+	normal "materials2/normal/firelav3.dds"
+	specular "materials2/spec/firelav3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firelava"
+{
+	normal "materials2/normal/firelava.dds"
+	specular "materials2/spec/firelava.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firemag1"
+{
+	normal "materials2/normal/firemag1.dds"
+	specular "materials2/spec/firemag1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firemag2"
+{
+	normal "materials2/normal/firemag2.dds"
+	specular "materials2/spec/firemag2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firemag3"
+{
+	normal "materials2/normal/firemag3.dds"
+	specular "materials2/spec/firemag3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firewala"
+{
+	normal "materials2/normal/firewala.dds"
+	specular "materials2/spec/firewala.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firewalb"
+{
+	normal "materials2/normal/firewalb.dds"
+	specular "materials2/spec/firewalb.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "firewall"
+{
+	normal "materials2/normal/firewall.dds"
+	specular "materials2/spec/firewall.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "flat4"
+{
+	normal "materials2/normal/flat4.dds"
+	specular "materials2/spec/flat4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "flat5_7"
+{
+	normal "materials2/normal/flat5_7.dds"
+	specular "materials2/spec/flat5_7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "flat5_8"
+{
+	normal "materials2/normal/flat5_8.dds"
+	specular "materials2/spec/flat5_8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "flat9"
+{
+	normal "materials2/normal/flat9.dds"
+	specular "materials2/spec/flat9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor0_5"
+{
+	normal "materials2/normal/floor0_5.dds"
+	specular "materials2/spec/floor0_5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor0_6"
+{
+	normal "materials2/normal/floor0_6.dds"
+	specular "materials2/spec/floor0_6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor0_7"
+{
+	normal "materials2/normal/floor0_7.dds"
+	specular "materials2/spec/floor0_7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor1_1"
+{
+	normal "materials2/normal/flat20.dds"
+	specular "materials2/spec/flat20.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor1_6"
+{
+	normal "materials2/normal/floor1_6.dds"
+	specular "materials2/spec/floor1_6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor1_7"
+{
+	normal "materials2/normal/floor1_7.dds"
+	specular "materials2/spec/floor1_7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor4_1"
+{
+	normal "materials2/normal/floor4_1.dds"
+	specular "materials2/spec/floor4_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor4_5"
+{
+	normal "materials2/normal/floor4_5.dds"
+	specular "materials2/spec/floor4_5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "FLOOR4_6 (2)"
+{
+	normal "materials2/normal/FLOOR4_6 (2).dds"
+	specular "materials2/spec/FLOOR4_6 (2).dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor4_6"
+{
+	normal "materials2/normal/floor4_6.dds"
+	specular "materials2/spec/floor4_6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "floor7_2"
+{
+	normal "materials2/normal/floor7_2.dds"
+	specular "materials2/spec/floor7_2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "FLOOR_DEM1_5"
+{
+	normal "materials2/normal/FLOOR_DEM1_5.dds"
+	specular "materials2/spec/FLOOR_DEM1_5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "FLOOR_DEM1_6"
+{
+	normal "materials2/normal/FLOOR_DEM1_6.dds"
+	specular "materials2/spec/FLOOR_DEM1_6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "FLOOR_FLOOR7_2"
+{
+	normal "materials2/normal/FLOOR_FLOOR7_2.dds"
+	specular "materials2/spec/FLOOR_FLOOR7_2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "fwater1"
+{
+	normal "materials2/normal/fwater1.dds"
+	specular "materials2/spec/fwater1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "fwater2"
+{
+	normal "materials2/normal/fwater2.dds"
+	specular "materials2/spec/fwater2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "fwater3"
+{
+	normal "materials2/normal/fwater3.dds"
+	specular "materials2/spec/fwater3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "fwater4"
+{
+	normal "materials2/normal/fwater4.dds"
+	specular "materials2/spec/fwater4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Gcratel1"
+{
+	normal "materials2/normal/Gcratel1.dds"
+	specular "materials2/spec/Gcratel1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Gcratem1"
+{
+	normal "materials2/normal/Gcratem1.dds"
+	specular "materials2/spec/Gcratem1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Gcrater1"
+{
+	normal "materials2/normal/Gcrater1.dds"
+	specular "materials2/spec/Gcrater1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "grass1"
+{
+	normal "materials2/normal/grass1.dds"
+	specular "materials2/spec/grass1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "grass2"
+{
+	normal "materials2/normal/grass2.dds"
+	specular "materials2/spec/grass2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gray1"
+{
+	normal "materials2/normal/gray1.dds"
+	specular "materials2/spec/gray1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gray2"
+{
+	normal "materials2/normal/gray2.dds"
+	specular "materials2/spec/gray2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gray4"
+{
+	normal "materials2/normal/gray4.dds"
+	specular "materials2/spec/gray4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gray5"
+{
+	normal "materials2/normal/gray5.dds"
+	specular "materials2/spec/gray5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gray7"
+{
+	normal "materials2/normal/gray7.dds"
+	specular "materials2/spec/gray7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "graybig"
+{
+	normal "materials2/normal/graybig.dds"
+	specular "materials2/spec/graybig.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "graydang"
+{
+	normal "materials2/normal/graydang.dds"
+	specular "materials2/spec/graydang.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "graypois"
+{
+	normal "materials2/normal/graypois.dds"
+	specular "materials2/spec/graypois.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "graytall"
+{
+	normal "materials2/normal/graytall.dds"
+	specular "materials2/spec/graytall.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "grayvine"
+{
+	normal "materials2/normal/grayvine.dds"
+	specular "materials2/spec/grayvine.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Grnmen"
+{
+	normal "materials2/normal/Grnmen.dds"
+	specular "materials2/spec/Grnmen.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "grnrock"
+{
+	normal "materials2/normal/grnrock.dds"
+	specular "materials2/spec/grnrock.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gstgarg"
+{
+	normal "materials2/normal/gstgarg.dds"
+	specular "materials2/spec/gstgarg.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gstlion"
+{
+	normal "materials2/normal/gstlion.dds"
+	specular "materials2/spec/gstlion.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gstone1"
+{
+	normal "materials2/normal/gstone1.dds"
+	specular "materials2/spec/gstone1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gstone2"
+{
+	normal "materials2/normal/gstone2.dds"
+	specular "materials2/spec/gstone2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "gstsatyr"
+{
+	normal "materials2/normal/gstsatyr.dds"
+	specular "materials2/spec/gstsatyr.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "HELP"
+{
+	normal "materials2/normal/HELP.dds"
+	specular "materials2/spec/HELP.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "HELP1"
+{
+	normal "materials2/normal/HELP1.dds"
+	specular "materials2/spec/HELP1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "HELP2"
+{
+	normal "materials2/normal/HELP2.dds"
+	specular "materials2/spec/HELP2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ickdoor1"
+{
+	normal "materials2/normal/ickdoor1.dds"
+	specular "materials2/spec/ickdoor1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ickwall1"
+{
+	normal "materials2/normal/ickwall1.dds"
+	specular "materials2/spec/ickwall1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ickwall2"
+{
+	normal "materials2/normal/ickwall2.dds"
+	specular "materials2/spec/ickwall2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ickwall3"
+{
+	normal "materials2/normal/ickwall3.dds"
+	specular "materials2/spec/ickwall3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ickwall4"
+{
+	normal "materials2/normal/ickwall4.dds"
+	specular "materials2/spec/ickwall4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ickwall5"
+{
+	normal "materials2/normal/ickwall5.dds"
+	specular "materials2/spec/ickwall5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ickwall6"
+{
+	normal "materials2/normal/ickwall6.dds"
+	specular "materials2/spec/ickwall6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ickwall7"
+{
+	normal "materials2/normal/ickwall7.dds"
+	specular "materials2/spec/ickwall7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lava1"
+{
+	normal "materials2/normal/lava1.dds"
+	specular "materials2/spec/lava1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lava2"
+{
+	normal "materials2/normal/lava2.dds"
+	specular "materials2/spec/lava2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lava3"
+{
+	normal "materials2/normal/lava3.dds"
+	specular "materials2/spec/lava3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lava4"
+{
+	normal "materials2/normal/lava4.dds"
+	specular "materials2/spec/lava4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lite2"
+{
+	normal "materials2/normal/lite2.dds"
+	specular "materials2/spec/lite2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lite3"
+{
+	normal "materials2/normal/lite3.dds"
+	specular "materials2/spec/lite3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lite4"
+{
+	normal "materials2/normal/lite4.dds"
+	specular "materials2/spec/lite4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lite5"
+{
+	normal "materials2/normal/lite5.dds"
+	specular "materials2/spec/lite5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "lite96"
+{
+	normal "materials2/normal/lite96.dds"
+	specular "materials2/spec/lite96.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "liteblu1"
+{
+	normal "materials2/normal/liteblu1.dds"
+	specular "materials2/spec/liteblu1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "liteblu2"
+{
+	normal "materials2/normal/liteblu2.dds"
+	specular "materials2/spec/liteblu2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "liteblu3"
+{
+	normal "materials2/normal/liteblu3.dds"
+	specular "materials2/spec/liteblu3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "liteblu4"
+{
+	normal "materials2/normal/liteblu4.dds"
+	specular "materials2/spec/liteblu4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "litegrn1"
+{
+	normal "materials2/normal/litegrn1.dds"
+	specular "materials2/spec/litegrn1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "litemet"
+{
+	normal "materials2/normal/litemet.dds"
+	specular "materials2/spec/litemet.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "litered"
+{
+	normal "materials2/normal/litered.dds"
+	specular "materials2/spec/litered.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "litered1"
+{
+	normal "materials2/normal/litered1.dds"
+	specular "materials2/spec/litered1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Litered2"
+{
+	normal "materials2/normal/Litered2.dds"
+	specular "materials2/spec/Litered2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "liteston"
+{
+	normal "materials2/normal/liteston.dds"
+	specular "materials2/spec/liteston.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "liteyel1"
+{
+	normal "materials2/normal/liteyel1.dds"
+	specular "materials2/spec/liteyel1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "liteyel2"
+{
+	normal "materials2/normal/liteyel2.dds"
+	specular "materials2/spec/liteyel2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "LITEYEL3"
+{
+	normal "materials2/normal/LITEYEL3.dds"
+	specular "materials2/spec/LITEYEL3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Longwall"
+{
+	normal "materials2/normal/Longwall.dds"
+	specular "materials2/spec/Longwall.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "marbgray"
+{
+	normal "materials2/normal/marbgray.dds"
+	specular "materials2/spec/marbgray.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "marble1"
+{
+	normal "materials2/normal/marble1.dds"
+	specular "materials2/spec/marble1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+
+material texture "mc10"
+{
+	normal "materials2/normal/mc10.dds"
+	specular "materials2/spec/mc10.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc11"
+{
+	normal "materials2/normal/mc11.dds"
+	specular "materials2/spec/mc11.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc12"
+{
+	normal "materials2/normal/mc12.dds"
+	specular "materials2/spec/mc12.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc13"
+{
+	normal "materials2/normal/mc13.dds"
+	specular "materials2/spec/mc13.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc14"
+{
+	normal "materials2/normal/mc14.dds"
+	specular "materials2/spec/mc14.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc15"
+{
+	normal "materials2/normal/mc15.dds"
+	specular "materials2/spec/mc15.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc16"
+{
+	normal "materials2/normal/mc16.dds"
+	specular "materials2/spec/mc16.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc17"
+{
+	normal "materials2/normal/mc17.dds"
+	specular "materials2/spec/mc17.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc18"
+{
+	normal "materials2/normal/mc18.dds"
+	specular "materials2/spec/mc18.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc19"
+{
+	normal "materials2/normal/mc19.dds"
+	specular "materials2/spec/mc19.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc2"
+{
+	normal "materials2/normal/mc2.dds"
+	specular "materials2/spec/mc2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc3"
+{
+	normal "materials2/normal/mc3.dds"
+	specular "materials2/spec/mc3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc4"
+{
+	normal "materials2/normal/mc4.dds"
+	specular "materials2/spec/mc4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc5"
+{
+	normal "materials2/normal/mc5.dds"
+	specular "materials2/spec/mc5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc6"
+{
+	normal "materials2/normal/mc6.dds"
+	specular "materials2/spec/mc6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc7"
+{
+	normal "materials2/normal/mc7.dds"
+	specular "materials2/spec/mc7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mc8"
+{
+	normal "materials2/normal/mc8.dds"
+	specular "materials2/spec/mc8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "METAL-BD"
+{
+	normal "materials2/normal/METAL-BD.dds"
+	specular "materials2/spec/METAL-BD.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "METAL-RM"
+{
+	normal "materials2/normal/METAL-RM.dds"
+	specular "materials2/spec/METAL-RM.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "metal"
+{
+	normal "materials2/normal/metal.dds"
+	specular "materials2/spec/metal.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "METAL2BD"
+{
+	normal "materials2/normal/METAL2BD.dds"
+	specular "materials2/spec/METAL2BD.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "metal3"
+{
+	normal "materials2/normal/metal3.dds"
+	specular "materials2/spec/metal3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "metal4"
+{
+	normal "materials2/normal/metal4.dds"
+	specular "materials2/spec/metal4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Metaldr"
+{
+	normal "materials2/normal/Metaldr.dds"
+	specular "materials2/spec/Metaldr.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "METALFLOOR1A"
+{
+	normal "materials2/normal/METALFLOOR1A.dds"
+	specular "materials2/spec/METALFLOOR1A.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mflr8_1"
+{
+	normal "materials2/normal/mflr8_1.dds"
+	specular "materials2/spec/mflr8_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mflr8_2"
+{
+	normal "materials2/normal/mflr8_2.dds"
+	specular "materials2/spec/mflr8_2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "mflr8_4"
+{
+	normal "materials2/normal/mflr8_4.dds"
+	specular "materials2/spec/mflr8_4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "modwall1"
+{
+	normal "materials2/normal/modwall1.dds"
+	specular "materials2/spec/modwall1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "modwall2"
+{
+	normal "materials2/normal/modwall2.dds"
+	specular "materials2/spec/modwall2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "modwall3"
+{
+	normal "materials2/normal/modwall3.dds"
+	specular "materials2/spec/modwall3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "modwall4"
+{
+	normal "materials2/normal/modwall4.dds"
+	specular "materials2/spec/modwall4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "MTNT1"
+{
+	normal "materials2/normal/MTNT1.dds"
+	specular "materials2/spec/MTNT1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "M_RDOOR"
+{
+	normal "materials2/normal/M_RDOOR.dds"
+	specular "materials2/spec/M_RDOOR.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "m_skull1"
+{
+	normal "materials2/normal/m_skull1.dds"
+	specular "materials2/spec/m_skull1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "M_Tec"
+{
+	normal "materials2/normal/M_Tec.dds"
+	specular "materials2/spec/M_Tec.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "M_YDOOR"
+{
+	normal "materials2/normal/M_YDOOR.dds"
+	specular "materials2/spec/M_YDOOR.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "nukage1"
+{
+	normal "materials2/normal/nukage1.dds"
+	specular "materials2/spec/nukage1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "nukage2"
+{
+	normal "materials2/normal/nukage2.dds"
+	specular "materials2/spec/nukage2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "nukage3"
+{
+	normal "materials2/normal/nukage3.dds"
+	specular "materials2/spec/nukage3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "nukage4"
+{
+	normal "materials2/normal/nukage4.dds"
+	specular "materials2/spec/nukage4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Nuke24"
+{
+	normal "materials2/normal/Nuke24.dds"
+	specular "materials2/spec/Nuke24.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "nukedge1"
+{
+	normal "materials2/normal/nukedge1.dds"
+	specular "materials2/spec/nukedge1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Nukepois"
+{
+	normal "materials2/normal/Nukepois.dds"
+	specular "materials2/spec/Nukepois.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "nukeslad"
+{
+	normal "materials2/normal/nukeslad.dds"
+	specular "materials2/spec/nukeslad.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG1"
+{
+	normal "materials2/normal/ORG1.dds"
+	specular "materials2/spec/ORG1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG10"
+{
+	normal "materials2/normal/ORG10.dds"
+	specular "materials2/spec/ORG10.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG11"
+{
+	normal "materials2/normal/ORG11.dds"
+	specular "materials2/spec/ORG11.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG12"
+{
+	normal "materials2/normal/ORG12.dds"
+	specular "materials2/spec/ORG12.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG13"
+{
+	normal "materials2/normal/ORG13.dds"
+	specular "materials2/spec/ORG13.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG14"
+{
+	normal "materials2/normal/ORG14.dds"
+	specular "materials2/spec/ORG14.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG2"
+{
+	normal "materials2/normal/ORG2.dds"
+	specular "materials2/spec/ORG2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG3"
+{
+	normal "materials2/normal/ORG3.dds"
+	specular "materials2/spec/ORG3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG4"
+{
+	normal "materials2/normal/ORG4.dds"
+	specular "materials2/spec/ORG4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG5"
+{
+	normal "materials2/normal/ORG5.dds"
+	specular "materials2/spec/ORG5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG6"
+{
+	normal "materials2/normal/ORG6.dds"
+	specular "materials2/spec/ORG6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG7"
+{
+	normal "materials2/normal/ORG7.dds"
+	specular "materials2/spec/ORG7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ORG8"
+{
+	normal "materials2/normal/ORG8.dds"
+	specular "materials2/spec/ORG8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panblack"
+{
+	normal "materials2/normal/panblack.dds"
+	specular "materials2/spec/panblack.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panblue"
+{
+	normal "materials2/normal/panblue.dds"
+	specular "materials2/spec/panblue.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panbook"
+{
+	normal "materials2/normal/panbook.dds"
+	specular "materials2/spec/panbook.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panbord1"
+{
+	normal "materials2/normal/panbord1.dds"
+	specular "materials2/spec/panbord1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panbord2"
+{
+	normal "materials2/normal/panbord2.dds"
+	specular "materials2/spec/panbord2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "pancase1"
+{
+	normal "materials2/normal/pancase1.dds"
+	specular "materials2/spec/pancase1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "pancase2"
+{
+	normal "materials2/normal/pancase2.dds"
+	specular "materials2/spec/pancase2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel1"
+{
+	normal "materials2/normal/panel1.dds"
+	specular "materials2/spec/panel1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel2"
+{
+	normal "materials2/normal/panel2.dds"
+	specular "materials2/spec/panel2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel3"
+{
+	normal "materials2/normal/panel3.dds"
+	specular "materials2/spec/panel3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel4"
+{
+	normal "materials2/normal/panel4.dds"
+	specular "materials2/spec/panel4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel5"
+{
+	normal "materials2/normal/panel5.dds"
+	specular "materials2/spec/panel5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel6"
+{
+	normal "materials2/normal/panel6.dds"
+	specular "materials2/spec/panel6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel7"
+{
+	normal "materials2/normal/panel7.dds"
+	specular "materials2/spec/panel7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel8"
+{
+	normal "materials2/normal/panel8.dds"
+	specular "materials2/spec/panel8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panel9"
+{
+	normal "materials2/normal/panel9.dds"
+	specular "materials2/spec/panel9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "panred"
+{
+	normal "materials2/normal/panred.dds"
+	specular "materials2/spec/panred.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Pillar"
+{
+	normal "materials2/normal/Pillar.dds"
+	specular "materials2/spec/Pillar.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "pipe1"
+{
+	normal "materials2/normal/pipe1.dds"
+	specular "materials2/spec/pipe1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "pipe6"
+{
+	normal "materials2/normal/pipe6.dds"
+	specular "materials2/spec/pipe6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "pipes"
+{
+	normal "materials2/normal/pipes.dds"
+	specular "materials2/spec/pipes.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "pipewal1"
+{
+	normal "materials2/normal/pipewal1.dds"
+	specular "materials2/spec/pipewal1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "pipewal2"
+{
+	normal "materials2/normal/pipewal2.dds"
+	specular "materials2/spec/pipewal2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "plat1"
+{
+	normal "materials2/normal/plat1.dds"
+	specular "materials2/spec/plat1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Pnk4exit"
+{
+	normal "materials2/normal/Pnk4exit.dds"
+	specular "materials2/spec/Pnk4exit.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "redwall"
+{
+	normal "materials2/normal/redwall.dds"
+	specular "materials2/spec/redwall.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "redwall1"
+{
+	normal "materials2/normal/redwall1.dds"
+	specular "materials2/spec/redwall1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rock1"
+{
+	normal "materials2/normal/rock1.dds"
+	specular "materials2/spec/rock1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rock2"
+{
+	normal "materials2/normal/rock2.dds"
+	specular "materials2/spec/rock2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rock3"
+{
+	normal "materials2/normal/rock3.dds"
+	specular "materials2/spec/rock3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ROCKRED1"
+{
+	normal "materials2/normal/ROCKRED1.dds"
+	specular "materials2/spec/ROCKRED1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ROCKRED2"
+{
+	normal "materials2/normal/ROCKRED2.dds"
+	specular "materials2/spec/ROCKRED2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ROCKRED3"
+{
+	normal "materials2/normal/ROCKRED3.dds"
+	specular "materials2/spec/ROCKRED3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock01"
+{
+	normal "materials2/normal/rrock01.dds"
+	specular "materials2/spec/rrock01.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock02"
+{
+	normal "materials2/normal/rrock02.dds"
+	specular "materials2/spec/rrock02.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock03"
+{
+	normal "materials2/normal/rrock03.dds"
+	specular "materials2/spec/rrock03.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock04"
+{
+	normal "materials2/normal/rrock04.dds"
+	specular "materials2/spec/rrock04.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock05"
+{
+	normal "materials2/normal/rrock05.dds"
+	specular "materials2/spec/rrock05.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock06"
+{
+	normal "materials2/normal/rrock06.dds"
+	specular "materials2/spec/rrock06.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock07"
+{
+	normal "materials2/normal/rrock07.dds"
+	specular "materials2/spec/rrock07.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock08"
+{
+	normal "materials2/normal/rrock08.dds"
+	specular "materials2/spec/rrock08.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock09"
+{
+	normal "materials2/normal/rrock09.dds"
+	specular "materials2/spec/rrock09.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock10"
+{
+	normal "materials2/normal/rrock10.dds"
+	specular "materials2/spec/rrock10.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock13"
+{
+	normal "materials2/normal/rrock13.dds"
+	specular "materials2/spec/rrock13.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock14"
+{
+	normal "materials2/normal/rrock14.dds"
+	specular "materials2/spec/rrock14.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock15"
+{
+	normal "materials2/normal/rrock15.dds"
+	specular "materials2/spec/rrock15.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RROCK16"
+{
+	normal "materials2/normal/RROCK16.dds"
+	specular "materials2/spec/RROCK16.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock19"
+{
+	normal "materials2/normal/rrock19.dds"
+	specular "materials2/spec/rrock19.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "rrock20"
+{
+	normal "materials2/normal/rrock20.dds"
+	specular "materials2/spec/rrock20.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUST"
+{
+	normal "materials2/normal/RUST.dds"
+	specular "materials2/spec/RUST.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUSTDEM1"
+{
+	normal "materials2/normal/RUSTDEM1.dds"
+	specular "materials2/spec/RUSTDEM1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUSTDEM3"
+{
+	normal "materials2/normal/RUSTDEM3.dds"
+	specular "materials2/spec/RUSTDEM3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUSTDEM4"
+{
+	normal "materials2/normal/RUSTDEM4.dds"
+	specular "materials2/spec/RUSTDEM4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUSTDEM5"
+{
+	normal "materials2/normal/RUSTDEM5.dds"
+	specular "materials2/spec/RUSTDEM5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUSTDEM6"
+{
+	normal "materials2/normal/RUSTDEM6.dds"
+	specular "materials2/spec/RUSTDEM6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUSTDEM7"
+{
+	normal "materials2/normal/RUSTDEM7.dds"
+	specular "materials2/spec/RUSTDEM7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUSTDEM8"
+{
+	normal "materials2/normal/RUSTDEM8.dds"
+	specular "materials2/spec/RUSTDEM8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RUSTDEM9"
+{
+	normal "materials2/normal/RUSTDEM9.dds"
+	specular "materials2/spec/RUSTDEM9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RW1_1"
+{
+	normal "materials2/normal/RW1_1.dds"
+	specular "materials2/spec/RW1_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RW37_1"
+{
+	normal "materials2/normal/RW37_1.dds"
+	specular "materials2/spec/RW37_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RW37_2"
+{
+	normal "materials2/normal/RW37_2.dds"
+	specular "materials2/spec/RW37_2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RW37_3"
+{
+	normal "materials2/normal/RW37_3.dds"
+	specular "materials2/spec/RW37_3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "RW39_1"
+{
+	normal "materials2/normal/RW39_1.dds"
+	specular "materials2/spec/RW39_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sfall1"
+{
+	normal "materials2/normal/sfall1.dds"
+	specular "materials2/spec/sfall1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sfall2"
+{
+	normal "materials2/normal/sfall2.dds"
+	specular "materials2/spec/sfall2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sfall3"
+{
+	normal "materials2/normal/sfall3.dds"
+	specular "materials2/spec/sfall3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sfall4"
+{
+	normal "materials2/normal/sfall4.dds"
+	specular "materials2/spec/sfall4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SGCRATE2"
+{
+	normal "materials2/normal/SGCRATE2.dds"
+	specular "materials2/spec/SGCRATE2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "shawn1"
+{
+	normal "materials2/normal/shawn1.dds"
+	specular "materials2/spec/shawn1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "shawn2"
+{
+	normal "materials2/normal/shawn2.dds"
+	specular "materials2/spec/shawn2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "shawn3"
+{
+	normal "materials2/normal/shawn3.dds"
+	specular "materials2/spec/shawn3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "silver1"
+{
+	normal "materials2/normal/silver1.dds"
+	specular "materials2/spec/silver1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "silver2"
+{
+	normal "materials2/normal/silver2.dds"
+	specular "materials2/spec/silver2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "silver3"
+{
+	normal "materials2/normal/silver3.dds"
+	specular "materials2/spec/silver3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skin2"
+{
+	normal "materials2/normal/skin2.dds"
+	specular "materials2/spec/skin2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skinbord"
+{
+	normal "materials2/normal/skinbord.dds"
+	specular "materials2/spec/skinbord.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skincut"
+{
+	normal "materials2/normal/skincut.dds"
+	specular "materials2/spec/skincut.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skinedge"
+{
+	normal "materials2/normal/skinedge.dds"
+	specular "materials2/spec/skinedge.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skinface"
+{
+	normal "materials2/normal/skinface.dds"
+	specular "materials2/spec/skinface.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Skinlow"
+{
+	normal "materials2/normal/Skinlow.dds"
+	specular "materials2/spec/Skinlow.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skinmet1"
+{
+	normal "materials2/normal/skinmet1.dds"
+	specular "materials2/spec/skinmet1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Skinmet2"
+{
+	normal "materials2/normal/Skinmet2.dds"
+	specular "materials2/spec/Skinmet2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skinscab"
+{
+	normal "materials2/normal/skinscab.dds"
+	specular "materials2/spec/skinscab.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skinsymb"
+{
+	normal "materials2/normal/skinsymb.dds"
+	specular "materials2/spec/skinsymb.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skintek1"
+{
+	normal "materials2/normal/skintek1.dds"
+	specular "materials2/spec/skintek1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skintek2"
+{
+	normal "materials2/normal/skintek2.dds"
+	specular "materials2/spec/skintek2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Skirting"
+{
+	normal "materials2/normal/Skirting.dds"
+	specular "materials2/spec/Skirting.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "skullwall"
+{
+	normal "materials2/normal/skullwall.dds"
+	specular "materials2/spec/skullwall.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Skulwal3"
+{
+	normal "materials2/normal/Skulwal3.dds"
+	specular "materials2/spec/Skulwal3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SKULWALL"
+{
+	normal "materials2/normal/SKULWALL.dds"
+	specular "materials2/spec/SKULWALL.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sk_left"
+{
+	normal "materials2/normal/sk_left.dds"
+	specular "materials2/spec/sk_left.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sk_right"
+{
+	normal "materials2/normal/sk_right.dds"
+	specular "materials2/spec/sk_right.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sladrip1"
+{
+	normal "materials2/normal/Sladrip1.dds"
+	specular "materials2/spec/Sladrip1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sladrip2"
+{
+	normal "materials2/normal/sladrip2.dds"
+	specular "materials2/spec/sladrip2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sladrip3"
+{
+	normal "materials2/normal/Sladrip3.dds"
+	specular "materials2/spec/Sladrip3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sladskul"
+{
+	normal "materials2/normal/sladskul.dds"
+	specular "materials2/spec/sladskul.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime01"
+{
+	normal "materials2/normal/slime01.dds"
+	specular "materials2/spec/slime01.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime02"
+{
+	normal "materials2/normal/slime02.dds"
+	specular "materials2/spec/slime02.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime03"
+{
+	normal "materials2/normal/slime03.dds"
+	specular "materials2/spec/slime03.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime04"
+{
+	normal "materials2/normal/slime04.dds"
+	specular "materials2/spec/slime04.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime05"
+{
+	normal "materials2/normal/slime05.dds"
+	specular "materials2/spec/slime05.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime06"
+{
+	normal "materials2/normal/slime06.dds"
+	specular "materials2/spec/slime06.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime07"
+{
+	normal "materials2/normal/slime07.dds"
+	specular "materials2/spec/slime07.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime08"
+{
+	normal "materials2/normal/slime08.dds"
+	specular "materials2/spec/slime08.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime09"
+{
+	normal "materials2/normal/slime09.dds"
+	specular "materials2/spec/slime09.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SLIME1"
+{
+	normal "materials2/normal/SLIME1.dds"
+	specular "materials2/spec/SLIME1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime10"
+{
+	normal "materials2/normal/slime10.dds"
+	specular "materials2/spec/slime10.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime11"
+{
+	normal "materials2/normal/slime11.dds"
+	specular "materials2/spec/slime11.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime12"
+{
+	normal "materials2/normal/slime12.dds"
+	specular "materials2/spec/slime12.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "slime13"
+{
+	normal "materials2/normal/slime13.dds"
+	specular "materials2/spec/slime13.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Slime2"
+{
+	normal "materials2/normal/Slime2.dds"
+	specular "materials2/spec/Slime2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Slime3"
+{
+	normal "materials2/normal/Slime3.dds"
+	specular "materials2/spec/Slime3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Slime4"
+{
+	normal "materials2/normal/Slime4.dds"
+	specular "materials2/spec/Slime4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Slime5"
+{
+	normal "materials2/normal/Slime5.dds"
+	specular "materials2/spec/Slime5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Slime8"
+{
+	normal "materials2/normal/Slime8.dds"
+	specular "materials2/spec/Slime8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sloppy1"
+{
+	normal "materials2/normal/sloppy1.dds"
+	specular "materials2/spec/sloppy1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sloppy2"
+{
+	normal "materials2/normal/sloppy2.dds"
+	specular "materials2/spec/sloppy2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Smglass1"
+{
+	normal "materials2/normal/Smglass1.dds"
+	specular "materials2/spec/Smglass1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Smstone6"
+{
+	normal "materials2/normal/Smstone6.dds"
+	specular "materials2/spec/Smstone6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "spacew2"
+{
+	normal "materials2/normal/spacew2.dds"
+	specular "materials2/spec/spacew2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "spacew3"
+{
+	normal "materials2/normal/spacew3.dds"
+	specular "materials2/spec/spacew3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "spcdoor1"
+{
+	normal "materials2/normal/spcdoor1.dds"
+	specular "materials2/spec/spcdoor1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "spcdoor2"
+{
+	normal "materials2/normal/spcdoor2.dds"
+	specular "materials2/spec/spcdoor2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "spcdoor4"
+{
+	normal "materials2/normal/spcdoor4.dds"
+	specular "materials2/spec/spcdoor4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sp_face1"
+{
+	normal "materials2/normal/sp_face1.dds"
+	specular "materials2/spec/sp_face1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SP_FACE2"
+{
+	normal "materials2/normal/SP_FACE2.dds"
+	specular "materials2/spec/SP_FACE2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sp_hot1"
+{
+	normal "materials2/normal/sp_hot1.dds"
+	specular "materials2/spec/sp_hot1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sp_rock1"
+{
+	normal "materials2/normal/sp_rock1.dds"
+	specular "materials2/spec/sp_rock1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sp_rock2"
+{
+	normal "materials2/normal/sp_rock2.dds"
+	specular "materials2/spec/sp_rock2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "STARBR1"
+{
+	normal "materials2/normal/STARBR1.dds"
+	specular "materials2/spec/STARBR1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step03"
+{
+	normal "materials2/normal/step03.dds"
+	specular "materials2/spec/step03.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step04"
+{
+	normal "materials2/normal/step04.dds"
+	specular "materials2/spec/step04.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Step05"
+{
+	normal "materials2/normal/Step05.dds"
+	specular "materials2/spec/Step05.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step06"
+{
+	normal "materials2/normal/step06.dds"
+	specular "materials2/spec/step06.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step07"
+{
+	normal "materials2/normal/step07.dds"
+	specular "materials2/spec/step07.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Step08"
+{
+	normal "materials2/normal/Step08.dds"
+	specular "materials2/spec/Step08.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Step09"
+{
+	normal "materials2/normal/Step09.dds"
+	specular "materials2/spec/Step09.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Step1"
+{
+	normal "materials2/normal/Step1.dds"
+	specular "materials2/spec/Step1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step10"
+{
+	normal "materials2/normal/step10.dds"
+	specular "materials2/spec/step10.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step2"
+{
+	normal "materials2/normal/step2.dds"
+	specular "materials2/spec/step2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Step3"
+{
+	normal "materials2/normal/Step3.dds"
+	specular "materials2/spec/Step3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step4"
+{
+	normal "materials2/normal/step4.dds"
+	specular "materials2/spec/step4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Step5"
+{
+	normal "materials2/normal/Step5.dds"
+	specular "materials2/spec/Step5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step6"
+{
+	normal "materials2/normal/step6.dds"
+	specular "materials2/spec/step6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "step7"
+{
+	normal "materials2/normal/step7.dds"
+	specular "materials2/spec/step7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Step8"
+{
+	normal "materials2/normal/Step8.dds"
+	specular "materials2/spec/Step8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Step9"
+{
+	normal "materials2/normal/Step9.dds"
+	specular "materials2/spec/Step9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "steplad1"
+{
+	normal "materials2/normal/steplad1.dds"
+	specular "materials2/spec/steplad1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "steptop"
+{
+	normal "materials2/normal/steptop.dds"
+	specular "materials2/spec/steptop.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "stone3"
+{
+	normal "materials2/normal/stone3.dds"
+	specular "materials2/spec/stone3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "stone6"
+{
+	normal "materials2/normal/stone6.dds"
+	specular "materials2/spec/stone6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "stone7"
+{
+	normal "materials2/normal/stone7.dds"
+	specular "materials2/spec/stone7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "STONEW1"
+{
+	normal "materials2/normal/STONEW1.dds"
+	specular "materials2/spec/STONEW1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Stonew5"
+{
+	normal "materials2/normal/Stonew5.dds"
+	specular "materials2/spec/Stonew5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "stongarg"
+{
+	normal "materials2/normal/stongarg.dds"
+	specular "materials2/spec/stongarg.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "stucco"
+{
+	normal "materials2/normal/stucco.dds"
+	specular "materials2/spec/stucco.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "stucco1"
+{
+	normal "materials2/normal/stucco1.dds"
+	specular "materials2/spec/stucco1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "stucco2"
+{
+	normal "materials2/normal/stucco2.dds"
+	specular "materials2/spec/stucco2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "stucco3"
+{
+	normal "materials2/normal/stucco3.dds"
+	specular "materials2/spec/stucco3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "STVINE1"
+{
+	normal "materials2/normal/STVINE1.dds"
+	specular "materials2/spec/STVINE1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "STVINE2"
+{
+	normal "materials2/normal/STVINE2.dds"
+	specular "materials2/spec/STVINE2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Stwall"
+{
+	normal "materials2/normal/Stwall.dds"
+	specular "materials2/spec/Stwall.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "support2"
+{
+	normal "materials2/normal/support2.dds"
+	specular "materials2/spec/support2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "support3"
+{
+	normal "materials2/normal/support3.dds"
+	specular "materials2/spec/support3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW11_1"
+{
+	normal "materials2/normal/SW11_1.dds"
+	specular "materials2/spec/SW11_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW11_2"
+{
+	normal "materials2/normal/SW11_2.dds"
+	specular "materials2/spec/SW11_2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW11_4"
+{
+	normal "materials2/normal/SW11_4.dds"
+	specular "materials2/spec/SW11_4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW12_1"
+{
+	normal "materials2/normal/SW12_1.dds"
+	specular "materials2/spec/SW12_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW12_2"
+{
+	normal "materials2/normal/SW12_2.dds"
+	specular "materials2/spec/SW12_2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW18_7"
+{
+	normal "materials2/normal/SW18_7.dds"
+	specular "materials2/spec/SW18_7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW19_1"
+{
+	normal "materials2/normal/SW19_1.dds"
+	specular "materials2/spec/SW19_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW19_2"
+{
+	normal "materials2/normal/SW19_2.dds"
+	specular "materials2/spec/SW19_2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW19_3"
+{
+	normal "materials2/normal/SW19_3.dds"
+	specular "materials2/spec/SW19_3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW19_4"
+{
+	normal "materials2/normal/SW19_4.dds"
+	specular "materials2/spec/SW19_4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW1BIRK"
+{
+	normal "materials2/normal/SW1BIRK.dds"
+	specular "materials2/spec/SW1BIRK.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1blue"
+{
+	normal "materials2/normal/sw1blue.dds"
+	specular "materials2/spec/sw1blue.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1brcom"
+{
+	normal "materials2/normal/sw1brcom.dds"
+	specular "materials2/spec/sw1brcom.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1brik"
+{
+	normal "materials2/normal/sw1brik.dds"
+	specular "materials2/spec/sw1brik.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw1brn1"
+{
+	normal "materials2/normal/Sw1brn1.dds"
+	specular "materials2/spec/Sw1brn1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1brn2"
+{
+	normal "materials2/normal/sw1brn2.dds"
+	specular "materials2/spec/sw1brn2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1brngn"
+{
+	normal "materials2/normal/sw1brngn.dds"
+	specular "materials2/spec/sw1brngn.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW1BRNGRN"
+{
+	normal "materials2/normal/SW1BRNGRN.dds"
+	specular "materials2/spec/SW1BRNGRN.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1brown"
+{
+	normal "materials2/normal/sw1brown.dds"
+	specular "materials2/spec/sw1brown.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1cmt"
+{
+	normal "materials2/normal/sw1cmt.dds"
+	specular "materials2/spec/sw1cmt.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1comm"
+{
+	normal "materials2/normal/sw1comm.dds"
+	specular "materials2/spec/sw1comm.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1comp"
+{
+	normal "materials2/normal/sw1comp.dds"
+	specular "materials2/spec/sw1comp.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1dirt"
+{
+	normal "materials2/normal/sw1dirt.dds"
+	specular "materials2/spec/sw1dirt.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1exit"
+{
+	normal "materials2/normal/sw1exit.dds"
+	specular "materials2/spec/sw1exit.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1garg"
+{
+	normal "materials2/normal/sw1garg.dds"
+	specular "materials2/spec/sw1garg.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1gray"
+{
+	normal "materials2/normal/sw1gray.dds"
+	specular "materials2/spec/sw1gray.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1gray1"
+{
+	normal "materials2/normal/sw1gray1.dds"
+	specular "materials2/spec/sw1gray1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw1gston"
+{
+	normal "materials2/normal/Sw1gston.dds"
+	specular "materials2/spec/Sw1gston.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1hot"
+{
+	normal "materials2/normal/sw1hot.dds"
+	specular "materials2/spec/sw1hot.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1lion"
+{
+	normal "materials2/normal/sw1lion.dds"
+	specular "materials2/spec/sw1lion.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1marb"
+{
+	normal "materials2/normal/sw1marb.dds"
+	specular "materials2/spec/sw1marb.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1met2"
+{
+	normal "materials2/normal/sw1met2.dds"
+	specular "materials2/spec/sw1met2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1metal"
+{
+	normal "materials2/normal/sw1metal.dds"
+	specular "materials2/spec/sw1metal.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1mod1"
+{
+	normal "materials2/normal/sw1mod1.dds"
+	specular "materials2/spec/sw1mod1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1panel"
+{
+	normal "materials2/normal/sw1panel.dds"
+	specular "materials2/spec/sw1panel.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1pipe"
+{
+	normal "materials2/normal/sw1pipe.dds"
+	specular "materials2/spec/sw1pipe.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1rock"
+{
+	normal "materials2/normal/sw1rock.dds"
+	specular "materials2/spec/sw1rock.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW1S0"
+{
+	normal "materials2/normal/SW1S0.dds"
+	specular "materials2/spec/SW1S0.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW1S1"
+{
+	normal "materials2/normal/SW1S1.dds"
+	specular "materials2/spec/SW1S1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1satyr"
+{
+	normal "materials2/normal/sw1satyr.dds"
+	specular "materials2/spec/sw1satyr.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1skin"
+{
+	normal "materials2/normal/sw1skin.dds"
+	specular "materials2/spec/sw1skin.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1skull"
+{
+	normal "materials2/normal/sw1skull.dds"
+	specular "materials2/spec/sw1skull.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1slad"
+{
+	normal "materials2/normal/sw1slad.dds"
+	specular "materials2/spec/sw1slad.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw1starg"
+{
+	normal "materials2/normal/Sw1starg.dds"
+	specular "materials2/spec/Sw1starg.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1ston1"
+{
+	normal "materials2/normal/sw1ston1.dds"
+	specular "materials2/spec/sw1ston1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw1ston2"
+{
+	normal "materials2/normal/Sw1ston2.dds"
+	specular "materials2/spec/Sw1ston2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1ston6"
+{
+	normal "materials2/normal/sw1ston6.dds"
+	specular "materials2/spec/sw1ston6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw1stone"
+{
+	normal "materials2/normal/Sw1stone.dds"
+	specular "materials2/spec/Sw1stone.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1strtn"
+{
+	normal "materials2/normal/sw1strtn.dds"
+	specular "materials2/spec/sw1strtn.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1tek"
+{
+	normal "materials2/normal/sw1tek.dds"
+	specular "materials2/spec/sw1tek.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1vine"
+{
+	normal "materials2/normal/sw1vine.dds"
+	specular "materials2/spec/sw1vine.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1wdmet"
+{
+	normal "materials2/normal/sw1wdmet.dds"
+	specular "materials2/spec/sw1wdmet.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1wood"
+{
+	normal "materials2/normal/sw1wood.dds"
+	specular "materials2/spec/sw1wood.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw1zim"
+{
+	normal "materials2/normal/sw1zim.dds"
+	specular "materials2/spec/sw1zim.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW2BIRK"
+{
+	normal "materials2/normal/SW2BIRK.dds"
+	specular "materials2/spec/SW2BIRK.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2blue"
+{
+	normal "materials2/normal/sw2blue.dds"
+	specular "materials2/spec/sw2blue.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2brcom"
+{
+	normal "materials2/normal/sw2brcom.dds"
+	specular "materials2/spec/sw2brcom.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2brik"
+{
+	normal "materials2/normal/sw2brik.dds"
+	specular "materials2/spec/sw2brik.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw2brn1"
+{
+	normal "materials2/normal/Sw2brn1.dds"
+	specular "materials2/spec/Sw2brn1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2brn2"
+{
+	normal "materials2/normal/sw2brn2.dds"
+	specular "materials2/spec/sw2brn2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2brngn"
+{
+	normal "materials2/normal/sw2brngn.dds"
+	specular "materials2/spec/sw2brngn.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW2BRNGRN"
+{
+	normal "materials2/normal/SW2BRNGRN.dds"
+	specular "materials2/spec/SW2BRNGRN.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2brown"
+{
+	normal "materials2/normal/sw2brown.dds"
+	specular "materials2/spec/sw2brown.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2cmt"
+{
+	normal "materials2/normal/sw2cmt.dds"
+	specular "materials2/spec/sw2cmt.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2comm"
+{
+	normal "materials2/normal/sw2comm.dds"
+	specular "materials2/spec/sw2comm.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2comp"
+{
+	normal "materials2/normal/sw2comp.dds"
+	specular "materials2/spec/sw2comp.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2dirt"
+{
+	normal "materials2/normal/sw2dirt.dds"
+	specular "materials2/spec/sw2dirt.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2exit"
+{
+	normal "materials2/normal/sw2exit.dds"
+	specular "materials2/spec/sw2exit.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2garg"
+{
+	normal "materials2/normal/sw2garg.dds"
+	specular "materials2/spec/sw2garg.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2gray"
+{
+	normal "materials2/normal/sw2gray.dds"
+	specular "materials2/spec/sw2gray.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2gray1"
+{
+	normal "materials2/normal/sw2gray1.dds"
+	specular "materials2/spec/sw2gray1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw2gston"
+{
+	normal "materials2/normal/Sw2gston.dds"
+	specular "materials2/spec/Sw2gston.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2hot"
+{
+	normal "materials2/normal/sw2hot.dds"
+	specular "materials2/spec/sw2hot.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2lion"
+{
+	normal "materials2/normal/sw2lion.dds"
+	specular "materials2/spec/sw2lion.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2marb"
+{
+	normal "materials2/normal/sw2marb.dds"
+	specular "materials2/spec/sw2marb.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2met2"
+{
+	normal "materials2/normal/sw2met2.dds"
+	specular "materials2/spec/sw2met2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2metal"
+{
+	normal "materials2/normal/sw2metal.dds"
+	specular "materials2/spec/sw2metal.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2mod1"
+{
+	normal "materials2/normal/sw2mod1.dds"
+	specular "materials2/spec/sw2mod1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2panel"
+{
+	normal "materials2/normal/sw2panel.dds"
+	specular "materials2/spec/sw2panel.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2pipe"
+{
+	normal "materials2/normal/sw2pipe.dds"
+	specular "materials2/spec/sw2pipe.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2rock"
+{
+	normal "materials2/normal/sw2rock.dds"
+	specular "materials2/spec/sw2rock.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW2S0"
+{
+	normal "materials2/normal/SW2S0.dds"
+	specular "materials2/spec/SW2S0.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW2S1"
+{
+	normal "materials2/normal/SW2S1.dds"
+	specular "materials2/spec/SW2S1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2satyr"
+{
+	normal "materials2/normal/sw2satyr.dds"
+	specular "materials2/spec/sw2satyr.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2skin"
+{
+	normal "materials2/normal/sw2skin.dds"
+	specular "materials2/spec/sw2skin.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2skull"
+{
+	normal "materials2/normal/sw2skull.dds"
+	specular "materials2/spec/sw2skull.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2slad"
+{
+	normal "materials2/normal/sw2slad.dds"
+	specular "materials2/spec/sw2slad.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw2starg"
+{
+	normal "materials2/normal/Sw2starg.dds"
+	specular "materials2/spec/Sw2starg.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2ston1"
+{
+	normal "materials2/normal/sw2ston1.dds"
+	specular "materials2/spec/sw2ston1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw2ston2"
+{
+	normal "materials2/normal/Sw2ston2.dds"
+	specular "materials2/spec/Sw2ston2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2ston6"
+{
+	normal "materials2/normal/sw2ston6.dds"
+	specular "materials2/spec/sw2ston6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Sw2stone"
+{
+	normal "materials2/normal/Sw2stone.dds"
+	specular "materials2/spec/Sw2stone.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2strtn"
+{
+	normal "materials2/normal/sw2strtn.dds"
+	specular "materials2/spec/sw2strtn.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2tek"
+{
+	normal "materials2/normal/sw2tek.dds"
+	specular "materials2/spec/sw2tek.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2vine"
+{
+	normal "materials2/normal/sw2vine.dds"
+	specular "materials2/spec/sw2vine.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2wdmet"
+{
+	normal "materials2/normal/sw2wdmet.dds"
+	specular "materials2/spec/sw2wdmet.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2wood"
+{
+	normal "materials2/normal/sw2wood.dds"
+	specular "materials2/spec/sw2wood.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "sw2zim"
+{
+	normal "materials2/normal/sw2zim.dds"
+	specular "materials2/spec/sw2zim.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW2_5"
+{
+	normal "materials2/normal/SW2_5.dds"
+	specular "materials2/spec/SW2_5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW2_6"
+{
+	normal "materials2/normal/SW2_6.dds"
+	specular "materials2/spec/SW2_6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW3S0"
+{
+	normal "materials2/normal/SW3S0.dds"
+	specular "materials2/spec/SW3S0.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW3S1"
+{
+	normal "materials2/normal/SW3S1.dds"
+	specular "materials2/spec/SW3S1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW4S0"
+{
+	normal "materials2/normal/SW4S0.dds"
+	specular "materials2/spec/SW4S0.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "SW4S1"
+{
+	normal "materials2/normal/SW4S1.dds"
+	specular "materials2/spec/SW4S1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "T14_5"
+{
+	normal "materials2/normal/T14_5.dds"
+	specular "materials2/spec/T14_5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Tanrock2"
+{
+	normal "materials2/normal/Tanrock2.dds"
+	specular "materials2/spec/Tanrock2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tanrock3"
+{
+	normal "materials2/normal/tanrock3.dds"
+	specular "materials2/spec/tanrock3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Tanrock4"
+{
+	normal "materials2/normal/Tanrock4.dds"
+	specular "materials2/spec/Tanrock4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Tanrock5"
+{
+	normal "materials2/normal/Tanrock5.dds"
+	specular "materials2/spec/Tanrock5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tanrock7"
+{
+	normal "materials2/normal/tanrock7.dds"
+	specular "materials2/spec/tanrock7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Tanrock8"
+{
+	normal "materials2/normal/Tanrock8.dds"
+	specular "materials2/spec/Tanrock8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekbron1"
+{
+	normal "materials2/normal/tekbron1.dds"
+	specular "materials2/spec/tekbron1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekbron2"
+{
+	normal "materials2/normal/tekbron2.dds"
+	specular "materials2/spec/tekbron2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekgren1"
+{
+	normal "materials2/normal/tekgren1.dds"
+	specular "materials2/spec/tekgren1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekgren3"
+{
+	normal "materials2/normal/tekgren3.dds"
+	specular "materials2/spec/tekgren3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekgren4.2"
+{
+	normal "materials2/normal/tekgren4.2.dds"
+	specular "materials2/spec/tekgren4.2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekgren4"
+{
+	normal "materials2/normal/tekgren4.dds"
+	specular "materials2/spec/tekgren4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "teklite"
+{
+	normal "materials2/normal/teklite.dds"
+	specular "materials2/spec/teklite.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "teklite2"
+{
+	normal "materials2/normal/teklite2.dds"
+	specular "materials2/spec/teklite2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekwall1"
+{
+	normal "materials2/normal/tekwall1.dds"
+	specular "materials2/spec/tekwall1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Tekwall2"
+{
+	normal "materials2/normal/Tekwall2.dds"
+	specular "materials2/spec/Tekwall2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekwall3"
+{
+	normal "materials2/normal/tekwall3.dds"
+	specular "materials2/spec/tekwall3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Tekwall5"
+{
+	normal "materials2/normal/Tekwall5.dds"
+	specular "materials2/spec/Tekwall5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tekwall6"
+{
+	normal "materials2/normal/tekwall6.dds"
+	specular "materials2/spec/tekwall6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Tilite6_1"
+{
+	normal "materials2/normal/Tilite6_1.dds"
+	specular "materials2/spec/Tilite6_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tlite6_1"
+{
+	normal "materials2/normal/tlite6_1.dds"
+	specular "materials2/spec/tlite6_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tlite6_4"
+{
+	normal "materials2/normal/tlite6_4.dds"
+	specular "materials2/spec/tlite6_4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tlite6_5"
+{
+	normal "materials2/normal/tlite6_5.dds"
+	specular "materials2/spec/tlite6_5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "tlite6_6"
+{
+	normal "materials2/normal/tlite6_6.dds"
+	specular "materials2/spec/tlite6_6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "TNTDOOR"
+{
+	normal "materials2/normal/TNTDOOR.dds"
+	specular "materials2/spec/TNTDOOR.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Tyunder1"
+{
+	normal "materials2/normal/Tyunder1.dds"
+	specular "materials2/spec/Tyunder1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "TYWHEEL1"
+{
+	normal "materials2/normal/TYWHEEL1.dds"
+	specular "materials2/spec/TYWHEEL1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Victory2"
+{
+	normal "materials2/normal/Victory2.dds"
+	specular "materials2/spec/Victory2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "WALL03_1"
+{
+	normal "materials2/normal/WALL03_1.dds"
+	specular "materials2/spec/WALL03_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "WALL_WITH_METAL_FACE"
+{
+	normal "materials2/normal/WALL_WITH_METAL_FACE.dds"
+	specular "materials2/spec/WALL_WITH_METAL_FACE.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Wfall1"
+{
+	normal "materials2/normal/Wfall1.dds"
+	specular "materials2/spec/Wfall1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Wfall2"
+{
+	normal "materials2/normal/Wfall2.dds"
+	specular "materials2/spec/Wfall2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Wfall3"
+{
+	normal "materials2/normal/Wfall3.dds"
+	specular "materials2/spec/Wfall3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "Wfall4"
+{
+	normal "materials2/normal/Wfall4.dds"
+	specular "materials2/spec/Wfall4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "WLA128_1"
+{
+	normal "materials2/normal/WLA128_1.dds"
+	specular "materials2/spec/WLA128_1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood1"
+{
+	normal "materials2/normal/wood1.dds"
+	specular "materials2/spec/wood1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood10"
+{
+	normal "materials2/normal/wood10.dds"
+	specular "materials2/spec/wood10.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "WOOD12"
+{
+	normal "materials2/normal/WOOD12.dds"
+	specular "materials2/spec/WOOD12.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood3"
+{
+	normal "materials2/normal/wood3.dds"
+	specular "materials2/spec/wood3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood4"
+{
+	normal "materials2/normal/wood4.dds"
+	specular "materials2/spec/wood4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood5"
+{
+	normal "materials2/normal/wood5.dds"
+	specular "materials2/spec/wood5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood6"
+{
+	normal "materials2/normal/wood6.dds"
+	specular "materials2/spec/wood6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood7"
+{
+	normal "materials2/normal/wood7.dds"
+	specular "materials2/spec/wood7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood8"
+{
+	normal "materials2/normal/wood8.dds"
+	specular "materials2/spec/wood8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "wood9"
+{
+	normal "materials2/normal/wood9.dds"
+	specular "materials2/spec/wood9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "woodgarg"
+{
+	normal "materials2/normal/woodgarg.dds"
+	specular "materials2/spec/woodgarg.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "woodmet1"
+{
+	normal "materials2/normal/woodmet1.dds"
+	specular "materials2/spec/woodmet1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "woodmet2"
+{
+	normal "materials2/normal/woodmet2.dds"
+	specular "materials2/spec/woodmet2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "woodmet3"
+{
+	normal "materials2/normal/woodmet3.dds"
+	specular "materials2/spec/woodmet3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "woodmet4"
+{
+	normal "materials2/normal/woodmet4.dds"
+	specular "materials2/spec/woodmet4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "woodskul"
+{
+	normal "materials2/normal/woodskul.dds"
+	specular "materials2/spec/woodskul.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "woodvert"
+{
+	normal "materials2/normal/woodvert.dds"
+	specular "materials2/spec/woodvert.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YELMETAL"
+{
+	normal "materials2/normal/YELMETAL.dds"
+	specular "materials2/spec/YELMETAL.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YEXITDR"
+{
+	normal "materials2/normal/YEXITDR.dds"
+	specular "materials2/spec/YEXITDR.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYDOOR"
+{
+	normal "materials2/normal/YYDOOR.dds"
+	specular "materials2/spec/YYDOOR.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYDOOR2"
+{
+	normal "materials2/normal/YYDOOR2.dds"
+	specular "materials2/spec/YYDOOR2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYDOOR3"
+{
+	normal "materials2/normal/YYDOOR3.dds"
+	specular "materials2/spec/YYDOOR3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYGRAVE"
+{
+	normal "materials2/normal/YYGRAVE.dds"
+	specular "materials2/spec/YYGRAVE.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYHER11"
+{
+	normal "materials2/normal/YYHER11.dds"
+	specular "materials2/spec/YYHER11.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYHER12"
+{
+	normal "materials2/normal/YYHER12.dds"
+	specular "materials2/spec/YYHER12.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYHER13"
+{
+	normal "materials2/normal/YYHER13.dds"
+	specular "materials2/spec/YYHER13.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYHER14"
+{
+	normal "materials2/normal/YYHER14.dds"
+	specular "materials2/spec/YYHER14.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "YYHER17"
+{
+	normal "materials2/normal/YYHER17.dds"
+	specular "materials2/spec/YYHER17.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zdoorb1"
+{
+	normal "materials2/normal/zdoorb1.dds"
+	specular "materials2/spec/zdoorb1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zdoorf1"
+{
+	normal "materials2/normal/zdoorf1.dds"
+	specular "materials2/spec/zdoorf1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zeldoor"
+{
+	normal "materials2/normal/zeldoor.dds"
+	specular "materials2/spec/zeldoor.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zimmer1"
+{
+	normal "materials2/normal/zimmer1.dds"
+	specular "materials2/spec/zimmer1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zimmer2"
+{
+	normal "materials2/normal/zimmer2.dds"
+	specular "materials2/spec/zimmer2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zimmer3"
+{
+	normal "materials2/normal/zimmer3.dds"
+	specular "materials2/spec/zimmer3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zimmer4"
+{
+	normal "materials2/normal/zimmer4.dds"
+	specular "materials2/spec/zimmer4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zimmer5"
+{
+	normal "materials2/normal/zimmer5.dds"
+	specular "materials2/spec/zimmer5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zimmer7"
+{
+	normal "materials2/normal/zimmer7.dds"
+	specular "materials2/spec/zimmer7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zimmer8"
+{
+	normal "materials2/normal/zimmer8.dds"
+	specular "materials2/spec/zimmer8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf1"
+{
+	normal "materials2/normal/zzwolf1.dds"
+	specular "materials2/spec/zzwolf1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf10"
+{
+	normal "materials2/normal/zzwolf10.dds"
+	specular "materials2/spec/zzwolf10.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf11"
+{
+	normal "materials2/normal/zzwolf11.dds"
+	specular "materials2/spec/zzwolf11.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf12"
+{
+	normal "materials2/normal/zzwolf12.dds"
+	specular "materials2/spec/zzwolf12.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf13"
+{
+	normal "materials2/normal/zzwolf13.dds"
+	specular "materials2/spec/zzwolf13.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf14"
+{
+	normal "materials2/normal/zzwolf14.dds"
+	specular "materials2/spec/zzwolf14.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf17"
+{
+	normal "materials2/normal/zzwolf17.dds"
+	specular "materials2/spec/zzwolf17.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf18"
+{
+	normal "materials2/normal/zzwolf18.dds"
+	specular "materials2/spec/zzwolf18.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf2"
+{
+	normal "materials2/normal/zzwolf2.dds"
+	specular "materials2/spec/zzwolf2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf3"
+{
+	normal "materials2/normal/zzwolf3.dds"
+	specular "materials2/spec/zzwolf3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf4"
+{
+	normal "materials2/normal/zzwolf4.dds"
+	specular "materials2/spec/zzwolf4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf5"
+{
+	normal "materials2/normal/zzwolf5.dds"
+	specular "materials2/spec/zzwolf5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf6"
+{
+	normal "materials2/normal/zzwolf6.dds"
+	specular "materials2/spec/zzwolf6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf7"
+{
+	normal "materials2/normal/zzwolf7.dds"
+	specular "materials2/spec/zzwolf7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "zzwolf9"
+{
+	normal "materials2/normal/zzwolf9.dds"
+	specular "materials2/spec/zzwolf9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE1"
+{
+	normal "materials2/normal/ZZZFACE1.dds"
+	specular "materials2/spec/ZZZFACE1.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE2"
+{
+	normal "materials2/normal/ZZZFACE2.dds"
+	specular "materials2/spec/ZZZFACE2.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE3"
+{
+	normal "materials2/normal/ZZZFACE3.dds"
+	specular "materials2/spec/ZZZFACE3.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE4"
+{
+	normal "materials2/normal/ZZZFACE4.dds"
+	specular "materials2/spec/ZZZFACE4.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE5"
+{
+	normal "materials2/normal/ZZZFACE5.dds"
+	specular "materials2/spec/ZZZFACE5.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE6"
+{
+	normal "materials2/normal/ZZZFACE6.dds"
+	specular "materials2/spec/ZZZFACE6.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE7"
+{
+	normal "materials2/normal/ZZZFACE7.dds"
+	specular "materials2/spec/ZZZFACE7.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE8"
+{
+	normal "materials2/normal/ZZZFACE8.dds"
+	specular "materials2/spec/ZZZFACE8.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+
+material texture "ZZZFACE9"
+{
+	normal "materials2/normal/ZZZFACE9.dds"
+	specular "materials2/spec/ZZZFACE9.dds"
+	glossiness 50
+	specularlevel 0.5
+}
+

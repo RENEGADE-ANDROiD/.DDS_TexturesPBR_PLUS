@@ -1,36 +1,5 @@
 //===========================================================================
 //
-// ITEMS
-//
-//===========================================================================
-
-// Blue Keycard
-bkeya = "bkeya" { PlacedSpin = 150 }
-bkeyb = "bkeyb" { PlacedSpin = 150 }
-
-// Red Keycard
-rkeya = "rkeya" { PlacedSpin = 150 }
-rkeyb = "rkeyb" { PlacedSpin = 150 }
-
-// Yellow Keycard
-ykeya = "ykeya" { PlacedSpin = 150 }
-ykeyb = "ykeyb" { PlacedSpin = 150 }
-
-// Blue Skull Key
-bskua = "bskua" { PlacedSpin = 150 }
-bskub = "bskub" { PlacedSpin = 150 }
-
-// Red Skull Key
-rskua = "rskua" { PlacedSpin = 150 }
-rskub = "rskub" { PlacedSpin = 150 }
-
-// Yellow Skull Key
-yskua = "yskua" { PlacedSpin = 150 }
-yskub = "yskub" { PlacedSpin = 150 }
-
-
-//===========================================================================
-//
 // MONSTERS
 //
 //===========================================================================
@@ -252,9 +221,6 @@ col5b = "col5b" {}
 // Skull column
 col6a = "col6a" {}
 
-// Candle
-canda = "canda" {}
-
 // Big tree
 tre2a = "tre2a" {}
 
@@ -284,19 +250,10 @@ gor5a = "gor5a" {}
 // Gibs (crushed)
 pol5a = "pol5a" {}
 
-// Dead on a stick
-pol1a = "pol1a" {}
-
-//Heads (plural!) on a stick
-pol2a = "pol2a" {}
-
 // Evil eye
 ceyea = "ceyea" {}
 ceyeb = "ceyeb" {}
 ceyec = "ceyec" {}
-
-// Candelabra
-cbraa = "cbraa" {}
 
 // Floating skulls
 fskua = "fskua" {}
@@ -305,35 +262,6 @@ fskuc = "fskuc" {}
 
 // Torch tree
 tre1a = "tre1a" {}
-
-// Head candles
-pol3a = "pol3a" {}
-pol3b = "pol3b" {}
-
-// Head on a stick
-pol4a = "pol4a" {}
-
-// Still alive on a stick
-pol6a = "pol6a" {}
-pol6b = "pol6b" {}
-
-// Green torch
-tgrna = "tgrna" {}
-tgrnb = "tgrnb" {}
-tgrnc = "tgrnc" {}
-tgrnd = "tgrnd" {}
-
-// Blue torch
-tblua = "tblua" {}
-tblub = "tblub" {}
-tbluc = "tbluc" {}
-tblud = "tblud" {}
-
-// Red torch
-treda = "treda" {}
-tredb = "tredb" {}
-tredc = "tredc" {}
-tredd = "tredd" {}
 
 //===========================================================================
 //

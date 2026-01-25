@@ -1,0 +1,9 @@
+Red Teleport mod by roundtree - Update .2 Alpha
+
+Graphics effects made in Gimp with the Supernova effect
+Sound effects made in Audacity with brownian noise, then wahwah, then clip
+Sox used to amplify
+
+Made in Linux Mint v22.1
+
+Aren't open source tools amazing?

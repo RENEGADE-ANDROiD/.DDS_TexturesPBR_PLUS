@@ -68,7 +68,7 @@ material texture "bigdoor4"
 material texture "exitdoor"
 {
 	shader "shaders/displacement.fp"
-	//normal "materials/normalmaps/auto/exitdoor.dds"
+	normal "materials/normalmaps/auto/exitdoor.dds"
 	metallic "materials/metallic/auto/exitdoor.dds"
 	roughness "materials/roughness/auto/exitdoor.dds"
 	ao "materials/ao/auto/exitdoor.dds"
@@ -110,538 +110,7 @@ Texture tex_heightmap "materials/heightmaps/bigdoor7.dds"
 Define "Foobar"
 }
 
-material Texture "starg1"
-{
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-Texture tex_heightmap "materials/heightmaps/starg1.dds"
-}
-
-material Texture "startan1"
-{
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-}
-
-material Texture "stargr1"
-{
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-Texture tex_heightmap "materials/heightmaps/starg1.dds"
-}
-
-material Texture "starg3"
-{
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/startan3.dds"
-metallic "materials/metallic/auto/startan3.dds"
-roughness "materials/roughness/auto/startan3.dds"
-Texture tex_heightmap "materials/heightmaps/startan3.dds"
-}
-
-material Texture "startan3"
-{
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/startan3.dds"
-metallic "materials/metallic/auto/startan3.dds"
-roughness "materials/roughness/auto/startan3.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/startan3.dds"
-Define "Foobar"
-}
-
-material Texture "startan2"
-{
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/startan2.dds"
-metallic "materials/metallic/auto/startan3.dds"
-roughness "materials/roughness/auto/startan2.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/startan2.dds"
-Define "Foobar"
-}
-
 ////////
-material Texture "nukage1"
-{
-normal "materials/normalmaps/auto/rnukage_n1.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage2"
-{
-normal "materials/normalmaps/auto/rnukage_n2.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage3"
-{
-normal "materials/normalmaps/auto/rnukage_n3.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage4"
-{
-normal "materials/normalmaps/auto/rnukage_n4.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage5"
-{
-normal "materials/normalmaps/auto/rnukage_n5.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage6"
-{
-normal "materials/normalmaps/auto/rnukage_n6.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage7"
-{
-normal "materials/normalmaps/auto/rnukage_n7.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage8"
-{
-normal "materials/normalmaps/auto/rnukage_n8.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage9"
-{
-normal "materials/normalmaps/auto/rnukage_n9.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage10"
-{
-normal "materials/normalmaps/auto/rnukage_n10.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage11"
-{
-normal "materials/normalmaps/auto/rnukage_n11.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage12"
-{
-normal "materials/normalmaps/auto/rnukage_n12.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage13"
-{
-normal "materials/normalmaps/auto/rnukage_n13.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage14"
-{
-normal "materials/normalmaps/auto/rnukage_n14.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage15"
-{
-normal "materials/normalmaps/auto/rnukage_n15.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "nukage16"
-{
-normal "materials/normalmaps/auto/rnukage_n16.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-
-
-
-material Texture "fwater1"
-{
-normal "materials/normalmaps/auto/rnukage_n1.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater2"
-{
-normal "materials/normalmaps/auto/rnukage_n2.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater3"
-{
-normal "materials/normalmaps/auto/rnukage_n3.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater4"
-{
-normal "materials/normalmaps/auto/rnukage_n4.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater5"
-{
-normal "materials/normalmaps/auto/rnukage_n5.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater6"
-{
-normal "materials/normalmaps/auto/rnukage_n6.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater7"
-{
-normal "materials/normalmaps/auto/rnukage_n7.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater8"
-{
-normal "materials/normalmaps/auto/rnukage_n8.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater9"
-{
-normal "materials/normalmaps/auto/rnukage_n9.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater10"
-{
-normal "materials/normalmaps/auto/rnukage_n10.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater11"
-{
-normal "materials/normalmaps/auto/rnukage_n11.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater12"
-{
-normal "materials/normalmaps/auto/rnukage_n12.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater13"
-{
-normal "materials/normalmaps/auto/rnukage_n13.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater14"
-{
-normal "materials/normalmaps/auto/rnukage_n14.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater15"
-{
-normal "materials/normalmaps/auto/rnukage_n15.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "fwater16"
-{
-normal "materials/normalmaps/auto/rnukage_n16.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-
-material Texture "blood1"
-{
-normal "materials/normalmaps/auto/rnukage_n1.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood2"
-{
-normal "materials/normalmaps/auto/rnukage_n2.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood3"
-{
-normal "materials/normalmaps/auto/rnukage_n3.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood4"
-{
-normal "materials/normalmaps/auto/rnukage_n4.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood5"
-{
-normal "materials/normalmaps/auto/rnukage_n5.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood6"
-{
-normal "materials/normalmaps/auto/rnukage_n6.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood7"
-{
-normal "materials/normalmaps/auto/rnukage_n7.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood8"
-{
-normal "materials/normalmaps/auto/rnukage_n8.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood9"
-{
-normal "materials/normalmaps/auto/rnukage_n9.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood10"
-{
-normal "materials/normalmaps/auto/rnukage_n10.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood11"
-{
-normal "materials/normalmaps/auto/rnukage_n11.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood12"
-{
-normal "materials/normalmaps/auto/rnukage_n12.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood13"
-{
-normal "materials/normalmaps/auto/rnukage_n13.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood14"
-{
-normal "materials/normalmaps/auto/rnukage_n14.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood15"
-{
-normal "materials/normalmaps/auto/rnukage_n15.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-material Texture "blood16"
-{
-normal "materials/normalmaps/auto/rnukage_n16.dds"
-metallic "materials/metallic/auto/rnukage.dds"
-roughness "materials/roughness/auto/rnukage.dds"
-ao "materials/ao/auto/rnukage.dds"
-}
-
-
-material Texture "nuke24"
-{
-normal "materials/normalmaps/auto/nuke24.dds"
-metallic "materials/metallic/auto/nuke24.dds"
-roughness "materials/roughness/auto/nuke24.dds"
-ao "materials/ao/auto/nuke24.dds"
-brightmap "materials/Brightmaps/auto/nuke24.dds"
-}
-
-////////
-
-material texture "GRASS1"
-{
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/auto/GRASS1_d.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "browngrn"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/browngrn.dds"
-	metallic "materials/metallic/auto/browngrn.dds"
-	roughness "materials/roughness/auto/browngrn.dds"
-	ao "materials/ao/auto/browngrn.dds"
-	texture displacement "materials/displacement/auto/browngrn.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "floor4_8"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/floor4_8.dds"
-	metallic "materials/metallic/auto/floor4_8.dds"
-	roughness "materials/roughness/auto/floor4_8.dds"
-	ao "materials/ao/auto/floor4_8.dds"
-	texture displacement "materials/displacement/auto/floor4_8.dds"	
-	Texture tex_heightmap "materials/heightmaps/floor5_2.dds"
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "floor5_1"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/floor4_8.dds"
-	metallic "materials/metallic/auto/floor4_8.dds"
-	roughness "materials/roughness/auto/floor4_8.dds"
-	ao "materials/ao/auto/floor4_8.dds"
-	texture displacement "materials/displacement/auto/floor4_8.dds"	
-	Texture tex_heightmap "materials/heightmaps/floor5_2.dds"
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "floor5_2"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/floor5_2.dds"
-	metallic "materials/metallic/auto/floor4_8.dds"
-	roughness "materials/roughness/auto/floor5_2.dds"
-	ao "materials/ao/auto/floor5_2.dds"
-	texture displacement "materials/displacement/auto/floor5_2.dds"	
-	Texture tex_heightmap "materials/heightmaps/floor5_2.dds"
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "floor5_3"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/floor5_2.dds"
-	metallic "materials/metallic/auto/floor4_8.dds"
-	roughness "materials/roughness/auto/floor5_2.dds"
-	ao "materials/ao/auto/floor5_2.dds"
-	texture displacement "materials/displacement/auto/floor5_2.dds"		
-	Texture tex_heightmap "materials/heightmaps/floor5_2.dds"
-	glossiness 2.0
-	specularlevel 1.0
-}
-
 material texture "door3"
 {
 	shader "shaders/displacement.fp"
@@ -652,108 +121,6 @@ material texture "door3"
 	texture displacement "materials/displacement/auto/door3.dds"	
 	glossiness 1.0
 	specularlevel 1.0
-}
-material texture "flat14"
-{
-	//shader "shaders/displacement.fp"
-	//normal "materials/normalmaps/auto/flat14.dds"
-	//metallic "materials/metallic/auto/flat14.dds"
-	//roughness "materials/roughness/auto/flat14.dds"
-	//ao "materials/ao/auto/flat14.dds"
-	//texture displacement "materials/displacement/auto/flat14.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-material texture "floor1_1"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/flat14.dds"
-	metallic "materials/metallic/auto/flat14.dds"
-	roughness "materials/roughness/auto/flat14.dds"
-	ao "materials/ao/auto/flat14.dds"
-	texture displacement "materials/displacement/auto/flat14.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-
-material texture "support2"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/support2.dds"
-	metallic "materials/metallic/auto/support2.dds"
-	roughness "materials/roughness/auto/support2.dds"
-	ao "materials/ao/auto/support2.dds"
-	texture displacement "materials/displacement/auto/support2.dds"	
-	glossiness 2.0
-	specularlevel 1.0
-}
-
-material texture "nukeslad"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/sladwall.dds"
-	metallic "materials/roughness/auto/sladwall.dds"
-	roughness "materials/roughness/auto/sladwall.dds"
-	ao "materials/ao/auto/sladwall.dds"
-	texture displacement "materials/displacement/auto/nukeslad.dds"		
-	glossiness 30.0
-	specularlevel 3.0
-}
-material texture "sladwall"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/sladwall.dds"
-	metallic "materials/roughness/auto/sladwall.dds"
-	roughness "materials/roughness/auto/sladwall.dds"
-	ao "materials/ao/auto/sladwall.dds"
-	texture displacement "materials/displacement/auto/nukeslad.dds"		
-	glossiness 30.0
-	specularlevel 3.0
-}
-material texture "sladpois"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/sladpois.dds"
-	metallic "materials/metallic/auto/sladpois.dds"
-	roughness "materials/roughness/auto/sladpois.dds"
-	ao "materials/ao/auto/sladpois.dds"
-	texture displacement "materials/displacement/auto/sladpois.dds"		
-	glossiness 30.0
-	specularlevel 3.0
-}
-
-material texture "floor0_1"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/flat14.dds"
-	metallic "materials/metallic/auto/flat14.dds"
-	roughness "materials/roughness/auto/flat14.dds"
-	ao "materials/ao/auto/flat14.dds"
-	texture displacement "materials/displacement/auto/flat14.dds"		
-	glossiness 30.0
-	specularlevel 3.0
-}
-material texture "floor0_2"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/floor0_3.dds"
-	metallic "materials/metallic/auto/floor0_3.dds"
-	roughness "materials/roughness/auto/floor0_3.dds"
-	ao "materials/ao/auto/floor0_3.dds"
-	texture displacement "materials/displacement/auto/floor0_3.dds"		
-	glossiness 30.0
-	specularlevel 3.0
-}
-material texture "plat1"
-{
-	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/pipe2.dds"
-	//metallic "materials/metallic/auto/pipe2.dds"
-	//roughness "materials/roughness/auto/pipe2.dds"
-	//ao "materials/ao/auto/pipe2.dds"
-	texture displacement "materials/displacement/auto/plat1.dds"		
-	glossiness 30.0
-	specularlevel 3.0
 }
 
 ////OTEX
@@ -818,19 +185,6 @@ material texture COMPSTA2  {
 
 
 
-
-material texture COMPTILE  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/COMPTILE.dds"
-	//normal MATERIALS/normalmaps/auto/COMPTILE.dds
-	specular MATERIALS/specular/auto/COMPTILE.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
 material texture COMPUTE1  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/COMPUTE1.dds"
@@ -847,51 +201,6 @@ material texture COMPUTE3  {
 	//texture envmask "MATERIALS/ENVMASK/COMPUTE3.dds"
 	//normal MATERIALS/normalmaps/auto/COMPUTE3.dds
 	//specular MATERIALS/specular/auto/COMPUTE3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture COMPWERD  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/COMPWERD.dds"
-	//normal MATERIALS/normalmaps/auto/COMPWERD.dds
-	//specular MATERIALS/specular/auto/COMPWERD.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture CONS1_1  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/CONS1_1.dds"
-	//normal MATERIALS/normalmaps/auto/CONS1_1.dds
-	//specular MATERIALS/specular/auto/CONS1_1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture CONS1_5  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/CONS1_5.dds"
-	//normal MATERIALS/normalmaps/auto/CONS1_5.dds
-	//specular MATERIALS/specular/auto/CONS1_5.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture CONS1_7  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/CONS1_7.dds"
-	//normal MATERIALS/normalmaps/auto/CONS1_7.dds
-	//specular MATERIALS/specular/auto/CONS1_7.dds
 	specularlevel 4.5
 	glossiness 35
 }
@@ -989,72 +298,6 @@ material texture DOORYEL2  {
 
 
 
-material texture EXITSTON  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/EXITSTON.dds"
-	//normal MATERIALS/normalmaps/auto/EXITSTON.dds
-	//specular MATERIALS/specular/auto/EXITSTON.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture LITE2  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/LITE2.dds"
-	//normal MATERIALS/normalmaps/auto/LITE2.dds
-	specular MATERIALS/specular/auto/LITE2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture LITE3  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/LITE3.dds"
-	//normal MATERIALS/normalmaps/auto/LITE3.dds
-	specular MATERIALS/specular/auto/LITE3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture LITE4  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/LITE4.dds"
-	//normal MATERIALS/normalmaps/auto/LITE4.dds
-	specular MATERIALS/specular/auto/LITE4.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture LITE5  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/LITE5.dds"
-	//normal MATERIALS/normalmaps/auto/LITE5.dds
-	specular MATERIALS/specular/auto/LITE5.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture LITE96  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/LITE96.dds"
-	//normal MATERIALS/normalmaps/auto/LITE96.dds
-	specular MATERIALS/specular/auto/LITE96.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
 material texture LITEBLU1  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU1.dds"
@@ -1119,727 +362,6 @@ material texture LITERED  {
 	glossiness 35
 }
 
-
-
-material texture LITESTON  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/LITESTON.dds"
-	//normal MATERIALS/normalmaps/auto/LITESTON.dds
-	specular MATERIALS/specular/auto/LITESTON.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-material texture METAL  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/METAL.dds"
-	//normal MATERIALS/normalmaps/auto/METAL.dds
-	//specular MATERIALS/specular/auto/METAL.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture METAL1  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/METAL1.dds"
-	//normal MATERIALS/normalmaps/auto/METAL1.dds
-	specular MATERIALS/specular/auto/METAL1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture METAL2  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/METAL2.dds"
-	//normal MATERIALS/normalmaps/auto/METAL2.dds
-	specular MATERIALS/specular/auto/METAL2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture METAL3  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/METAL3.dds"
-	//normal MATERIALS/normalmaps/auto/METAL3.dds
-	specular MATERIALS/specular/auto/METAL3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture METAL4  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/METAL4.dds"
-	//normal MATERIALS/normalmaps/auto/METAL4.dds
-	specular MATERIALS/specular/auto/METAL4.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture METAL5  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/METAL5.dds"
-	//normal MATERIALS/normalmaps/auto/METAL5.dds
-	specular MATERIALS/specular/auto/METAL5.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture METAL6  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/METAL6.dds"
-	//normal MATERIALS/normalmaps/auto/METAL6.dds
-	specular MATERIALS/specular/auto/METAL6.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture METAL7  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/METAL7.dds"
-	//normal MATERIALS/normalmaps/auto/METAL7.dds
-	specular MATERIALS/specular/auto/METAL7.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture MODWALL1  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/MODWALL1.dds"
-	//normal MATERIALS/normalmaps/auto/MODWALL1.dds
-	//specular MATERIALS/specular/auto/MODWALL1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture MODWALL2  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/MODWALL2.dds"
-	//normal MATERIALS/normalmaps/auto/MODWALL2.dds
-	//specular MATERIALS/specular/auto/MODWALL2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture MODWALL3  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/MODWALL3.dds"
-	//normal MATERIALS/normalmaps/auto/MODWALL3.dds
-	//specular MATERIALS/specular/auto/MODWALL3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture MODWALL4  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/MODWALL4.dds"
-	//normal MATERIALS/normalmaps/auto/MODWALL4.dds
-	//specular MATERIALS/specular/auto/MODWALL4.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture PLANET1  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/PLANET1.dds"
-	//normal MATERIALS/normalmaps/auto/PLANET1.dds
-	specular MATERIALS/specular/auto/PLANET1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture PLAT1  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/PLAT1.dds"
-	//normal MATERIALS/normalmaps/auto/PLAT1.dds
-	specular MATERIALS/specular/auto/PLAT1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture REDWALL  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/REDWALL.dds"
-	//normal MATERIALS/normalmaps/auto/REDWALL.dds
-	//specular MATERIALS/specular/auto/REDWALL.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture REDWALL1  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/REDWALL1.dds"
-	//normal MATERIALS/normalmaps/auto/REDWALL1.dds
-	//specular MATERIALS/specular/auto/REDWALL1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-
-
-material texture ROCKRED1  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ROCKRED1.dds"
-	//normal MATERIALS/normalmaps/auto/ROCKRED1.dds
-	//specular MATERIALS/specular/auto/ROCKRED1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ROCKRED2  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ROCKRED2.dds"
-	//normal MATERIALS/normalmaps/auto/ROCKRED2.dds
-	//specular MATERIALS/specular/auto/ROCKRED2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ROCKRED3  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ROCKRED3.dds"
-	//normal MATERIALS/normalmaps/auto/ROCKRED3.dds
-	//specular MATERIALS/specular/auto/ROCKRED3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-
-
-material texture SFALL1  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SFALL1.dds"
-	//normal MATERIALS/normalmaps/auto/SFALL1.dds
-	//specular MATERIALS/specular/auto/SFALL1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SFALL2  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SFALL2.dds"
-	//normal MATERIALS/normalmaps/auto/SFALL2.dds
-	//specular MATERIALS/specular/auto/SFALL2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SFALL3  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SFALL3.dds"
-	//normal MATERIALS/normalmaps/auto/SFALL3.dds
-	//specular MATERIALS/specular/auto/SFALL3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SFALL4  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SFALL4.dds"
-	//normal MATERIALS/normalmaps/auto/SFALL4.dds
-	//specular MATERIALS/specular/auto/SFALL4.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SILVER2  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SILVER2.dds"
-	//normal MATERIALS/normalmaps/auto/SILVER2.dds
-	//specular MATERIALS/specular/auto/SILVER2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SILVER3  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SILVER3.dds"
-	//normal MATERIALS/normalmaps/auto/SILVER3.dds
-	//specular MATERIALS/specular/auto/SILVER3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SKIN2  { 
-	//normal MATERIALS/normalmaps/auto/SKIN2.dds
-	//specular MATERIALS/specular/auto/SKIN2.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKINBORD  { 
-	//normal MATERIALS/normalmaps/auto/SKINBORD.dds
-	//specular MATERIALS/specular/auto/SKINBORD.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKINCUT  { 
-	//normal MATERIALS/normalmaps/auto/SKINCUT.dds
-	//specular MATERIALS/specular/auto/SKINCUT.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKINEDGE  { 
-	//normal MATERIALS/normalmaps/auto/SKINEDGE.dds
-	//specular MATERIALS/specular/auto/SKINEDGE.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKINFACE  { 
-	//normal MATERIALS/normalmaps/auto/SKINFACE.dds
-	//specular MATERIALS/specular/auto/SKINFACE.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKINLOW  { 
-	//normal MATERIALS/normalmaps/auto/SKINLOW.dds
-	//specular MATERIALS/specular/auto/SKINLOW.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKINMET1  { 
-	//normal MATERIALS/normalmaps/auto/SKINMET1.dds
-	//specular MATERIALS/specular/auto/SKINMET1.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKINMET2  { 
-	//normal MATERIALS/normalmaps/auto/SKINMET2.dds
-	//specular MATERIALS/specular/auto/SKINMET2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SKINSCAB  { 
-	//normal MATERIALS/normalmaps/auto/SKINSCAB.dds
-	//specular MATERIALS/specular/auto/SKINSCAB.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SKINSYMB  { 
-	//normal MATERIALS/normalmaps/auto/SKINSYMB.dds
-	//specular MATERIALS/specular/auto/SKINSYMB.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SKINTEK1  { 
-	//normal MATERIALS/normalmaps/auto/SKINTEK1.dds
-	//specular MATERIALS/specular/auto/SKINTEK1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SKINTEK2  { 
-	//normal MATERIALS/normalmaps/auto/SKINTEK2.dds
-	//specular MATERIALS/specular/auto/SKINTEK2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SKSNAKE1  { 
-	//normal MATERIALS/normalmaps/auto/SKSNAK1.dds
-	specular MATERIALS/specular/auto/SKSNAK1.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKSNAKE2  { 
-	//normal MATERIALS/normalmaps/auto/SKSNAK2.dds
-	specular MATERIALS/specular/auto/SKSNAK2.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKSNAKE1  { 
-	//normal MATERIALS/normalmaps/auto/SKSNAKE1.dds
-	specular MATERIALS/specular/auto/SKSNAKE1.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKSNAKE2  { 
-	//normal MATERIALS/normalmaps/auto/SKSNAKE2.dds
-	specular MATERIALS/specular/auto/SKSNAKE2.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKSPINE1  { 
-
-	//normal MATERIALS/normalmaps/auto/SKSPINE1.dds
-	//specular MATERIALS/specular/auto/SKSPINE1.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKSPINE2  { 
-
-	//normal MATERIALS/normalmaps/auto/SKSPINE2.dds
-	specular MATERIALS/specular/auto/SKSPINE2.dds
-	specularlevel 3.0
-	glossiness 21
-}
-
-
-
-material texture SKULWAL3  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SKULWAL3.dds"
-	//normal MATERIALS/normalmaps/auto/SKULWAL3.dds
-	specular MATERIALS/specular/auto/SKULWAL3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SKULWALL  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SKULWALL.dds"
-	//normal MATERIALS/normalmaps/auto/SKULWALL.dds
-	specular MATERIALS/specular/auto/SKULWALL.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SK_LEFT  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SK_LEFT.dds"
-	//normal MATERIALS/normalmaps/auto/SK_LEFT.dds
-	//specular MATERIALS/specular/auto/SK_LEFT.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SK_RIGHT  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SK_RIGHT.dds"
-	//normal MATERIALS/normalmaps/auto/SK_RIGHT.dds
-	//specular MATERIALS/specular/auto/SK_RIGHT.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-
-material texture SLOPPY1  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SLOPPY1.dds"
-	//normal MATERIALS/normalmaps/auto/SLOPPY1.dds
-	//specular MATERIALS/specular/auto/SLOPPY1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SLOPPY2  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SLOPPY2.dds"
-	//normal MATERIALS/normalmaps/auto/SLOPPY2.dds
-	//specular MATERIALS/specular/auto/SLOPPY2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SPACEW2  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SPACEW2.dds"
-	//normal MATERIALS/normalmaps/auto/SPACEW2.dds
-	specular MATERIALS/specular/auto/SPACEW2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SPACEW3  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SPACEW3.dds"
-	//normal MATERIALS/normalmaps/auto/SPACEW3.dds
-	specular MATERIALS/specular/auto/SPACEW3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SPACEW4  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SPACEW4.dds"
-	//normal MATERIALS/normalmaps/auto/SPACEW4.dds
-	specular MATERIALS/specular/auto/SPACEW4.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SPCDOOR1  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SPCDOOR1.dds"
-	//normal MATERIALS/normalmaps/auto/SPCDOOR1.dds
-	specular MATERIALS/specular/auto/SPCDOOR1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SPCDOOR2  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SPCDOOR2.dds"
-	//normal MATERIALS/normalmaps/auto/SPCDOOR2.dds
-	specular MATERIALS/specular/auto/SPCDOOR2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SPCDOOR3  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SPCDOOR3.dds"
-	//normal MATERIALS/normalmaps/auto/SPCDOOR3.dds
-	specular MATERIALS/specular/auto/SPCDOOR3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture SPCDOOR4  { 
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/SPCDOOR4.dds"
-	//normal MATERIALS/normalmaps/auto/SPCDOOR4.dds
-	specular MATERIALS/specular/auto/SPCDOOR4.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-
-material texture STEPLAD1  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/STEPLAD1.dds"
-	//normal MATERIALS/normalmaps/auto/STEPLAD1.dds
-	//specular MATERIALS/specular/auto/STEPLAD1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ZIMMER1  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ZIMMER1.dds"
-	//normal MATERIALS/normalmaps/auto/ZIMMER1.dds
-	//specular MATERIALS/specular/auto/ZIMMER1.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ZIMMER2  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ZIMMER2.dds"
-	//normal MATERIALS/normalmaps/auto/ZIMMER2.dds
-	//specular MATERIALS/specular/auto/ZIMMER2.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ZIMMER3  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ZIMMER3.dds"
-	//normal MATERIALS/normalmaps/auto/ZIMMER3.dds
-	//specular MATERIALS/specular/auto/ZIMMER3.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ZIMMER4  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ZIMMER4.dds"
-	//normal MATERIALS/normalmaps/auto/ZIMMER4.dds
-	//specular MATERIALS/specular/auto/ZIMMER4.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ZIMMER5  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ZIMMER5.dds"
-	//normal MATERIALS/normalmaps/auto/ZIMMER5.dds
-	//specular MATERIALS/specular/auto/ZIMMER5.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ZIMMER7  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ZIMMER7.dds"
-	//normal MATERIALS/normalmaps/auto/ZIMMER7.dds
-	//specular MATERIALS/specular/auto/ZIMMER7.dds
-	specularlevel 4.5
-	glossiness 35
-}
-
-
-
-material texture ZIMMER8  { 
-	//shader "SHADERS/env.fp"
-	//texture displacement "MATERIALS/ENV/env3.dds"
-	//texture envmask "MATERIALS/ENVMASK/ZIMMER8.dds"
-	//normal MATERIALS/normalmaps/auto/ZIMMER8.dds
-	//specular MATERIALS/specular/auto/ZIMMER8.dds
-	specularlevel 4.5
-	glossiness 35
-}
 
 //Weapon projectile lights
 object Better_BulletPuff
@@ -2033,22 +555,6 @@ GLOW
 	Texture "Floor6_1", d80000, 75
 	Texture "Floor6_2", d80000, 75
 	Texture "Floor7_2", 4F4F4F, 75
-	Texture "NUKAGE1", "104010", 32
-	Texture "NUKAGE2", "104010", 32
-	Texture "NUKAGE3", "104010", 32
-	Texture "NUKAGE4", "104010", 32
-	Texture "NUKAGE5", "104010", 32
-	Texture "NUKAGE6", "104010", 32
-	Texture "NUKAGE7", "104010", 32
-	Texture "NUKAGE8", "104010", 32
-	Texture "NUKAGE9", "104010", 32
-	Texture "NUKAGE10", "104010", 32
-	Texture "NUKAGE11", "104010", 32
-	Texture "NUKAGE12", "104010", 32
-	Texture "NUKAGE13", "104010", 32
-	Texture "NUKAGE14", "104010", 32
-	Texture "NUKAGE15", "104010", 32
-	Texture "NUKAGE16", "104010", 32
 
 Flats{}
 TEXTURE "CEIL1_2", E5D4BC, 128, FULLBRIGHT
@@ -2073,167 +579,10 @@ TEXTURE "GATE2", DF670F, 128, FULLBRIGHT
 TEXTURE "GATE3", DF670F, 128, FULLBRIGHT
 TEXTURE "GATE4", 6FEF67, 128, FULLBRIGHT
 TEXTURE "GRNLITE1", E5D4BC, 128, FULLBRIGHT
-TEXTURE "LAVA1", FF5931, 256, FULLBRIGHT
-TEXTURE "LAVA2", FF5931, 256, FULLBRIGHT
-TEXTURE "LAVA3", FF5931, 256, FULLBRIGHT
-TEXTURE "LAVA4", FF5931, 256, FULLBRIGHT
-TEXTURE "SLIME01", 443120, 32
-TEXTURE "SLIME02", 443120, 32
-TEXTURE "SLIME03", 443120, 32
-TEXTURE "SLIME04", 443120, 32
-TEXTURE "SLIME05", 484630, 32
-TEXTURE "SLIME06", 484630, 32
-TEXTURE "SLIME07", 484630, 32
-TEXTURE "SLIME08", 484630, 32
 TEXTURE "TLITE6_1", E5D4BC, 128, FULLBRIGHT
 TEXTURE "TLITE6_4", E5D4BC, 128, FULLBRIGHT
 TEXTURE "TLITE6_5", FF2F00, 128, FULLBRIGHT
 TEXTURE "TLITE6_6", E5D4BC, 128, FULLBRIGHT
-}
-
-material texture STARBR2
-{
-   glossiness 3
-   specularlevel 8
-}
-
-material texture STARG1
-{
-   glossiness 3
-   specularlevel 8
-}
-
-material texture STARG2
-{
-   glossiness 3
-   specularlevel 8
-}
-
-material texture STARG3
-{
-   glossiness 3
-   specularlevel 8
-}
-
-material texture STARGR1
-{
-   glossiness 3
-   specularlevel 8
-}
-
-material texture STARGR2
-{
-   glossiness 3
-   specularlevel 8
-}
-
-//=================== PBR Materials ======================
-Shader "shaders/parallax2.fp"
-
-material Texture "nukedge1"
-{
-normal "materials/normalmaps/auto/nukedge1.dds"
-metallic "materials/metallic/auto/brown1.dds"
-roughness "materials/roughness/auto/nukedge1.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Texture "nukeslad"
-{
-normal "materials/normalmaps/auto/sladwall.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/nukeslad.dds"
-ao "materials/ao/auto/ao_blank.dds"
-}
-
-material Flat "floor4_5"
-{
-normal "materials/normalmaps/auto/floor4_5.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-//roughness "materials/roughness/auto/floor4_5.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Flat "floor5_4"
-{
-normal "materials/normalmaps/auto/floor5_4.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-roughness "materials/roughness/auto/floor5_4.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Flat "floor4_6"
-{
-normal "materials/normalmaps/auto/floor4_6.dds"
-metallic "materials/metallic/auto/brown1.dds"
-//roughness "materials/roughness/auto/floor4_6.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Texture "redwall1"
-{
-normal "materials/normalmaps/auto/redwall1.dds"
-roughness "materials/roughness/auto/redwall1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-metallic "materials/metallic/auto/redwall1.dds"
-}
-
-material Flat "floor4_1"
-{
-normal "materials/normalmaps/auto/floor4_1.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-//roughness "materials/roughness/auto/floor4_1.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Flat "floor6_1"
-{
-Shader "shaders/parallax2.fp"
-normal "materials/normalmaps/auto/floor6_1.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-roughness "materials/roughness/auto/floor6_1.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/auto/floor6_1.dds"
-}
-
-material Flat "floor0_1"
-{
-//normal "materials/normalmaps/auto/floor0_2.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-//roughness "materials/roughness/auto/floor0_2.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-
-material Flat "floor0_2"
-{
-//normal "materials/normalmaps/auto/floor0_2.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-//roughness "materials/roughness/auto/floor0_2.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Flat "floor0_3"
-{
-normal "materials/normalmaps/auto/floor0_3.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-//roughness "materials/roughness/auto/floor0_3.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Flat "floor0_6"
-{
-normal "materials/normalmaps/auto/floor0_6.dds"
-roughness "materials/roughness/auto/floor0_6.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-metallic "materials/metallic/auto/floor0_6.dds"
-}
-material Texture "metal1"
-{
-normal "materials/normalmaps/auto/metal1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/metal1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-}
-material Texture "w_step1"
-{
-normal "materials/normalmaps/auto/step3.dds"
-//metallic "materials/metallic/auto/w_step2.dds"
-roughness "materials/roughness/auto/step3.dds"
-//ao "materials/ao/auto/w_step2.dds"
-//brightmap "materials/Brightmaps/auto/w_step1.dds"
 }
 
 material Texture "doorblu"
@@ -2262,61 +611,6 @@ normal "materials/normalmaps/auto/doorblu.dds"
 //metallic "materials/metallic/auto/doorblu.dds"
 brightmap "materials/Brightmaps/auto/dooryel.dds"
 }
-material Texture "exitsign"
-{
-normal "materials/normalmaps/auto/exitsign.dds"
-//roughness "materials/roughness/auto/exitsign.dds"
-//ao "materials/ao/auto/exitsign.dds"
-//metallic "materials/metallic/auto/exitsign.dds"
-brightmap "materials/Brightmaps/auto/exitsign.dds"
-}
-material Flat "floor6_2"
-{
-normal "materials/normalmaps/auto/floor6_2.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-roughness "materials/roughness/auto/floor6_2.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Flat "floor7_1"
-{
-normal "materials/normalmaps/auto/floor7_1.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-roughness "materials/roughness/auto/floor7_1.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-}
-material Flat "floor7_2"
-{
-normal "materials/normalmaps/auto/normal_blank.dds"
-roughness "materials/roughness/auto/floor7_2.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-}
-material Texture "lite3"
-{
-normal "materials/normalmaps/auto/lite3.dds"
-//roughness "materials/roughness/auto/lite3.dds"
-//ao "materials/ao/auto/brnbigl.dds"
-//metallic "materials/metallic/auto/lite3.dds"
-brightmap "materials/Brightmaps/auto/lite3.dds"
-}
-
-material Texture "lite4"
-{
-normal "materials/normalmaps/auto/lite4.dds"
-//roughness "materials/roughness/auto/lite4.dds"
-//ao "materials/ao/auto/liteblu3.dds"
-//metallic "materials/metallic/auto/lite4.dds"
-brightmap "materials/Brightmaps/auto/lite4.dds"
-}
-
-material Texture "lite5"
-{
-normal "materials/normalmaps/auto/lite5.dds"
-//roughness "materials/roughness/auto/lite5.dds"
-//ao "materials/ao/auto/liteblu3.dds"
-//metallic "materials/metallic/auto/lite5.dds"
-brightmap "materials/Brightmaps/auto/lite5.dds"
-}
 
 material Texture "liteblu1"
 {
@@ -2329,7 +623,7 @@ brightmap "materials/Brightmaps/auto/liteblu1.dds"
 
 material Texture "liteblu2"
 {
-//normal "materials/normalmaps/auto/liteblu2.dds"
+normal "materials/normalmaps/auto/liteblu2.dds"
 //roughness "materials/roughness/auto/liteblu2.dds"
 //ao "materials/ao/auto/liteblu3.dds"
 //metallic "materials/metallic/auto/liteblu2.dds"
@@ -2352,4 +646,4062 @@ normal "materials/normalmaps/auto/liteblu3.dds"
 //ao "materials/ao/auto/liteblu3.dds"
 //metallic "materials/metallic/auto/liteblu3.dds"
 brightmap "materials/Brightmaps/auto/liteblu3.dds"
+}
+
+//DR4 
+
+
+material texture "BRNPOIS"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/BRNPOIS.dds"
+	specular "materials/specular/auto/BRNPOIS.dds"
+	texture displacement "materials/displacement/BRNPOIS.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "BRNPOIS2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/BRNPOIS2.dds"
+	specular "materials/specular/auto/BRNPOIS2.dds"
+	texture displacement "materials/displacement/BRNPOIS2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+
+material texture "BROWN1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/BROWN1.dds"
+	specular "materials/specular/auto/BROWN1.dds"
+	texture displacement "materials/displacement/BROWN1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "BROWNGRN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/BROWNGRN.dds"
+	specular "materials/specular/auto/BROWNGRN.dds"
+	texture displacement "materials/displacement/BROWNGRN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "BROWNPIP"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/BROWNPIP.dds"
+	specular "materials/specular/auto/BROWNPIP.dds"
+	texture displacement "materials/displacement/BROWNPIP.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "CEMENT3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/CEMENT3.dds"
+	specular "materials/specular/auto/CEMENT3.dds"
+	texture displacement "materials/displacement/CEMENT3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+material texture "COMPOHSO"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/COMPOHSO.dds"
+	specular "materials/specular/auto/COMPOHSO.dds"
+	texture displacement "materials/displacement/COMPOHSO.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "COMPSPAN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/COMPSPAN.dds"
+	specular "materials/specular/auto/COMPSPAN.dds"
+	texture displacement "materials/displacement/COMPSPAN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "COMPTILE"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/COMPTILE.dds"
+	specular "materials/specular/auto/COMPTILE.dds"
+	texture displacement "materials/displacement/COMPTILE.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "COMPWERD"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/COMPWERD.dds"
+	specular "materials/specular/auto/COMPWERD.dds"
+	texture displacement "materials/displacement/COMPWERD.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "CRATE1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/CRATE1.dds"
+	specular "materials/specular/auto/CRATE1.dds"
+	texture displacement "materials/displacement/CRATE1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "CRATE2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/CRATE2.dds"
+	specular "materials/specular/auto/CRATE2.dds"
+	texture displacement "materials/displacement/CRATE2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "CRATELIT"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/CRATELIT.dds"
+	specular "materials/specular/auto/CRATELIT.dds"
+	texture displacement "materials/displacement/CRATELIT.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "CRATWIDE"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/CRATWIDE.dds"
+	specular "materials/specular/auto/CRATWIDE.dds"
+	texture displacement "materials/displacement/CRATWIDE.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "DOORHI"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/DOORHI.dds"
+	specular "materials/specular/auto/DOORHI.dds"
+	texture displacement "materials/displacement/DOORHI.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "EXITSIGN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/EXITSIGN.dds"
+	specular "materials/specular/auto/EXITSIGN.dds"
+	texture displacement "materials/displacement/EXITSIGN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "EXITSTON"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/EXITSTON.dds"
+	specular "materials/specular/auto/EXITSTON.dds"
+	texture displacement "materials/displacement/EXITSTON.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "GRAY1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/GRAY1.dds"
+	specular "materials/specular/auto/GRAY1.dds"
+	texture displacement "materials/displacement/GRAY1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "GRAY2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/GRAY2.dds"
+	specular "materials/specular/auto/GRAY2.dds"
+	texture displacement "materials/displacement/GRAY2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "GRAY4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/GRAY4.dds"
+	specular "materials/specular/auto/GRAY4.dds"
+	texture displacement "materials/displacement/GRAY4.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "GRAY5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/GRAY5.dds"
+	specular "materials/specular/auto/GRAY5.dds"
+	texture displacement "materials/displacement/GRAY5.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "GRAYDANG"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/GRAYDANG.dds"
+	specular "materials/specular/auto/GRAYDANG.dds"
+	texture displacement "materials/displacement/GRAYDANG.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+
+material texture "GSTONE1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/GSTONE1.dds"
+	specular "materials/specular/auto/GSTONE1.dds"
+	texture displacement "materials/displacement/GSTONE1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "GSTONE2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/GSTONE2.dds"
+	specular "materials/specular/auto/GSTONE2.dds"
+	texture displacement "materials/displacement/GSTONE2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+
+material texture "ICKDOOR1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/ICKDOOR1.dds"
+	specular "materials/specular/auto/ICKDOOR1.dds"
+	texture displacement "materials/displacement/ICKDOOR1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "ICKWALL1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/ICKWALL1.dds"
+	specular "materials/specular/auto/ICKWALL1.dds"
+	texture displacement "materials/displacement/ICKWALL1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "ICKWALL2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/ICKWALL2.dds"
+	specular "materials/specular/auto/ICKWALL2.dds"
+	texture displacement "materials/displacement/ICKWALL2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "ICKWALL3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/ICKWALL3.dds"
+	specular "materials/specular/auto/ICKWALL3.dds"
+	texture displacement "materials/displacement/ICKWALL3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "ICKWALL4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/ICKWALL4.dds"
+	specular "materials/specular/auto/ICKWALL4.dds"
+	texture displacement "materials/displacement/ICKWALL4.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "ICKWALL5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/ICKWALL5.dds"
+	specular "materials/specular/auto/ICKWALL5.dds"
+	texture displacement "materials/displacement/ICKWALL5.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "ICKWALL6"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/ICKWALL6.dds"
+	specular "materials/specular/auto/ICKWALL6.dds"
+	texture displacement "materials/displacement/ICKWALL6.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "LITE96"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/LITE96.dds"
+	specular "materials/specular/auto/LITE96.dds"
+	texture displacement "materials/displacement/LITE96.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "LITEMET"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/LITEMET.dds"
+	specular "materials/specular/auto/LITEMET.dds"
+	texture displacement "materials/displacement/LITEMET.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "LITESTON"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/LITESTON.dds"
+	specular "materials/specular/auto/LITESTON.dds"
+	texture displacement "materials/displacement/LITESTON.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "METAL"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/METAL.dds"
+	specular "materials/specular/auto/METAL.dds"
+	texture displacement "materials/displacement/METAL.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+
+material texture "SHAWN3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SHAWN3.dds"
+	specular "materials/specular/auto/SHAWN3.dds"
+	texture displacement "materials/displacement/SHAWN3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SP_HOT1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SP_HOT1.dds"
+	specular "materials/specular/auto/SP_HOT1.dds"
+	texture displacement "materials/displacement/SP_HOT1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARBR2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARBR2.dds"
+	specular "materials/specular/auto/STARBR2.dds"
+	texture displacement "materials/displacement/STARBR2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARG1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARG1.dds"
+	specular "materials/specular/auto/STARG1.dds"
+	texture displacement "materials/displacement/STARG1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARG2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARG2.dds"
+	specular "materials/specular/auto/STARG2.dds"
+	texture displacement "materials/displacement/STARG2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARG3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARG3.dds"
+	specular "materials/specular/auto/STARG3.dds"
+	texture displacement "materials/displacement/STARG3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARGR1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARGR1.dds"
+	specular "materials/specular/auto/STARGR1.dds"
+	texture displacement "materials/displacement/STARGR1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARGR2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARGR2.dds"
+	specular "materials/specular/auto/STARGR2.dds"
+	texture displacement "materials/displacement/STARGR2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARTAN1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARTAN1.dds"
+	specular "materials/specular/auto/STARTAN1.dds"
+	texture displacement "materials/displacement/STARTAN1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARTAN2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARTAN2.dds"
+	specular "materials/specular/auto/STARTAN2.dds"
+	texture displacement "materials/displacement/STARTAN2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STARTAN3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STARTAN3.dds"
+	specular "materials/specular/auto/STARTAN3.dds"
+	texture displacement "materials/displacement/STARTAN3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STONE2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STONE2.dds"
+	specular "materials/specular/auto/STONE2.dds"
+	texture displacement "materials/displacement/STONE2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STONE3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STONE3.dds"
+	specular "materials/specular/auto/STONE3.dds"
+	texture displacement "materials/displacement/STONE3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "STONGARG"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/STONGARG.dds"
+	specular "materials/specular/auto/STONGARG.dds"
+	texture displacement "materials/displacement/STONGARG.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SUPPORT2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SUPPORT2.dds"
+	specular "materials/specular/auto/SUPPORT2.dds"
+	texture displacement "materials/displacement/SUPPORT2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1BRCOM"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1BRCOM.dds"
+	specular "materials/specular/auto/SW1BRCOM.dds"
+	texture displacement "materials/displacement/SW1BRCOM.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1BRN1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1BRN1.dds"
+	specular "materials/specular/auto/SW1BRN1.dds"
+	texture displacement "materials/displacement/SW1BRN1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1BRN2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1BRN2.dds"
+	specular "materials/specular/auto/SW1BRN2.dds"
+	texture displacement "materials/displacement/SW1BRN2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1BRNGN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1BRNGN.dds"
+	specular "materials/specular/auto/SW1BRNGN.dds"
+	texture displacement "materials/displacement/SW1BRNGN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1BROWN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1BROWN.dds"
+	specular "materials/specular/auto/SW1BROWN.dds"
+	texture displacement "materials/displacement/SW1BROWN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1CMT"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1CMT.dds"
+	specular "materials/specular/auto/SW1CMT.dds"
+	texture displacement "materials/displacement/SW1CMT.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1COMP"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1COMP.dds"
+	specular "materials/specular/auto/SW1COMP.dds"
+	texture displacement "materials/displacement/SW1COMP.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1GRAY"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1GRAY.dds"
+	specular "materials/specular/auto/SW1GRAY.dds"
+	texture displacement "materials/displacement/SW1GRAY.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1GRAY1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1GRAY1.dds"
+	specular "materials/specular/auto/SW1GRAY1.dds"
+	texture displacement "materials/displacement/SW1GRAY1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1GSTON"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1GSTON.dds"
+	specular "materials/specular/auto/SW1GSTON.dds"
+	texture displacement "materials/displacement/SW1GSTON.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1HOT"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1HOT.dds"
+	specular "materials/specular/auto/SW1HOT.dds"
+	texture displacement "materials/displacement/SW1HOT.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1METAL"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1METAL.dds"
+	specular "materials/specular/auto/SW1METAL.dds"
+	texture displacement "materials/displacement/SW1METAL.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1STARG"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1STARG.dds"
+	specular "materials/specular/auto/SW1STARG.dds"
+	texture displacement "materials/displacement/SW1STARG.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1STON1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1STON1.dds"
+	specular "materials/specular/auto/SW1STON1.dds"
+	texture displacement "materials/displacement/SW1STON1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1STON2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1STON2.dds"
+	specular "materials/specular/auto/SW1STON2.dds"
+	texture displacement "materials/displacement/SW1STON2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1STRTN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1STRTN.dds"
+	specular "materials/specular/auto/SW1STRTN.dds"
+	texture displacement "materials/displacement/SW1STRTN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1VINE"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1VINE.dds"
+	specular "materials/specular/auto/SW1VINE.dds"
+	texture displacement "materials/displacement/SW1VINE.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW1WOOD"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW1WOOD.dds"
+	specular "materials/specular/auto/SW1WOOD.dds"
+	texture displacement "materials/displacement/SW1WOOD.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2BRCOM"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2BRCOM.dds"
+	specular "materials/specular/auto/SW2BRCOM.dds"
+	texture displacement "materials/displacement/SW2BRCOM.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2BRN1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2BRN1.dds"
+	specular "materials/specular/auto/SW2BRN1.dds"
+	texture displacement "materials/displacement/SW2BRN1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2BRN2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2BRN2.dds"
+	specular "materials/specular/auto/SW2BRN2.dds"
+	texture displacement "materials/displacement/SW2BRN2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2BRNGN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2BRNGN.dds"
+	specular "materials/specular/auto/SW2BRNGN.dds"
+	texture displacement "materials/displacement/SW2BRNGN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2BROWN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2BROWN.dds"
+	specular "materials/specular/auto/SW2BROWN.dds"
+	texture displacement "materials/displacement/SW2BROWN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2CMT"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2CMT.dds"
+	specular "materials/specular/auto/SW2CMT.dds"
+	texture displacement "materials/displacement/SW2CMT.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2COMP"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2COMP.dds"
+	specular "materials/specular/auto/SW2COMP.dds"
+	texture displacement "materials/displacement/SW2COMP.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2GRAY"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2GRAY.dds"
+	specular "materials/specular/auto/SW2GRAY.dds"
+	texture displacement "materials/displacement/SW2GRAY.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2GRAY1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2GRAY1.dds"
+	specular "materials/specular/auto/SW2GRAY1.dds"
+	texture displacement "materials/displacement/SW2GRAY1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2GSTON"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2GSTON.dds"
+	specular "materials/specular/auto/SW2GSTON.dds"
+	texture displacement "materials/displacement/SW2GSTON.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2HOT"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2HOT.dds"
+	specular "materials/specular/auto/SW2HOT.dds"
+	texture displacement "materials/displacement/SW2HOT.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2METAL"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2METAL.dds"
+	specular "materials/specular/auto/SW2METAL.dds"
+	texture displacement "materials/displacement/SW2METAL.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2STARG"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2STARG.dds"
+	specular "materials/specular/auto/SW2STARG.dds"
+	texture displacement "materials/displacement/SW2STARG.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2STON1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2STON1.dds"
+	specular "materials/specular/auto/SW2STON1.dds"
+	texture displacement "materials/displacement/SW2STON1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2STON2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2STON2.dds"
+	specular "materials/specular/auto/SW2STON2.dds"
+	texture displacement "materials/displacement/SW2STON2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "SW2STRTN"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2STRTN.dds"
+	specular "materials/specular/auto/SW2STRTN.dds"
+	texture displacement "materials/displacement/SW2STRTN.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+
+material texture "SW2WOOD"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/SW2WOOD.dds"
+	specular "materials/specular/auto/SW2WOOD.dds"
+	texture displacement "materials/displacement/SW2WOOD.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "WOOD1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/WOOD1.dds"
+	specular "materials/specular/auto/WOOD1.dds"
+	texture displacement "materials/displacement/WOOD1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "WOOD3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/WOOD3.dds"
+	specular "materials/specular/auto/WOOD3.dds"
+	texture displacement "materials/displacement/WOOD3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "WOOD4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/WOOD4.dds"
+	specular "materials/specular/auto/WOOD4.dds"
+	texture displacement "materials/displacement/WOOD4.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "WOOD5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/WOOD5.dds"
+	specular "materials/specular/auto/WOOD5.dds"
+	texture displacement "materials/displacement/WOOD5.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "WOODGARG"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/WOODGARG.dds"
+	specular "materials/specular/auto/WOODGARG.dds"
+	texture displacement "materials/displacement/WOODGARG.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "WOODSKUL"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/WOODSKUL.dds"
+	specular "materials/specular/auto/WOODSKUL.dds"
+	texture displacement "materials/displacement/WOODSKUL.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "cons1_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/cons1_1.dds"
+	specular "materials/specular/auto/cons1_1.dds"
+	texture displacement "materials/displacement/cons1_1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "cons1_5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/cons1_5.dds"
+	specular "materials/specular/auto/cons1_5.dds"
+	texture displacement "materials/displacement/cons1_5.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "cons1_7"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/cons1_7.dds"
+	specular "materials/specular/auto/cons1_7.dds"
+	texture displacement "materials/displacement/cons1_7.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat1.dds"
+	specular "materials/specular/auto/flat1.dds"
+	texture displacement "materials/displacement/flat1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat17"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat17.dds"
+	specular "materials/specular/auto/flat17.dds"
+	texture displacement "materials/displacement/flat17.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat18"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat18.dds"
+	specular "materials/specular/auto/flat18.dds"
+	texture displacement "materials/displacement/flat18.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat2.dds"
+	specular "materials/specular/auto/flat2.dds"
+	texture displacement "materials/displacement/flat2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+
+material texture "flat22"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat22.dds"
+	specular "materials/specular/auto/flat22.dds"
+	texture displacement "materials/displacement/flat22.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat3.dds"
+	specular "materials/specular/auto/flat3.dds"
+	texture displacement "materials/displacement/flat3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat4.dds"
+	specular "materials/specular/auto/flat4.dds"
+	texture displacement "materials/displacement/flat4.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat5_2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat5_2.dds"
+	specular "materials/specular/auto/flat5_2.dds"
+	texture displacement "materials/displacement/flat5_2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat8"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat8.dds"
+	specular "materials/specular/auto/flat8.dds"
+	texture displacement "materials/displacement/flat8.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "flat9"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/flat9.dds"
+	specular "materials/specular/auto/flat9.dds"
+	texture displacement "materials/displacement/flat9.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor0_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor0_1.dds"
+	specular "materials/specular/auto/floor0_1.dds"
+	texture displacement "materials/displacement/floor0_1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor0_2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor0_2.dds"
+	specular "materials/specular/auto/floor0_2.dds"
+	texture displacement "materials/displacement/floor0_2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor0_3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor0_3.dds"
+	specular "materials/specular/auto/floor0_3.dds"
+	texture displacement "materials/displacement/floor0_3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor0_5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor0_5.dds"
+	specular "materials/specular/auto/floor0_5.dds"
+	texture displacement "materials/displacement/floor0_5.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor0_6"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor0_6.dds"
+	specular "materials/specular/auto/floor0_6.dds"
+	texture displacement "materials/displacement/floor0_6.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor0_7"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor0_7.dds"
+	specular "materials/specular/auto/floor0_7.dds"
+	texture displacement "materials/displacement/floor0_7.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor1_7"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor1_7.dds"
+	specular "materials/specular/auto/floor1_7.dds"
+	texture displacement "materials/displacement/floor1_7.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor4_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor4_1.dds"
+	specular "materials/specular/auto/floor4_1.dds"
+	texture displacement "materials/displacement/floor4_1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor4_5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor4_5.dds"
+	specular "materials/specular/auto/floor4_5.dds"
+	texture displacement "materials/displacement/floor4_5.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor4_6"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor4_6.dds"
+	specular "materials/specular/auto/floor4_6.dds"
+	texture displacement "materials/displacement/floor4_6.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor4_8"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor4_8.dds"
+	specular "materials/specular/auto/floor4_8.dds"
+	texture displacement "materials/displacement/floor4_8.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor5_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor5_1.dds"
+	specular "materials/specular/auto/floor5_1.dds"
+	texture displacement "materials/displacement/floor5_1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor5_2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor5_2.dds"
+	specular "materials/specular/auto/floor5_2.dds"
+	texture displacement "materials/displacement/floor5_2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor5_3"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor5_3.dds"
+	specular "materials/specular/auto/floor5_3.dds"
+	texture displacement "materials/displacement/floor5_3.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor5_4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor5_4.dds"
+	specular "materials/specular/auto/floor5_4.dds"
+	texture displacement "materials/displacement/floor5_4.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "floor7_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/floor7_1.dds"
+	specular "materials/specular/auto/floor7_1.dds"
+	texture displacement "materials/displacement/floor7_1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "mflr8_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/mflr8_1.dds"
+	specular "materials/specular/auto/mflr8_1.dds"
+	texture displacement "materials/displacement/mflr8_1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+
+
+material texture "step1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/step1.dds"
+	specular "materials/specular/auto/step1.dds"
+	texture displacement "materials/displacement/step1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "step2"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/step2.dds"
+	specular "materials/specular/auto/step2.dds"
+	texture displacement "materials/displacement/step2.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "tlite6_1"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/tlite6_1.dds"
+	specular "materials/specular/auto/tlite6_1.dds"
+	texture displacement "materials/displacement/tlite6_1.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "tlite6_4"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/tlite6_4.dds"
+	specular "materials/specular/auto/tlite6_4.dds"
+	texture displacement "materials/displacement/tlite6_4.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "tlite6_5"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/tlite6_5.dds"
+	specular "materials/specular/auto/tlite6_5.dds"
+	texture displacement "materials/displacement/tlite6_5.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+material texture "tlite6_6"
+{
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/tlite6_6.dds"
+	specular "materials/specular/auto/tlite6_6.dds"
+	texture displacement "materials/displacement/tlite6_6.dds"
+	glossiness 10.0
+	specularlevel 0.5
+}
+
+
+/////////////////////////////////////////////
+//WATER/////////////////////////////////////
+////////////////////////////////////////////
+
+material texture SW0000 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0000.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0001 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0001.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0002 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0002.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0003 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0003.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0004 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0004.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0005 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0005.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0006 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0006.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0007 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0007.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0008 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0008.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0009 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0009.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0010 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0010.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0011 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0011.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0012 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0012.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0013 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0013.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0014 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0014.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0015 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0015.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0016 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0016.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0017 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0017.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0018 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0018.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0019 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0019.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0020 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0020.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0021 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0021.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0022 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0022.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0023 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0023.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0024 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0024.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0025 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0025.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0026 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0026.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0027 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0027.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0028 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0028.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0029 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0029.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0030 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0030.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+material texture SW0031 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0031.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSW.jpg"
+}
+
+///////////////////////////////////////////////////////////////
+//////WATERFALL////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+material texture WF0000 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0000.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0001 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0001.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0002 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0002.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0003 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0003.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0004 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0004.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0005 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0005.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0006 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0006.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0007 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0007.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0008 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0008.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0009 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0009.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0010 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0010.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0011 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0011.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0012 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0012.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0013 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0013.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0014 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0014.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0015 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0015.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0016 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0016.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0017 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0017.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0018 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0018.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0019 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0019.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0020 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0020.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0021 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0021.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0022 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0022.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0023 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0023.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0024 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0024.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0025 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0025.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0026 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0026.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0027 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0027.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0028 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0028.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0029 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0029.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0030 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0030.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+material texture WF0031 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0031.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMWF.jpg"
+}
+
+
+
+////////////////////////////////////////////////////////////////
+//NUKADGE///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+
+material texture SN0000 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0000.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0001 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0001.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0002 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0002.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0003 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0003.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0004 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0004.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0005 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0005.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0006 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0006.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0007 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0007.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0008 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0008.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0009 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0009.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0010 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0010.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0011 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0011.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0012 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0012.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0013 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0013.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0014 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0014.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0015 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0015.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0016 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0016.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0017 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0017.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0018 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0018.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0019 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0019.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0020 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0020.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0021 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0021.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0022 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0022.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0023 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0023.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0024 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0024.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0025 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0025.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0026 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0026.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0027 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0027.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0028 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0028.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0029 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0029.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0030 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0030.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+material texture SN0031 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0031.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSN.jpg"
+}
+
+////////////////////////////////////////////////////////////////
+//NUKADGE FALL///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+
+material texture NF0000 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0000.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0001 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0001.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0002 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0002.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0003 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0003.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0004 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0004.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0005 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0005.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0006 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0006.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0007 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0007.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0008 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0008.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0009 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0009.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0010 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0010.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0011 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0011.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0012 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0012.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0013 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0013.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0014 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0014.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0015 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0015.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0016 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0016.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0017 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0017.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0018 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0018.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0019 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0019.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0020 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0020.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0021 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0021.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0022 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0022.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0023 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0023.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0024 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0024.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0025 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0025.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0026 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0026.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0027 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0027.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0028 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0028.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0029 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0029.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0030 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0030.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+material texture NF0031 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0031.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMNF.jpg"
+}
+
+///////////////////////////////////////////////////////////////////
+//BLOOD////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
+
+
+material texture SB0000 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0000.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0001 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0001.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0002 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0002.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0003 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0003.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0004 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0004.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0005 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0005.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0006 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0006.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0007 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0007.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0008 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0008.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0009 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0009.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0010 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0010.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0011 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0011.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0012 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0012.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0013 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0013.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0014 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0014.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0015 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0015.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0016 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0016.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0017 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0017.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0018 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0018.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0019 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0019.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0020 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0020.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0021 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0021.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0022 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0022.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0023 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0023.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0024 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0024.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0025 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0025.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0026 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0026.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0027 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0027.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0028 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0028.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0029 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0029.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0030 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0030.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+material texture SB0031 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0031.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSB.jpg"
+}
+
+////////////////////////////////////////////////////////////
+/////BLOODFALL//////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+material texture BF0000 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0000.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+
+material texture BF0001 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0001.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0002 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0002.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0003 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0003.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0004 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0004.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0005 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0005.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0006 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0006.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0007 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0007.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0008 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0008.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0009 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0009.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0010 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0010.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0011 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0011.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0012 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0012.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0013 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0013.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0014 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0014.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0015 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0015.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0016 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0016.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0017 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0017.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0018 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0018.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0019 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0019.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0020 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0020.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0021 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0021.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0022 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0022.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0023 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0023.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0024 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0024.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0025 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0025.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0026 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0026.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0027 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0027.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0028 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0028.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0029 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0029.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0030 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0030.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+material texture BF0031 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0031.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMBF.jpg"
+}
+////////////////////////////////////////////////////////////
+//SLIME/////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+
+material texture SS0000 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0000.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0001 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0001.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0002 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0002.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0003 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0003.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0004 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0004.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0005 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0005.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0006 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0006.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0007 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0007.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0008 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0008.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0009 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0009.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0010 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0010.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0011 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0011.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0012 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0012.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0013 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0013.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0014 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0014.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0015 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0015.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0016 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0016.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0017 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0017.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0018 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0018.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0019 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0019.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0020 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0020.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0021 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0021.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0022 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0022.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0023 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0023.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0024 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0024.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0025 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0025.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0026 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0026.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0027 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0027.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0028 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0028.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0029 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0029.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0030 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0030.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+material texture SS0031 //original texture
+{ 
+   normal "normalmaps/FLATS/NSW0031.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/sw1.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSS.jpg"
+}
+
+///////////////////////////////////////////////////////////////////
+///////SLIMEFALL///////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
+
+material texture SF0000 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0000.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+
+material texture SF0001 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0001.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0002 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0002.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0003 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0003.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0004 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0004.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0005 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0005.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0006 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0006.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0007 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0007.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0008 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0008.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0009 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0009.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0010 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0010.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0011 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0011.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0012 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0012.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0013 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0013.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0014 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0014.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0015 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0015.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0016 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0016.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0017 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0017.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0018 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0018.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0019 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0019.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0020 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0020.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0021 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0021.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0022 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0022.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0023 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0023.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0024 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0024.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0025 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0025.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0026 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0026.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0027 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0027.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0028 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0028.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0029 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0029.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0030 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0030.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+material texture SF0031 //original texture
+{ 
+   normal "normalmaps/FALLS/NLF0031.jpg"	   // depth map (purple texture)
+   specular "specularmaps/water/SLF.jpg" //gloss map   (black and white texture)
+   specularlevel "3"
+   glossiness "20"
+   brightmap "Brightmaps/BMSF.jpg"
+}
+
+///////////////////LAVA//////////////////////////////////////////
+
+brightmap TEXTURE SL0000 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0001 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0002 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0003 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0004 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0005 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0006 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0007 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0008 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0009 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0010 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0011 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0012 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0013 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0014 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0015 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0016 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0017 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0018 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0019 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0020 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0021 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0022 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0023 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0024 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0025 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0026 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0027 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0028 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0029 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0030 {map "BRIGHTMAPS/BMSL.jpg"}
+brightmap TEXTURE SL0031 {map "BRIGHTMAPS/BMSL.jpg"}
+
+/////////////////////LAVA FALL////////////////////////////////////
+
+brightmap TEXTURE LF0000 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0001 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0002 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0003 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0004 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0005 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0006 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0007 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0008 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0009 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0010 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0011 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0012 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0013 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0014 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0015 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0016 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0017 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0018 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0019 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0020 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0021 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0022 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0023 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0024 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0025 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0026 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0027 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0028 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0029 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0030 {map "BRIGHTMAPS/BMLF.jpg"}
+brightmap TEXTURE LF0031 {map "BRIGHTMAPS/BMLF.jpg"}
+
+GLOW
+{
+	//BASE TEXTURES
+	Texture "FWATER1", "00, 16, 10", "150"
+	Texture "FWATER2", "00, 16, 10", "150" 
+	Texture "FWATER3", "00, 16, 10", "150"
+	Texture "FWATER4", "00, 16, 10", "150"
+	Texture "NUKAGE1", "30, 60, 00", "150"
+	Texture "NUKAGE2", "30, 60, 00", "150" 
+	Texture "NUKAGE3", "30, 60, 00", "150"
+	Texture "NUKAGE4", "30, 60, 00", "150"
+	Texture "SFALL1", "30, 60, 00", "150"
+	Texture "SFALL2", "30, 60, 00", "150"
+	Texture "SFALL3", "30, 60, 00", "150"
+	Texture "SFALL4", "30, 60, 00", "150"
+	Texture "BLOOD1", "30, 00, 00", "150"
+	Texture "BLOOD2", "30, 00, 00", "150" 
+	Texture "BLOOD3", "30, 00, 00", "150"
+	Texture "BFALL1", "30, 00, 00", "150"
+	Texture "BFALL2", "30, 00, 00", "150"
+	Texture "BFALL3", "30, 00, 00", "150"
+	Texture "BFALL4", "30, 00, 00", "150"
+	Texture "SLIME01", "15, 15, 00", "150"
+	Texture "SLIME02", "15, 15, 00", "150"
+	Texture "SLIME03", "15, 15, 00", "150"
+	Texture "SLIME04", "15, 15, 00", "150"
+	Texture "SLIME05", "15, 15, 00", "150"
+	Texture "SLIME06", "15, 15, 00", "150"
+	Texture "SLIME07", "15, 15, 00", "150"
+	Texture "SLIME08", "15, 15, 00", "150"
+	Texture "LAVA1", "99, 50, 00", "250",FULLBRIGHT
+	Texture "LAVA2", "99, 50, 00", "250",FULLBRIGHT
+	Texture "LAVA3", "99, 50, 00", "250",FULLBRIGHT
+	Texture "LAVA4", "99, 50, 00", "250",FULLBRIGHT
+	Texture "F_SKY1", "99, 85, 50", "500"
+	Texture "FLOOR1_7", "99, 00, 00", "150",FULLBRIGHT
+	Texture "CEIL1_2", "99, 99, 99", "150",FULLBRIGHT
+	Texture "CEIL1_3", "99, 99, 99", "150",FULLBRIGHT
+	Texture "CEIL3_4", "99, 70, 35", "150",FULLBRIGHT
+	Texture "CEIL3_6", "99, 99, 99", "150",FULLBRIGHT
+	Texture "FLAT17", "99, 99, 99", "150",FULLBRIGHT
+	Texture "FLAT2", "99, 99, 99", "150",FULLBRIGHT
+	Texture "TLITE6_6", "99, 70, 35", "150",FULLBRIGHT
+	Texture "TLITE6_1", "99, 80, 60", "150",FULLBRIGHT
+	Texture "TLITE6_4", "99, 70, 50", "150",FULLBRIGHT
+	Texture "TLITE6_5", "99, 00, 00", "150",FULLBRIGHT
+	Texture "GRNLITE1", "80, 99, 80", "150",FULLBRIGHT
+	Texture "LITE3", "99, 99, 99", "150",FULLBRIGHT
+	Texture "LITE5", "99, 99, 99", "150",FULLBRIGHT
+	Texture "RROCK01", "99, 00, 00", "150",FULLBRIGHT
+	Texture "RROCK02", "70, 60, 20", "150",FULLBRIGHT
+	Texture "RROCK05", "70, 00, 00", "150",FULLBRIGHT
+	Texture "RROCK06", "70, 00, 00", "150",FULLBRIGHT
+	Texture "RROCK07", "70, 00, 00", "150",FULLBRIGHT
+	Texture "RROCK08", "70, 00, 00", "150",FULLBRIGHT
+	Texture "SLIME09", "70, 00, 00", "150",FULLBRIGHT
+	Texture "SLIME10", "70, 00, 00", "150",FULLBRIGHT
+	Texture "SLIME11", "70, 00, 00", "150",FULLBRIGHT
+	Texture "SLIME12", "70, 00, 00", "150",FULLBRIGHT
+	Texture "GATE1", "99, 00, 00", "150",FULLBRIGHT
+	Texture "GATE2", "99, 00, 00", "150",FULLBRIGHT
+	Texture "GATE3", "99, 00, 00", "150",FULLBRIGHT
+	Texture "GATE4", "70, 70, 70", "150",FULLBRIGHT
+	Texture "FLOOR6_1", "50, 00, 00", "150"
+	Texture "ROCKRED1", "99, 00, 00", "150",FULLBRIGHT
+	Texture "ROCKRED2", "99, 00, 00", "150",FULLBRIGHT
+	Texture "ROCKRED3", "99, 00, 00", "150",FULLBRIGHT
+	Texture "flat22", "00, 00, 99", "150",FULLBRIGHT
+	Texture "LITEBLU4", "00, 00, 99", "150",FULLBRIGHT
+	Texture "LITEBLU1", "00, 00, 99", "150",FULLBRIGHT
+	//WATER 
+	Texture "SW0000", "00, 16, 10", "150"
+	Texture "SW0001", "00, 16, 10", "150"
+	Texture "SW0002", "00, 16, 10", "150"
+	Texture "SW0003", "00, 16, 10", "150"
+	Texture "SW0004", "00, 16, 10", "150"
+	Texture "SW0005", "00, 16, 10", "150"
+	Texture "SW0006", "00, 16, 10", "150"
+	Texture "SW0007", "00, 16, 10", "150"
+	Texture "SW0008", "00, 16, 10", "150"
+	Texture "SW0009", "00, 16, 10", "150"
+	Texture "SW0010", "00, 16, 10", "150"
+	Texture "SW0011", "00, 16, 10", "150"
+	Texture "SW0012", "00, 16, 10", "150"
+	Texture "SW0013", "00, 16, 10", "150"
+	Texture "SW0014", "00, 16, 10", "150"
+	Texture "SW0015", "00, 16, 10", "150"
+	Texture "SW0016", "00, 16, 10", "150"
+	Texture "SW0017", "00, 16, 10", "150"
+	Texture "SW0018", "00, 16, 10", "150"
+	Texture "SW0019", "00, 16, 10", "150"
+	Texture "SW0020", "00, 16, 10", "150"
+	Texture "SW0021", "00, 16, 10", "150"
+	Texture "SW0022", "00, 16, 10", "150"
+	Texture "SW0023", "00, 16, 10", "150"
+	Texture "SW0024", "00, 16, 10", "150"
+	Texture "SW0025", "00, 16, 10", "150"
+	Texture "SW0026", "00, 16, 10", "150"
+	Texture "SW0027", "00, 16, 10", "150"
+	Texture "SW0028", "00, 16, 10", "150"
+	Texture "SW0029", "00, 16, 10", "150"
+	Texture "SW0030", "00, 16, 10", "150"
+	Texture "SW0031", "00, 16, 10", "150"
+
+	//WATERFALL
+	Texture "LPFWater", "00, 16, 10", "200"//BASE TEXTURE
+	Texture "WF0000", "00, 16, 10", "150"
+	Texture "WF0001", "00, 16, 10", "150"
+	Texture "WF0002", "00, 16, 10", "150"
+	Texture "WF0003", "00, 16, 10", "150"
+	Texture "WF0004", "00, 16, 10", "150"
+	Texture "WF0005", "00, 16, 10", "150"
+	Texture "WF0006", "00, 16, 10", "150"
+	Texture "WF0007", "00, 16, 10", "150"
+	Texture "WF0008", "00, 16, 10", "150"
+	Texture "WF0009", "00, 16, 10", "150"
+	Texture "WF0010", "00, 16, 10", "150"
+	Texture "WF0011", "00, 16, 10", "150"
+	Texture "WF0012", "00, 16, 10", "150"
+	Texture "WF0013", "00, 16, 10", "150"
+	Texture "WF0014", "00, 16, 10", "150"
+	Texture "WF0015", "00, 16, 10", "150"
+	Texture "WF0016", "00, 16, 10", "150"
+	Texture "WF0017", "00, 16, 10", "150"
+	Texture "WF0018", "00, 16, 10", "150"
+	Texture "WF0019", "00, 16, 10", "150"
+	Texture "WF0020", "00, 16, 10", "150"
+	Texture "WF0021", "00, 16, 10", "150"
+	Texture "WF0022", "00, 16, 10", "150"
+	Texture "WF0023", "00, 16, 10", "150"
+	Texture "WF0024", "00, 16, 10", "150"
+	Texture "WF0025", "00, 16, 10", "150"
+	Texture "WF0026", "00, 16, 10", "150"
+	Texture "WF0027", "00, 16, 10", "150"
+	Texture "WF0028", "00, 16, 10", "150"
+	Texture "WF0029", "00, 16, 10", "150"
+	Texture "WF0030", "00, 16, 10", "150"
+	Texture "WF0031", "00, 16, 10", "150"
+	
+
+	//NUKADGE
+	Texture "SN0000", "00, 35, 00", "150"
+	Texture "SN0001", "00, 35, 00", "150"
+	Texture "SN0002", "00, 35, 00", "150"
+	Texture "SN0003", "00, 35, 00", "150"
+	Texture "SN0004", "00, 35, 00", "150"
+	Texture "SN0005", "00, 35, 00", "150"
+	Texture "SN0006", "00, 35, 00", "150"
+	Texture "SN0007", "00, 35, 00", "150"
+	Texture "SN0008", "00, 35, 00", "150"
+	Texture "SN0009", "00, 35, 00", "150"
+	Texture "SN0010", "00, 35, 00", "150"
+	Texture "SN0011", "00, 35, 00", "150"
+	Texture "SN0012", "00, 35, 00", "150"
+	Texture "SN0013", "00, 35, 00", "150"
+	Texture "SN0014", "00, 35, 00", "150"
+	Texture "SN0015", "00, 35, 00", "150"
+	Texture "SN0016", "00, 35, 00", "150"
+	Texture "SN0017", "00, 35, 00", "150"
+	Texture "SN0018", "00, 35, 00", "150"
+	Texture "SN0019", "00, 35, 00", "150"
+	Texture "SN0020", "00, 35, 00", "150"
+	Texture "SN0021", "00, 35, 00", "150"
+	Texture "SN0022", "00, 35, 00", "150"
+	Texture "SN0023", "00, 35, 00", "150"
+	Texture "SN0024", "00, 35, 00", "150"
+	Texture "SN0025", "00, 35, 00", "150"
+	Texture "SN0026", "00, 35, 00", "150"
+	Texture "SN0027", "00, 35, 00", "150"
+	Texture "SN0028", "00, 35, 00", "150"
+	Texture "SN0029", "00, 35, 00", "150"
+	Texture "SN0030", "00, 35, 00", "150"
+	Texture "SN0031", "00, 35, 00", "150"
+
+	//NUKEADGE FALL
+	Texture "NF0000", "00, 35, 00", "150"
+	Texture "NF0001", "00, 35, 00", "150"
+	Texture "NF0002", "00, 35, 00", "150"
+	Texture "NF0003", "00, 35, 00", "150"
+	Texture "NF0004", "00, 35, 00", "150"
+	Texture "NF0005", "00, 35, 00", "150"
+	Texture "NF0006", "00, 35, 00", "150"
+	Texture "NF0007", "00, 35, 00", "150"
+	Texture "NF0008", "00, 35, 00", "150"
+	Texture "NF0009", "00, 35, 00", "150"
+	Texture "NF0010", "00, 35, 00", "150"
+	Texture "NF0011", "00, 35, 00", "150"
+	Texture "NF0012", "00, 35, 00", "150"
+	Texture "NF0013", "00, 35, 00", "150"
+	Texture "NF0014", "00, 35, 00", "150"
+	Texture "NF0015", "00, 35, 00", "150"
+	Texture "NF0016", "00, 35, 00", "150"
+	Texture "NF0017", "00, 35, 00", "150"
+	Texture "NF0018", "00, 35, 00", "150"
+	Texture "NF0019", "00, 35, 00", "150"
+	Texture "NF0020", "00, 35, 00", "150"
+	Texture "NF0021", "00, 35, 00", "150"
+	Texture "NF0022", "00, 35, 00", "150"
+	Texture "NF0023", "00, 35, 00", "150"
+	Texture "NF0024", "00, 35, 00", "150"
+	Texture "NF0025", "00, 35, 00", "150"
+	Texture "NF0026", "00, 35, 00", "150"
+	Texture "NF0027", "00, 35, 00", "150"
+	Texture "NF0028", "00, 35, 00", "150"
+	Texture "NF0029", "00, 35, 00", "150"
+	Texture "NF0030", "00, 35, 00", "150"
+	Texture "NF0031", "00, 35, 00", "150"
+	
+
+	//BLOOD
+	Texture "SB0000", "20, 00, 00", "150"
+	Texture "SB0001", "20, 00, 00", "150"
+	Texture "SB0002", "20, 00, 00", "150"
+	Texture "SB0003", "20, 00, 00", "150"
+	Texture "SB0004", "20, 00, 00", "150"
+	Texture "SB0005", "20, 00, 00", "150"
+	Texture "SB0006", "20, 00, 00", "150"
+	Texture "SB0007", "20, 00, 00", "150"
+	Texture "SB0008", "20, 00, 00", "150"
+	Texture "SB0009", "20, 00, 00", "150"
+	Texture "SB0010", "20, 00, 00", "150"
+	Texture "SB0011", "20, 00, 00", "150"
+	Texture "SB0012", "20, 00, 00", "150"
+	Texture "SB0013", "20, 00, 00", "150"
+	Texture "SB0014", "20, 00, 00", "150"
+	Texture "SB0015", "20, 00, 00", "150"
+	Texture "SB0016", "20, 00, 00", "150"
+	Texture "SB0017", "20, 00, 00", "150"
+	Texture "SB0018", "20, 00, 00", "150"
+	Texture "SB0019", "20, 00, 00", "150"
+	Texture "SB0020", "20, 00, 00", "150"
+	Texture "SB0021", "20, 00, 00", "150"
+	Texture "SB0022", "20, 00, 00", "150"
+	Texture "SB0023", "20, 00, 00", "150"
+	Texture "SB0024", "20, 00, 00", "150"
+	Texture "SB0025", "20, 00, 00", "150"
+	Texture "SB0026", "20, 00, 00", "150"
+	Texture "SB0027", "20, 00, 00", "150"
+	Texture "SB0028", "20, 00, 00", "150"
+	Texture "SB0029", "20, 00, 00", "150"
+	Texture "SB0030", "20, 00, 00", "150"
+	Texture "SB0031", "20, 00, 00", "150"
+	
+	//BLOODFALL
+	Texture "BF0000", "20, 00, 00", "150"
+	Texture "BF0001", "20, 00, 00", "150"
+	Texture "BF0002", "20, 00, 00", "150"
+	Texture "BF0003", "20, 00, 00", "150"
+	Texture "BF0004", "20, 00, 00", "150"
+	Texture "BF0005", "20, 00, 00", "150"
+	Texture "BF0006", "20, 00, 00", "150"
+	Texture "BF0007", "20, 00, 00", "150"
+	Texture "BF0008", "20, 00, 00", "150"
+	Texture "BF0009", "20, 00, 00", "150"
+	Texture "BF0010", "20, 00, 00", "150"
+	Texture "BF0011", "20, 00, 00", "150"
+	Texture "BF0012", "20, 00, 00", "150"
+	Texture "BF0013", "20, 00, 00", "150"
+	Texture "BF0014", "20, 00, 00", "150"
+	Texture "BF0015", "20, 00, 00", "150"
+	Texture "BF0016", "20, 00, 00", "150"
+	Texture "BF0017", "20, 00, 00", "150"
+	Texture "BF0018", "20, 00, 00", "150"
+	Texture "BF0019", "20, 00, 00", "150"
+	Texture "BF0020", "20, 00, 00", "150"
+	Texture "BF0021", "20, 00, 00", "150"
+	Texture "BF0022", "20, 00, 00", "150"
+	Texture "BF0023", "20, 00, 00", "150"
+	Texture "BF0024", "20, 00, 00", "150"
+	Texture "BF0025", "20, 00, 00", "150"
+	Texture "BF0026", "20, 00, 00", "150"
+	Texture "BF0027", "20, 00, 00", "150"
+	Texture "BF0028", "20, 00, 00", "150"
+	Texture "BF0029", "20, 00, 00", "150"
+	Texture "BF0030", "20, 00, 00", "150"
+	Texture "BF0031", "20, 00, 00", "150"
+	Texture "BF0032", "20, 00, 00", "150"
+	
+	//SLIME
+	Texture "SS0000", "15, 15, 00", "150"
+	Texture "SS0001", "15, 15, 00", "150"
+	Texture "SS0002", "15, 15, 00", "150"
+	Texture "SS0003", "15, 15, 00", "150"
+	Texture "SS0004", "15, 15, 00", "150"
+	Texture "SS0005", "15, 15, 00", "150"
+	Texture "SS0006", "15, 15, 00", "150"
+	Texture "SS0007", "15, 15, 00", "150"
+	Texture "SS0008", "15, 15, 00", "150"
+	Texture "SS0009", "15, 15, 00", "150"
+	Texture "SS0010", "15, 15, 00", "150"
+	Texture "SS0011", "15, 15, 00", "150"
+	Texture "SS0012", "15, 15, 00", "150"
+	Texture "SS0013", "15, 15, 00", "150"
+	Texture "SS0014", "15, 15, 00", "150"
+	Texture "SS0015", "15, 15, 00", "150"
+	Texture "SS0016", "15, 15, 00", "150"
+	Texture "SS0017", "15, 15, 00", "150"
+	Texture "SS0018", "15, 15, 00", "150"
+	Texture "SS0019", "15, 15, 00", "150"
+	Texture "SS0020", "15, 15, 00", "150"
+	Texture "SS0021", "15, 15, 00", "150"
+	Texture "SS0022", "15, 15, 00", "150"
+	Texture "SS0023", "15, 15, 00", "150"
+	Texture "SS0024", "15, 15, 00", "150"
+	Texture "SS0025", "15, 15, 00", "150"
+	Texture "SS0026", "15, 15, 00", "150"
+	Texture "SS0027", "15, 15, 00", "150"
+	Texture "SS0028", "15, 15, 00", "150"
+	Texture "SS0029", "15, 15, 00", "150"
+	Texture "SS0030", "15, 15, 00", "150"
+	Texture "SS0031", "15, 15, 00", "150"
+	
+	//SLIMEFALL
+	Texture "LPFSlime", "15, 15, 00", "150"//BASE TEXTURE
+	Texture "SF0000", "15, 15, 00", "150"
+	Texture "SF0001", "15, 15, 00", "150"
+	Texture "SF0002", "15, 15, 00", "150"
+	Texture "SF0003", "15, 15, 00", "150"
+	Texture "SF0004", "15, 15, 00", "150"
+	Texture "SF0005", "15, 15, 00", "150"
+	Texture "SF0006", "15, 15, 00", "150"
+	Texture "SF0007", "15, 15, 00", "150"
+	Texture "SF0008", "15, 15, 00", "150"
+	Texture "SF0009", "15, 15, 00", "150"
+	Texture "SF0010", "15, 15, 00", "150"
+	Texture "SF0011", "15, 15, 00", "150"
+	Texture "SF0012", "15, 15, 00", "150"
+	Texture "SF0013", "15, 15, 00", "150"
+	Texture "SF0014", "15, 15, 00", "150"
+	Texture "SF0015", "15, 15, 00", "150"
+	Texture "SF0016", "15, 15, 00", "150"
+	Texture "SF0017", "15, 15, 00", "150"
+	Texture "SF0018", "15, 15, 00", "150"
+	Texture "SF0019", "15, 15, 00", "150"
+	Texture "SF0020", "15, 15, 00", "150"
+	Texture "SF0021", "15, 15, 00", "150"
+	Texture "SF0022", "15, 15, 00", "150"
+	Texture "SF0023", "15, 15, 00", "150"
+	Texture "SF0024", "15, 15, 00", "150"
+	Texture "SF0025", "15, 15, 00", "150"
+	Texture "SF0026", "15, 15, 00", "150"
+	Texture "SF0027", "15, 15, 00", "150"
+	Texture "SF0028", "15, 15, 00", "150"
+	Texture "SF0029", "15, 15, 00", "150"
+	Texture "SF0030", "15, 15, 00", "150"
+	Texture "SF0031", "15, 15, 00", "150"
+	
+	
+	//LAVA
+	Texture "SL0000", "99, 50, 00", "250"
+	Texture "SL0001", "99, 50, 00", "250"
+	Texture "SL0002", "99, 50, 00", "250"
+	Texture "SL0003", "99, 50, 00", "250"
+	Texture "SL0004", "99, 50, 00", "250"
+	Texture "SL0005", "99, 50, 00", "250"
+	Texture "SL0006", "99, 50, 00", "250"
+	Texture "SL0007", "99, 50, 00", "250"
+	Texture "SL0008", "99, 50, 00", "250"
+	Texture "SL0009", "99, 50, 00", "250"
+	Texture "SL0010", "99, 50, 00", "250"
+	Texture "SL0011", "99, 50, 00", "250"
+	Texture "SL0012", "99, 50, 00", "250"
+	Texture "SL0013", "99, 50, 00", "250"
+	Texture "SL0014", "99, 50, 00", "250"
+	Texture "SL0015", "99, 50, 00", "250"
+	Texture "SL0016", "99, 50, 00", "250"
+	Texture "SL0017", "99, 50, 00", "250"
+	Texture "SL0018", "99, 50, 00", "250"
+	Texture "SL0019", "99, 50, 00", "250"
+	Texture "SL0020", "99, 50, 00", "250"
+	Texture "SL0021", "99, 50, 00", "250"
+	Texture "SL0022", "99, 50, 00", "250"
+	Texture "SL0023", "99, 50, 00", "250"
+	Texture "SL0024", "99, 50, 00", "250"
+	Texture "SL0025", "99, 50, 00", "250"
+	Texture "SL0026", "99, 50, 00", "250"
+	Texture "SL0027", "99, 50, 00", "250"
+	Texture "SL0028", "99, 50, 00", "250"
+	Texture "SL0029", "99, 50, 00", "250"
+	Texture "SL0030", "99, 50, 00", "250"
+	Texture "SL0031", "99, 50, 00", "250"
+	
+	//LAVAFALL
+	Texture "LPFlava", "99, 50, 00", "250"//BASE TEXTURE
+	Texture "LF0000", "99, 50, 00", "250"
+	Texture "LF0001", "99, 50, 00", "250"
+	Texture "LF0002", "99, 50, 00", "250"
+	Texture "LF0003", "99, 50, 00", "250"
+	Texture "LF0004", "99, 50, 00", "250"
+	Texture "LF0005", "99, 50, 00", "250"
+	Texture "LF0006", "99, 50, 00", "250"
+	Texture "LF0007", "99, 50, 00", "250"
+	Texture "LF0008", "99, 50, 00", "250"
+	Texture "LF0009", "99, 50, 00", "250"
+	Texture "LF0010", "99, 50, 00", "250"
+	Texture "LF0011", "99, 50, 00", "250"
+	Texture "LF0012", "99, 50, 00", "250"
+	Texture "LF0013", "99, 50, 00", "250"
+	Texture "LF0014", "99, 50, 00", "250"
+	Texture "LF0015", "99, 50, 00", "250"
+	Texture "LF0016", "99, 50, 00", "250"
+	Texture "LF0017", "99, 50, 00", "250"
+	Texture "LF0018", "99, 50, 00", "250"
+	Texture "LF0019", "99, 50, 00", "250"
+	Texture "LF0020", "99, 50, 00", "250"
+	Texture "LF0021", "99, 50, 00", "250"
+	Texture "LF0022", "99, 50, 00", "250"
+	Texture "LF0023", "99, 50, 00", "250"
+	Texture "LF0024", "99, 50, 00", "250"
+	Texture "LF0025", "99, 50, 00", "250"
+	Texture "LF0026", "99, 50, 00", "250"
+	Texture "LF0027", "99, 50, 00", "250"
+	Texture "LF0028", "99, 50, 00", "250"
+	Texture "LF0029", "99, 50, 00", "250"
+	Texture "LF0030", "99, 50, 00", "250"
+	Texture "LF0031", "99, 50, 00", "250"
 }
