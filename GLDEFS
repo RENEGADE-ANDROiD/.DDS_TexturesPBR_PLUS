@@ -1838,9 +1838,9 @@ material texture "flat9"
 material texture "floor0_1"
 {
 	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/floor0_1.dds"
-	specular "materials/specular/auto/floor0_1.dds"
-	texture displacement "materials/displacement/floor0_1.dds"
+	normal "materials/normalmaps/auto/BROWN144.dds"
+	specular "materials/specular/auto/graybig.dds"
+	texture displacement "materials/displacement/floor7_1.dds"
 	glossiness 10.0
 	specularlevel 3
 }
@@ -2718,7 +2718,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Flat "floor0_1"
 {
-normal "materials/normalmaps/auto/floor0_1.dds"
+normal "materials/normalmaps/auto/BROWN144.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/floor0_1.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -3250,12 +3250,22 @@ roughness "materials/roughness/auto/flat14.dds"
 ao "materials/ao/auto/flat14.dds"
 }
 
-material Texture "floor1_1"
+material texture "floor1_1"
 {
-normal "materials/normalmaps/auto/floor1_1.dds"
-metallic "materials/metallic/auto/flat14.dds"
-roughness "materials/roughness/auto/flat14.dds"
-ao "materials/ao/auto/flat14.dds"
+	shader "shaders/displacement.fp"
+	normal "materials/normalmaps/auto/BROWN144.dds"
+	specular "materials/specular/auto/graybig.dds"
+	texture displacement "materials/displacement/floor7_1.dds"
+	glossiness 10.0
+	specularlevel 3
+}
+
+material Flat "floor1_1"
+{
+normal "materials/normalmaps/auto/BROWN144.dds"
+metallic "materials/metallic/auto/floor7_1.dds"
+roughness "materials/roughness/auto/floor0_1.dds"
+ao "materials/ao/auto/ao_blank2.dds"
 }
 
 material Texture "nuke24"
