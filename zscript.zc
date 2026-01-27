@@ -2,10 +2,10 @@ version "4.10.0"
 
 #include "zscript/CheelloVox/CheelloVoxHandler.zc"
 #include "zscript/CheelloVox/CheelloBlood.zc"
-#include "zscript/CheelloVox/CheelloRocketPlugin.zc"
+//#include "zscript/CheelloVox/CheelloRocketPlugin.zc"
 //#include "zscript/CheelloVox/CheelloSphereShell.zc"
 //#include "zscript/CheelloVox/CheelloPowerupsDoom1.zc"
-#include "zscript/CheelloVox/CheelloMonstersDoom1.zc"
+//#include "zscript/CheelloVox/CheelloMonstersDoom1.zc"
 
 #include "zsc/fountain.zsc"
 #include "zsc/teleporter_effects.zsc"
