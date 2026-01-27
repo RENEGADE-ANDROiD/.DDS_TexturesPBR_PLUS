@@ -1242,7 +1242,7 @@ material texture "STONE2"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/STONE2.dds"
-	specular "materials/specular/auto/STONE2.dds"
+	specular "materials/specular/auto/STONE3.dds"
 	texture displacement "materials/displacement/STONE2.dds"
 	glossiness 10.0
 	specularlevel 3
@@ -3024,9 +3024,9 @@ brightmap "materials/Brightmaps/auto/sw2ston1.dds"
 material Texture "stone2"
 {
 normal "materials/normalmaps/auto/stone2.dds"
-roughness "materials/roughness/auto/stone2.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-metallic "materials/metallic/auto/brown1.dds"
+roughness "materials/roughness/auto/stone3.dds"
+ao "materials/ao/auto/STONE3.dds"
+metallic "materials/metallic/auto/STONE3.dds"
 }
 
 material Texture "stone3"
