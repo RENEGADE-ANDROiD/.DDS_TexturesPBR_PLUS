@@ -24,10 +24,4 @@ class CheelloVoxHandler : EventHandler
 			e.Thing.Angle = e.Thing.AngleTo(e.Thing.Target);
 	}
 
-	override void WorldThingSpawned(WorldEvent e)
-	{
-		// install the rocket plugin
-		if (e.Thing && e.Thing is "Rocket")
-			e.Thing.A_GiveInventory("CheelloRocketPlugin", 1);
-	}
 }
