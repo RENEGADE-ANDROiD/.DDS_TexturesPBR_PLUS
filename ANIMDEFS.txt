@@ -19,16 +19,6 @@ pic FLOOR52D tics 8
 pic FLOOR52C tics 8
 pic FLOOR52B tics 8
 
-Texture flat18
-pic FLOOR52A tics 12
-pic FLOOR52B tics 8
-pic FLOOR52C tics 8
-pic FLOOR52D tics 8
-pic FLOOR52E tics 8
-pic FLOOR52D tics 8
-pic FLOOR52C tics 8
-pic FLOOR52B tics 8
-
 texture COMPUTE2
 pic COMPUT2A tics 3
 pic COMPUT2B tics 3
