@@ -1,9 +1,0 @@
-// acs/relietoggle.acs
-#library "relitetoggle"
-#include "zcommon.acs"
-
-script "ToggleReLite" (void)
-{
-    // This script just exists to call the static function
-    SetResultValue(0);
-}

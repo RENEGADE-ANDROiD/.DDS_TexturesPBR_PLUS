@@ -5,7 +5,7 @@ gameinfo
 }
 gameinfo 
 {
-	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "hd_relite_Events", "VerySimpleRainHandler", "DropletsEventHandler", "TeleporterEffects", "CheelloVoxHandler"
+	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "VerySimpleRainHandler", "DropletsEventHandler", "TeleporterEffects"
 }
 gameinfo
 {
