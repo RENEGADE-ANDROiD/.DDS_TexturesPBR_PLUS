@@ -6,16 +6,14 @@ class EndCam : SecurityCamera
 		CameraHeight 0;
 	}
 
-override void NetworkProcess(ConsoleEvent e)
+class hd_relite_Events : EventHandler
 {
-    if (e.Name == "ReLiteToggle")
+    static bool IsReLiteOn;
+    
+    static void ToggleReLite()
     {
-        let reLiteHandler = hd_relite_Events(EventHandler.Find("hd_relite_Events"));
-        if (reLiteHandler)
-        {
-            reLiteHandler.IsReLiteOn = !reLiteHandler.IsReLiteOn;
-            console.printf(reLiteHandler.IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
-        }
+        IsReLiteOn = !IsReLiteOn;
+        console.printf(IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
     }
 }
 }
