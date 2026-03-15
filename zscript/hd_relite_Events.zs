@@ -1,3 +1,12 @@
+class EndCam : SecurityCamera
+{
+	Default
+	{
+		Radius 128;
+		CameraHeight 0;
+	}
+}
+
 class hd_relite_Events : EventHandler
 {
     bool IsReLiteOn;
@@ -10,21 +19,6 @@ class hd_relite_Events : EventHandler
             console.printf(IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
         }
     }
-}
-
-class EndCam : SecurityCamera
-{
-	Default
-	{
-		Radius 128;
-		CameraHeight 0;
-	}
-}
-
-class hd_relite_Events : EventHandler
-{
-
-bool IsReLiteOn;  // Now this is an instance variable
 ////////
 
 	mixin mGeo;
