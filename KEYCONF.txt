@@ -5,3 +5,8 @@ Alias "fog_red" "udv_fogcolor 0; udv_getred 25; udv_getgreen 0; udv_getblue 0"
 Alias "fog_green" "udv_fogcolor 0; udv_getred 0; udv_getgreen 25; udv_getblue 0"
 Alias "fog_blue" "udv_fogcolor 0; udv_getred 0; udv_getgreen 0; udv_getblue 25"
 Alias "fog_dark" "udv_fogcolor 0; udv_getred 8; udv_getgreen 8; udv_getblue 8"
+
+AddMenuKey "Toggle ReLite" ReLiteOff
+alias ReLiteOn "netevent ReLiteOn; rebind ReLiteOff"
+alias ReLiteOff "netevent ReLiteOff; rebind ReLiteOn"
+defaultbind ' ReLiteOff

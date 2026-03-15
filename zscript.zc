@@ -1674,6 +1674,8 @@ class DPWipeHandler : EventHandler
 	}
 }
 
+//RELITE
+
 Class TextureHotspot
 {
 	int xpos, ypos, r, g, b, radius, spotin, spotout;
