@@ -6,11 +6,6 @@ Alias "fog_green" "udv_fogcolor 0; udv_getred 0; udv_getgreen 25; udv_getblue 0"
 Alias "fog_blue" "udv_fogcolor 0; udv_getred 0; udv_getgreen 0; udv_getblue 25"
 Alias "fog_dark" "udv_fogcolor 0; udv_getred 8; udv_getgreen 8; udv_getblue 8"
 
-// Single toggle alias
-alias "ReLiteToggle" "netevent ReLiteToggle"
-
-// Menu key binding
+alias ReLiteToggle "pukename" "TriggerToggle"
 AddMenuKey "Toggle ReLite" ReLiteToggle
-
-// Default key binding (apostrophe key)
 defaultbind ' ReLiteToggle

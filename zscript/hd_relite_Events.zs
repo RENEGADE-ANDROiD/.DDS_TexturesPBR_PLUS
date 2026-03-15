@@ -11,12 +11,13 @@ class hd_relite_Events : EventHandler
 {
     bool IsReLiteOn;
     
-    override void NetworkProcess(ConsoleEvent e)
+    static void TriggerToggle(Event e)
     {
-        if (e.Name == "ReLiteToggle")
+        let handler = hd_relite_Events(EventHandler.Find("hd_relite_Events"));
+        if (handler)
         {
-            IsReLiteOn = !IsReLiteOn;
-            console.printf(IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
+            handler.IsReLiteOn = !handler.IsReLiteOn;
+            console.printf(handler.IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
         }
     }
 ////////

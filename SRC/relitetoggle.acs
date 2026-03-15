@@ -1,0 +1,7 @@
+#library "relitetoggle"
+#include "zcommon.acs"
+
+script "TriggerToggle" (void)
+{
+    // This empty script just allows the pukename to trigger the static function
+}
