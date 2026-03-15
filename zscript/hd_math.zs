@@ -7,8 +7,6 @@ note this is used to label mobile app maps; modifications account for the polygo
 class hd_polycell
 {
 
-bool IsReLiteOn;  // Now this is an instance variable
-
 	double X,Y,H,D,Max;
 	Array<double> vx, vy;
 	Sector sec;

@@ -1,8 +1,6 @@
 class hd_sector
 {
 
-bool IsReLiteOn;  // Now this is an instance variable
-
 	int sec, light, volume, sources, total_light;
 	double minx, maxx, miny, maxy;
 	double centerZ, floorZ, ceilingZ, height, area;

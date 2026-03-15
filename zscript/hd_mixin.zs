@@ -1,8 +1,6 @@
 mixin class mGeo
 {
 
-bool IsReLiteOn;  // Now this is an instance variable
-
     bool IsInsideSector(Sector sec, double x, double y)
     {
         let result = Level.PointInSector((x, y));

@@ -1,8 +1,6 @@
 class crosswalk
 {
 
-bool IsReLiteOn;  // Now this is an instance variable
-
    Array<string> sbase;
    Array<string> sswap;
    crosswalk init()

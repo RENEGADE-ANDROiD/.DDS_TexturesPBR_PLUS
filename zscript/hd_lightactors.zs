@@ -1,8 +1,6 @@
 class hd_grid
 {
 
-bool IsReLiteOn;  // Now this is an instance variable
-
 	double minx1, miny1, maxx, maxy;
 	double minx2, miny2;
 	double minx3, miny3;
