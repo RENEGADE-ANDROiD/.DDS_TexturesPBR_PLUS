@@ -6,7 +6,6 @@ Alias "fog_green" "udv_fogcolor 0; udv_getred 0; udv_getgreen 25; udv_getblue 0"
 Alias "fog_blue" "udv_fogcolor 0; udv_getred 0; udv_getgreen 0; udv_getblue 25"
 Alias "fog_dark" "udv_fogcolor 0; udv_getred 8; udv_getgreen 8; udv_getblue 8"
 
-// Simple toggle using pukename
-alias ReLiteToggle "pukename" "ToggleReLite"
+alias ReLiteToggle "netevent ReLiteToggle"
 AddMenuKey "Toggle ReLite" ReLiteToggle
 defaultbind ' ReLiteToggle

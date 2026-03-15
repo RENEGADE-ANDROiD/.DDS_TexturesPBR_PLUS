@@ -61,7 +61,7 @@ OptionMenu "texturepackextras"
 	Title ".DDS Textures Pack EXTRAS"
 	Position -32
     	StaticText ""
-	Option "Toggle ReLite", "TriggerToggle", "onoff"
+        OptionBoolean "Enable ReLite", "relite_enabled", "On", "Off"
 	Control "Toggle ReLite", "ReLiteToggle"
 	Submenu "ReLite Options", "relite_options"
 	StaticText ""

@@ -1,7 +1,9 @@
+// acs/relietoggle.acs
 #library "relitetoggle"
 #include "zcommon.acs"
 
-script "TriggerToggle" (void)
+script "ToggleReLite" (void)
 {
-    // This empty script just allows the pukename to trigger the static function
+    // This script just exists to call the static function
+    SetResultValue(0);
 }

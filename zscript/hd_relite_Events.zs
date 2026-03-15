@@ -9,27 +9,43 @@ class EndCam : SecurityCamera
 
 class hd_relite_Events : EventHandler
 {
-    bool IsReLiteOn;
+
+    CVar relite_enabled;
     
-    // Static method that can be called from anywhere
-    static void ToggleReLite()
+    override void OnRegister()
     {
+        relite_enabled = CVar.GetCVar("relite_enabled", "false", CVAR_ARCHIVE);
+        
+        // Set up a handler for when the CVar changes
+        relite_enabled.AddListener(ReliteChanged);
+    }
+    
+    static void ReliteChanged(CVar cvar)
+    {
+        // This gets called whenever the CVar changes (including from menu)
+        bool newState = cvar.GetBool();
+        
+        // Find the handler and update the effect
         let handler = hd_relite_Events(EventHandler.Find("hd_relite_Events"));
         if (handler)
         {
-            handler.IsReLiteOn = !handler.IsReLiteOn;
-            Console.Printf(handler.IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
+            handler.IsReLiteOn = newState;
+            Console.Printf(newState ? "ReLite Enabled (menu)" : "ReLite Disabled (menu)");
+            // Your effect update code here
         }
     }
     
-    // Keep your existing NetworkProcess if needed
     override void NetworkProcess(ConsoleEvent e)
     {
         if (e.Name == "ReLiteToggle")
         {
-            ToggleReLite();
+            // Just toggle the CVar - the listener will handle the effect
+            relite_enabled.SetBool(!relite_enabled.GetBool());
         }
     }
+    
+    bool IsReLiteOn;
+
 ////////
 
 	mixin mGeo;
