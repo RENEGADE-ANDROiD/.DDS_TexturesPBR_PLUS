@@ -15,36 +15,31 @@ class hd_relite_Events : EventHandler
 	int rotimer;
 	string info;
 
-    override void NetworkProcess(ConsoleEvent e)
+override void NetworkProcess(ConsoleEvent e)
+{
+    let pmo = players[consoleplayer].mo;
+    if (e.Name == "ReLiteOn" || e.Name == "ReLiteOff")
     {
-        let pmo = players[consoleplayer].mo;
-        if (e.Name == "ReLiteOn")
-                {
-                        let ReL = hd_relite_Events(pmo.FindInventory("hd_relite_Events"));
-                        if (ReL)
-                        {
+        // Find the EventHandler instance
+        let reLiteHandler = hd_relite_Events(EventHandler.Find("hd_relite_Events"));
+        if (reLiteHandler)
+        {
+            if (e.Name == "ReLiteOn")
+            {
                 console.printf("ReLite Enabled");
-                                ReL.IsReLiteOn = true;
-                        }
-                }
-                if (e.Name == "ReLiteOff")
-                {
-                        let ReL = hd_relite_Events(pmo.FindInventory("hd_relite_Events"));
-                        if (ReL)
-                        {
+                reLiteHandler.IsReLiteOn = true;
+            }
+            else
+            {
                 console.printf("ReLite Disabled");
-                                ReL.IsReLiteOn = false;
-                        }
-                }
+                reLiteHandler.IsReLiteOn = false;
+            }
+        }
     }
-	bool IsReLiteOn;
+}
 
-	// Set ReLite On
-	/*override void BeginPlay()
-	{
-		super.BeginPlay();
-		IsReLiteOn = true;
-	}*/
+bool IsReLiteOn;  // Now this is an instance variable
+
 	override void WorldLoaded(WorldEvent e)
 	{
 		rotimer = 0;
