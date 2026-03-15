@@ -1,7 +1,7 @@
 # .DDS_TexturesPBR_PLUS
 
-- Fog
-- Incl. Rain Remixed
+A textures and materials pack for Doom + Doom II in .DDS format with generated mipmaps which relieves the burden on GZDoom / UZDoom from having to generate the mipmaps, vastly improving performance despite the higher quality textures being used.
+-----------------
 
 ![Demo](https://github.com/user-attachments/assets/7a6d1392-5618-4db4-a9cc-ad5327d502d5)
 
@@ -10,8 +10,6 @@ https://youtu.be/STJPOUyMFAA
 
 ![Demo](https://github.com/user-attachments/assets/88f38ea1-ed6a-4d8b-b7dd-2b6aec339ff4)
 
-A textures and materials pack for Doom + Doom II in .DDS format with generated mipmaps which relieves the burden on GZDoom / UZDoom from having to generate the mipmaps, vastly improving performance despite the higher quality textures being used.
------------------
 **Salutations!  RENEGADE ANDROiD, here.**  
 **I've blended multiple texture packs together for a dark, crisp feel while also enhancing visual FX.  This texture pack has primarily been converted into DDS format (minus transparencies), preserving impressive visuals while keeping performance in mind.**
 
@@ -59,3 +57,4 @@ A textures and materials pack for Doom + Doom II in .DDS format with generated m
 - MMDCXIV-Cyberpunk_City mapwad
 - Ultra Pack
 - *several assets from OTEX texture source with new animations AND Brightmaps*
+
