@@ -1,2 +1,0 @@
-BaronOfHell (10 80 10)
-Cacodemon (10 10 120)
