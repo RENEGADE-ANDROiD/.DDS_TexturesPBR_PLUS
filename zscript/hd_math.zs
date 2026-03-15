@@ -6,6 +6,9 @@ note this is used to label mobile app maps; modifications account for the polygo
 */
 class hd_polycell
 {
+
+bool IsReLiteOn;  // Now this is an instance variable
+
 	double X,Y,H,D,Max;
 	Array<double> vx, vy;
 	Sector sec;
@@ -21,6 +24,7 @@ class hd_polycell
 		self.Max = self.D + h * 1.41421356237;
 		return self;
 	}
+
 	bool isInsideSector(Sector sec, vector2 v2) // note does NOT always work
 	{
 		let result = Level.PointInSector(v2);

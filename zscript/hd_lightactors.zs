@@ -1,5 +1,8 @@
 class hd_grid
 {
+
+bool IsReLiteOn;  // Now this is an instance variable
+
 	double minx1, miny1, maxx, maxy;
 	double minx2, miny2;
 	double minx3, miny3;
@@ -18,6 +21,7 @@ class hd_grid
 
 		return self;
 	}
+
 	// returns region of a 3x3 grid (STAT_NUM)
 	int get_region(vector2 v2, double xd = 0, double yd = 0)
 	{

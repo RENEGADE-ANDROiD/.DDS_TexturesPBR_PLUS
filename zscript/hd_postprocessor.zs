@@ -1,5 +1,8 @@
 class hd_postprocessor : LevelPostProcessor
 {
+
+bool IsReLiteOn;  // Now this is an instance variable
+
 	protected void Apply(Name checksum, String mapname)
 	{
 		// AddSectorTag does not add a tag if tag(s) are already assigned

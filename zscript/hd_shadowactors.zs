@@ -1,6 +1,9 @@
 // Nash's  basic idea for adding sprite shadow (modified)
 class hd_shade : CustomInventory
 {
+
+bool IsReLiteOn;  // Now this is an instance variable
+
 	Default
 	{
 		+Inventory.Autoactivate
