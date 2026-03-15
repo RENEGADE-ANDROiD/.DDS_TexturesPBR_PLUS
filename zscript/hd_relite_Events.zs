@@ -5,40 +5,32 @@ class EndCam : SecurityCamera
 		Radius 128;
 		CameraHeight 0;
 	}
+
+override void NetworkProcess(ConsoleEvent e)
+{
+    if (e.Name == "ReLiteToggle")
+    {
+        let reLiteHandler = hd_relite_Events(EventHandler.Find("hd_relite_Events"));
+        if (reLiteHandler)
+        {
+            reLiteHandler.IsReLiteOn = !reLiteHandler.IsReLiteOn;
+            console.printf(reLiteHandler.IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
+        }
+    }
+}
 }
 
 class hd_relite_Events : EventHandler
 {
+
+bool IsReLiteOn;  // Now this is an instance variable
+////////
+
 	mixin mGeo;
 	mixin mColor;
 	crosswalk cwalk;
 	int rotimer;
 	string info;
-
-override void NetworkProcess(ConsoleEvent e)
-{
-    let pmo = players[consoleplayer].mo;
-    if (e.Name == "ReLiteOn" || e.Name == "ReLiteOff")
-    {
-        // Find the EventHandler instance
-        let reLiteHandler = hd_relite_Events(EventHandler.Find("hd_relite_Events"));
-        if (reLiteHandler)
-        {
-            if (e.Name == "ReLiteOn")
-            {
-                console.printf("ReLite Enabled");
-                reLiteHandler.IsReLiteOn = true;
-            }
-            else
-            {
-                console.printf("ReLite Disabled");
-                reLiteHandler.IsReLiteOn = false;
-            }
-        }
-    }
-}
-
-bool IsReLiteOn;  // Now this is an instance variable
 
 	override void WorldLoaded(WorldEvent e)
 	{
