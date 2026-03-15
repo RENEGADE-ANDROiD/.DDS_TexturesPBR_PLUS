@@ -1,3 +1,17 @@
+class hd_relite_Events : EventHandler
+{
+    bool IsReLiteOn;
+    
+    override void NetworkProcess(ConsoleEvent e)
+    {
+        if (e.Name == "ReLiteToggle")
+        {
+            IsReLiteOn = !IsReLiteOn;
+            console.printf(IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
+        }
+    }
+}
+
 class EndCam : SecurityCamera
 {
 	Default
@@ -5,17 +19,6 @@ class EndCam : SecurityCamera
 		Radius 128;
 		CameraHeight 0;
 	}
-
-class hd_relite_Events : EventHandler
-{
-    static bool IsReLiteOn;
-    
-    static void ToggleReLite()
-    {
-        IsReLiteOn = !IsReLiteOn;
-        console.printf(IsReLiteOn ? "ReLite Enabled" : "ReLite Disabled");
-    }
-}
 }
 
 class hd_relite_Events : EventHandler
