@@ -61,7 +61,7 @@ OptionMenu "texturepackextras"
 	Title ".DDS Textures Pack EXTRAS"
 	Position -32
     	StaticText ""
-	Option "Toggle ReLite" "ReLiteToggle" "onoff"
+	Option "Toggle ReLite" "ReLiteToggle", "onoff"
 	Submenu "ReLite Options", "relite_options"
 	StaticText ""
 	Submenu "Rain Remixed", "Rain Remixed"
