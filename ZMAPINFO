@@ -5,7 +5,7 @@ gameinfo
 }
 gameinfo 
 {
-	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "TeleporterEffects"
+	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "TeleporterEffects", "CheelloVoxHandler"
 
 }
 gameinfo
