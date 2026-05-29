@@ -1184,15 +1184,6 @@ flickerlight ROCKET_X3
 	attenuate 1
 }
 
-object Rocket2
-{
-    frame MISLA { light ROCKET    }
-
-    frame MISLB { light ROCKET_X1 }
-    frame MISLC { light ROCKET_X2 }
-    frame MISLD { light ROCKET_X3 }
-}
-
 // Plasma
 pointlight PLASMABALL
 {
@@ -2448,20 +2439,6 @@ flickerlight2 PlasmaFlash
     offset 0 40 0
 }
 
-object QD_MuzzleFlash1
-{
-    frame SFLMC { light GunFlash }
-    frame SFLMD { light GunFlash1 }
-}
-
-object QD_MuzzleFlash3
-{
-    frame PFL1A { light GunFlash }
-    frame PFL1B { light GunFlash }
-    frame PFL1C { light GunFlash }
-    frame PFL1D { light GunFlash }
-}
-
 flickerlight2 NewPuff1
 {
     color 0.5 0.4 0.4
@@ -2480,21 +2457,6 @@ flickerlight2 Puff
     offset 0 0 0
 }
 
-object NewPuff
-{
-    frame CORNA { light NewPuff1 }
-}
-
-object Puff01
-{
-    frame CORNA { light Puff }
-}
-
-object Puff02
-{
-    frame CORNA { light Puff }
-}
-
 flickerlight2 CacodemonBall1
 {
     color 1.1 0.5 1.0
@@ -2502,11 +2464,6 @@ flickerlight2 CacodemonBall1
     secondarySize 56
     interval 0.5
     offset 0 40 0
-}
-
-object CacodemonBall1
-{
-    frame CORND { light CacodemonBall1 }
 }
 
 // explosives ------------------------------------------------------------------
@@ -2877,60 +2834,4 @@ Glow
 		RROCK07
 		RROCK08
 		}
-}
-
-//DECORATIONS =====================================================================
-
-object ExplosiveBarrel_Particles
-{
-    frame BAR1 { light BARREL }
-
-    frame BEXPC { light ROCKET_X1 }
-    frame BEXPD { light ROCKET_X2 }
-    frame BEXPE { light ROCKET_X3 }
-}
-
-object RedTorch_ADD_Flame
-{
-    frame TRED { light BIGREDTORCH }
-}
-
-object GreenTorch_ADD_Flame
-{
-    frame TGRN { light BIGGREENTORCH }
-}
-
-object BlueTorch_ADD_Flame
-{
-    frame TBLU { light BIGBLUETORCH }
-}
-
-object ShortRedTorch_ADD_Flame
-{
-    frame SMRT { light SMALLREDTORCH }
-}
-
-object ShortGreenTorch_ADD_Flame
-{
-    frame SMGT { light SMALLGREENTORCH }
-}
-
-object ShortBlueTorch_ADD_Flame
-{
-    frame SMBT { light SMALLBLUETORCH }
-}
-
-object BurningBarrel_ADD_Flame
-{
-    frame FCAN { light FIREBARREL }
-}
-
-object HeadCandles_ADD_Flame
-{
-    frame POL3 { light SKULLCANDLES }
-}
-
-object Candlestick_ADD_Flame
-{
-    frame CAND { light CANDLE }
 }

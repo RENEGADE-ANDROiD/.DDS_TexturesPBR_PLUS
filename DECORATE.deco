@@ -64,7 +64,7 @@ actor 64Candlestick : Candlestick replaces Candlestick
 			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0);
 			}
 	CAND AAAAAA 4
-	CAND A 1 A_SpawnItemEx("CandleFlame", 0, 0, 18, 0, 0, 0)
+	CAND A 1
 	CAND AAAAAA 4
     loop
   }

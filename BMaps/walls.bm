@@ -1049,12 +1049,6 @@ brightmap texture ZZZFACE3
 
 
 // Off Switches
-brightmap texture SW1BIRK
-{
-	map "brightmaps/doom/SW1BIRK.dds"
-	//iwad
-}
-
 brightmap texture SW1BLUE
 {
 	map "brightmaps/doom/SW1BLUE.dds"
@@ -1076,12 +1070,6 @@ brightmap texture Sw1brik
 brightmap texture Sw1brn2
 {
 	map "brightmaps/doom/Sw1brn2.dds"
-	//iwad
-}
-
-brightmap texture SW1BRNGRN
-{
-	map "brightmaps/doom/SW1BRNGRN.dds"
 	//iwad
 }
 
@@ -1128,12 +1116,6 @@ brightmap texture SW1WDMET
 
 
 // On Switches
-brightmap texture SW2BIRK
-{
-	map "brightmaps/doom/SW2BIRK.dds"
-	//iwad
-}
-
 brightmap texture SW2BLUE
 {
 	map "brightmaps/doom/SW2BLUE.dds"
@@ -1146,12 +1128,6 @@ brightmap texture SW2BRCOM
 	//iwad
 }
 
-
-brightmap texture SW2BRNGRN
-{
-	map "brightmaps/doom/SW2BRNGRN.dds"
-	//iwad
-}
 
 brightmap texture SW2BRIK
 {

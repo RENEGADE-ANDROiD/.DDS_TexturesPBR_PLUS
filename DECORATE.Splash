@@ -72,7 +72,7 @@ Actor NJLavaBase : NJCoreSplashBase
 	States
 	{
 	Spawn:
-		NLAV AB 5 Light("FlameLight") A_SpawnItemEx("LargeFireSpawnerX1")
+		NLAV AB 5 Light("FlameLight")
 		NLAV CDEF 5
 		Stop
 	}

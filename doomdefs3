@@ -222,14 +222,6 @@ material texture "A-MOSBRI"
 	specularlevel 0.5
 }
 
-material texture "A-mosrk2"
-{
-	normal "materials/normalmaps/auto/A-mosrk2.dds"
-	specular "materials/specular/auto/A-mosrk2.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "A-mosrok"
 {
 	normal "materials/normalmaps/auto/A-mosrok.dds"
@@ -686,14 +678,6 @@ material texture "Brown2"
 	specularlevel 0.5
 }
 
-material texture "Brown3"
-{
-	normal "materials/normalmaps/auto/Brown3.dds"
-	specular "materials/specular/auto/Brown3.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "brownhug"
 {
 	normal "materials/normalmaps/auto/brownhug.dds"
@@ -715,22 +699,6 @@ material texture "brwindow"
 {
 	normal "materials/normalmaps/auto/brwindow.dds"
 	specular "materials/specular/auto/brwindow.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "BSTNVINE"
-{
-	normal "materials/normalmaps/auto/BSTNVINE.dds"
-	specular "materials/specular/auto/BSTNVINE.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "BSTNVINF"
-{
-	normal "materials/normalmaps/auto/BSTNVINF.dds"
-	specular "materials/specular/auto/BSTNVINF.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -819,14 +787,6 @@ material texture "CAVERN7"
 {
 	normal "materials/normalmaps/auto/CAVERN7.dds"
 	specular "materials/specular/auto/CAVERN7.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "CLY1_1"
-{
-	normal "materials/normalmaps/auto/CLY1_1.dds"
-	specular "materials/specular/auto/CLY1_1.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -1599,14 +1559,6 @@ material texture "Dowindow"
 	specularlevel 0.5
 }
 
-material texture "Drfront"
-{
-	normal "materials/normalmaps/auto/Drfront.dds"
-	specular "materials/specular/auto/Drfront.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "Drside1"
 {
 	normal "materials/normalmaps/auto/Drside1.dds"
@@ -1683,14 +1635,6 @@ material texture "exitston"
 {
 	normal "materials/normalmaps/auto/exitston.dds"
 	specular "materials/specular/auto/exitston.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "FALL3"
-{
-	normal "materials/normalmaps/auto/FALL3.dds"
-	specular "materials/specular/auto/FALL3.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -1863,14 +1807,6 @@ material texture "floor4_5"
 	specularlevel 0.5
 }
 
-material texture "FLOOR4_6 (2)"
-{
-	normal "materials/normalmaps/auto/FLOOR4_6 (2).dds"
-	specular "materials/specular/auto/FLOOR4_6 (2).dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "floor4_6"
 {
 	normal "materials/normalmaps/auto/floor4_6.dds"
@@ -1883,30 +1819,6 @@ material texture "floor7_2"
 {
 	normal "materials/normalmaps/auto/floor7_2.dds"
 	specular "materials/specular/auto/floor7_2.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "FLOOR_DEM1_5"
-{
-	normal "materials/normalmaps/auto/FLOOR_DEM1_5.dds"
-	specular "materials/specular/auto/FLOOR_DEM1_5.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "FLOOR_DEM1_6"
-{
-	normal "materials/normalmaps/auto/FLOOR_DEM1_6.dds"
-	specular "materials/specular/auto/FLOOR_DEM1_6.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "FLOOR_FLOOR7_2"
-{
-	normal "materials/normalmaps/auto/FLOOR_FLOOR7_2.dds"
-	specular "materials/specular/auto/FLOOR_FLOOR7_2.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -2123,22 +2035,6 @@ material texture "HELP"
 {
 	normal "materials/normalmaps/auto/HELP.dds"
 	specular "materials/specular/auto/HELP.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "HELP1"
-{
-	normal "materials/normalmaps/auto/HELP1.dds"
-	specular "materials/specular/auto/HELP1.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "HELP2"
-{
-	normal "materials/normalmaps/auto/HELP2.dds"
-	specular "materials/specular/auto/HELP2.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -2544,14 +2440,6 @@ material texture "mc8"
 	specularlevel 0.5
 }
 
-material texture "METAL-BD"
-{
-	normal "materials/normalmaps/auto/METAL-BD.dds"
-	specular "materials/specular/auto/METAL-BD.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "METAL-RM"
 {
 	normal "materials/normalmaps/auto/METAL-RM.dds"
@@ -2564,14 +2452,6 @@ material texture "metal"
 {
 	normal "materials/normalmaps/auto/metal.dds"
 	specular "materials/specular/auto/metal.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "METAL2BD"
-{
-	normal "materials/normalmaps/auto/METAL2BD.dds"
-	specular "materials/specular/auto/METAL2BD.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -2596,14 +2476,6 @@ material texture "Metaldr"
 {
 	normal "materials/normalmaps/auto/Metaldr.dds"
 	specular "materials/specular/auto/Metaldr.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "METALFLOOR1A"
-{
-	normal "materials/normalmaps/auto/METALFLOOR1A.dds"
-	specular "materials/specular/auto/METALFLOOR1A.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -3568,14 +3440,6 @@ material texture "Skirting"
 	specularlevel 0.5
 }
 
-material texture "skullwall"
-{
-	normal "materials/normalmaps/auto/skullwall.dds"
-	specular "materials/specular/auto/skullwall.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "Skulwal3"
 {
 	normal "materials/normalmaps/auto/Skulwal3.dds"
@@ -3904,14 +3768,6 @@ material texture "sp_rock2"
 	specularlevel 0.5
 }
 
-material texture "STARBR1"
-{
-	normal "materials/normalmaps/auto/STARBR1.dds"
-	specular "materials/specular/auto/STARBR1.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "step03"
 {
 	normal "materials/normalmaps/auto/step03.dds"
@@ -4024,30 +3880,6 @@ material texture "step6"
 	specularlevel 0.5
 }
 
-material texture "step7"
-{
-	normal "materials/normalmaps/auto/step7.dds"
-	specular "materials/specular/auto/step7.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "Step8"
-{
-	normal "materials/normalmaps/auto/Step8.dds"
-	specular "materials/specular/auto/Step8.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "Step9"
-{
-	normal "materials/normalmaps/auto/Step9.dds"
-	specular "materials/specular/auto/Step9.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "steplad1"
 {
 	normal "materials/normalmaps/auto/steplad1.dds"
@@ -4140,22 +3972,6 @@ material texture "stucco3"
 {
 	normal "materials/normalmaps/auto/stucco3.dds"
 	specular "materials/specular/auto/stucco3.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "STVINE1"
-{
-	normal "materials/normalmaps/auto/STVINE1.dds"
-	specular "materials/specular/auto/STVINE1.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "STVINE2"
-{
-	normal "materials/normalmaps/auto/STVINE2.dds"
-	specular "materials/specular/auto/STVINE2.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -4264,14 +4080,6 @@ material texture "SW19_4"
 	specularlevel 0.5
 }
 
-material texture "SW1BIRK"
-{
-	normal "materials/normalmaps/auto/SW1BIRK.dds"
-	specular "materials/specular/auto/SW1BIRK.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "sw1blue"
 {
 	normal "materials/normalmaps/auto/sw1blue.dds"
@@ -4316,14 +4124,6 @@ material texture "sw1brngn"
 {
 	normal "materials/normalmaps/auto/sw1brngn.dds"
 	specular "materials/specular/auto/sw1brngn.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "SW1BRNGRN"
-{
-	normal "materials/normalmaps/auto/SW1BRNGRN.dds"
-	specular "materials/specular/auto/SW1BRNGRN.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -4616,14 +4416,6 @@ material texture "sw1zim"
 	specularlevel 0.5
 }
 
-material texture "SW2BIRK"
-{
-	normal "materials/normalmaps/auto/SW2BIRK.dds"
-	specular "materials/specular/auto/SW2BIRK.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "sw2blue"
 {
 	normal "materials/normalmaps/auto/sw2blue.dds"
@@ -4668,14 +4460,6 @@ material texture "sw2brngn"
 {
 	normal "materials/normalmaps/auto/sw2brngn.dds"
 	specular "materials/specular/auto/sw2brngn.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "SW2BRNGRN"
-{
-	normal "materials/normalmaps/auto/SW2BRNGRN.dds"
-	specular "materials/specular/auto/SW2BRNGRN.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -5104,14 +4888,6 @@ material texture "tekgren3"
 	specularlevel 0.5
 }
 
-material texture "tekgren4.2"
-{
-	normal "materials/normalmaps/auto/tekgren4.2.dds"
-	specular "materials/specular/auto/tekgren4.2.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
 material texture "tekgren4"
 {
 	normal "materials/normalmaps/auto/tekgren4.dds"
@@ -5172,14 +4948,6 @@ material texture "tekwall6"
 {
 	normal "materials/normalmaps/auto/tekwall6.dds"
 	specular "materials/specular/auto/tekwall6.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "Tilite6_1"
-{
-	normal "materials/normalmaps/auto/Tilite6_1.dds"
-	specular "materials/specular/auto/Tilite6_1.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -5252,46 +5020,6 @@ material texture "WALL03_1"
 {
 	normal "materials/normalmaps/auto/WALL03_1.dds"
 	specular "materials/specular/auto/WALL03_1.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "WALL_WITH_METAL_FACE"
-{
-	normal "materials/normalmaps/auto/WALL_WITH_METAL_FACE.dds"
-	specular "materials/specular/auto/WALL_WITH_METAL_FACE.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "Wfall1"
-{
-	normal "materials/normalmaps/auto/Wfall1.dds"
-	specular "materials/specular/auto/Wfall1.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "Wfall2"
-{
-	normal "materials/normalmaps/auto/Wfall2.dds"
-	specular "materials/specular/auto/Wfall2.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "Wfall3"
-{
-	normal "materials/normalmaps/auto/Wfall3.dds"
-	specular "materials/specular/auto/Wfall3.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "Wfall4"
-{
-	normal "materials/normalmaps/auto/Wfall4.dds"
-	specular "materials/specular/auto/Wfall4.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -5644,30 +5372,6 @@ material texture "zzwolf13"
 {
 	normal "materials/normalmaps/auto/zzwolf13.dds"
 	specular "materials/specular/auto/zzwolf13.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "zzwolf14"
-{
-	normal "materials/normalmaps/auto/zzwolf14.dds"
-	specular "materials/specular/auto/zzwolf14.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "zzwolf17"
-{
-	normal "materials/normalmaps/auto/zzwolf17.dds"
-	specular "materials/specular/auto/zzwolf17.dds"
-	glossiness 50
-	specularlevel 0.5
-}
-
-material texture "zzwolf18"
-{
-	normal "materials/normalmaps/auto/zzwolf18.dds"
-	specular "materials/specular/auto/zzwolf18.dds"
 	glossiness 50
 	specularlevel 0.5
 }

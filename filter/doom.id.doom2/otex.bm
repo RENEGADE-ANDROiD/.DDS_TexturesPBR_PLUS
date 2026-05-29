@@ -12,12 +12,6 @@ brightmap texture COMP2G { map "brightmaps/COMP2G.png" }
 brightmap texture COMP2H { map "brightmaps/COMP2H.png" }
 brightmap texture COMPSTA1 { map "brightmaps/COMPSTA1.png" }
 brightmap texture COMPSTA2 { map "brightmaps/COMPSTA2.png" }
-brightmap texture COMPST2A { map "brightmaps/COMPST2A.png" }
-brightmap texture COMPST2B { map "brightmaps/COMPST2B.png" }
-brightmap texture COMPST2C { map "brightmaps/COMPST2C.png" }
-brightmap texture COMPST2D { map "brightmaps/COMPST2D.png" }
-brightmap texture COMPST2E { map "brightmaps/COMPST2E.png" }
-brightmap texture COMPST2F { map "brightmaps/COMPST2F.png" }
 brightmap texture COMPUT2A { map "brightmaps/COMPUT2A.png" }
 brightmap texture COMPUT2B { map "brightmaps/COMPUT2B.png" }
 brightmap texture COMPUT2C { map "brightmaps/COMPUT2C.png" }
@@ -25,10 +19,6 @@ brightmap texture COMPUT2D { map "brightmaps/COMPUT2D.png" }
 brightmap texture COMPUT2E { map "brightmaps/COMPUT2E.png" }
 brightmap texture COMPUT2F { map "brightmaps/COMPUT2F.png" }
 brightmap texture COMPUT2G { map "brightmaps/COMPUT2G.png" }
-brightmap texture COMPUT3A { map "brightmaps/COMPUT3A.png" }
-brightmap texture COMPUT3B { map "brightmaps/COMPUT3B.png" }
-brightmap texture COMPUT3C { map "brightmaps/COMPUT3C.png" }
-brightmap texture COMPUT3D { map "brightmaps/COMPUT3D.png" }
 brightmap texture COMPWERD { map "brightmaps/COMPWERD.png" }
 brightmap texture DOORBLU { map "brightmaps/DOORBLU.png" }
 brightmap texture DOORBLU2 { map "brightmaps/DOORBLU2.png" }
