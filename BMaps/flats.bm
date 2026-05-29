@@ -1,7 +1,6 @@
 // Flats
 // Flats
 
-brightmap flat 0HEXAH94 { map "brightmaps/doom/BHEXAH91.dds" DISABLEFULLBRIGHT }
 brightmap flat BROV1A {
 	map "brightmaps/doom/BIRONL81.dds"
 	DISABLEFULLBRIGHT

@@ -2753,14 +2753,6 @@ ao "materials/ao/auto/w_step2.dds"
 brightmap "materials/Brightmaps/auto/w_step1.dds"
 }
 
-material Texture "w_step2"
-{
-normal "materials/normalmaps/auto/w_step2.dds"
-metallic "materials/metallic/auto/w_step2.dds"
-roughness "materials/roughness/auto/w_step2.dds"
-ao "materials/ao/auto/w_step2.dds"
-}
-
 material Texture "step3"
 {
 normal "materials/normalmaps/auto/step3.dds"
