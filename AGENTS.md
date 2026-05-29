@@ -94,14 +94,10 @@ Not in git: `brightmaps/`, `normalmaps/`, `patches/`, `sprites/`, `sounds/`, com
 - **ACS:** `.acs` sources in `Source/` / `SRC/` must be compiled to BEHAVIOR lumps before packaging (`#library "Ambience"` in `Ambience.acs`); compiled output is not committed.
 - **Texture payload:** most DDS assets live outside git; a full visual build requires the separate texture payload.
 - **Load order:** drag the PK3 onto the engine executable, or add it to autoload **after** the IWAD.
-- **Local test paths** (see `.cursor/rules/test-paths.mdc`):
-  - UZDoom: `d:\Emulators and ROMs\Doom\engines\UZDoom\4.14.3 RC1\uzdoom.exe`
-  - DOOM2 IWAD: `d:\Emulators and ROMs\Doom\wads\DOOM2.WAD`
+- **Test run:** launch GZDoom/UZDoom with a Doom or Doom II IWAD and this repo as the loaded file. Substitute your own engine, IWAD, and repo paths:
 
-```powershell
-& "d:\Emulators and ROMs\Doom\engines\UZDoom\4.14.3 RC1\uzdoom.exe" `
-  -iwad "d:\Emulators and ROMs\Doom\wads\DOOM2.WAD" `
-  -file "C:\Users\david\Sites\DDS_TexturesPBR_PLUS"
+```sh
+<gzdoom-or-uzdoom> -iwad <path/to/DOOM2.WAD> -file <path/to/DDS_TexturesPBR_PLUS>
 ```
 
 ## 7. Documentation References
