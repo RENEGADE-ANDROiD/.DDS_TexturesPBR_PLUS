@@ -1458,47 +1458,7 @@ FLAT LAVA1
  pic LF0028 tics 1
  pic LF0029 tics 1
  pic LF0030 tics 1
- pic LF0031 tics 1 
+ pic LF0031 tics 1
 
- 
-  ////////////////////////////////////
- ///brutal doom Lava//////////////////
- ////////////////////////////////////
- // LAVAFL flat is not shipped; animation disabled to avoid startup parse errors.
- /*
- FLAT LAVAFL
- pic SL0000 tics 1 
- pic SL0001 tics 1 
- pic SL0002 tics 1
- pic SL0003 tics 1
- pic SL0004 tics 1
- pic SL0005 tics 1
- pic SL0006 tics 1
- pic SL0007 tics 1
- pic SL0008 tics 1
- pic SL0009 tics 1
- pic SL0010 tics 1
- pic SL0011 tics 1
- pic SL0012 tics 1
- pic SL0013 tics 1
- pic SL0014 tics 1
- pic SL0015 tics 1
- pic SL0016 tics 1
- pic SL0017 tics 1
- pic SL0018 tics 1
- pic SL0019 tics 1
- pic SL0020 tics 1
- pic SL0021 tics 1
- pic SL0022 tics 1
- pic SL0023 tics 1
- pic SL0024 tics 1
- pic SL0025 tics 1
- pic SL0026 tics 1
- pic SL0027 tics 1
- pic SL0028 tics 1
- pic SL0029 tics 1
- pic SL0030 tics 1
- pic SL0031 tics 1
- */
-  
+// Brutal Doom LAVAFL animation removed: flat texture is not shipped in this pack.
   
