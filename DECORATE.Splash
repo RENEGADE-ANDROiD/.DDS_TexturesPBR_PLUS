@@ -61,8 +61,18 @@ Actor NJBloodBase : NJCoreSplashBase
 ///////////////////////////////////////////
 //Lava
 ///////////////////////////////////////////
-ACTOR NJLavaSmoke : FlameSmoke
+ACTOR NJLavaSmoke : NJCoreSplashSmoke
 {
+	States
+	{
+	Spawn:
+		NLAV G 5
+		NLAV H 5 A_SetTranslucent(0.6, 0)
+		NLAV I 5 A_SetTranslucent(0.5, 0)
+		NLAV J 5 A_SetTranslucent(0.4, 0)
+		NLAV K 5 A_SetTranslucent(0.3, 0)
+		Stop
+	}
 }
 
 Actor NJLavaBase : NJCoreSplashBase
@@ -79,17 +89,37 @@ Actor NJLavaBase : NJCoreSplashBase
 }
 
 ///////////////////////////////////////////
-//Lava Smoke Only
+//Lava splash particles only
 ///////////////////////////////////////////
-ACTOR NJLavaSmokeOnly : FlameSmoke
+ACTOR NJLavaSmokeOnly : NJCoreSplashSmoke
 {
+	States
+	{
+	Spawn:
+		NLAV G 5
+		NLAV H 5 A_SetTranslucent(0.6, 0)
+		NLAV I 5 A_SetTranslucent(0.5, 0)
+		NLAV J 5 A_SetTranslucent(0.4, 0)
+		NLAV K 5 A_SetTranslucent(0.3, 0)
+		Stop
+	}
 }
 
 ///////////////////////////////////////////
 //Nukage
 ///////////////////////////////////////////
-Actor NJNukageSmoke : BarSmoke
+Actor NJNukageSmoke : NJCoreSplashSmoke
 {
+	States
+	{
+	Spawn:
+		NLAV G 5
+		NLAV H 5 A_SetTranslucent(0.6, 0)
+		NLAV I 5 A_SetTranslucent(0.5, 0)
+		NLAV J 5 A_SetTranslucent(0.4, 0)
+		NLAV K 5 A_SetTranslucent(0.3, 0)
+		Stop
+	}
 }
 
 Actor NJNukageChunk1 : SlimeParticle

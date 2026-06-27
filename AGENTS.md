@@ -26,7 +26,7 @@ DDS_TexturesPBR_PLUS is a **visual enhancement resource pack (PK3)** for **GZDoo
 | `doomdefs.txt` / `doomdefs2` / `doomdefs3` | Brightmap includes, flicker-light color presets, extra material defs |
 | `LTEXDEFS.txt` | Texture hotspot → dynamic-light coordinates, parsed at load by `LightTextureHandler` |
 | `decorate.txt` | Enchanted Vanilla Projectiles (`Better_*`) + Nash liquid splashes (`NJ*`) |
-| `DECORATE.deco` / `.effects` / `.Splash` / `.Smoke` | Decorations, FX/smoke library, liquid splash variants |
+| `DECORATE.deco` / `.Splash` | Decorations, FX library, liquid splash variants |
 | `actors/` | FancyWorld FX: `fancy_floors.zsc`, `fancy_ceilings.zsc`, `fancy_walls.zsc` |
 | `zscript/CheelloVox/` | Voxel gore support (blood billboard, death-facing, monster/powerup variants) |
 | `zscript/Gore/` | Full RealGore ZScript — **present but NOT wired in** (see below) |
@@ -82,7 +82,7 @@ Not in git: `brightmaps/`, `normalmaps/`, `patches/`, `sprites/`, `sounds/`, com
 - **Register a new EventHandler** → add it to the `AddEventHandlers` block in `ZMAPINFO` (or `mapinfo.txt`).
 - **Enable the Gore ZScript subsystem** → add `#include` lines for `zscript/Gore/*.zs` in `zscript.txt` and register `DropletsEventHandler` (and `PB_AutoClearGore_Handler` if wanted) in `ZMAPINFO`.
 - **Enable Cheello monsters/powerups** → uncomment the relevant `#include` lines near the top of `zscript.txt`.
-- **Add/modify a DECORATE actor** → edit the appropriate `DECORATE.*` lump (projectiles → `decorate.txt`, decorations → `DECORATE.deco`, smoke/FX → `DECORATE.effects` / `DECORATE.Smoke`, splashes → `DECORATE.Splash`).
+- **Add/modify a DECORATE actor** → edit the appropriate `DECORATE.*` lump (projectiles → `decorate.txt`, decorations → `DECORATE.deco`, splashes → `DECORATE.Splash`).
 - **Add a texture animation** → edit `ANIMDEFS.txt` (or `ANIMDEFS2`).
 - **Add a terrain splash** → edit `terrain.txt` and ensure the referenced splash actor exists in a DECORATE lump.
 - **Edit ACS ambience/fog** → modify the source in `Source/` / `SRC/`, then recompile to a BEHAVIOR `.o` lump (e.g. with `acc`).

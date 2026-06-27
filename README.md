@@ -21,7 +21,6 @@ https://youtu.be/STJPOUyMFAA
 
 **WHAT'S INCLUDED IN THIS PACK:**
 
-- CodeFX Smoke and Splashes
 - Deep Water
 - Morelights
 - FancyWorld

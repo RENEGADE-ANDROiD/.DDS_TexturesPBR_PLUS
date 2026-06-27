@@ -19,7 +19,6 @@ ACTOR Better_BulletPuff : Bulletpuff Replaces bulletpuff
   melee:
     TNT1 A 0 {
 	A_SpawnDebris("Better_BulletSpark");
-	A_SpawnItemEx("Better_SmokeCloud",random(-1,1),random(-1,1),random(-1,1),frandom(-1,1),frandom(-1,1),frandom(-1,1));
 	}
     PUFF ABCD 3
     Stop
@@ -99,67 +98,6 @@ Actor Better_BouncingDebris
 }
 
 //----------------------------------------------------------------------------------------------------------
-//Smoke effect
-Actor Better_SmokeCloud : Better_ProjectileTrail
-{
-	//RenderStyle add
-	+ROLLSPRITE
-	Scale 0.25
-	Alpha 0.2
-	States
-	{
-	Spawn:
-		SM0K ABCDEFGHIJ 2 A_SetScale((scalex + 0.025), (scaley + 0.025))
-		Stop
-	}
-}
-
-Actor Better_MediumSmokeCloud : Better_SmokeCloud
-{
-	Scale 0.35
-}
-
-Actor Better_LargeSmokeCloud : Better_SmokeCloud
-{
-	Scale 0.45
-}
-
-Actor Better_XLSmokeCloud : Better_SmokeCloud
-{
-	Scale 0.55
-}
-
-Actor Better_SmokeLongCloud : Better_ProjectileTrail
-{
-	//RenderStyle add
-	+ROLLSPRITE
-	Scale 0.25
-	Alpha 0.2
-	States
-	{
-	Spawn:
-		SM0K AB 2 A_SetScale((scalex + 0.025), (scaley + 0.025))
-		SM0K CDEFGH 8 A_SetScale((scalex + 0.025), (scaley + 0.025))
-		SM0K IJ 2 A_SetScale((scalex + 0.025), (scaley + 0.025))
-		Stop
-	}
-}
-
-Actor Better_MediumSmokeLongCloud : Better_SmokeLongCloud
-{
-	Scale 0.35
-}
-
-Actor Better_LargeSmokeLongCloud : Better_SmokeLongCloud
-{
-	Scale 0.45
-}
-
-Actor Better_XLSmokeLongCloud : Better_SmokeLongCloud
-{
-	Scale 0.55
-}
-
 //Imp's fireball
 ACTOR Better_DoomImpBall : DoomImpBall replaces DoomImpBall
 {
@@ -354,7 +292,6 @@ decal RevenantScorch
 		FATB AB 2 Bright {
 			A_Tracer2;
 			A_SpawnItemEx("Better_FireballTrail",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
-			A_SpawnItemEx("Better_SmokeCloud",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
 		}
 		Loop
 	Death:
@@ -436,7 +373,6 @@ ACTOR Better_Rocket : Rocket replaces rocket
 	Spawn:
 		MISL A 1 Bright {
 				A_SpawnItemEx("Better_MediumFireballTrail",-25,0,5,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
-				A_SpawnItemEx("Better_MediumSmokeCloud",-25,0,5,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
 		}
 		Loop
 	Death:

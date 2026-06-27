@@ -4,12 +4,6 @@ Actor 64EvilEye : EvilEye replaces EvilEye
   {
   Spawn:
     CEYE A 1 Bright
-			{
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), random(-1, 1), random(-1, 1), 0);
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0, 0, 0);
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, random(-1, 1));
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0);
-			}
     CEYE A 5 Bright
 	CEYE BCB 6 Bright
     Loop
@@ -22,12 +16,6 @@ ACTOR 64Column : column replaces column
 	{
 	Spawn:
 		COLU A 1
-			{
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), random(-1, 1), random(-1, 1), 0);
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0, 0, 0);
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, random(-1, 1));
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0);
-			}
 		COLU AAAAAA 8
 		Loop
 	}
@@ -40,12 +28,6 @@ ACTOR 64Headcandles : Headcandles replaces Headcandles
 	{
 	Spawn:
 		POL3 A 1
-			{
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), random(-1, 1), random(-1, 1), 0);
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0, 0, 0);
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, random(-1, 1));
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0);
-			}
 		POL3 A 2
 		POL3 BABABAAABABBAAB 3
 		Loop
@@ -59,10 +41,6 @@ actor 64Candlestick : Candlestick replaces Candlestick
   {
   Spawn:
     CAND A 1
-			{
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0, 0, 0);
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0);
-			}
 	CAND AAAAAA 4
 	CAND A 1
 	CAND AAAAAA 4
@@ -76,12 +54,6 @@ actor 64TechLamp : TechLamp Replaces TechLamp
   {
   Spawn:
     TLMP A 1 Bright
-			{
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), random(-1, 1), random(-1, 1), 0);
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0, 0, 0);
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, random(-1, 1));
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0);
-			}
 	TLMP AAAAAA 4 Bright
     loop
   }
@@ -94,12 +66,6 @@ actor 64TechLamp2 : TechLamp2 Replaces TechLamp2
   {
   Spawn:
     TLP2 A 1 Bright
-			{
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), random(-1, 1), random(-1, 1), 0);
-			A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0, 0, 0);
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, random(-1, 1));
-			A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0);
-			}
 	TLP2 AAAAAA 4 Bright
     loop
   }
@@ -111,10 +77,6 @@ actor BloodyStick : HeadOnAStick 9915
   {
   Spawn:
     BSTK A 0
-	{
-		A_SpawnItemEx("StillSmoke", random(-168, 168), random(-168, 168), random(-88, 24), random(-1, 1), random(-1, 1), 0);
-		A_SpawnItemEx("StillSmoke", random(-168, 168), random(-168, 168), random(-88, 24), 0, 0, 0);
-    }
 	BSTK AAAAAAAAA 6
 	loop
   }
@@ -127,10 +89,6 @@ ACTOR 64HeadOnAStick : HeadOnAStick replaces HeadOnAStick
   {
   Spawn:
     POL4 A 0
-	{
-		A_SpawnItemEx("StillSmoke", random(-168, 168), random(-168, 168), random(-88, 24), random(-1, 1), random(-1, 1), 0);
-		A_SpawnItemEx("StillSmoke", random(-168, 168), random(-168, 168), random(-88, 24), 0, 0, 0);
-    }
 	POL4 AAAAAA 6
 	loop
   }
