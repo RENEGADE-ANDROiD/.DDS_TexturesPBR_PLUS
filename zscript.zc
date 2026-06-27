@@ -1848,9 +1848,9 @@ Class LightTextureHandler : EventHandler
 	override void WorldLoaded( WorldEvent e )
 	{
 		if ( e.IsSaveGame || e.IsReopen ) return;
-		if ( level.Lines.Size() > 6000 )
+		if ( level.Lines.Size() > 4000 || level.Sectors.Size() > 1200 )
 		{
-			Console.Printf("LightTextureHandler: skipped dynamic lights on large map (%d linedefs).", level.Lines.Size());
+			Console.Printf("LightTextureHandler: skipped dynamic lights on large map (%d linedefs, %d sectors).", level.Lines.Size(), level.Sectors.Size());
 			return;
 		}
 		for ( int li=0; li<level.Lines.Size(); li++ )
@@ -1918,6 +1918,12 @@ Class SpawnEnvActorHandler : EventHandler
 	{
 		if (e.IsSaveGame || e.IsReopen)
 			return;
+		if (level.Sectors.Size() > 1200)
+		{
+			Console.Printf("SpawnEnvActorHandler: skipped sector ambience on large map (%d sectors).", level.Sectors.Size());
+			SpawnWallActors();
+			return;
+		}
 		SpawnFloorActors();
 		SpawnFloorActors_OldWay();
 		SpawnCeilingActors();
