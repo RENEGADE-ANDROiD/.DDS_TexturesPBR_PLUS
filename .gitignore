@@ -1,0 +1,17 @@
+# Agent / local tooling (not shipped in the PK3)
+AGENTS.md
+_*.py
+
+# Cursor / IDE
+.cursor/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local WAD / preset repack backups
+*.wad.bak
+*.wad.new
+*.zip.bak
+*.zip.new
