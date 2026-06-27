@@ -152,7 +152,8 @@ Class LightTextureHandler : EventHandler
 		// also TODO fix misalignment on upper textures
 		tw = int(ltex[ltx].size.x);
 		th = int(ltex[ltx].size.y);
-		for ( int y=0; y<h; y++ ) for ( int x=0; x<w; x++ )
+		int step = max(1, min(tw, th));
+		for ( int y=0; y<h; y+=step ) for ( int x=0; x<w; x+=step )
 		{
 			int ox = int((x+xo)*xs);
 			int oy = int((y+yo)*ys);
@@ -206,7 +207,8 @@ Class LightTextureHandler : EventHandler
 		ang = s.GetAngle(part);	// TODO handle rotation
 		tw = int(ltex[ltx].size.x);
 		th = int(ltex[ltx].size.y);
-		for ( int y=sy; y<ey; y++ ) for ( int x=sx; x<ex; x++ )
+		int step = max(1, min(tw, th));
+		for ( int y=sy; y<ey; y+=step ) for ( int x=sx; x<ex; x+=step )
 		{
 			if ( level.PointInSector((x,y)) != s ) continue;
 			int ox = int((x+xo)*xs);
@@ -302,6 +304,8 @@ Class SpawnEnvActorHandler : EventHandler
 	// function that can be easily commented out for debugging's sake
 	override void WorldLoaded(WorldEvent e)
 	{
+		if (e.IsSaveGame || e.IsReopen)
+			return;
 		SpawnFloorActors();
 		SpawnFloorActors_OldWay();
 		SpawnCeilingActors();
@@ -321,63 +325,31 @@ Class SpawnEnvActorHandler : EventHandler
 		}
 	}
 	
-	// Spawn Stuff on the floor in a "grid" across all playable map space.
-	// Thanks to Gutawer, PhantomBeta and _Bryan for helping debug this!
+	// Spawn floor ambience actors at each sector center instead of a full-map grid.
 	void SpawnFloorActors()
-    {
-        //32704
-		int spamx = -32448;
-		int spamy = 32448;
-		int spamz = 0;
-		
-		Vector2 spam2 = (spamx, spamy);
-		Vector3 spam3 = (spamx, spamy, spamz);
-		
-		while (spamy > -32448)
+	{
+		for (int i = 0; i < level.Sectors.Size(); i++)
 		{
-			while (spamx < 32448)
-			{
-				spamz = Sector.pointInSector((spamx, spamy)).floorplane.zAtPoint((spamx, spamy));
-				if (level.IsPointInMap(spam3))
-				{
-					Actor.Spawn("FancyEnvActorFloor", (spamx, spamy, spamz));
-				}
-				spamx += 128;
-				spam3 = (spamx, spamy, spamz);
-			}
-			spamx = -32448;
-			spamy -= 128;
+			let s = level.Sectors[i];
+			let c = s.centerspot;
+			double z = s.floorplane.ZAtPoint(c);
+			if (level.IsPointInLevel((c.x, c.y, z)))
+				Actor.Spawn("FancyEnvActorFloor", (c.x, c.y, z));
 		}
-    }
+	}
 	
-	// Spawn Stuff on the ceiling. Same method as with SpawnFloorActors, just at
-	// a larger grid size for the sake of performance.
+	// Spawn ceiling ambience actors at each sector center.
 	void SpawnCeilingActors()
-    {
-        //32704
-		int spamx = -32448;
-		int spamy = 32448;
-		int spamz = 0;
-		
-		Vector2 spam2 = (spamx, spamy);
-		Vector3 spam3 = (spamx, spamy, spamz);
-		
-		while (spamy > -32448)
+	{
+		for (int i = 0; i < level.Sectors.Size(); i++)
 		{
-			while (spamx < 32448)
-			{
-				spamz = Sector.pointInSector((spamx, spamy)).floorplane.zAtPoint((spamx, spamy));
-				if (level.IsPointInMap(spam3))
-				{
-					Actor.Spawn("FancyEnvActorCeiling", (spamx, spamy, spamz));
-				}
-				spamx += 256;
-				spam3 = (spamx, spamy, spamz);
-			}
-			spamx = -32448;
-			spamy -= 256;
+			let s = level.Sectors[i];
+			let c = s.centerspot;
+			double z = s.ceilingplane.ZAtPoint(c);
+			if (level.IsPointInLevel((c.x, c.y, z)))
+				Actor.Spawn("FancyEnvActorCeiling", (c.x, c.y, z));
 		}
-    }
+	}
 	
 	// Spawn stuff on walls. Specifically, in the middle of appropriate linedefs.
 	// Thanks Nash and Phantombeta!
