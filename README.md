@@ -21,7 +21,6 @@ https://youtu.be/STJPOUyMFAA
 
 **WHAT'S INCLUDED IN THIS PACK:**
 
-- CodeFX Smoke and Splashes
 - Deep Water
 - Morelights
 - FancyWorld
@@ -73,7 +72,7 @@ A **visual enhancement resource pack (PK3)** for **GZDoom / UZDoom**. It loads *
 
 ### Mod compatibility (`DDS_` namespace)
 
-Pack-owned actors (CodeFX smoke, Nash splashes, enchanted projectiles, D64 decorations) are prefixed with `DDS_` so they do not collide with other mods in a stacked load order. ZScript base classes are `DDS_Smoke` and `DDS_StillSmoke` in `zscript.zc`. Splash actors are defined once in `DECORATE.Splash` (not duplicated in `decorate.txt`).
+Pack-owned actors (Nash splashes, enchanted projectiles, D64 decorations) are prefixed with `DDS_` so they do not collide with other mods in a stacked load order. Splash actors are defined once in `DECORATE.Splash` (not duplicated in `decorate.txt`).
 
 ### EXTRAS branch
 

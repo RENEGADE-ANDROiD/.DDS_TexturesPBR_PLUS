@@ -1,4 +1,4 @@
-﻿Actor DDS_IA_Sound
+Actor DDS_IA_Sound
 {
 	+NOGRAVITY
 	+FLOAT
@@ -19,7 +19,6 @@ ACTOR DDS_Better_BulletPuff : Bulletpuff Replaces bulletpuff
   melee:
     TNT1 A 0 {
 	A_SpawnDebris("DDS_Better_BulletSpark");
-	A_SpawnItemEx("DDS_Better_SmokeCloud",random(-1,1),random(-1,1),random(-1,1),frandom(-1,1),frandom(-1,1),frandom(-1,1));
 	}
     PUFF ABCD 3
     Stop
@@ -99,67 +98,6 @@ Actor DDS_Better_BouncingDebris
 }
 
 //----------------------------------------------------------------------------------------------------------
-//DDS_Smoke effect
-Actor DDS_Better_SmokeCloud : DDS_Better_ProjectileTrail
-{
-	//RenderStyle add
-	+ROLLSPRITE
-	Scale 0.25
-	Alpha 0.2
-	States
-	{
-	Spawn:
-		SM0K ABCDEFGHIJ 2 A_SetScale((scalex + 0.025), (scaley + 0.025))
-		Stop
-	}
-}
-
-Actor DDS_Better_MediumSmokeCloud : DDS_Better_SmokeCloud
-{
-	Scale 0.35
-}
-
-Actor DDS_Better_LargeSmokeCloud : DDS_Better_SmokeCloud
-{
-	Scale 0.45
-}
-
-Actor DDS_Better_XLSmokeCloud : DDS_Better_SmokeCloud
-{
-	Scale 0.55
-}
-
-Actor DDS_Better_SmokeLongCloud : DDS_Better_ProjectileTrail
-{
-	//RenderStyle add
-	+ROLLSPRITE
-	Scale 0.25
-	Alpha 0.2
-	States
-	{
-	Spawn:
-		SM0K AB 2 A_SetScale((scalex + 0.025), (scaley + 0.025))
-		SM0K CDEFGH 8 A_SetScale((scalex + 0.025), (scaley + 0.025))
-		SM0K IJ 2 A_SetScale((scalex + 0.025), (scaley + 0.025))
-		Stop
-	}
-}
-
-Actor DDS_Better_MediumSmokeLongCloud : DDS_Better_SmokeLongCloud
-{
-	Scale 0.35
-}
-
-Actor DDS_Better_LargeSmokeLongCloud : DDS_Better_SmokeLongCloud
-{
-	Scale 0.45
-}
-
-Actor DDS_Better_XLSmokeLongCloud : DDS_Better_SmokeLongCloud
-{
-	Scale 0.55
-}
-
 //Imp's fireball
 ACTOR DDS_Better_DoomImpBall : DoomImpBall replaces DoomImpBall
 {
@@ -354,7 +292,6 @@ decal RevenantScorch
 		FATB AB 2 Bright {
 			A_Tracer2;
 			A_SpawnItemEx("DDS_Better_FireballTrail",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
-			A_SpawnItemEx("DDS_Better_SmokeCloud",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
 		}
 		Loop
 	Death:
@@ -436,7 +373,6 @@ ACTOR DDS_Better_Rocket : Rocket replaces rocket
 	Spawn:
 		MISL A 1 Bright {
 				A_SpawnItemEx("DDS_Better_MediumFireballTrail",-25,0,5,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
-				A_SpawnItemEx("DDS_Better_MediumSmokeCloud",-25,0,5,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
 		}
 		Loop
 	Death:

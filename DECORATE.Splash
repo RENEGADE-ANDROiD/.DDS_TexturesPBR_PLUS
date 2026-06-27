@@ -61,8 +61,18 @@ Actor DDS_NJBloodBase : DDS_NJCoreSplashBase
 ///////////////////////////////////////////
 //Lava
 ///////////////////////////////////////////
-ACTOR DDS_NJLavaSmoke : FlameSmoke
+ACTOR DDS_NJLavaSmoke : DDS_NJCoreSplashSmoke
 {
+	States
+	{
+	Spawn:
+		NLAV G 5
+		NLAV H 5 A_SetTranslucent(0.6, 0)
+		NLAV I 5 A_SetTranslucent(0.5, 0)
+		NLAV J 5 A_SetTranslucent(0.4, 0)
+		NLAV K 5 A_SetTranslucent(0.3, 0)
+		Stop
+	}
 }
 
 Actor DDS_NJLavaBase : DDS_NJCoreSplashBase
@@ -79,17 +89,37 @@ Actor DDS_NJLavaBase : DDS_NJCoreSplashBase
 }
 
 ///////////////////////////////////////////
-//Lava DDS_Smoke Only
+//Lava splash particles only
 ///////////////////////////////////////////
-ACTOR DDS_NJLavaSmokeOnly : FlameSmoke
+ACTOR DDS_NJLavaSmokeOnly : DDS_NJCoreSplashSmoke
 {
+	States
+	{
+	Spawn:
+		NLAV G 5
+		NLAV H 5 A_SetTranslucent(0.6, 0)
+		NLAV I 5 A_SetTranslucent(0.5, 0)
+		NLAV J 5 A_SetTranslucent(0.4, 0)
+		NLAV K 5 A_SetTranslucent(0.3, 0)
+		Stop
+	}
 }
 
 ///////////////////////////////////////////
 //Nukage
 ///////////////////////////////////////////
-Actor DDS_NJNukageSmoke : DDS_BarSmoke
+Actor DDS_NJNukageSmoke : DDS_NJCoreSplashSmoke
 {
+	States
+	{
+	Spawn:
+		NLAV G 5
+		NLAV H 5 A_SetTranslucent(0.6, 0)
+		NLAV I 5 A_SetTranslucent(0.5, 0)
+		NLAV J 5 A_SetTranslucent(0.4, 0)
+		NLAV K 5 A_SetTranslucent(0.3, 0)
+		Stop
+	}
 }
 
 Actor DDS_NJNukageChunk1 : SlimeParticle

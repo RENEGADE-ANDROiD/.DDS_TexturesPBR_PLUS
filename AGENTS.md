@@ -26,7 +26,7 @@ DDS_TexturesPBR_PLUS is a **visual enhancement resource pack (PK3)** for **GZDoo
 | `doomdefs.txt` / `doomdefs2` / `doomdefs3` | Brightmap includes, flicker-light color presets, extra material defs |
 | `LTEXDEFS.txt` | Texture hotspot → dynamic-light coordinates, parsed at load by `LightTextureHandler` |
 | `decorate.txt` | Enchanted Vanilla Projectiles (`DDS_Better_*`) — splash actors live in `DECORATE.Splash` only |
-| `DECORATE.deco` / `.effects` / `.Splash` / `.Smoke` | Decorations, FX/smoke library, liquid splash variants |
+| `DECORATE.deco` / `.Splash` | Decorations, FX library, liquid splash variants |
 | `actors/` | FancyWorld FX: `fancy_floors.zsc`, `fancy_ceilings.zsc`, `fancy_walls.zsc` |
 | `zscript/CheelloVox/` | Voxel gore support (blood billboard, death-facing, monster/powerup variants) |
 | `zscript/Gore/` | Full RealGore ZScript — **present but NOT wired in** (see below) |
@@ -67,7 +67,7 @@ Not in git: `brightmaps/`, `normalmaps/`, `patches/`, `sprites/`, `sounds/`, com
 
 | Prefix | Meaning |
 |--------|---------|
-| `DDS_*` | Namespace-prefixed pack actors (smoke, splashes, projectiles, decorations) to avoid name clashes with other mods |
+| `DDS_*` | Namespace-prefixed pack actors (splashes, projectiles, decorations) to avoid name clashes with other mods |
 | `Fancy*` | FancyWorld ambient sector/wall/ceiling FX actors |
 | `DDS_Better_*` | Enhanced projectile replacements (rockets, plasma, BFG, imp balls, puffs) |
 | `DDS_NJ*` | Nash gore liquid splash actors (in `DECORATE.Splash`, referenced by `terrain.txt`) |
@@ -82,7 +82,7 @@ Not in git: `brightmaps/`, `normalmaps/`, `patches/`, `sprites/`, `sounds/`, com
 - **Add/edit a ZScript actor** → edit/create a `.zc`/`.zsc` under `zscript/` or `actors/`; add a `#include` in `zscript.zc` if it is a new file.
 - **Register a new EventHandler** → add it to the `AddEventHandlers` block in `ZMAPINFO` (or `mapinfo.txt`).
 - **Enable the Gore ZScript subsystem** → already wired on the EXTRAS branch via `#include` lines in `zscript.zc` and `DropletsEventHandler` in `ZMAPINFO`.
-- **Avoid mod name collisions** → pack-owned DECORATE/ZScript actors use the `DDS_` prefix. Base smoke classes are `DDS_Smoke` / `DDS_StillSmoke` in `zscript.zc`. Do not duplicate splash or smoke class defs across lumps (`decorate.txt` vs `DECORATE.Splash`, `DECORATE.effects` vs `zscript.zc`).
+- **Avoid mod name collisions** → pack-owned DECORATE/ZScript actors use the `DDS_` prefix. Do not duplicate splash class defs across lumps (`decorate.txt` vs `DECORATE.Splash`).
 - **Enable Cheello monsters/powerups** → uncomment the relevant `#include` lines near the top of `zscript.zc`.
 - **Add/modify a DECORATE actor** → edit the appropriate `DECORATE.*` lump (projectiles → `decorate.txt`, decorations → `DECORATE.deco`, smoke/FX → `DECORATE.effects` / `DECORATE.Smoke`, splashes → `DECORATE.Splash`).
 - **Add a texture animation** → edit `ANIMDEFS.txt` (or `ANIMDEFS2`).
