@@ -106,55 +106,6 @@ material texture MODELS/BloodSpot/DECBLOD.png  {
 
 
 
-material texture MODELS/BloodSpot/FRPL.png  { 
-	shader "SHADERS/env.fp"
-	texture displacement "MATERIALS2/ENV/env3.dds"
-	texture envmask "MATERIALS2/ENVMASK/FRPL.dds"
-	normal materials/normalmaps/auto/normal.dds
-	specular materials/specular/auto/spec.dds
-	specularlevel 0.4
-	glossiness 40
-}
-
-
-
-
-material texture MODELS/BloodSpot/FRPR.png  { 
-	shader "SHADERS/env.fp"
-	texture displacement "MATERIALS2/ENV/env3.dds"
-	texture envmask "MATERIALS2/ENVMASK/FRPR.dds"
-	normal materials/normalmaps/auto/normal.dds
-	specular materials/specular/auto/spec.dds
-	specularlevel 0.4
-	glossiness 40
-}
-
-
-
-
-material texture MODELS/BloodSpot/FTPL.png  { 
-	shader "SHADERS/env.fp"
-	texture displacement "MATERIALS2/ENV/env3.dds"
-	texture envmask "MATERIALS2/ENVMASK/FTPL.dds"
-	normal materials/normalmaps/auto/normal.dds
-	specular materials/specular/auto/spec.dds
-	specularlevel 0.4
-	glossiness 40
-}
-
-
-
-
-material texture MODELS/BloodSpot/FTPR.png  { 
-	shader "SHADERS/env.fp"
-	texture displacement "MATERIALS2/ENV/env3.dds"
-	texture envmask "MATERIALS2/ENVMASK/FTPR.dds"
-	normal materials/normalmaps/auto/normal.dds
-	specular materials/specular/auto/spec.dds
-	specularlevel 0.4
-	glossiness 40
-}
-
 //DR4
 
 /////////////////////////////////////////////

@@ -1464,6 +1464,8 @@ FLAT LAVA1
   ////////////////////////////////////
  ///brutal doom Lava//////////////////
  ////////////////////////////////////
+ // LAVAFL flat is not shipped; animation disabled to avoid startup parse errors.
+ /*
  FLAT LAVAFL
  pic SL0000 tics 1 
  pic SL0001 tics 1 
@@ -1497,5 +1499,6 @@ FLAT LAVA1
  pic SL0029 tics 1
  pic SL0030 tics 1
  pic SL0031 tics 1
+ */
   
   
