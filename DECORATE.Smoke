@@ -1,6 +1,6 @@
+﻿
 
-
-ACTOR BarSmoke : BigSmoke
+ACTOR DDS_BarSmoke : BigSmoke
 {
   +BRIGHT
   StencilColor "05 22 00"
@@ -8,7 +8,7 @@ ACTOR BarSmoke : BigSmoke
   Alpha 0.02
 }
 
-ACTOR BarSmokeSmall : SmallSmoke
+ACTOR DDS_BarSmokeSmall : SmallSmoke
 {
   +BRIGHT
   StencilColor "05 22 00"
@@ -16,7 +16,7 @@ ACTOR BarSmokeSmall : SmallSmoke
   Alpha 0.01
 }
 
-ACTOR SlowBarSmokeSmall : SmallSlowSmoke
+ACTOR DDS_SlowBarSmokeSmall : SmallSlowSmoke
 {
   +BRIGHT
   StencilColor "11 66 00"
@@ -24,7 +24,7 @@ ACTOR SlowBarSmokeSmall : SmallSlowSmoke
   Alpha 0.01
 }
 
-ACTOR BFGSmoke : Smoke
+ACTOR DDS_BFGSmoke : DDS_Smoke
 {
   +BRIGHT
   StencilColor "11 88 11"
@@ -32,7 +32,7 @@ ACTOR BFGSmoke : Smoke
   Alpha 0.16
 }
 
-ACTOR BIGBFGSmoke : BigSmoke
+ACTOR DDS_BIGBFGSmoke : BigSmoke
 {
   +BRIGHT
   StencilColor "11 88 11"
@@ -40,7 +40,7 @@ ACTOR BIGBFGSmoke : BigSmoke
   Alpha 0.16
 }
 
-ACTOR SmallBFGSmoke : SmallSmoke
+ACTOR DDS_SmallBFGSmoke : SmallSmoke
 {
   +BRIGHT
   StencilColor "11 88 11"
@@ -48,49 +48,49 @@ ACTOR SmallBFGSmoke : SmallSmoke
   Alpha 0.16
 }
 
-ACTOR SmallPlasmaSmokeGlowing : SmallSmoke
+ACTOR DDS_SmallPlasmaSmokeGlowing : SmallSmoke
 {
   +BRIGHT
   RenderStyle Add
   Alpha 0.16
 }
 
-ACTOR TinyPlasmaSmokeGlowing : TinySmoke
+ACTOR DDS_TinyPlasmaSmokeGlowing : TinySmoke
 {
   +BRIGHT
   RenderStyle Add
   Alpha 0.12
 }
 
-ACTOR SmallPlasmaSmokeNoGlow : SmallSmoke
+ACTOR DDS_SmallPlasmaSmokeNoGlow : SmallSmoke
 {
   +BRIGHT
   RenderStyle Translucent
   Alpha 0.12
 }
 
-ACTOR TinyPlasmaSmokeNoGlow : TinySmoke
+ACTOR DDS_TinyPlasmaSmokeNoGlow : TinySmoke
 {
   +BRIGHT
   RenderStyle Translucent
   Alpha 0.08
 }
 
-ACTOR SmallPlasmaSmoke : RandomSpawner
+ACTOR DDS_SmallPlasmaSmoke : RandomSpawner
 {
-	dropitem "SmallPlasmaSmokeGlowing"
-	dropitem "SmallPlasmaSmokeGlowing"
-	dropitem "SmallPlasmaSmokeNoGlow"
+	dropitem "DDS_SmallPlasmaSmokeGlowing"
+	dropitem "DDS_SmallPlasmaSmokeGlowing"
+	dropitem "DDS_SmallPlasmaSmokeNoGlow"
 }
 
-ACTOR TinyPlasmaSmoke : RandomSpawner
+ACTOR DDS_TinyPlasmaSmoke : RandomSpawner
 {
-	dropitem "TinyPlasmaSmokeGlowing"
-	dropitem "TinyPlasmaSmokeGlowing"
-	dropitem "TinyPlasmaSmokeNoGlow"
+	dropitem "DDS_TinyPlasmaSmokeGlowing"
+	dropitem "DDS_TinyPlasmaSmokeGlowing"
+	dropitem "DDS_TinyPlasmaSmokeNoGlow"
 }
 
-ACTOR PlasmaSmokeGlowing : Smoke
+ACTOR DDS_PlasmaSmokeGlowing : DDS_Smoke
 {
   +BRIGHT
   StencilColor "00 22 44"
@@ -98,7 +98,7 @@ ACTOR PlasmaSmokeGlowing : Smoke
   Alpha 0.13
 }
 
-ACTOR PlasmaSmokeNoGlow : Smoke
+ACTOR DDS_PlasmaSmokeNoGlow : DDS_Smoke
 {
   +BRIGHT
   StencilColor "11 66 99"
@@ -106,22 +106,14 @@ ACTOR PlasmaSmokeNoGlow : Smoke
   Alpha 0.13
 }
 
-ACTOR PlasmaSmoke : RandomSpawner
+ACTOR DDS_PlasmaSmoke : RandomSpawner
 {
-	dropitem "PlasmaSmokeGlowing"
-	dropitem "PlasmaSmokeGlowing"
-	dropitem "PlasmaSmokeNoGlow"
+	dropitem "DDS_PlasmaSmokeGlowing"
+	dropitem "DDS_PlasmaSmokeGlowing"
+	dropitem "DDS_PlasmaSmokeNoGlow"
 }
 
-ACTOR SmallRedAdditiveSmoke : SmallSmoke
-{
-  +BRIGHT
-  StencilColor "88 00 00"
-  RenderStyle AddShaded
-  Alpha 0.14
-}
-
-ACTOR RedAdditiveSmoke : Smoke
+ACTOR DDS_SmallRedAdditiveSmoke : SmallSmoke
 {
   +BRIGHT
   StencilColor "88 00 00"
@@ -129,7 +121,7 @@ ACTOR RedAdditiveSmoke : Smoke
   Alpha 0.14
 }
 
-ACTOR BigRedAdditiveSmoke : BigSmoke
+ACTOR DDS_RedAdditiveSmoke : DDS_Smoke
 {
   +BRIGHT
   StencilColor "88 00 00"
@@ -137,7 +129,15 @@ ACTOR BigRedAdditiveSmoke : BigSmoke
   Alpha 0.14
 }
 
-ACTOR SmallCacoSmoke : SmallSmoke
+ACTOR DDS_BigRedAdditiveSmoke : BigSmoke
+{
+  +BRIGHT
+  StencilColor "88 00 00"
+  RenderStyle AddShaded
+  Alpha 0.14
+}
+
+ACTOR DDS_SmallCacoSmoke : SmallSmoke
 {
   +BRIGHT
   StencilColor "55 00 55"
@@ -145,7 +145,7 @@ ACTOR SmallCacoSmoke : SmallSmoke
   Alpha 0.18
 }
 
-ACTOR TinyCacoSmoke : TinySmoke
+ACTOR DDS_TinyCacoSmoke : TinySmoke
 {
   +BRIGHT
   StencilColor "55 00 55"
@@ -154,7 +154,7 @@ ACTOR TinyCacoSmoke : TinySmoke
 }
 
 
-ACTOR SmallSpiderSmoke : SmallSmoke
+ACTOR DDS_SmallSpiderSmoke : SmallSmoke
 {
   +BRIGHT
   StencilColor "55 55 00"
@@ -162,7 +162,7 @@ ACTOR SmallSpiderSmoke : SmallSmoke
   Alpha 0.12
 }
 
-ACTOR TinySpiderSmoke : TinySmoke
+ACTOR DDS_TinySpiderSmoke : TinySmoke
 {
   +BRIGHT
   StencilColor "55 55 00"
@@ -170,49 +170,49 @@ ACTOR TinySpiderSmoke : TinySmoke
   Alpha 0.06
 }
 
-ACTOR FloorSmoke : StillSmoke
+ACTOR DDS_FloorSmoke : DDS_StillSmoke
 {
   -ForceXYBillboard
   +FLATSPRITE 
 }
 
 
-ACTOR BlackStillSmoke : StillSmoke
+ACTOR DDS_BlackStillSmoke : DDS_StillSmoke
 {
   StencilColor "Black"
 }
 
-ACTOR BlackFloorSmoke : BlackStillSmoke
+ACTOR DDS_BlackFloorSmoke : DDS_BlackStillSmoke
 {
   -ForceXYBillboard
   +FLATSPRITE 
 }
 
-ACTOR RedStillSmoke : StillSmoke
+ACTOR DDS_RedStillSmoke : DDS_StillSmoke
 {
   StencilColor "DarkRed"
   RenderStyle "AddShaded"
 }
 
-ACTOR RedFloorSmoke : RedStillSmoke
+ACTOR DDS_RedFloorSmoke : DDS_RedStillSmoke
 {
   -ForceXYBillboard
   +FLATSPRITE 
 }
 
-ACTOR GreenStillSmoke : StillSmoke
+ACTOR DDS_GreenStillSmoke : DDS_StillSmoke
 {
   StencilColor "Green"
   Alpha 0.04
 }
 
-ACTOR GreenFloorSmoke : GreenStillSmoke
+ACTOR DDS_GreenFloorSmoke : DDS_GreenStillSmoke
 {
   -ForceXYBillboard
   +FLATSPRITE 
 }
 
-ACTOR FoggySmokeSpawner
+ACTOR DDS_FoggySmokeSpawner
 {
 	+CLIENTSIDEONLY
 	+NOINTERACTION
@@ -227,20 +227,20 @@ ACTOR FoggySmokeSpawner
     Spawn:
 	    TNT1 A 0
 		TNT1 A 1 A_CheckRange(750,8)
-		TNT1 A 12 A_SpawnItemEx("FloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
+		TNT1 A 12 A_SpawnItemEx("DDS_FloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
 		TNT1 A 12
-		TNT1 A 12 A_SpawnItemEx("StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
+		TNT1 A 12 A_SpawnItemEx("DDS_StillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
 		TNT1 A 12
-		TNT1 A 12 A_SpawnItemEx("FloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0)
+		TNT1 A 12 A_SpawnItemEx("DDS_FloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0)
 		TNT1 A 12
-		TNT1 A 12 A_SpawnItemEx("StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40))
+		TNT1 A 12 A_SpawnItemEx("DDS_StillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40))
 		TNT1 A 12
 		TNT1 A 1
 		Loop
 	}
 }
 
-ACTOR BlackFoggySmokeSpawner
+ACTOR DDS_BlackFoggySmokeSpawner
 {
 	+CLIENTSIDEONLY
 	+NOINTERACTION
@@ -253,19 +253,19 @@ ACTOR BlackFoggySmokeSpawner
 	States
 	{
     Spawn:
-	    TNT1 A 6 A_SpawnItemEx("BlackFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
+	    TNT1 A 6 A_SpawnItemEx("DDS_BlackFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
 		TNT1 A 5
-		TNT1 A 6 A_SpawnItemEx("BlackStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
+		TNT1 A 6 A_SpawnItemEx("DDS_BlackStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
 		TNT1 A 5
-		TNT1 A 6 A_SpawnItemEx("BlackFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0)
+		TNT1 A 6 A_SpawnItemEx("DDS_BlackFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0)
 		TNT1 A 5
-		TNT1 A 6 A_SpawnItemEx("BlackStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40))
+		TNT1 A 6 A_SpawnItemEx("DDS_BlackStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40))
 		TNT1 A 5
 		Loop
 	}
 }
 
-ACTOR RedFoggySmokeSpawner
+ACTOR DDS_RedFoggySmokeSpawner
 {
 	+CLIENTSIDEONLY
 	+NOINTERACTION
@@ -280,20 +280,20 @@ ACTOR RedFoggySmokeSpawner
     Spawn:
 	    TNT1 A 0 
 		TNT1 A 1 A_CheckRange(750,8)
-		TNT1 A 16 A_SpawnItemEx("RedFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
+		TNT1 A 16 A_SpawnItemEx("DDS_RedFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("RedStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
+		TNT1 A 16 A_SpawnItemEx("DDS_RedStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("RedFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0)
+		TNT1 A 16 A_SpawnItemEx("DDS_RedFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("RedStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40))
+		TNT1 A 16 A_SpawnItemEx("DDS_RedStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40))
 		TNT1 A 15
 		TNT1 A 1
 		Loop
 	}
 }
 
-ACTOR GreenFoggySmokeSpawner1
+ACTOR DDS_GreenFoggySmokeSpawner1
 {
 	+CLIENTSIDEONLY
 	+NOINTERACTION
@@ -308,13 +308,13 @@ ACTOR GreenFoggySmokeSpawner1
     Spawn:
 	    TNT1 A 0 
 		TNT1 A 1 A_CheckRange(750,8)
-	    TNT1 A 14 A_SpawnItemEx("GreenFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
+	    TNT1 A 14 A_SpawnItemEx("DDS_GreenFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
 		TNT1 A 14
-		TNT1 A 14 A_SpawnItemEx("GreenStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
+		TNT1 A 14 A_SpawnItemEx("DDS_GreenStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0)
 		TNT1 A 14
-		TNT1 A 14 A_SpawnItemEx("GreenFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0)
+		TNT1 A 14 A_SpawnItemEx("DDS_GreenFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0)
 		TNT1 A 14
-		TNT1 A 14 A_SpawnItemEx("GreenStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40))
+		TNT1 A 14 A_SpawnItemEx("DDS_GreenStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40))
 		TNT1 A 14
 		TNT1 A 1
 		Loop
@@ -322,7 +322,7 @@ ACTOR GreenFoggySmokeSpawner1
 }
 
 
-ACTOR GreenFoggySmokeSpawner2
+ACTOR DDS_GreenFoggySmokeSpawner2
 {
 	+CLIENTSIDEONLY
 	+NOINTERACTION
@@ -337,13 +337,13 @@ ACTOR GreenFoggySmokeSpawner2
     Spawn:
 	    TNT1 A 0 
 		TNT1 A 1 A_CheckRange(750,8)
-	    TNT1 A 16 A_SpawnItemEx("GreenFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0,0,0,128)
+	    TNT1 A 16 A_SpawnItemEx("DDS_GreenFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0,0,0,128)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("GreenStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0,0,0,128)
+		TNT1 A 16 A_SpawnItemEx("DDS_GreenStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0,0,0,128)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("GreenFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0,0,0,128)
+		TNT1 A 16 A_SpawnItemEx("DDS_GreenFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0,0,0,128)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("GreenStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40),0,0,128)
+		TNT1 A 16 A_SpawnItemEx("DDS_GreenStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40),0,0,128)
 		TNT1 A 15
 		TNT1 A 1
 		Loop
@@ -351,7 +351,7 @@ ACTOR GreenFoggySmokeSpawner2
 }
 
 
-ACTOR GreenFoggySmokeSpawner3
+ACTOR DDS_GreenFoggySmokeSpawner3
 {
 	+CLIENTSIDEONLY
 	+NOINTERACTION
@@ -366,13 +366,13 @@ ACTOR GreenFoggySmokeSpawner3
     Spawn:
 	    TNT1 A 0 
 		TNT1 A 1 A_CheckRange(750,8)
-	    TNT1 A 16 A_SpawnItemEx("GreenFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0,0,0,64)
+	    TNT1 A 16 A_SpawnItemEx("DDS_GreenFloorSmoke", random(-88, 88), random(-88, 88), random(1, 12), 0.01*random(-30, 30), 0.01*random(-30, 30), 0,0,0,64)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("GreenStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0,0,0,64)
+		TNT1 A 16 A_SpawnItemEx("DDS_GreenStillSmoke", random(-88, 88), random(-88, 88), random(-88, 33), 0.01*random(-30, 30), 0.01*random(-30, 30), 0,0,0,64)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("GreenFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0,0,0,64)
+		TNT1 A 16 A_SpawnItemEx("DDS_GreenFloorSmoke", random(-164, 164), random(-164, 164), random(1, 13), 0, 0, 0,0,0,64)
 		TNT1 A 15
-		TNT1 A 16 A_SpawnItemEx("GreenStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40),0,0,64)
+		TNT1 A 16 A_SpawnItemEx("DDS_GreenStillSmoke", random(-164, 164), random(-164, 164), random(-88, 88), 0, 0, 0.01*random(-40, 40),0,0,64)
 		TNT1 A 15
 		TNT1 A 1
 		Loop
@@ -380,10 +380,12 @@ ACTOR GreenFoggySmokeSpawner3
 }
 
 
-ACTOR GreenFoggySmokeSpawner : RandomSpawner
+ACTOR DDS_GreenFoggySmokeSpawner : RandomSpawner
 {
-	dropitem "GreenFoggySmokeSpawner1"
-	dropitem "GreenFoggySmokeSpawner2"
-	dropitem "GreenFoggySmokeSpawner3"
+	dropitem "DDS_GreenFoggySmokeSpawner1"
+	dropitem "DDS_GreenFoggySmokeSpawner2"
+	dropitem "DDS_GreenFoggySmokeSpawner3"
 }
+
+
 

@@ -6,7 +6,7 @@
 // -- Doom Decorations --
 // ----------------------
 
-object Kaboom
+object DDS_Kaboom
 {
     frame MISLB { light ROCKET_X1 }
     frame MISLC { light ROCKET_X2 }
@@ -23,7 +23,7 @@ pointlight LAMP
     offset 0 44 0
 }
 
-object 64Column
+object DDS_64Column
 {
     frame COLU { light LAMP }
 }
@@ -38,7 +38,7 @@ pulselight SMALLLAMP
     offset 0 44 0
 }
 
-object 64TechLamp2
+object DDS_64TechLamp2
 {
     frame TLP2 { light SMALLLAMP }
 }
@@ -53,7 +53,7 @@ pulselight BIGLAMP
     offset 0 72 0
 }
 
-object 64TechLamp
+object DDS_64TechLamp
 {
     frame TLMP { light BIGLAMP }
 }
@@ -68,7 +68,7 @@ flickerlight2 SKULLCANDLES
     offset 0 48 0
 }
 
-object 64HeadCandles
+object DDS_64Headcandles
 {
     frame DMCD { light SKULLCANDLES }
 }

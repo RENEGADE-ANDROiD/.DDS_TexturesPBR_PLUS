@@ -1,4 +1,4 @@
-Actor IA_Sound
+﻿Actor DDS_IA_Sound
 {
 	+NOGRAVITY
 	+FLOAT
@@ -7,290 +7,9 @@ Actor IA_Sound
 	}
 }
 
-///////////////////////////////////////////
-//core
-///////////////////////////////////////////
-//Core Splash definition for others to inherit from
-
-ACTOR NJCoreSplashChunk
-{
-	Radius 2
-	Height 4
-	Renderstyle Translucent
-	Alpha 0.7
-	+NOBLOCKMAP 
-	+MISSILE 
-	+DROPOFF
-	+NOTELEPORT
-	+LOWGRAVITY
-	+CANNOTPUSH
-	+DONTSPLASH
-	+DONTBLAST
-}
-
-
-ACTOR NJCoreSplashBase
-{
-	Radius 2
-	Height 4
-	Renderstyle Translucent
-	Alpha 0.7
-	+NOBLOCKMAP
-	+NOCLIP
-	+NOGRAVITY
-	+DONTSPLASH
-	+DONTBLAST
-}
-
-ACTOR NJCoreSplashSmoke
-{
-	Radius 2
-	Height 4
-	RenderStyle Translucent
-	Alpha 0.7
-	+NOBLOCKMAP
-	+NOCLIP
-	+NOGRAVITY
-	+DONTSPLASH
-	+DONTBLAST
-}
-
-///////////////////////////////////////////
-//Blood
-///////////////////////////////////////////
-Actor NJBloodChunk : NJCoreSplashChunk
-{
-	TRANSLATION "112:127=176:191"
-	States
-	{
-	Spawn:
-		NSL1 A 6
-		NSL1 B 6 A_SetTranslucent(0.6, 0)
-		NSL1 C 6 A_SetTranslucent(0.5, 0)
-		NSL1 D 6 A_SetTranslucent(0.4, 0)
-		NSL1 D 6 A_SetTranslucent(0.3, 0)
-		Stop
-	Death:
-		NSL1 D 8 A_SetTranslucent(0.2, 0)
-		Stop
-	}
-}
-
-Actor NJBloodBase : NJCoreSplashBase
-{
-	TRANSLATION "112:127=176:191"
-	States
-	{
-	Spawn:
-		NSL1 EFG 5
-		NSL1 H 5 A_SetTranslucent(0.6, 0)
-		NSL1 I 5 A_SetTranslucent(0.5, 0)
-		NSL1 J 5 A_SetTranslucent(0.4, 0)
-		NSL1 K 5 A_SetTranslucent(0.3, 0)
-		Stop
-	}
-}
-
-
-///////////////////////////////////////////
-//Lava
-///////////////////////////////////////////
-ACTOR NJLavaSmoke : NJCoreSplashSmoke
-{
-	States
-	{
-	Spawn:
-		NLAV G 5
-		NLAV H 5 A_SetTranslucent(0.6, 0)
-		NLAV I 5 A_SetTranslucent(0.5, 0)
-		NLAV J 5 A_SetTranslucent(0.4, 0)
-		NLAV K 5 A_SetTranslucent(0.3, 0)
-		Stop
-	}
-}
-
-Actor NJLavaBase : NJCoreSplashBase
-{
-	Renderstyle Add
-	Alpha 0.8
-	TRANSLATION "112:122=160:165", "123:127=43:47"
-	States
-	{
-	Spawn:
-		NLAV ABCDEF 5
-		Stop
-	}
-}
-
-///////////////////////////////////////////
-//Lava Smoke Only
-///////////////////////////////////////////
-ACTOR NJLavaSmokeOnly : NJCoreSplashSmoke
-{
-	States
-	{
-	Spawn:
-		NLAV G 5
-		NLAV H 5 A_SetTranslucent(0.6, 0)
-		NLAV I 5 A_SetTranslucent(0.5, 0)
-		NLAV J 5 A_SetTranslucent(0.4, 0)
-		NLAV K 5 A_SetTranslucent(0.3, 0)
-		Stop
-	}
-}
-
-///////////////////////////////////////////
-//Nukage
-///////////////////////////////////////////
-Actor NJNukageSmoke : NJCoreSplashSmoke
-{
-	States
-	{
-	Spawn:
-	Spawn:
-		NLAV G 5
-		NLAV H 5 A_SetTranslucent(0.6, 0)
-		NLAV I 5 A_SetTranslucent(0.5, 0)
-		NLAV J 5 A_SetTranslucent(0.4, 0)
-		NLAV K 5 A_SetTranslucent(0.3, 0)
-		Stop
-	}
-}
-
-Actor NJNukageBase : NJCoreSplashBase
-{
-	Translation "112:123=116:127", "124:127=9:12"
-	Renderstyle Add
-	Alpha 0.6
-	States
-	{
-	Spawn:
-		NWAT EFGH 5
-		NWAT I 5 A_SetTranslucent(0.5, 1)
-		NWAT J 5 A_SetTranslucent(0.4, 1)
-		NWAT K 5 A_SetTranslucent(0.3, 1)
-		Stop
-	}
-}
-
-
-///////////////////////////////////////////
-//Slime - Brown
-///////////////////////////////////////////
-Actor NJSlimeBrownChunk : NJCoreSplashChunk
-{
-	TRANSLATION "112:127=[107,71,39]:[23,15,7]"
-	States
-	{
-	Spawn:
-		NSL1 A 6
-		NSL1 B 6 A_SetTranslucent(0.6, 0)
-		NSL1 C 6 A_SetTranslucent(0.5, 0)
-		NSL1 D 6 A_SetTranslucent(0.4, 0)
-		NSL1 D 6 A_SetTranslucent(0.3, 0)
-		Stop
-	Death:
-		NSL1 D 8 A_SetTranslucent(0.2, 0)
-		Stop
-	}
-}
-
-Actor NJSlimeBrownBase : NJCoreSplashBase
-{
-	TRANSLATION "112:127=[107,71,39]:[23,15,7]"
-	States
-	{
-	Spawn:
-		NSL1 EFG 5
-		NSL1 H 5 A_SetTranslucent(0.6, 0)
-		NSL1 I 5 A_SetTranslucent(0.5, 0)
-		NSL1 J 5 A_SetTranslucent(0.4, 0)
-		NSL1 K 5 A_SetTranslucent(0.3, 0)
-		Stop
-	}
-}
-
-///////////////////////////////////////////
-//Sludge - GreenyBrown
-///////////////////////////////////////////
-Actor NJSludgeChunk : NJCoreSplashChunk
-{
-	Renderstyle Translucent
-	Alpha 0.8
-	TRANSLATION "112:123=116:127", "124:127=76:79"
-	States
-	{
-	Spawn:
-		NSL2 A 6
-		NSL2 B 6 A_SetTranslucent(0.7, 0)
-		NSL2 C 6 A_SetTranslucent(0.6, 0)
-		NSL2 D 6 A_SetTranslucent(0.5, 0)
-		NSL2 D 6 A_SetTranslucent(0.4, 0)
-		Stop
-	Death:
-		NSL2 D 8 A_SetTranslucent(0.3, 0)
-		Stop
-	}
-}
-
-Actor NJSludgeBase : NJCoreSplashBase
-{
-	Renderstyle Translucent
-	Alpha 0.9
-	TRANSLATION 	"112:123=116:127", 
-			"124:124=79:79", 
-			"125:125=239:239", 
-			"126:127=1:2" 
-	States
-	{
-	Spawn:
-		NSL2 EFGH 6
-		NSL2 I 6 A_SetTranslucent(0.7, 0)
-		NSL2 J 6 A_SetTranslucent(0.5, 0)
-		NSL2 K 6 A_SetTranslucent(0.3, 0)
-		Stop
-	}
-}
-
-///////////////////////////////////////////
-//Water Normal
-///////////////////////////////////////////
-Actor NJWaterSplashChunk : NJCoreSplashChunk
-{
-	Alpha 0.6
-	TRANSLATION "112:127=192:207"
-	States
-	{
-	Spawn:
-		NWAT AB 6
-		NWAT C 6 A_SetTranslucent(0.5, 0)
-		NWAT D 6 A_SetTranslucent(0.4, 0)
-		NWAT D 6 A_SetTranslucent(0.3, 0)
-		Stop
-	Death:
-		NWAT D 8 A_SetTranslucent(0.2, 0)
-		Stop
-	}
-}
-
-Actor NJWaterSplashBase : NJCoreSplashBase
-{
-	Alpha 0.6
-	TRANSLATION "112:119=200:207", "120:127=240:247"
-	States
-	{
-	Spawn:
-		NWAT EFGH 5
-		NWAT I 5 A_SetTranslucent(0.5, 0)
-		NWAT J 5 A_SetTranslucent(0.4, 0)
-		NWAT K 5 A_SetTranslucent(0.3, 0)
-		Stop
-	}
-}
-
 //Bullet puff
 
-ACTOR Better_BulletPuff : Bulletpuff Replaces bulletpuff
+ACTOR DDS_Better_BulletPuff : Bulletpuff Replaces bulletpuff
 {
    Decal "bulletchip"
   States
@@ -299,15 +18,15 @@ ACTOR Better_BulletPuff : Bulletpuff Replaces bulletpuff
     PUFF A 2
   melee:
     TNT1 A 0 {
-	A_SpawnDebris("Better_BulletSpark");
-	A_SpawnItemEx("Better_SmokeCloud",random(-1,1),random(-1,1),random(-1,1),frandom(-1,1),frandom(-1,1),frandom(-1,1));
+	A_SpawnDebris("DDS_Better_BulletSpark");
+	A_SpawnItemEx("DDS_Better_SmokeCloud",random(-1,1),random(-1,1),random(-1,1),frandom(-1,1),frandom(-1,1),frandom(-1,1));
 	}
     PUFF ABCD 3
     Stop
   }
 }
 
-ACTOR Better_BulletSpark
+ACTOR DDS_Better_BulletSpark
 {
   Health 4
   Radius 3
@@ -338,7 +57,7 @@ ACTOR Better_BulletSpark
 
 //----------------------------------------------------------------------------------------------------------
 //Projectile Trails
-Actor Better_ProjectileTrail
+Actor DDS_Better_ProjectileTrail
 {
 	+NOINTERACTION
 	+FORCEXYBILLBOARD
@@ -356,7 +75,7 @@ Actor Better_ProjectileTrail
 }
 
 //Debris projectile
-Actor Better_BouncingDebris
+Actor DDS_Better_BouncingDebris
 {
 	+MISSILE
 	+THRUACTORS
@@ -380,8 +99,8 @@ Actor Better_BouncingDebris
 }
 
 //----------------------------------------------------------------------------------------------------------
-//Smoke effect
-Actor Better_SmokeCloud : Better_ProjectileTrail
+//DDS_Smoke effect
+Actor DDS_Better_SmokeCloud : DDS_Better_ProjectileTrail
 {
 	//RenderStyle add
 	+ROLLSPRITE
@@ -395,22 +114,22 @@ Actor Better_SmokeCloud : Better_ProjectileTrail
 	}
 }
 
-Actor Better_MediumSmokeCloud : Better_SmokeCloud
+Actor DDS_Better_MediumSmokeCloud : DDS_Better_SmokeCloud
 {
 	Scale 0.35
 }
 
-Actor Better_LargeSmokeCloud : Better_SmokeCloud
+Actor DDS_Better_LargeSmokeCloud : DDS_Better_SmokeCloud
 {
 	Scale 0.45
 }
 
-Actor Better_XLSmokeCloud : Better_SmokeCloud
+Actor DDS_Better_XLSmokeCloud : DDS_Better_SmokeCloud
 {
 	Scale 0.55
 }
 
-Actor Better_SmokeLongCloud : Better_ProjectileTrail
+Actor DDS_Better_SmokeLongCloud : DDS_Better_ProjectileTrail
 {
 	//RenderStyle add
 	+ROLLSPRITE
@@ -426,23 +145,23 @@ Actor Better_SmokeLongCloud : Better_ProjectileTrail
 	}
 }
 
-Actor Better_MediumSmokeLongCloud : Better_SmokeLongCloud
+Actor DDS_Better_MediumSmokeLongCloud : DDS_Better_SmokeLongCloud
 {
 	Scale 0.35
 }
 
-Actor Better_LargeSmokeLongCloud : Better_SmokeLongCloud
+Actor DDS_Better_LargeSmokeLongCloud : DDS_Better_SmokeLongCloud
 {
 	Scale 0.45
 }
 
-Actor Better_XLSmokeLongCloud : Better_SmokeLongCloud
+Actor DDS_Better_XLSmokeLongCloud : DDS_Better_SmokeLongCloud
 {
 	Scale 0.55
 }
 
 //Imp's fireball
-ACTOR Better_DoomImpBall : DoomImpBall replaces DoomImpBall
+ACTOR DDS_Better_DoomImpBall : DoomImpBall replaces DoomImpBall
 {
 Damagetype fire
 decal DoomImpScorch
@@ -450,20 +169,20 @@ decal DoomImpScorch
 	{
 	Spawn:
 		BAL1 AABB 2 Bright {
-				A_SpawnItemEx("Better_FireballTrail",-5,0,2,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
+				A_SpawnItemEx("DDS_Better_FireballTrail",-5,0,2,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
 		}
 		Loop
 	Death:
 		TNT1 AAA 0 {
-				A_SpawnItemEx("Better_FireDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2)); 
-				A_SpawnItemEx("Better_FireBouncingDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+				A_SpawnItemEx("DDS_Better_FireDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2)); 
+				A_SpawnItemEx("DDS_Better_FireBouncingDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		BAL1 CDE 6 Bright
 		Stop
 	}
 }
 
-Actor Better_FireballTrail : Better_ProjectileTrail
+Actor DDS_Better_FireballTrail : DDS_Better_ProjectileTrail
 {
 	Scale 0.35
 	States
@@ -478,7 +197,7 @@ Actor Better_FireballTrail : Better_ProjectileTrail
 }
 
 
-Actor Better_FireDebris : Better_ProjectileTrail
+Actor DDS_Better_FireDebris : DDS_Better_ProjectileTrail
 {
 	Scale 0.35
 	States
@@ -490,7 +209,7 @@ Actor Better_FireDebris : Better_ProjectileTrail
 }
 
 
-Actor Better_FireBouncingDebris : Better_BouncingDebris
+Actor DDS_Better_FireBouncingDebris : DDS_Better_BouncingDebris
 {
 	Scale 0.7
 }
@@ -498,7 +217,7 @@ Actor Better_FireBouncingDebris : Better_BouncingDebris
 
 //Caco's Lightning ball
 
-ACTOR Better_CacodemonBall : CacodemonBall replaces CacodemonBall
+ACTOR DDS_Better_CacodemonBall : CacodemonBall replaces CacodemonBall
 {
 Damagetype Plasma
 decal CacoScorch
@@ -506,19 +225,19 @@ decal CacoScorch
 	{
 	Spawn:
 		BAL2 AABB 2 Bright {
-        A_SpawnItemEx("Better_LightningBallTrail",-5,0,2,frandom(-0.5,0.5),frandom(-2.5,2.5),frandom(-2.5,2.5));
+        A_SpawnItemEx("DDS_Better_LightningBallTrail",-5,0,2,frandom(-0.5,0.5),frandom(-2.5,2.5),frandom(-2.5,2.5));
 		}
 		Loop
 	Death:
 		TNT1 AAAAA 0 {
-                A_SpawnItemEx("Better_LightningDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-3,3),frandom(-3,3),frandom(-1,3));
+                A_SpawnItemEx("DDS_Better_LightningDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-3,3),frandom(-3,3),frandom(-1,3));
 		}
 		BAL2 CDE 6 Bright
 		Stop
 	}
 }
 
-Actor Better_LightningDebris : Better_ProjectileTrail
+Actor DDS_Better_LightningDebris : DDS_Better_ProjectileTrail
 {
 	Scale 0.65
 	States
@@ -529,7 +248,7 @@ Actor Better_LightningDebris : Better_ProjectileTrail
 	}
 }
 
-Actor Better_LightningBallTrail : Better_ProjectileTrail
+Actor DDS_Better_LightningBallTrail : DDS_Better_ProjectileTrail
 {
 	Scale 0.65 //0.5 //75
 	States
@@ -544,7 +263,7 @@ Actor Better_LightningBallTrail : Better_ProjectileTrail
 }
 
 //Baron & hell knight projectiles
-Actor Better_BaronBall : BaronBall replaces BaronBall
+Actor DDS_Better_BaronBall : BaronBall replaces BaronBall
 {
 decal BaronScorch
 damagetype GreenFire
@@ -552,20 +271,20 @@ damagetype GreenFire
 	{
 	Spawn:
 		BAL7 AABB 2 Bright {
-        A_SpawnItemEx("Better_MediumGreenFireballTrail",-3,0,2,frandom(-1,0),frandom(-1,1),frandom(0,1));
+        A_SpawnItemEx("DDS_Better_MediumGreenFireballTrail",-3,0,2,frandom(-1,0),frandom(-1,1),frandom(0,1));
 		}
 		Loop
 	Death:
 		TNT1 AAAA 0 {
-				A_SpawnItemEx("Better_MediumGreenFireDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2)); 
-				A_SpawnItemEx("Better_MediumGreenFireBouncingDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+				A_SpawnItemEx("DDS_Better_MediumGreenFireDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2)); 
+				A_SpawnItemEx("DDS_Better_MediumGreenFireBouncingDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		BAL7 CDE 6 Bright
 		Stop
 	}
 }
 
-Actor Better_GreenFireballTrail : Better_ProjectileTrail
+Actor DDS_Better_GreenFireballTrail : DDS_Better_ProjectileTrail
 {
 	Scale 0.35
 	States
@@ -579,12 +298,12 @@ Actor Better_GreenFireballTrail : Better_ProjectileTrail
 	}
 }
 
-Actor Better_MediumGreenFireballTrail : Better_GreenFireballTrail
+Actor DDS_Better_MediumGreenFireballTrail : DDS_Better_GreenFireballTrail
 {
 	Scale 0.45
 }
 
-Actor Better_GreenFireDebris : Better_ProjectileTrail
+Actor DDS_Better_GreenFireDebris : DDS_Better_ProjectileTrail
 {
 	Scale 0.35
 	States
@@ -595,12 +314,12 @@ Actor Better_GreenFireDebris : Better_ProjectileTrail
 	}
 }
 
-Actor Better_MediumGreenFireDebris : Better_GreenFireDebris
+Actor DDS_Better_MediumGreenFireDebris : DDS_Better_GreenFireDebris
 {
 	Scale 0.45
 }
 
-Actor Better_GreenFireBouncingDebris : Better_BouncingDebris
+Actor DDS_Better_GreenFireBouncingDebris : DDS_Better_BouncingDebris
 {
 	Scale 0.7
 	States
@@ -614,13 +333,13 @@ Actor Better_GreenFireBouncingDebris : Better_BouncingDebris
 	}
 }
 
-Actor Better_MediumGreenFireBouncingDebris : Better_GreenFireBouncingDebris
+Actor DDS_Better_MediumGreenFireBouncingDebris : DDS_Better_GreenFireBouncingDebris
 {
 	Scale 1.0
 }
 
 //Revenant's missile
-ACTOR Better_RevenantTracer : RevenantTracer replaces RevenantTracer
+ACTOR DDS_Better_RevenantTracer : RevenantTracer replaces RevenantTracer
 {
 decal RevenantScorch
 	States
@@ -628,19 +347,19 @@ decal RevenantScorch
 	Spawn:
 		TNT1 A 0 NoDelay A_Jump(128,"Homing") 
 		FATB AB 2 Bright {			
-				A_SpawnItemEx("Better_FireballTrail",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
+				A_SpawnItemEx("DDS_Better_FireballTrail",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
 		}
 		Goto Spawn+1
 	Homing:
 		FATB AB 2 Bright {
 			A_Tracer2;
-			A_SpawnItemEx("Better_FireballTrail",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
-			A_SpawnItemEx("Better_SmokeCloud",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
+			A_SpawnItemEx("DDS_Better_FireballTrail",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
+			A_SpawnItemEx("DDS_Better_SmokeCloud",-12,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
 		}
 		Loop
 	Death:
 		TNT1 AAA 0 {
-				A_SpawnItemEx("Better_FireBouncingDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-5,5),frandom(-5,5),frandom(-1,5));
+				A_SpawnItemEx("DDS_Better_FireBouncingDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-5,5),frandom(-5,5),frandom(-1,5));
 		}
 		FBXP A 8 Bright
 		FBXP B 6 Bright
@@ -650,7 +369,7 @@ decal RevenantScorch
 }
 
 //Mancubus's fireball
-ACTOR Better_FatShot : FatShot replaces FatShot
+ACTOR DDS_Better_FatShot : FatShot replaces FatShot
 {
 Damagetype fire
 decal BigScorch
@@ -658,14 +377,14 @@ decal BigScorch
 	{
 	Spawn:
 		MANF AB 3 Bright {
-				A_SpawnItemEx("Better_LargeFireballTrail",-7,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
-				A_SpawnItemEx("Better_MediumFireballTrail",-7,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1));
+				A_SpawnItemEx("DDS_Better_LargeFireballTrail",-7,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
+				A_SpawnItemEx("DDS_Better_MediumFireballTrail",-7,0,3,frandom(-1,0),frandom(-1,1),frandom(0,1));
 		}
 		Loop
 	Death:
 		TNT1 AAAAA 0 {
-				A_SpawnItemEx("Better_LargeFireDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2)); 
-				A_SpawnItemEx("Better_LargeFireBouncingDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+				A_SpawnItemEx("DDS_Better_LargeFireDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2)); 
+				A_SpawnItemEx("DDS_Better_LargeFireBouncingDebris",random(-1,1),random(-1,1),random(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		MISL B 8 Bright
 		MISL C 6 Bright
@@ -674,38 +393,38 @@ decal BigScorch
 	}
 }
 
-Actor Better_MediumFireballTrail : Better_FireballTrail
+Actor DDS_Better_MediumFireballTrail : DDS_Better_FireballTrail
 {
 	Scale 0.45
 }
 
-Actor Better_LargeFireballTrail : Better_FireballTrail
+Actor DDS_Better_LargeFireballTrail : DDS_Better_FireballTrail
 {
 	Scale 0.55
 }
 
-Actor Better_MediumFireDebris : Better_FireDebris
+Actor DDS_Better_MediumFireDebris : DDS_Better_FireDebris
 {
 	Scale 0.45
 }
 
-Actor Better_LargeFireDebris : Better_FireDebris
+Actor DDS_Better_LargeFireDebris : DDS_Better_FireDebris
 {
 	Scale 0.55
 }
 
-Actor Better_MediumFireBouncingDebris : Better_FireBouncingDebris
+Actor DDS_Better_MediumFireBouncingDebris : DDS_Better_FireBouncingDebris
 {
 	Scale 1
 }
 
-Actor Better_LargeFireBouncingDebris : Better_FireBouncingDebris
+Actor DDS_Better_LargeFireBouncingDebris : DDS_Better_FireBouncingDebris
 {
 	Scale 1.2
 }
 
 //Rocket launcher's & Cybie's rocket
-ACTOR Better_Rocket : Rocket replaces rocket
+ACTOR DDS_Better_Rocket : Rocket replaces rocket
 {
 	-ROCKETTRAIL
 	SeeSound "weapons/rocklf"
@@ -716,13 +435,13 @@ ACTOR Better_Rocket : Rocket replaces rocket
 	{
 	Spawn:
 		MISL A 1 Bright {
-				A_SpawnItemEx("Better_MediumFireballTrail",-25,0,5,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
-				A_SpawnItemEx("Better_MediumSmokeCloud",-25,0,5,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
+				A_SpawnItemEx("DDS_Better_MediumFireballTrail",-25,0,5,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
+				A_SpawnItemEx("DDS_Better_MediumSmokeCloud",-25,0,5,frandom(-1,0),frandom(-1,1),frandom(0,1)); 
 		}
 		Loop
 	Death:
 		TNT1 AAAAAAAAAAAAAA 0 {
-				A_SpawnItemEx("Better_MediumFireBouncingDebris",random(-2,2),random(-2,2),random(-2,2),frandom(-8,8),frandom(-8,8),frandom(-2,8)); 
+				A_SpawnItemEx("DDS_Better_MediumFireBouncingDebris",random(-2,2),random(-2,2),random(-2,2),frandom(-8,8),frandom(-8,8),frandom(-2,8)); 
 		}
 		MISL B 8 Bright A_Explode
 		MISL C 6 Bright
@@ -732,7 +451,7 @@ ACTOR Better_Rocket : Rocket replaces rocket
 }
 
 //Plasma ball
-Actor Better_Plasmaball : Plasmaball replaces Plasmaball
+Actor DDS_Better_Plasmaball : Plasmaball replaces Plasmaball
 {
 Damagetype plasma
 Decal "PlasmaScorch"
@@ -740,7 +459,7 @@ Decal "PlasmaScorch"
 	{
 	Spawn:
 		PLSS AAABBB 2 Bright  {
-        A_SpawnItemEx("Better_PlasmaTrail",frandom(-0.5,0.5),frandom(-0.5,0.5),frandom(-0.5,0.5));
+        A_SpawnItemEx("DDS_Better_PlasmaTrail",frandom(-0.5,0.5),frandom(-0.5,0.5),frandom(-0.5,0.5));
 		}
 		Loop
 	Death:
@@ -749,7 +468,7 @@ Decal "PlasmaScorch"
 	}
 }
 
-Actor Better_PlasmaTrail : Better_ProjectileTrail
+Actor DDS_Better_PlasmaTrail : DDS_Better_ProjectileTrail
 {
 	ALPHA 0.5 //0.6
 	Scale 0.75
@@ -765,7 +484,7 @@ Actor Better_PlasmaTrail : Better_ProjectileTrail
 }
 
 //Arachno's plasma ball
-Actor Better_ArachnotronPlasma : ArachnotronPlasma replaces ArachnotronPlasma
+Actor DDS_Better_ArachnotronPlasma : ArachnotronPlasma replaces ArachnotronPlasma
 {
 Damagetype plasma
 decal ArachnotronScorch
@@ -773,7 +492,7 @@ decal ArachnotronScorch
 	{
 	Spawn:
 		APLS AAABBB 2 Bright  {
-        A_SpawnItemEx("Better_ArachnoPlasmaTrail",frandom(-0.5,0.5),frandom(-0.5,0.5),frandom(-0.5,0.5));
+        A_SpawnItemEx("DDS_Better_ArachnoPlasmaTrail",frandom(-0.5,0.5),frandom(-0.5,0.5),frandom(-0.5,0.5));
 		}
 		Loop
 	Death:
@@ -782,7 +501,7 @@ decal ArachnotronScorch
 	}
 }
 
-Actor Better_ArachnoPlasmaTrail : Better_ProjectileTrail
+Actor DDS_Better_ArachnoPlasmaTrail : DDS_Better_ProjectileTrail
 {
 	ALPHA 0.5 //0.6
 	Scale 0.75
@@ -798,7 +517,7 @@ Actor Better_ArachnoPlasmaTrail : Better_ProjectileTrail
 }
 
 //BFG ball
-Actor Better_BFGball : BFGball replaces BFGball
+Actor DDS_Better_BFGball : BFGball replaces BFGball
 {
 Damage 1000
 Damagetype BFG
@@ -807,20 +526,20 @@ decal "BFGLightning"
 	{
 	Spawn:
 		BFS1 AAABBB 2 Bright  {
-        A_SpawnItemEx("Better_BFGTrail",frandom(-0.5,0.5),frandom(-0.5,0.5),frandom(-0.5,0.5));
+        A_SpawnItemEx("DDS_Better_BFGTrail",frandom(-0.5,0.5),frandom(-0.5,0.5),frandom(-0.5,0.5));
 		}
 		Loop
 	Death:
         BFE1 AB 8 Bright
-		TNT1 AAAAAAAAAAAAAAAA 0 A_CustomMissile("Better_BFGTrail2",0,0,random(0,360),2,random(0,360))
-		TNT1 AAAAAAAAAAAAAAAA 0 A_CustomMissile("Better_BFGTrail3",0,0,random(0,360),2,random(0,360))
+		TNT1 AAAAAAAAAAAAAAAA 0 A_CustomMissile("DDS_Better_BFGTrail2",0,0,random(0,360),2,random(0,360))
+		TNT1 AAAAAAAAAAAAAAAA 0 A_CustomMissile("DDS_Better_BFGTrail3",0,0,random(0,360),2,random(0,360))
         BFE1 C 8 Bright A_BFGSpray
         BFE1 DEF 8 Bright
 		Stop
 	}
 }
 
-Actor Better_BFGTrail : Better_ProjectileTrail
+Actor DDS_Better_BFGTrail : DDS_Better_ProjectileTrail
 {
 	ALPHA 0.5 //0.6
 	States
@@ -834,7 +553,7 @@ Actor Better_BFGTrail : Better_ProjectileTrail
 	}
 }
 
-Actor Better_BFGTrail2
+Actor DDS_Better_BFGTrail2
 {
     Radius 1
     Height 1
@@ -856,7 +575,7 @@ Actor Better_BFGTrail2
 	}
 }
 
-Actor Better_BFGTrail3
+Actor DDS_Better_BFGTrail3
 {
     Radius 1
     Height 1
@@ -878,7 +597,7 @@ Actor Better_BFGTrail3
 	}
 }
 
-ACTOR Better_ArchvileFire : Archvilefire Replaces ArchvileFire
+ACTOR DDS_Better_ArchvileFire : Archvilefire Replaces ArchvileFire
 {
 	+NOBLOCKMAP 
 	+NOGRAVITY
@@ -891,54 +610,54 @@ ACTOR Better_ArchvileFire : Archvilefire Replaces ArchvileFire
 		a_spawnparticle(Orange,+SPF_FULLBRIGHT +SPF_RELATIVE,random(28,40),random(3,8),
 		frandom(0,360),random(10,15), 0, 0,random(-3,5), random(-3,5),
 		random(-2,4),0, 0, 0,1.0,-1);
-		A_SpawnItemEx("Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
-		A_SpawnItemEx("Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		FIRE BAB 2 BRIGHT {
 		A_Fire;
 		a_spawnparticle(Orange,+SPF_FULLBRIGHT +SPF_RELATIVE,random(28,40),random(3,8),
 		frandom(0,360),random(10,15), 0, 0,random(-3,5), random(-3,5),
 		random(-2,4),0, 0, 0,1.0,-1);
-		A_SpawnItemEx("Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
-		A_SpawnItemEx("Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		FIRE C 2 BRIGHT {
 		A_Firecrackle;
 		a_spawnparticle(Orange,+SPF_FULLBRIGHT +SPF_RELATIVE,random(28,40),random(3,8),
 		frandom(0,360),random(10,15), 0, 0,random(-3,5), random(-3,5),
 		random(-2,4),0, 0, 0,1.0,-1);
-		A_SpawnItemEx("Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
-		A_SpawnItemEx("Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		FIRE BCBCDCDCDEDED 2 BRIGHT {
 		A_Fire;
 		a_spawnparticle(Orange,+SPF_FULLBRIGHT +SPF_RELATIVE,random(28,40),random(3,8),
 		frandom(0,360),random(10,15), 0, 0,random(-3,5), random(-3,5),
 		random(-2,4),0, 0, 0,1.0,-1);
-		A_SpawnItemEx("Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
-		A_SpawnItemEx("Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		FIRE E 2 BRIGHT {
 		A_FireCrackle;
 		a_spawnparticle(Orange,+SPF_FULLBRIGHT +SPF_RELATIVE,random(28,40),random(3,8),
 		frandom(0,360),random(10,15), 0, 0,random(-3,5), random(-3,5),
 		random(-2,4),0, 0, 0,1.0,-1);
-		A_SpawnItemEx("Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
-		A_SpawnItemEx("Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		FIRE FEFEFGHGHGH 2 BRIGHT {
 		A_Fire;
 		a_spawnparticle(Orange,+SPF_FULLBRIGHT +SPF_RELATIVE,random(28,40),random(3,8),
 		frandom(0,360),random(10,15), 0, 0,random(-3,5), random(-3,5),
 		random(-2,4),0, 0, 0,1.0,-1);
-		A_SpawnItemEx("Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
-		A_SpawnItemEx("Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_LargeFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
+		A_SpawnItemEx("DDS_Better_MediumFireballTrail",Frandom(-1,1),Frandom(-1,1),Frandom(-1,1),frandom(-2,2),frandom(-2,2),frandom(-1,2));
 		}
 		Stop
 	}
 }
 
-ACTOR Better_TeleportFog : TeleportFog Replaces TeleportFog
+ACTOR DDS_Better_TeleportFog : TeleportFog Replaces TeleportFog
 {
 	+NOBLOCKMAP
 	+NOTELEPORT
@@ -974,3 +693,4 @@ ACTOR Better_TeleportFog : TeleportFog Replaces TeleportFog
 		Stop
 	}
 }
+

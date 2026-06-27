@@ -1,10 +1,10 @@
-///////////////////////////////////////////
+﻿///////////////////////////////////////////
 //core
 ///////////////////////////////////////////
 //Core Splash definition for others to inherit from
 
 
-ACTOR NJCoreSplashBase
+ACTOR DDS_NJCoreSplashBase
 {
 	+NOBLOCKMAP
 	+NOCLIP
@@ -20,7 +20,7 @@ ACTOR NJCoreSplashBase
 	Scale 1.15
 }
 
-ACTOR NJCoreSplashSmoke
+ACTOR DDS_NJCoreSplashSmoke
 {
 	+NOBLOCKMAP
 	+NOCLIP
@@ -36,18 +36,18 @@ ACTOR NJCoreSplashSmoke
 ///////////////////////////////////////////
 //Blood
 ///////////////////////////////////////////
-Actor NJBloodChunk : LiquidParticle
+Actor DDS_NJBloodChunk : LiquidParticle
 {
 	TRANSLATION "112:127=184:191"
 }
 
-Actor NJBloodBase : NJCoreSplashBase
+Actor DDS_NJBloodBase : DDS_NJCoreSplashBase
 {
 	TRANSLATION "112:127=184:191"
 	States
 	{
 	Spawn:
-		TNT1 AAAAAAAA 0 A_SpawnItemEx("NJBloodChunk",0.1*random(-12,12),0.1*random(-12,12),7,0.11*random(-22,22),0.11*random(-22,22),random(2,8))
+		TNT1 AAAAAAAA 0 A_SpawnItemEx("DDS_NJBloodChunk",0.1*random(-12,12),0.1*random(-12,12),7,0.11*random(-22,22),0.11*random(-22,22),random(2,8))
 		NWAT EFG 3
 		NWAT H 3 A_SetTranslucent(0.6, 0)
 		NWAT I 4 A_SetTranslucent(0.5, 0)
@@ -61,63 +61,63 @@ Actor NJBloodBase : NJCoreSplashBase
 ///////////////////////////////////////////
 //Lava
 ///////////////////////////////////////////
-ACTOR NJLavaSmoke : FlameSmoke
+ACTOR DDS_NJLavaSmoke : FlameSmoke
 {
 }
 
-Actor NJLavaBase : NJCoreSplashBase
+Actor DDS_NJLavaBase : DDS_NJCoreSplashBase
 {
 	+BRIGHT
 	TRANSLATION "112:127=160:167"
 	States
 	{
 	Spawn:
-		NLAV AB 5 Light("FlameLight") A_SpawnItemEx("LargeFireSpawnerX1")
+		NLAV AB 5 Light("FlameLight")
 		NLAV CDEF 5
 		Stop
 	}
 }
 
 ///////////////////////////////////////////
-//Lava Smoke Only
+//Lava DDS_Smoke Only
 ///////////////////////////////////////////
-ACTOR NJLavaSmokeOnly : FlameSmoke
+ACTOR DDS_NJLavaSmokeOnly : FlameSmoke
 {
 }
 
 ///////////////////////////////////////////
 //Nukage
 ///////////////////////////////////////////
-Actor NJNukageSmoke : BarSmoke
+Actor DDS_NJNukageSmoke : DDS_BarSmoke
 {
 }
 
-Actor NJNukageChunk1 : SlimeParticle
+Actor DDS_NJNukageChunk1 : SlimeParticle
 {
 	+BRIGHT
 	TRANSLATION "112:127=112:122"
 }
-Actor NJNukageChunk2 : SlimeParticle
+Actor DDS_NJNukageChunk2 : SlimeParticle
 {
 	+BRIGHT
 	RenderStyle Add
 	TRANSLATION "112:127=112:122"
 }
 
-ACTOR NJNukageChunk : RandomSpawner
+ACTOR DDS_NJNukageChunk : RandomSpawner
 {
-	dropitem "NJNukageChunk1"
-	dropitem "NJNukageChunk2"
+	dropitem "DDS_NJNukageChunk1"
+	dropitem "DDS_NJNukageChunk2"
 }
 
-Actor NJNukageBase : NJCoreSplashBase
+Actor DDS_NJNukageBase : DDS_NJCoreSplashBase
 {
 	+BRIGHT
 	Translation "112:127=112:125"
 	States
 	{
 	Spawn:
-		TNT1 AAAAAAAA 0 A_SpawnItemEx("NJNukageChunk",0.1*random(-12,12),0.1*random(-12,12),16,0.1*random(-22,22),0.1*random(-22,22),0.1*random(13,84))
+		TNT1 AAAAAAAA 0 A_SpawnItemEx("DDS_NJNukageChunk",0.1*random(-12,12),0.1*random(-12,12),16,0.1*random(-22,22),0.1*random(-22,22),0.1*random(13,84))
 		NWAT EFGH 4
 		NWAT I 4 A_SetTranslucent(0.5, 1)
 		NWAT J 5 A_SetTranslucent(0.4, 1)
@@ -130,18 +130,18 @@ Actor NJNukageBase : NJCoreSplashBase
 ///////////////////////////////////////////
 //Slime - Brown
 ///////////////////////////////////////////
-Actor NJSlimeBrownChunk : SlimeParticle
+Actor DDS_NJSlimeBrownChunk : SlimeParticle
 {
 	TRANSLATION "112:127=[107,71,39]:[23,15,7]"
 }
 
-Actor NJSlimeBrownBase : NJCoreSplashBase
+Actor DDS_NJSlimeBrownBase : DDS_NJCoreSplashBase
 {
 	TRANSLATION "112:127=[107,71,39]:[23,15,7]"
 	States
 	{
 	Spawn:
-		TNT1 AAAAAAAA 0 A_SpawnItemEx("NJSlimeBrownChunk",0.1*random(-12,12),0.1*random(-12,12),16,0.1*random(-22,22),0.1*random(-22,22),0.1*random(11,77))
+		TNT1 AAAAAAAA 0 A_SpawnItemEx("DDS_NJSlimeBrownChunk",0.1*random(-12,12),0.1*random(-12,12),16,0.1*random(-22,22),0.1*random(-22,22),0.1*random(11,77))
 		NSL1 EFG 4
 		NSL1 H 5 A_SetTranslucent(0.6, 0)
 		NSL1 I 5 A_SetTranslucent(0.5, 0)
@@ -154,12 +154,12 @@ Actor NJSlimeBrownBase : NJCoreSplashBase
 ///////////////////////////////////////////
 //Sludge - GreenyBrown
 ///////////////////////////////////////////
-Actor NJSludgeChunk : SlimeParticle
+Actor DDS_NJSludgeChunk : SlimeParticle
 {
 	TRANSLATION "112:123=116:127", "124:127=76:79"
 }
 
-Actor NJSludgeBase : NJCoreSplashBase
+Actor DDS_NJSludgeBase : DDS_NJCoreSplashBase
 {
 	TRANSLATION 	"112:123=116:127", 
 			"124:124=79:79", 
@@ -168,7 +168,7 @@ Actor NJSludgeBase : NJCoreSplashBase
 	States
 	{
 	Spawn:
-		TNT1 AAAAAAAA 0 A_SpawnItemEx("NJSludgeChunk",0.1*random(-12,12),0.1*random(-12,12),16,0.1*random(-22,22),0.1*random(-22,22),0.1*random(11,77))
+		TNT1 AAAAAAAA 0 A_SpawnItemEx("DDS_NJSludgeChunk",0.1*random(-12,12),0.1*random(-12,12),16,0.1*random(-22,22),0.1*random(-22,22),0.1*random(11,77))
 		NSL2 EFGH 4
 		NSL2 I 5 A_SetTranslucent(0.7, 0)
 		NSL2 J 5 A_SetTranslucent(0.5, 0)
@@ -180,20 +180,20 @@ Actor NJSludgeBase : NJCoreSplashBase
 ///////////////////////////////////////////
 //Water Normal
 ///////////////////////////////////////////
-Actor NJWaterSplashChunk : LiquidParticle
+Actor DDS_NJWaterSplashChunk : LiquidParticle
 {
 	Alpha 0.5
 	TRANSLATION "112:127=194:205"
 }
 
-Actor NJWaterSplashBase : NJCoreSplashBase
+Actor DDS_NJWaterSplashBase : DDS_NJCoreSplashBase
 {
 	Alpha 0.5
 	TRANSLATION "112:119=200:207", "120:127=240:247"
 	States
 	{
 	Spawn:
-		TNT1 AAAAAAAAAA 0 A_SpawnItemEx("NJWaterSplashChunk",0.1*random(-12,12),0.1*random(-12,12),7,0.12*random(-22,22),0.12*random(-22,22),random(3,9))
+		TNT1 AAAAAAAAAA 0 A_SpawnItemEx("DDS_NJWaterSplashChunk",0.1*random(-12,12),0.1*random(-12,12),7,0.12*random(-22,22),0.12*random(-22,22),random(3,9))
 		NWAT E 4 
 		SPHG ABC 3
 		SPHG D 3 A_SetTranslucent(0.6, 0)
@@ -202,3 +202,4 @@ Actor NJWaterSplashBase : NJCoreSplashBase
 		Stop
 	}
 }
+

@@ -2981,7 +2981,7 @@ class LavaBloodSplat : SlimeBloodSplat
 //========================================================================
 
 
-Class Smoke : VisualSpecialEffect
+Class DDS_Smoke : VisualSpecialEffect
 {
 	Default
 	{
@@ -3059,7 +3059,7 @@ Class Smoke : VisualSpecialEffect
 }
 
 
-Class SlowSmoke : Smoke
+Class SlowSmoke : DDS_Smoke
 {
 	States
 	{
@@ -3095,7 +3095,7 @@ Class SlowSmoke : Smoke
 }
 
 
-Class FastSmoke : Smoke
+Class FastSmoke : DDS_Smoke
 {
 	States
 	{
@@ -3130,7 +3130,7 @@ Class FastSmoke : Smoke
 	}
 }
 
-Class BigSmoke : Smoke
+Class BigSmoke : DDS_Smoke
 {
 	Default
 	{
@@ -3154,7 +3154,7 @@ Class BigFastSmoke : FastSmoke
 	}
 }
 
-Class SmallSmoke : Smoke
+Class SmallSmoke : DDS_Smoke
 {
 	Default
 	{
@@ -3173,7 +3173,7 @@ Class FlameSmoke : SmallSmoke
 }
 
 
-Class BloodMist : Smoke
+Class BloodMist : DDS_Smoke
 {
 	Default
 	{
@@ -3200,7 +3200,7 @@ Class SmallFastSmoke : FastSmoke
 	}
 }
 
-Class TinySmoke : Smoke
+Class TinySmoke : DDS_Smoke
 {
 	Default
 	{
@@ -3227,7 +3227,7 @@ Class TinyFastSmoke : FastSmoke
 
 
 
-Class StillSmoke : VisualSpecialEffect
+Class DDS_StillSmoke : VisualSpecialEffect
 {
 	Default
 	{

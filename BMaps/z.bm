@@ -32,12 +32,6 @@ brightmap texture COMP2G { map "brightmaps/doom/COMP2G.dds" }
 brightmap texture COMP2H { map "brightmaps/doom/COMP2H.dds" }
 brightmap texture COMPSTA1 { map "brightmaps/doom/COMPSTA1.dds" }
 brightmap texture COMPSTA2 { map "brightmaps/doom/COMPSTA2.dds" }
-brightmap texture COMPST2A { map "brightmaps/doom/COMPST2A.dds" }
-brightmap texture COMPST2B { map "brightmaps/doom/COMPST2B.dds" }
-brightmap texture COMPST2C { map "brightmaps/doom/COMPST2C.dds" }
-brightmap texture COMPST2D { map "brightmaps/doom/COMPST2D.dds" }
-brightmap texture COMPST2E { map "brightmaps/doom/COMPST2E.dds" }
-brightmap texture COMPST2F { map "brightmaps/doom/COMPST2F.dds" }
 brightmap texture COMPUT2A { map "brightmaps/doom/COMPUT2A.dds" }
 brightmap texture COMPUT2B { map "brightmaps/doom/COMPUT2B.dds" }
 brightmap texture COMPUT2C { map "brightmaps/doom/COMPUT2C.dds" }
@@ -45,10 +39,6 @@ brightmap texture COMPUT2D { map "brightmaps/doom/COMPUT2D.dds" }
 brightmap texture COMPUT2E { map "brightmaps/doom/COMPUT2E.dds" }
 brightmap texture COMPUT2F { map "brightmaps/doom/COMPUT2F.dds" }
 brightmap texture COMPUT2G { map "brightmaps/doom/COMPUT2G.dds" }
-brightmap texture COMPUT3A { map "brightmaps/doom/COMPUT3A.dds" }
-brightmap texture COMPUT3B { map "brightmaps/doom/COMPUT3B.dds" }
-brightmap texture COMPUT3C { map "brightmaps/doom/COMPUT3C.dds" }
-brightmap texture COMPUT3D { map "brightmaps/doom/COMPUT3D.dds" }
 brightmap texture COMPWERD { map "brightmaps/doom/COMPWERD.dds" }
 brightmap texture DOORBLU { map "brightmaps/doom/DOORBLU.dds" }
 brightmap texture DOORBLU2 { map "brightmaps/doom/DOORBLU2.dds" }

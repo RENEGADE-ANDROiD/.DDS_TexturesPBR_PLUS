@@ -453,13 +453,13 @@ ao "materials/ao/auto/ao_blank2.dds"
 }
 
 //Weapon projectile lights
-object Better_BulletPuff
+object DDS_Better_BulletPuff
 {
     frame PUFFA { light BPUFF1 }
     frame PUFFB { light BPUFF2 }
 }
 
-object Better_bulletspark
+object DDS_Better_BulletSpark
 {
     frame BMPFA0 { light YELLOWSPARK}
 }
@@ -472,7 +472,7 @@ flickerlight yellowspark
     chance 0.8
 }
 
-object Better_Rocket
+object DDS_Better_Rocket
 {
     frame MISLA { light ROCKET    }
 
@@ -481,7 +481,7 @@ object Better_Rocket
     frame MISLD { light ROCKET_X3 }
 }
 
-object Better_PlasmaBall
+object DDS_Better_PlasmaBall
 {
     frame PLSSA { light PLASMABALL }
     frame PLSSB { light PLASMABALL }
@@ -493,7 +493,7 @@ object Better_PlasmaBall
     frame PLSEE { light PLASMA_X4 }
 }
 
-object Better_BFGBall
+object DDS_Better_BFGBall
 {
     frame BFS1A { light BFGBALL }
     frame BFS1B { light BFGBALL }
@@ -507,7 +507,7 @@ object Better_BFGBall
 }
 
 //Enemies projectiles
-object Better_DoomImpBall
+object DDS_Better_DoomImpBall
 {
     frame BAL1A { light IMPBALL    }
     frame BAL1B { light IMPBALL    }
@@ -517,7 +517,7 @@ object Better_DoomImpBall
     frame BAL1E { light IMPBALL_X3 }
 }
 
-object Better_CacodemonBall
+object DDS_Better_CacodemonBall
 {
     frame BAL2A { light CACOBALL }
     frame BAL2B { light CACOBALL }
@@ -527,7 +527,7 @@ object Better_CacodemonBall
     frame BAL2E { light CACOBALL_X3 }
 }
 
-object Better_BaronBall
+object DDS_Better_BaronBall
 {
     frame BAL7A { light BARONBALL    }
     frame BAL7B { light BARONBALL    }
@@ -537,7 +537,7 @@ object Better_BaronBall
     frame BAL7E { light BARONBALL_X3 }
 }
 
-object Better_FatShot
+object DDS_Better_FatShot
 {
     frame MANFA { light MANCBALL   }
     frame MANFB { light MANCBALL   }
@@ -547,7 +547,7 @@ object Better_FatShot
     frame MISLD { light ROCKET_X3 }
 }
 
-object Better_ArachnotronPlasma
+object DDS_Better_ArachnotronPlasma
 {
     frame APLSA { light ARACHPLAS }
     frame APLSB { light ARACHPLAS }
@@ -559,7 +559,7 @@ object Better_ArachnotronPlasma
     frame APBXE { light ARACHPLAS_X4 }
 }
 
-object Better_RevenantTracer
+object DDS_Better_RevenantTracer
 {
     frame FATBA { light TRACER    }
     frame FATBB { light TRACER    }
@@ -569,7 +569,7 @@ object Better_RevenantTracer
     frame FBXPC { light TRACER_X3 }
 }
 
-object Better_ArchvileFire
+object DDS_Better_ArchvileFire
 {
     frame FIREA { light ARCHFIRE1 }
     frame FIREB { light ARCHFIRE2 }
@@ -617,7 +617,7 @@ flickerlight DTFOG4
 	attenuate 1
 }
 
-object Better_TeleportFog
+object DDS_Better_TeleportFog
 {
     frame TFOGA { light DTFOG1 }
     frame TFOGB { light DTFOG2 }
@@ -2755,14 +2755,6 @@ metallic "materials/metallic/auto/w_step2.dds"
 roughness "materials/roughness/auto/step3.dds"
 ao "materials/ao/auto/w_step2.dds"
 brightmap "materials/Brightmaps/auto/w_step1.dds"
-}
-
-material Texture "w_step2"
-{
-normal "materials/normalmaps/auto/w_step2.dds"
-metallic "materials/metallic/auto/w_step2.dds"
-roughness "materials/roughness/auto/w_step2.dds"
-ao "materials/ao/auto/w_step2.dds"
 }
 
 material Texture "step3"

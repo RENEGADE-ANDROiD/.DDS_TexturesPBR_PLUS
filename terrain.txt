@@ -1,15 +1,15 @@
-///////////////////////////////////////////////////////////////////////////////////
+﻿///////////////////////////////////////////////////////////////////////////////////
 //Red Blood Splash
 ///////////////////////////////////////////////////////////////////////////////////
 
 splash Blood
 {
-	smallclass		NJBloodBase
+	smallclass		DDS_NJBloodBase
 	smallclip		10
 	smallsound		world/sludgegloopsmall
 
-	baseclass		NJBloodBase
-	chunkclass		NJBloodChunk
+	baseclass		DDS_NJBloodBase
+	chunkclass		DDS_NJBloodChunk
 	chunkxvelshift	6
 	chunkyvelshift	6
 	chunkzvelshift	6
@@ -24,12 +24,12 @@ splash Blood
 
 splash Lava
 {
-	smallclass		NJLavaBase
+	smallclass		DDS_NJLavaBase
 	smallclip		12
 	smallsound		world/lavasizzlesmall
 
-	baseclass		NJLavaBase
-	chunkclass		NJLavaSmoke
+	baseclass		DDS_NJLavaBase
+	chunkclass		DDS_NJLavaSmoke
 	chunkxvelshift	-1
 	chunkyvelshift	-1
 	chunkzvelshift	7
@@ -39,17 +39,17 @@ splash Lava
 }
 
 ///////////////////////////////////////////////////////////////////////////////////
-//Lava Smoke Only Splash
+//Lava DDS_Smoke Only Splash
 ///////////////////////////////////////////////////////////////////////////////////
 
 splash LavaSmoke
 {
-	smallclass		NJLavaSmokeOnly
+	smallclass		DDS_NJLavaSmokeOnly
 	smallclip		12
 	smallsound		world/lavsiz2
 
-	baseclass		NJLavaSmokeOnly
-	chunkclass		NJLavaSmokeOnly
+	baseclass		DDS_NJLavaSmokeOnly
+	chunkclass		DDS_NJLavaSmokeOnly
 	chunkxvelshift	-1
 	chunkyvelshift	-1
 	chunkzvelshift	7
@@ -64,12 +64,12 @@ splash LavaSmoke
 
 splash Nuke
 {
-	smallclass		NJNukageBase
+	smallclass		DDS_NJNukageBase
 	smallclip		6
 	smallsound		world/lavasizzlesmall
 
-	baseclass		NJNukageBase
-	chunkclass		NJNukageSmoke
+	baseclass		DDS_NJNukageBase
+	chunkclass		DDS_NJNukageSmoke
 	chunkxvelshift	-1
 	chunkyvelshift	-1
 	chunkzvelshift	7
@@ -84,12 +84,12 @@ splash Nuke
 
 splash SlimeBrown
 {
-	smallclass		NJSlimeBrownBase
+	smallclass		DDS_NJSlimeBrownBase
 	smallclip		6
 	smallsound		world/sludgegloopsmall
 
-	baseclass		NJSlimeBrownBase
-	chunkclass		NJSlimeBrownChunk
+	baseclass		DDS_NJSlimeBrownBase
+	chunkclass		DDS_NJSlimeBrownChunk
 	chunkxvelshift	6
 	chunkyvelshift	6
 	chunkzvelshift	6
@@ -104,12 +104,12 @@ splash SlimeBrown
 
 splash SludgeGreenBrown
 {
-	smallclass		NJSludgeBase
+	smallclass		DDS_NJSludgeBase
 	smallclip		8
 	smallsound		world/sludgegloopsmall
 
-	baseclass		NJSludgeBase
-	chunkclass		NJSludgeChunk
+	baseclass		DDS_NJSludgeBase
+	chunkclass		DDS_NJSludgeChunk
 	chunkxvelshift	5
 	chunkyvelshift	5
 	chunkzvelshift	5
@@ -124,12 +124,12 @@ splash SludgeGreenBrown
 
 splash Water
 {
-	smallclass		NJWaterSplashBase
+	smallclass		DDS_NJWaterSplashBase
 	smallclip		12
 	smallsound		world/watersplashsmall
 
-	baseclass		NJWaterSplashBase
-	chunkclass		NJWaterSplashChunk
+	baseclass		DDS_NJWaterSplashBase
+	chunkclass		DDS_NJWaterSplashChunk
 	chunkxvelshift	8
 	chunkyvelshift	8
 	chunkzvelshift	8
@@ -219,3 +219,4 @@ floor LAVA4 Lava
 floor NUKAGE1 Nuke
 floor NUKAGE2 Nuke
 floor NUKAGE3 Nuke
+

@@ -58,3 +58,32 @@ https://youtu.be/STJPOUyMFAA
 - Ultra Pack
 - *several assets from OTEX texture source with new animations AND Brightmaps*
 
+-----------------
+
+## Technical Overview
+
+This section is for the curious and for contributors. It explains *what the pack is doing under the hood*. For an agent/developer-oriented map of the repo, see [`AGENTS.md`](AGENTS.md).
+
+### What it is
+
+A **visual enhancement resource pack (PK3)** for **GZDoom / UZDoom**. It loads *after* an IWAD (Doom or Doom II) and replaces/augments how the game looks and feels, without changing gameplay, weapons, balance, or maps. The repo root is the PK3 root: each filename becomes a lump (e.g. `zscript.zc` → `ZSCRIPT`, `mapinfo.txt` → `MAPINFO`).
+
+- **Engine:** GZDoom **4.10.0+** (declared in `zscript.zc`); also runs on UZDoom.
+- **IWADs:** Doom and Doom II are the focus. The `filter/doom.id.doom1/` and `filter/doom.id.doom2/` folders hold per-game overrides that the engine only loads when the matching IWAD is in use.
+
+### Mod compatibility (`DDS_` namespace)
+
+Pack-owned actors (CodeFX smoke, Nash splashes, enchanted projectiles, D64 decorations) are prefixed with `DDS_` so they do not collide with other mods in a stacked load order. ZScript base classes are `DDS_Smoke` and `DDS_StillSmoke` in `zscript.zc`. Splash actors are defined once in `DECORATE.Splash` (not duplicated in `decorate.txt`).
+
+### EXTRAS branch
+
+This branch enables the heavier optional subsystems: RealGore ZScript, extra blood, UDV Fog, Rain Remixed, shiny gore materials, hires assets, and related menu CVars in `cvarinfo`. Options are surfaced through the in-game **".DDS Texture Pack EXTRAS"** menu (`MENUDEF.txt`).
+
+### Installing / running
+
+Load it like any GZDoom PK3 — drag the `.pk3` onto the engine executable, or add it to autoload **after** your IWAD:
+
+```powershell
+& "uzdoom.exe" -iwad "DOOM2.WAD" -file "DDS_TexturesPBR_PLUS.pk3"
+```
+
