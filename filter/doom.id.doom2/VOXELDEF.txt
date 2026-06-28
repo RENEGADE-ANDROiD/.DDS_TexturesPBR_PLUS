@@ -5,17 +5,17 @@
 //===========================================================================
 
 // Arch Vile
-vileg = "vileg" {}
+// vileg = "voxels/vileg.kvx" {}
 
 // Mancubus
-fattg = "fattg" {}
+// fattg = "voxels/fattg.kvx" {}
 
 // Pain Elemental
-paina = "paina" {}
+// paina = "voxels/paina.kvx" {}
 
 // Revenant
 
-skela = "skela" {}
+// skela = "voxels/skela.kvx" {}
 
 //===========================================================================
 //
@@ -24,13 +24,13 @@ skela = "skela" {}
 //===========================================================================
 
 // Colon gibs
-pob1a = "pob1a" {}
+// pob1a = "voxels/pob1a.kvx" {}
 
 // Small pool o' blood
 //pob2a = "pob2a" {}
 
 // Hanging with no guts
-hdb1a = "hdb1a" {}
+// hdb1a = "voxels/hdb1a.kvx" {}
 
 // Hanging from bottom with no brain
 //hdb2a = "hdb2a" {}
