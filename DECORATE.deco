@@ -71,7 +71,7 @@ actor 64TechLamp2 : TechLamp2 Replaces TechLamp2
   }
 }
 
-actor BloodyStick : HeadOnAStick 9915
+actor DDS_BloodyStick : HeadOnAStick 9918
 {
   States
   {

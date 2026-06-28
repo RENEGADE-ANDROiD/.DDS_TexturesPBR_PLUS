@@ -1,52 +1,13 @@
 AddOptionMenu "OptionsMenu" {
-	Submenu ".DDS Textures Pack EXTRAS", "texturepackextras"
+	Submenu ".DDS Textures Pack", "texturepackextras"
 }
 AddOptionMenu "OptionsMenuSimple"
 {
-	Submenu ".DDS Pack EXTRAS", "texturepackextras"
+	Submenu ".DDS Textures Pack", "texturepackextras"
 }
-ListMenu "MainMenu"
+AddListMenu "MainMenu" before "OptionsMenu"
 {
-	Font "PBBIG","red","white"
-	IfGame(Doom, Chex)
-	{
-		StaticPatch 80, -10, "M_DOOMPB"
-		Position 85, 66
-	}
-	IfGame(Doom, Strife, Chex)
-	{
-		TextItem "New Game", "n", "PlayerclassMenu"
-		Selector "M_SKULL1", -30, -8
-		ifOption(SwapMenu)
-		{
-			TextItem "Load Game", "l", "LoadGameMenu"
-			TextItem "Save Game", "s", "SaveGameMenu"
-			TextItem "Options", "o", "OptionsMenu"
-			TextItem ".DDS EXTRAS", "p", "texturepackextras"
-		}
-		else
-		{
-			TextItem "Options", "o", "OptionsMenu"
-			TextItem ".DDS Pack", "p", "texturepackextras"
-			TextItem "Load Game", "l", "LoadGameMenu"
-			TextItem "Save Game", "s", "SaveGameMenu"
-		}
-		ifOption(ReadThis)
-		{
-			TextItem "Read This!","r", "ReadThisMenu"
-		}
-		TextItem "Quit Game", "q", "QuitMenu"
-	}
-	
-	IfGame(Heretic, Hexen)
-	{
-		TextItem "$MNU_NEWGAME", "n", "PlayerclassMenu"
-		TextItem "$MNU_OPTIONS", "o", "OptionsMenu"
-		TextItem "$MNU_GAMEFILES", "g", "GameFilesMenu"
-		TextItem "$MNU_INFO", "i", "ReadThisMenu"
-		TextItem "$MNU_QUITGAME", "q", "QuitMenu"
-	}
-	Size Clean
+	TextItem ".DDS Textures", "p", "texturepackextras"
 }
 
 OptionMenu "texturepackextras"
