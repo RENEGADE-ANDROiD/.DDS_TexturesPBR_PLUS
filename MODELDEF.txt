@@ -1,6 +1,6 @@
 Model BloodFog      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodfog.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 15 15 15            // Scale values
@@ -10,7 +10,7 @@ Model BloodFog      // Name of actor in DECORATE
 
 Model CeilDripper      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -21,7 +21,7 @@ Model CeilDripper      // Name of actor in DECORATE
 
 Model CeilDripper      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool2.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -32,7 +32,7 @@ Model CeilDripper      // Name of actor in DECORATE
 
 Model CeilDripper      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool4.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -43,7 +43,7 @@ Model CeilDripper      // Name of actor in DECORATE
 
 Model BloodDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -53,7 +53,7 @@ Model BloodDroplet      // Name of actor in DECORATE
 
 Model BloodDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool2.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -63,7 +63,7 @@ Model BloodDroplet      // Name of actor in DECORATE
 
 Model BloodDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool4.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -74,7 +74,7 @@ Model BloodDroplet      // Name of actor in DECORATE
 
 Model SmallBloodPool      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 14.0 14.0 14.0            // Scale values
@@ -84,7 +84,7 @@ Model SmallBloodPool      // Name of actor in DECORATE
 
 Model CeilingDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -94,7 +94,7 @@ Model CeilingDroplet      // Name of actor in DECORATE
 
 Model CeilingDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool2.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -104,7 +104,7 @@ Model CeilingDroplet      // Name of actor in DECORATE
 
 Model CeilingDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool4.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -115,7 +115,7 @@ Model CeilingDroplet      // Name of actor in DECORATE
 
 Model DecoDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -125,7 +125,7 @@ Model DecoDroplet      // Name of actor in DECORATE
 
 Model DecoDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -135,7 +135,7 @@ Model DecoDroplet      // Name of actor in DECORATE
 
 Model DecoDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool2.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -145,7 +145,7 @@ Model DecoDroplet      // Name of actor in DECORATE
 
 Model DecoDroplet      // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool4.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 1 1 1            // Scale values
@@ -155,7 +155,7 @@ Model DecoDroplet      // Name of actor in DECORATE
 
 Model BloodPool2     // Name of actor in DECORATE
 {
-   Path "models/bloodspot"    // Path to model in PK3
+   Path "Models/BloodSpot"    // Path to model in PK3
    Model 0 "bloodspot.md3"    // Model index, model file
    Skin 0 "bloodpool3.png"     // Model index, texture (can be in any format supported by GZDoom)
    Scale 15 15 15            // Scale values
@@ -165,7 +165,7 @@ Model BloodPool2     // Name of actor in DECORATE
 
 Model FloorSplat
 {
-	Path "models/bloodspot"
+	Path "Models/BloodSpot"
 	Model 0 "bloodspot.md3"
 	Skin 0 "fsplat1.png"
 	Scale 15 15 15
@@ -175,7 +175,7 @@ Model FloorSplat
 
 Model FloorSplat
 {
-	Path "models/bloodspot"
+	Path "Models/BloodSpot"
 	Model 0 "bloodspot.md3"
 	Skin 0 "fsplat2.png"
 	Scale 15 15 15
@@ -185,7 +185,7 @@ Model FloorSplat
 
 Model FloorSplat
 {
-	Path "models/bloodspot"
+	Path "Models/BloodSpot"
 	Model 0 "bloodspot.md3"
 	Skin 0 "fsplat3.png"
 	Scale 15 15 15
@@ -195,7 +195,7 @@ Model FloorSplat
 
 Model FloorSplat
 {
-	Path "models/bloodspot"
+	Path "Models/BloodSpot"
 	Model 0 "bloodspot.md3"
 	Skin 0 "fsplat4.png"
 	Scale 15 15 15
@@ -205,7 +205,7 @@ Model FloorSplat
 
 Model FloorSplat
 {
-	Path "models/bloodspot"
+	Path "Models/BloodSpot"
 	Model 0 "bloodspot.md3"
 	Skin 0 "fsplat5.png"
 	Scale 15 15 15
@@ -215,7 +215,7 @@ Model FloorSplat
 
 Model FloorSplat
 {
-	Path "models/bloodspot"
+	Path "Models/BloodSpot"
 	Model 0 "bloodspot.md3"
 	Skin 0 "fsplat6.png"
 	Scale 15 15 15
@@ -225,7 +225,7 @@ Model FloorSplat
 
 Model FloorSplat
 {
-	Path "models/bloodspot"
+	Path "Models/BloodSpot"
 	Model 0 "bloodspot.md3"
 	Skin 0 "fsplat7.png"
 	Scale 15 15 15
