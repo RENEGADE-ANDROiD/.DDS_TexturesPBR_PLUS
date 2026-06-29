@@ -61,3 +61,36 @@ Material Texture "models/nashgore/BloodSpot/bsplat_small4.png"
 	Glossiness 200
 	SpecularLevel 30
 }
+
+Material Texture "models/nashgore/BloodSpot/bsplat_classic1.png"
+{
+	Normal "materials/nashgore/normalmaps/NashGoreBloodSplat01_n.png"
+	Specular "materials/nashgore/specularmaps/NashGoreBloodSplat01_s.png"
+	Glossiness 200
+	SpecularLevel 30
+}
+
+Material Texture "models/nashgore/BloodSpot/bsplat_classic2.png"
+{
+	Normal "materials/nashgore/normalmaps/NashGoreBloodSplat02_n.png"
+	Specular "materials/nashgore/specularmaps/NashGoreBloodSplat02_s.png"
+	Glossiness 200
+	SpecularLevel 30
+}
+
+Material Texture "models/nashgore/BloodSpot/bsplat_classic3.png"
+{
+	Normal "materials/nashgore/normalmaps/NashGoreBloodSplat03_n.png"
+	Specular "materials/nashgore/specularmaps/NashGoreBloodSplat03_s.png"
+	Glossiness 200
+	SpecularLevel 30
+}
+
+Material Texture "models/nashgore/BloodSpot/bsplat_classic4.png"
+{
+	Normal "materials/nashgore/normalmaps/NashGoreBloodSplat04_n.png"
+	Specular "materials/nashgore/specularmaps/NashGoreBloodSplat04_s.png"
+	Glossiness 200
+	SpecularLevel 30
+}
+

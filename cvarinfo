@@ -35,7 +35,6 @@ server bool blood_chunky = true;
 server bool blood_alwaysgib = false;
 server bool blood_splash = true;
 server bool blood_mist = true;
-server bool nashgore_slaughtermapmode = false;
 
 user int rainactive = 1;
 user int raincolor = 0;

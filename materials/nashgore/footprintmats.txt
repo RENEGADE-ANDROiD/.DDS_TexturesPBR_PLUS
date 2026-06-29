@@ -26,8 +26,8 @@ Material Texture "models/nashgore/Footprint/Footprint02_R.png"
 
 Material Texture "models/nashgore/Footprint/Footprint02_L.png"
 {
-	Normal "materials/nashgore/normalmaps/Footprint01_L_n.png"
-	Specular "materials/nashgore/specularmaps/Footprint01_L_s.png"
+	Normal "materials/nashgore/normalmaps/Footprint02_L_n.png"
+	Specular "materials/nashgore/specularmaps/Footprint02_L_s.png"
 	Glossiness 200
 	SpecularLevel 30
 }
@@ -35,8 +35,8 @@ Material Texture "models/nashgore/Footprint/Footprint02_L.png"
 
 Material Texture "models/nashgore/Footprint/Footprint03_R.png"
 {
-	Normal "materials/nashgore/normalmaps/Footprint01_L_n.png"
-	Specular "materials/nashgore/specularmaps/Footprint01_L_s.png"
+	Normal "materials/nashgore/normalmaps/Footprint03_R_n.png"
+	Specular "materials/nashgore/specularmaps/Footprint03_R_s.png"
 	Glossiness 200
 	SpecularLevel 30
 }

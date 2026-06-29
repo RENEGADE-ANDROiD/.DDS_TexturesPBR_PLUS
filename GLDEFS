@@ -240,13 +240,14 @@ ao "materials/ao/auto/ao_blank2.dds"
 material texture COMPUTE1  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/COMPUTE1.dds"
-	normal MATERIALS/normalmaps/auto/COMPUTE1.dds
+	// Duplicate normal definition disabled; keep the canonical lowercase path below.
+	// normal MATERIALS/normalmaps/auto/COMPUTE1.dds
 	specular MATERIALS/specular/auto/COMPUTE1.dds
 	normal "materials/normalmaps/auto/compute1.dds"
 	metallic "materials/metallic/auto/compute1.dds"
 	roughness "materials/roughness/auto/compute1.dds"
 	ao "materials/ao/auto/ao_blank2.dds"
-	brightmap "materials/Brightmaps/auto/compute1.dds"
+// AUTO-DISABLED missing asset reference: 	brightmap "materials/Brightmaps/auto/compute1.dds"
 	specularlevel 4.5
 	glossiness 35
 }
@@ -680,7 +681,7 @@ normal "materials/normalmaps/auto/doorblu.dds"
 roughness "materials/roughness/auto/doorblu.dds"
 ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
-brightmap "materials/Brightmaps/auto/doorblu.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/doorblu.dds"
 }
 
 material Texture "doorred"
@@ -689,7 +690,7 @@ normal "materials/normalmaps/auto/doorblu.dds"
 roughness "materials/roughness/auto/doorblu.dds"
 ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
-brightmap "materials/Brightmaps/auto/doorred.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/doorred.dds"
 }
 
 material Texture "dooryel"
@@ -698,7 +699,7 @@ normal "materials/normalmaps/auto/doorblu.dds"
 roughness "materials/roughness/auto/doorblu.dds"
 ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
-brightmap "materials/Brightmaps/auto/dooryel.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/dooryel.dds"
 }
 
 material Texture "liteblu1"
@@ -707,7 +708,7 @@ normal "materials/normalmaps/auto/liteblu1.dds"
 roughness "materials/roughness/auto/liteblu1.dds"
 ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/liteblu1.dds"
-brightmap "materials/Brightmaps/auto/liteblu1.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu1.dds"
 }
 
 material Texture "liteblu2"
@@ -716,7 +717,7 @@ normal "materials/normalmaps/auto/liteblu2.dds"
 roughness "materials/roughness/auto/liteblu2.dds"
 ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu2.dds"
-brightmap "materials/Brightmaps/auto/liteblu2.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu2.dds"
 }
 
 material Texture "liteblu4"
@@ -725,7 +726,7 @@ normal "materials/normalmaps/auto/liteblu4.dds"
 roughness "materials/roughness/auto/liteblu4.dds"
 ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu4.dds"
-brightmap "materials/Brightmaps/auto/liteblu4.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu4.dds"
 }
 
 material Texture "liteblu3"
@@ -734,7 +735,7 @@ normal "materials/normalmaps/auto/liteblu3.dds"
 roughness "materials/roughness/auto/liteblu3.dds"
 ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu3.dds"
-brightmap "materials/Brightmaps/auto/liteblu3.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu3.dds"
 }
 
 //DR4 
@@ -754,7 +755,7 @@ material texture "BRNPOIS2"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/BRNPOIS2.dds"
-	specular "materials/specular/auto/BRNPOIS2.dds"
+// AUTO-DISABLED missing asset reference: 	specular "materials/specular/auto/BRNPOIS2.dds"
 	texture displacement "materials/displacement/BRNPOIS2.dds"
 	glossiness 10.0
 	specularlevel 3
@@ -825,7 +826,7 @@ material texture "CEMENT3"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/CEMENT3.dds"
-	specular "materials/specular/auto/CEMENT3.dds"
+// AUTO-DISABLED missing asset reference: 	specular "materials/specular/auto/CEMENT3.dds"
 	texture displacement "materials/displacement/CEMENT3.dds"
 	glossiness 10.0
 	specularlevel 3
@@ -846,7 +847,7 @@ material texture "COMPSPAN"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/COMPSPAN.dds"
-	specular "materials/specular/auto/COMPSPAN.dds"
+// AUTO-DISABLED missing asset reference: 	specular "materials/specular/auto/COMPSPAN.dds"
 	texture displacement "materials/displacement/COMPSPAN.dds"
 	glossiness 10.0
 	specularlevel 3
@@ -1724,7 +1725,7 @@ material texture "flat1"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/flat1.dds"
-	specular "materials/specular/auto/flat1.dds"
+// AUTO-DISABLED missing asset reference: 	specular "materials/specular/auto/flat1.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/flat1.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -1747,7 +1748,7 @@ material texture "flat18"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/flat18.dds"
-	specular "materials/specular/auto/flat18.dds"
+// AUTO-DISABLED missing asset reference: 	specular "materials/specular/auto/flat18.dds"
 	texture displacement "materials/displacement/flat18.dds"
 	glossiness 10.0
 	specularlevel 3
@@ -1761,7 +1762,7 @@ material texture "flat2"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/flat2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-brightmap "materials/Brightmaps/auto/flat2.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/flat2.dds"
 	texture displacement "materials/displacement/flat2.dds"
 	glossiness 10.0
 	specularlevel 3
@@ -1849,7 +1850,7 @@ material texture "floor0_2"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/floor0_2.dds"
-	specular "materials/specular/auto/floor0_2.dds"
+// AUTO-DISABLED missing asset reference: 	specular "materials/specular/auto/floor0_2.dds"
 	texture displacement "materials/displacement/floor0_2.dds"
 	glossiness 10.0
 	specularlevel 3
@@ -1943,7 +1944,7 @@ normal "materials/normalmaps/auto/ceil4_2.dds"
 metallic "materials/metallic/auto/ceil4_2.dds"
 roughness "materials/roughness/auto/ceil4_2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-brightmap "materials/Brightmaps/auto/ceil4_3.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/ceil4_3.dds"
 }
 
 material texture "floor4_5"
@@ -2019,7 +2020,7 @@ material texture "floor5_4"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/floor5_4.dds"
-	specular "materials/specular/auto/floor5_4.dds"
+// AUTO-DISABLED missing asset reference: 	specular "materials/specular/auto/floor5_4.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/floor5_4.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -2119,7 +2120,7 @@ normal "materials/normalmaps/auto/bigdoor2.dds"
 metallic "materials/metallic/auto/bigdoor2.dds"
 roughness "materials/roughness/auto/bigdoor2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-brightmap "materials/Brightmaps/auto/bigdoor2.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/bigdoor2.dds"
 Texture tex_heightmap "materials/heightmaps/bigdoor.dds"
 Define "PBR"
 }
@@ -2214,7 +2215,7 @@ normal "materials/normalmaps/auto/planet1.dds"
 metallic "materials/metallic/auto/planet1.dds"
 roughness "materials/roughness/auto/planet1.dds"
 ao "materials/ao/auto/planet1.dds"
-brightmap "materials/Brightmaps/auto/planet1.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/planet1.dds"
 }
 
 material Texture "startan3"
@@ -2293,7 +2294,7 @@ normal "materials/normalmaps/auto/CONS1_1.dds"
 metallic "materials/metallic/auto/CONS1_1.dds"
 roughness "materials/roughness/auto/CONS1_1.dds"
 ao "materials/ao/auto/CONS1_1.dds"
-brightmap "materials/Brightmaps/auto/CONS1_1.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/CONS1_1.dds"
 }
 
 material Flat "CONS1_5"
@@ -2302,7 +2303,7 @@ normal "materials/normalmaps/auto/CONS1_5.dds"
 metallic "materials/metallic/auto/CONS1_5.dds"
 roughness "materials/roughness/auto/CONS1_5.dds"
 ao "materials/ao/auto/CONS1_1.dds"
-brightmap "materials/Brightmaps/auto/CONS1_5.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/CONS1_5.dds"
 }
 
 material Flat "CONS1_7"
@@ -2311,7 +2312,7 @@ normal "materials/normalmaps/auto/CONS1_7.dds"
 metallic "materials/metallic/auto/CONS1_7.dds"
 roughness "materials/roughness/auto/CONS1_7.dds"
 ao "materials/ao/auto/CONS1_1.dds"
-brightmap "materials/Brightmaps/auto/CONS1_7.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/CONS1_7.dds"
 }
 
 material Flat "flat22"
@@ -2320,7 +2321,7 @@ normal "materials/normalmaps/auto/flat22.dds"
 metallic "materials/metallic/auto/flat22.dds"
 roughness "materials/roughness/auto/flat22.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-brightmap "materials/Brightmaps/auto/flat22.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/flat22.dds"
 }
 
 material Flat "floor4_1"
@@ -2419,9 +2420,9 @@ material Texture "lite3"
 {
 normal "materials/normalmaps/auto/lite3.dds"
 roughness "materials/roughness/auto/lite3.dds"
-ao "materials/ao/auto/brnbigl.dds"
+// AUTO-DISABLED missing asset reference: ao "materials/ao/auto/brnbigl.dds"
 metallic "materials/metallic/auto/lite3.dds"
-brightmap "materials/Brightmaps/auto/lite3.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/lite3.dds"
 }
 
 material Texture "lite4"
@@ -2430,7 +2431,7 @@ normal "materials/normalmaps/auto/lite4.dds"
 roughness "materials/roughness/auto/lite4.dds"
 ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/lite4.dds"
-brightmap "materials/Brightmaps/auto/lite4.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/lite4.dds"
 }
 
 material Texture "lite5"
@@ -2439,7 +2440,7 @@ normal "materials/normalmaps/auto/lite5.dds"
 roughness "materials/roughness/auto/lite5.dds"
 ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/lite5.dds"
-brightmap "materials/Brightmaps/auto/lite5.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/lite5.dds"
 }
 
 material Texture "liteblu1"
@@ -2448,7 +2449,7 @@ normal "materials/normalmaps/auto/liteblu1.dds"
 roughness "materials/roughness/auto/liteblu1.dds"
 ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/liteblu1.dds"
-brightmap "materials/Brightmaps/auto/liteblu1.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu1.dds"
 }
 
 material Texture "liteblu2"
@@ -2457,7 +2458,7 @@ normal "materials/normalmaps/auto/liteblu2.dds"
 roughness "materials/roughness/auto/liteblu2.dds"
 ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu2.dds"
-brightmap "materials/Brightmaps/auto/liteblu2.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu2.dds"
 }
 
 material Texture "liteblu4"
@@ -2466,7 +2467,7 @@ normal "materials/normalmaps/auto/liteblu4.dds"
 roughness "materials/roughness/auto/liteblu4.dds"
 ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu4.dds"
-brightmap "materials/Brightmaps/auto/liteblu4.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu4.dds"
 }
 
 material Texture "liteblu3"
@@ -2475,7 +2476,7 @@ normal "materials/normalmaps/auto/liteblu3.dds"
 roughness "materials/roughness/auto/liteblu3.dds"
 ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu3.dds"
-brightmap "materials/Brightmaps/auto/liteblu3.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu3.dds"
 }
 
 material Texture "bigdoor1"
@@ -2564,7 +2565,7 @@ normal "materials/normalmaps/auto/sw1stone.dds"
 roughness "materials/roughness/auto/sw1stone.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1stone.dds"
-brightmap "materials/Brightmaps/auto/sw1stone.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1stone.dds"
 }
 
 material Texture "sw2stone"
@@ -2573,7 +2574,7 @@ normal "materials/normalmaps/auto/sw2stone.dds"
 roughness "materials/roughness/auto/sw2stone.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw2stone.dds"
-brightmap "materials/Brightmaps/auto/sw2stone.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw2stone.dds"
 }
 
 material Texture "sw1dirt"
@@ -2582,7 +2583,7 @@ normal "materials/normalmaps/auto/sw1dirt.dds"
 roughness "materials/roughness/auto/sw1dirt.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1dirt.dds"
-brightmap "materials/Brightmaps/auto/sw1dirt.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1dirt.dds"
 }
 
 material Texture "sw2dirt"
@@ -2591,7 +2592,7 @@ normal "materials/normalmaps/auto/sw2dirt.dds"
 roughness "materials/roughness/auto/sw2dirt.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw2dirt.dds"
-brightmap "materials/Brightmaps/auto/sw2dirt.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw2dirt.dds"
 }
 
 material Texture "sw1comm"
@@ -2600,7 +2601,7 @@ normal "materials/normalmaps/auto/sw1comm.dds"
 roughness "materials/roughness/auto/sw1comm.dds"
 ao "materials/ao/auto/sw2comm.dds"
 metallic "materials/metallic/auto/sw1comm.dds"
-brightmap "materials/Brightmaps/auto/sw1comm.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1comm.dds"
 }
 
 material Texture "sw2comm"
@@ -2609,7 +2610,7 @@ normal "materials/normalmaps/auto/sw2comm.dds"
 roughness "materials/roughness/auto/sw2comm.dds"
 ao "materials/ao/auto/sw2comm.dds"
 metallic "materials/metallic/auto/sw2comm.dds"
-brightmap "materials/Brightmaps/auto/sw2comm.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw2comm.dds"
 }
 
 material Texture "sw1ston2"
@@ -2618,7 +2619,7 @@ normal "materials/normalmaps/auto/sw1ston2.dds"
 roughness "materials/roughness/auto/sw1ston2.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1slad.dds"
-brightmap "materials/Brightmaps/auto/sw1slad.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1slad.dds"
 }
 
 material Texture "sw2ston2"
@@ -2627,7 +2628,7 @@ normal "materials/normalmaps/auto/sw2ston2.dds"
 roughness "materials/roughness/auto/sw2ston2.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1slad.dds"
-brightmap "materials/Brightmaps/auto/sw1slad.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1slad.dds"
 }
 
 material Texture "sw1brcom"
@@ -2637,7 +2638,7 @@ normal "materials/normalmaps/auto/sw1brcom.dds"
 roughness "materials/roughness/auto/sw1brcom.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/sw1brcom.dds"
-brightmap "materials/Brightmaps/auto/sw1brcom.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1brcom.dds"
 Texture tex_heightmap "materials/heightmaps/sw1brcom.dds"
 }
 
@@ -2648,7 +2649,7 @@ normal "materials/normalmaps/auto/sw2brcom.dds"
 roughness "materials/roughness/auto/sw2brcom.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/sw2brcom.dds"
-brightmap "materials/Brightmaps/auto/sw2brcom.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw2brcom.dds"
 Texture tex_heightmap "materials/heightmaps/sw2brcom.dds"
 }
 
@@ -2658,7 +2659,7 @@ normal "materials/normalmaps/auto/sw1slad.dds"
 roughness "materials/roughness/auto/sw1slad.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1slad.dds"
-brightmap "materials/Brightmaps/auto/sw1slad.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1slad.dds"
 }
 
 material Texture "sw2slad"
@@ -2667,7 +2668,7 @@ normal "materials/normalmaps/auto/sw2slad.dds"
 roughness "materials/roughness/auto/sw2slad.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw2slad.dds"
-brightmap "materials/Brightmaps/auto/sw2slad.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw2slad.dds"
 }
 
 material Texture "compsta2"
@@ -2676,7 +2677,7 @@ normal "materials/normalmaps/auto/compsta2.dds"
 roughness "materials/roughness/auto/compsta2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/compsta2.dds"
-brightmap "materials/Brightmaps/auto/compsta2.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/compsta2.dds"
 }
 
 material Texture "compsta1"
@@ -2685,7 +2686,7 @@ normal "materials/normalmaps/auto/compsta2.dds"
 roughness "materials/roughness/auto/compsta2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/compsta2.dds"
-brightmap "materials/Brightmaps/auto/compsta1.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/compsta1.dds"
 }
 
 material Flat "ceil3_1"
@@ -2751,18 +2752,18 @@ ao "materials/ao/auto/ao_blank.dds"
 material Texture "w_step1"
 {
 normal "materials/normalmaps/auto/step3.dds"
-metallic "materials/metallic/auto/w_step2.dds"
+// AUTO-DISABLED missing asset reference: metallic "materials/metallic/auto/w_step2.dds"
 roughness "materials/roughness/auto/step3.dds"
-ao "materials/ao/auto/w_step2.dds"
-brightmap "materials/Brightmaps/auto/w_step1.dds"
+// AUTO-DISABLED missing asset reference: ao "materials/ao/auto/w_step2.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/w_step1.dds"
 }
 
 material Texture "step3"
 {
 normal "materials/normalmaps/auto/step3.dds"
-metallic "materials/metallic/auto/w_step2.dds"
+// AUTO-DISABLED missing asset reference: metallic "materials/metallic/auto/w_step2.dds"
 roughness "materials/roughness/auto/step3.dds"
-ao "materials/ao/auto/w_step2.dds"
+// AUTO-DISABLED missing asset reference: ao "materials/ao/auto/w_step2.dds"
 }
 
 material Texture "step4"
@@ -2839,7 +2840,7 @@ normal "materials/normalmaps/auto/doorblu.dds"
 roughness "materials/roughness/auto/doorblu.dds"
 ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
-brightmap "materials/Brightmaps/auto/doorblu.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/doorblu.dds"
 }
 
 material Texture "doorred"
@@ -2848,7 +2849,7 @@ normal "materials/normalmaps/auto/doorblu.dds"
 roughness "materials/roughness/auto/doorblu.dds"
 ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
-brightmap "materials/Brightmaps/auto/doorred.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/doorred.dds"
 }
 
 material Texture "dooryel"
@@ -2857,7 +2858,7 @@ normal "materials/normalmaps/auto/doorblu.dds"
 roughness "materials/roughness/auto/doorblu.dds"
 ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
-brightmap "materials/Brightmaps/auto/dooryel.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/dooryel.dds"
 }
 
 material Flat "tlite6_5"
@@ -2866,7 +2867,7 @@ normal "materials/normalmaps/auto/tlite6_5.dds"
 roughness "materials/roughness/auto/tlite6_5.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/tlite6_6.dds"
-brightmap "materials/Brightmaps/auto/tlite6_5.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/tlite6_5.dds"
 }
 
 material Flat "tlite6_6"
@@ -2875,7 +2876,7 @@ normal "materials/normalmaps/auto/tlite6_6.dds"
 roughness "materials/roughness/auto/tlite6_6.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/tlite6_6.dds"
-brightmap "materials/Brightmaps/auto/tlite6_6.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/tlite6_6.dds"
 }
 
 material Flat "tlite6_4"
@@ -2883,7 +2884,7 @@ material Flat "tlite6_4"
 normal "materials/normalmaps/auto/tlite6_4.dds"
 roughness "materials/roughness/auto/tlite6_4.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-brightmap "materials/Brightmaps/auto/tlite6_4.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/tlite6_4.dds"
 }
 
 material Flat "tlite6_1"
@@ -2891,7 +2892,7 @@ material Flat "tlite6_1"
 normal "materials/normalmaps/auto/tlite6_1.dds"
 roughness "materials/roughness/auto/tlite6_1.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-brightmap "materials/Brightmaps/auto/tlite6_4.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/tlite6_4.dds"
 }
 
 material Flat "floor7_1"
@@ -2916,7 +2917,7 @@ normal "materials/normalmaps/auto/exitsign.dds"
 roughness "materials/roughness/auto/exitsign.dds"
 ao "materials/ao/auto/exitsign.dds"
 metallic "materials/metallic/auto/exitsign.dds"
-brightmap "materials/Brightmaps/auto/exitsign.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/exitsign.dds"
 }
 
 material Flat "ceil5_2"
@@ -2949,23 +2950,23 @@ normal "materials/normalmaps/auto/sw1comp.dds"
 roughness "materials/roughness/auto/sw1comp.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1comp.dds"
-brightmap "materials/Brightmaps/auto/sw1comp.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1comp.dds"
 }
 
 material Flat "F_STEP1"
 {
-normal "materials/normalmaps/auto/F_STEP1.dds"
-roughness "materials/roughness/auto/F_STEP1.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/F_STEP1.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/F_STEP1.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-metallic "materials/metallic/auto/F_STEP1.dds"
+// AUTO-DISABLED missing asset reference: metallic "materials/metallic/auto/F_STEP1.dds"
 }
 
 material Flat "F_STEP2"
 {
-normal "materials/normalmaps/auto/F_STEP2.dds"
-roughness "materials/roughness/auto/F_STEP2.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/F_STEP2.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/F_STEP2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-metallic "materials/metallic/auto/F_STEP2.dds"
+// AUTO-DISABLED missing asset reference: metallic "materials/metallic/auto/F_STEP2.dds"
 }
 
 material Texture "sw2comp"
@@ -2974,7 +2975,7 @@ normal "materials/normalmaps/auto/sw1comp.dds"
 roughness "materials/roughness/auto/sw1comp.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1comp.dds"
-brightmap "materials/Brightmaps/auto/sw2comp.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw2comp.dds"
 }
 
 material Texture "sw1strtn"
@@ -2983,7 +2984,7 @@ normal "materials/normalmaps/auto/sw1strtn.dds"
 roughness "materials/roughness/auto/sw1strtn.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1strtn.dds"
-brightmap "materials/Brightmaps/auto/sw1strtn.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1strtn.dds"
 }
 
 material Texture "sw2strtn"
@@ -2992,7 +2993,7 @@ normal "materials/normalmaps/auto/sw2strtn.dds"
 roughness "materials/roughness/auto/sw2strtn.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw2strtn.dds"
-brightmap "materials/Brightmaps/auto/sw2strtn.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw2strtn.dds"
 }
 
 material Texture "sw1ston1"
@@ -3001,7 +3002,7 @@ normal "materials/normalmaps/auto/sw1ston1.dds"
 roughness "materials/roughness/auto/sw1ston1.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw1ston1.dds"
-brightmap "materials/Brightmaps/auto/sw1ston1.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw1ston1.dds"
 }
 
 material Texture "sw2ston1"
@@ -3010,7 +3011,7 @@ normal "materials/normalmaps/auto/sw2ston1.dds"
 roughness "materials/roughness/auto/sw2ston1.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/sw2ston1.dds"
-brightmap "materials/Brightmaps/auto/sw2ston1.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/sw2ston1.dds"
 }
 
 material Texture "stone2"
@@ -3032,49 +3033,49 @@ metallic "materials/metallic/auto/brown1.dds"
 
 material Texture "brnsmalc"
 {
-normal "materials/normalmaps/auto/brnsmalc.dds"
-roughness "materials/roughness/auto/brnsmalc.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/brnsmalc.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/brnsmalc.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/brnsmalc.dds"
 }
 
 material Texture "brnsmall"
 {
-normal "materials/normalmaps/auto/brnsmall.dds"
-roughness "materials/roughness/auto/brnsmall.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/brnsmall.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/brnsmall.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/brnsmall.dds"
 }
 
 material Texture "brnsmalr"
 {
-normal "materials/normalmaps/auto/brnsmalr.dds"
-roughness "materials/roughness/auto/brnsmalr.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/brnsmalr.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/brnsmalr.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/brnsmalr.dds"
 }
 
 material Texture "brnbigc"
 {
-normal "materials/normalmaps/auto/brnbigc.dds"
-roughness "materials/roughness/auto/brnbigc.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/brnbigc.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/brnbigc.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/brnbigc.dds"
 }
 
 material Texture "brnbigl"
 {
-normal "materials/normalmaps/auto/brnbigl.dds"
-roughness "materials/roughness/auto/brnbigl.dds"
-ao "materials/ao/auto/brnbigl.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/brnbigl.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/brnbigl.dds"
+// AUTO-DISABLED missing asset reference: ao "materials/ao/auto/brnbigl.dds"
 metallic "materials/metallic/auto/brnbigl.dds"
 }
 
 material Texture "brnbigr"
 {
-normal "materials/normalmaps/auto/brnbigr.dds"
-roughness "materials/roughness/auto/brnbigr.dds"
-ao "materials/ao/auto/brnbigl.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/brnbigr.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/brnbigr.dds"
+// AUTO-DISABLED missing asset reference: ao "materials/ao/auto/brnbigl.dds"
 metallic "materials/metallic/auto/brnbigr.dds"
 }
 
@@ -3084,7 +3085,7 @@ normal "materials/normalmaps/auto/comptall.dds"
 roughness "materials/roughness/auto/comptall.dds"
 ao "materials/ao/auto/ao_blank3.dds"
 metallic "materials/metallic/auto/comptall.dds"
-brightmap "materials/Brightmaps/auto/comptall.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/comptall.dds"
 }
 
 material Texture "flat18"
@@ -3156,7 +3157,7 @@ material Texture "compute2"
 normal "materials/normalmaps/auto/compute2.dds"
 roughness "materials/roughness/auto/compute2.dds"
 ao "materials/ao/auto/compute2.dds"
-brightmap "materials/Brightmaps/auto/compute2.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/compute2.dds"
 metallic "materials/metallic/auto/compute2.dds"
 }
 
@@ -3165,7 +3166,7 @@ material Texture "compute3"
 normal "materials/normalmaps/auto/compute3.dds"
 roughness "materials/roughness/auto/compute3.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-brightmap "materials/Brightmaps/auto/compute3.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/compute3.dds"
 metallic "materials/metallic/auto/startan3.dds"
 }
 
@@ -3237,7 +3238,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 material Texture "flat14"
 {
 normal "materials/normalmaps/auto/flat14.dds"
-metallic "materials/metallic/flat14.dds"
+// AUTO-DISABLED missing asset reference: metallic "materials/metallic/flat14.dds"
 roughness "materials/roughness/auto/flat14.dds"
 ao "materials/ao/auto/flat14.dds"
 }
@@ -3277,7 +3278,7 @@ normal "materials/normalmaps/auto/bigdoor2.dds"
 metallic "materials/metallic/auto/bigdoor2.dds"
 roughness "materials/roughness/auto/bigdoor2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-brightmap "materials/Brightmaps/auto/bigdoor2.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/bigdoor2.dds"
 Texture tex_heightmap "materials/heightmaps/bigdoor.dds"
 Define "PBR"
 }
@@ -3372,7 +3373,7 @@ normal "materials/normalmaps/auto/planet1.dds"
 metallic "materials/metallic/auto/planet1.dds"
 roughness "materials/roughness/auto/planet1.dds"
 ao "materials/ao/auto/planet1.dds"
-brightmap "materials/Brightmaps/auto/planet1.dds"
+// AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/planet1.dds"
 }
 
 material Texture "startan3"
@@ -3411,23 +3412,23 @@ ao "materials/ao/auto/floor4_8.dds"
 material Texture "comptile"
 {
 normal "materials/normalmaps/auto/comptile.dds"
-specular "materials/specular/comptile.dds"
+// AUTO-DISABLED missing asset reference: specular "materials/specular/comptile.dds"
 specularlevel 3
 glossiness 10
 }
 
 material Texture "door3"
 {
-normal "materials/normalmaps/auto/door3_n.dds"
-metallic "materials/metallic/auto/door3_m.dds"
-roughness "materials/roughness/auto/door3_r.dds"
+// AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/door3_n.dds"
+// AUTO-DISABLED missing asset reference: metallic "materials/metallic/auto/door3_m.dds"
+// AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/door3_r.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 }
 
 material Texture "tekwall1"
 {
 normal "materials/normalmaps/auto/tekwall1.dds"
-specular "materials/specular/tekwall1.dds"
+// AUTO-DISABLED missing asset reference: specular "materials/specular/tekwall1.dds"
 specularlevel 3
 glossiness 10
 }
@@ -3438,8 +3439,8 @@ glossiness 10
 
 material texture SW0000 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0000.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0000.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3447,8 +3448,8 @@ material texture SW0000 //original texture
 
 material texture SW0001 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0001.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0001.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3456,8 +3457,8 @@ material texture SW0001 //original texture
 
 material texture SW0002 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0002.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0002.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3465,8 +3466,8 @@ material texture SW0002 //original texture
 
 material texture SW0003 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0003.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0003.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3474,8 +3475,8 @@ material texture SW0003 //original texture
 
 material texture SW0004 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0004.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0004.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3483,8 +3484,8 @@ material texture SW0004 //original texture
 
 material texture SW0005 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0005.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0005.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3492,8 +3493,8 @@ material texture SW0005 //original texture
 
 material texture SW0006 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0006.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0006.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3501,8 +3502,8 @@ material texture SW0006 //original texture
 
 material texture SW0007 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0007.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0007.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3510,8 +3511,8 @@ material texture SW0007 //original texture
 
 material texture SW0008 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0008.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0008.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3519,8 +3520,8 @@ material texture SW0008 //original texture
 
 material texture SW0009 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0009.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0009.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3528,8 +3529,8 @@ material texture SW0009 //original texture
 
 material texture SW0010 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0010.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0010.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3537,8 +3538,8 @@ material texture SW0010 //original texture
 
 material texture SW0011 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0011.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0011.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3546,8 +3547,8 @@ material texture SW0011 //original texture
 
 material texture SW0012 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0012.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0012.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3555,8 +3556,8 @@ material texture SW0012 //original texture
 
 material texture SW0013 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0013.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0013.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3564,8 +3565,8 @@ material texture SW0013 //original texture
 
 material texture SW0014 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0014.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0014.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3573,8 +3574,8 @@ material texture SW0014 //original texture
 
 material texture SW0015 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0015.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0015.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3582,8 +3583,8 @@ material texture SW0015 //original texture
 
 material texture SW0016 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0016.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0016.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3591,8 +3592,8 @@ material texture SW0016 //original texture
 
 material texture SW0017 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0017.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0017.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3600,8 +3601,8 @@ material texture SW0017 //original texture
 
 material texture SW0018 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0018.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0018.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3609,8 +3610,8 @@ material texture SW0018 //original texture
 
 material texture SW0019 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0019.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0019.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3618,8 +3619,8 @@ material texture SW0019 //original texture
 
 material texture SW0020 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0020.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0020.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3627,8 +3628,8 @@ material texture SW0020 //original texture
 
 material texture SW0021 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0021.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0021.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3636,8 +3637,8 @@ material texture SW0021 //original texture
 
 material texture SW0022 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0022.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0022.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3645,8 +3646,8 @@ material texture SW0022 //original texture
 
 material texture SW0023 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0023.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0023.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3654,8 +3655,8 @@ material texture SW0023 //original texture
 
 material texture SW0024 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0024.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0024.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3663,8 +3664,8 @@ material texture SW0024 //original texture
 
 material texture SW0025 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0025.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0025.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3672,8 +3673,8 @@ material texture SW0025 //original texture
 
 material texture SW0026 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0026.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0026.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3681,8 +3682,8 @@ material texture SW0026 //original texture
 
 material texture SW0027 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0027.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0027.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3690,8 +3691,8 @@ material texture SW0027 //original texture
 
 material texture SW0028 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0028.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0028.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3699,8 +3700,8 @@ material texture SW0028 //original texture
 
 material texture SW0029 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0029.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0029.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3708,8 +3709,8 @@ material texture SW0029 //original texture
 
 material texture SW0030 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0030.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0030.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3717,8 +3718,8 @@ material texture SW0030 //original texture
 
 material texture SW0031 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0031.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0031.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSW.dds"
@@ -3730,8 +3731,8 @@ material texture SW0031 //original texture
 
 material texture WF0000 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0000.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0000.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3739,8 +3740,8 @@ material texture WF0000 //original texture
 
 material texture WF0001 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0001.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0001.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3748,8 +3749,8 @@ material texture WF0001 //original texture
 
 material texture WF0002 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0002.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0002.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3757,8 +3758,8 @@ material texture WF0002 //original texture
 
 material texture WF0003 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0003.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0003.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3766,8 +3767,8 @@ material texture WF0003 //original texture
 
 material texture WF0004 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0004.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0004.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3775,8 +3776,8 @@ material texture WF0004 //original texture
 
 material texture WF0005 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0005.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0005.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3784,8 +3785,8 @@ material texture WF0005 //original texture
 
 material texture WF0006 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0006.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0006.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3793,8 +3794,8 @@ material texture WF0006 //original texture
 
 material texture WF0007 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0007.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0007.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3802,8 +3803,8 @@ material texture WF0007 //original texture
 
 material texture WF0008 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0008.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0008.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3811,8 +3812,8 @@ material texture WF0008 //original texture
 
 material texture WF0009 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0009.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0009.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3820,8 +3821,8 @@ material texture WF0009 //original texture
 
 material texture WF0010 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0010.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0010.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3829,8 +3830,8 @@ material texture WF0010 //original texture
 
 material texture WF0011 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0011.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0011.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3838,8 +3839,8 @@ material texture WF0011 //original texture
 
 material texture WF0012 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0012.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0012.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3847,8 +3848,8 @@ material texture WF0012 //original texture
 
 material texture WF0013 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0013.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0013.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3856,8 +3857,8 @@ material texture WF0013 //original texture
 
 material texture WF0014 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0014.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0014.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3865,8 +3866,8 @@ material texture WF0014 //original texture
 
 material texture WF0015 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0015.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0015.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3874,8 +3875,8 @@ material texture WF0015 //original texture
 
 material texture WF0016 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0016.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0016.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3883,8 +3884,8 @@ material texture WF0016 //original texture
 
 material texture WF0017 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0017.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0017.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3892,8 +3893,8 @@ material texture WF0017 //original texture
 
 material texture WF0018 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0018.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0018.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3901,8 +3902,8 @@ material texture WF0018 //original texture
 
 material texture WF0019 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0019.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0019.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3910,8 +3911,8 @@ material texture WF0019 //original texture
 
 material texture WF0020 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0020.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0020.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3919,8 +3920,8 @@ material texture WF0020 //original texture
 
 material texture WF0021 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0021.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0021.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3928,8 +3929,8 @@ material texture WF0021 //original texture
 
 material texture WF0022 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0022.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0022.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3937,8 +3938,8 @@ material texture WF0022 //original texture
 
 material texture WF0023 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0023.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0023.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3946,8 +3947,8 @@ material texture WF0023 //original texture
 
 material texture WF0024 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0024.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0024.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3955,8 +3956,8 @@ material texture WF0024 //original texture
 
 material texture WF0025 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0025.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0025.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3964,8 +3965,8 @@ material texture WF0025 //original texture
 
 material texture WF0026 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0026.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0026.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3973,8 +3974,8 @@ material texture WF0026 //original texture
 
 material texture WF0027 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0027.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0027.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3982,8 +3983,8 @@ material texture WF0027 //original texture
 
 material texture WF0028 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0028.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0028.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -3991,8 +3992,8 @@ material texture WF0028 //original texture
 
 material texture WF0029 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0029.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0029.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -4000,8 +4001,8 @@ material texture WF0029 //original texture
 
 material texture WF0030 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0030.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0030.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -4009,8 +4010,8 @@ material texture WF0030 //original texture
 
 material texture WF0031 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0031.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0031.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMWF.dds"
@@ -4025,8 +4026,8 @@ material texture WF0031 //original texture
 
 material texture SN0000 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0000.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0000.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4034,8 +4035,8 @@ material texture SN0000 //original texture
 
 material texture SN0001 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0001.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0001.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4043,8 +4044,8 @@ material texture SN0001 //original texture
 
 material texture SN0002 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0002.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0002.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4052,8 +4053,8 @@ material texture SN0002 //original texture
 
 material texture SN0003 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0003.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0003.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4061,8 +4062,8 @@ material texture SN0003 //original texture
 
 material texture SN0004 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0004.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0004.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4070,8 +4071,8 @@ material texture SN0004 //original texture
 
 material texture SN0005 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0005.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0005.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4079,8 +4080,8 @@ material texture SN0005 //original texture
 
 material texture SN0006 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0006.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0006.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4088,8 +4089,8 @@ material texture SN0006 //original texture
 
 material texture SN0007 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0007.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0007.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4097,8 +4098,8 @@ material texture SN0007 //original texture
 
 material texture SN0008 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0008.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0008.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4106,8 +4107,8 @@ material texture SN0008 //original texture
 
 material texture SN0009 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0009.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0009.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4115,8 +4116,8 @@ material texture SN0009 //original texture
 
 material texture SN0010 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0010.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0010.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4124,8 +4125,8 @@ material texture SN0010 //original texture
 
 material texture SN0011 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0011.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0011.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4133,8 +4134,8 @@ material texture SN0011 //original texture
 
 material texture SN0012 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0012.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0012.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4142,8 +4143,8 @@ material texture SN0012 //original texture
 
 material texture SN0013 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0013.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0013.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4151,8 +4152,8 @@ material texture SN0013 //original texture
 
 material texture SN0014 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0014.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0014.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4160,8 +4161,8 @@ material texture SN0014 //original texture
 
 material texture SN0015 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0015.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0015.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4169,8 +4170,8 @@ material texture SN0015 //original texture
 
 material texture SN0016 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0016.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0016.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4178,8 +4179,8 @@ material texture SN0016 //original texture
 
 material texture SN0017 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0017.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0017.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4187,8 +4188,8 @@ material texture SN0017 //original texture
 
 material texture SN0018 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0018.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0018.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4196,8 +4197,8 @@ material texture SN0018 //original texture
 
 material texture SN0019 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0019.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0019.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4205,8 +4206,8 @@ material texture SN0019 //original texture
 
 material texture SN0020 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0020.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0020.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4214,8 +4215,8 @@ material texture SN0020 //original texture
 
 material texture SN0021 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0021.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0021.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4223,8 +4224,8 @@ material texture SN0021 //original texture
 
 material texture SN0022 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0022.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0022.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4232,8 +4233,8 @@ material texture SN0022 //original texture
 
 material texture SN0023 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0023.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0023.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4241,8 +4242,8 @@ material texture SN0023 //original texture
 
 material texture SN0024 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0024.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0024.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4250,8 +4251,8 @@ material texture SN0024 //original texture
 
 material texture SN0025 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0025.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0025.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4259,8 +4260,8 @@ material texture SN0025 //original texture
 
 material texture SN0026 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0026.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0026.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4268,8 +4269,8 @@ material texture SN0026 //original texture
 
 material texture SN0027 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0027.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0027.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4277,8 +4278,8 @@ material texture SN0027 //original texture
 
 material texture SN0028 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0028.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0028.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4286,8 +4287,8 @@ material texture SN0028 //original texture
 
 material texture SN0029 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0029.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0029.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4295,8 +4296,8 @@ material texture SN0029 //original texture
 
 material texture SN0030 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0030.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0030.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4304,8 +4305,8 @@ material texture SN0030 //original texture
 
 material texture SN0031 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0031.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0031.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSN.dds"
@@ -4317,8 +4318,8 @@ material texture SN0031 //original texture
 
 material texture NF0000 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0000.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0000.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4326,8 +4327,8 @@ material texture NF0000 //original texture
 
 material texture NF0001 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0001.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0001.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4335,8 +4336,8 @@ material texture NF0001 //original texture
 
 material texture NF0002 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0002.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0002.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4344,8 +4345,8 @@ material texture NF0002 //original texture
 
 material texture NF0003 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0003.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0003.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4353,8 +4354,8 @@ material texture NF0003 //original texture
 
 material texture NF0004 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0004.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0004.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4362,8 +4363,8 @@ material texture NF0004 //original texture
 
 material texture NF0005 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0005.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0005.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4371,8 +4372,8 @@ material texture NF0005 //original texture
 
 material texture NF0006 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0006.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0006.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4380,8 +4381,8 @@ material texture NF0006 //original texture
 
 material texture NF0007 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0007.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0007.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4389,8 +4390,8 @@ material texture NF0007 //original texture
 
 material texture NF0008 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0008.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0008.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4398,8 +4399,8 @@ material texture NF0008 //original texture
 
 material texture NF0009 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0009.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0009.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4407,8 +4408,8 @@ material texture NF0009 //original texture
 
 material texture NF0010 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0010.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0010.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4416,8 +4417,8 @@ material texture NF0010 //original texture
 
 material texture NF0011 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0011.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0011.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4425,8 +4426,8 @@ material texture NF0011 //original texture
 
 material texture NF0012 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0012.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0012.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4434,8 +4435,8 @@ material texture NF0012 //original texture
 
 material texture NF0013 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0013.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0013.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4443,8 +4444,8 @@ material texture NF0013 //original texture
 
 material texture NF0014 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0014.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0014.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4452,8 +4453,8 @@ material texture NF0014 //original texture
 
 material texture NF0015 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0015.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0015.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4461,8 +4462,8 @@ material texture NF0015 //original texture
 
 material texture NF0016 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0016.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0016.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4470,8 +4471,8 @@ material texture NF0016 //original texture
 
 material texture NF0017 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0017.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0017.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4479,8 +4480,8 @@ material texture NF0017 //original texture
 
 material texture NF0018 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0018.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0018.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4488,8 +4489,8 @@ material texture NF0018 //original texture
 
 material texture NF0019 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0019.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0019.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4497,8 +4498,8 @@ material texture NF0019 //original texture
 
 material texture NF0020 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0020.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0020.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4506,8 +4507,8 @@ material texture NF0020 //original texture
 
 material texture NF0021 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0021.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0021.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4515,8 +4516,8 @@ material texture NF0021 //original texture
 
 material texture NF0022 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0022.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0022.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4524,8 +4525,8 @@ material texture NF0022 //original texture
 
 material texture NF0023 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0023.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0023.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4533,8 +4534,8 @@ material texture NF0023 //original texture
 
 material texture NF0024 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0024.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0024.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4542,8 +4543,8 @@ material texture NF0024 //original texture
 
 material texture NF0025 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0025.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0025.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4551,8 +4552,8 @@ material texture NF0025 //original texture
 
 material texture NF0026 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0026.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0026.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4560,8 +4561,8 @@ material texture NF0026 //original texture
 
 material texture NF0027 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0027.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0027.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4569,8 +4570,8 @@ material texture NF0027 //original texture
 
 material texture NF0028 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0028.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0028.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4578,8 +4579,8 @@ material texture NF0028 //original texture
 
 material texture NF0029 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0029.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0029.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4587,8 +4588,8 @@ material texture NF0029 //original texture
 
 material texture NF0030 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0030.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0030.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4596,8 +4597,8 @@ material texture NF0030 //original texture
 
 material texture NF0031 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0031.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0031.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMNF.dds"
@@ -4610,8 +4611,8 @@ material texture NF0031 //original texture
 
 material texture SB0000 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0000.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0000.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4619,8 +4620,8 @@ material texture SB0000 //original texture
 
 material texture SB0001 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0001.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0001.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4628,8 +4629,8 @@ material texture SB0001 //original texture
 
 material texture SB0002 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0002.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0002.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4637,8 +4638,8 @@ material texture SB0002 //original texture
 
 material texture SB0003 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0003.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0003.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4646,8 +4647,8 @@ material texture SB0003 //original texture
 
 material texture SB0004 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0004.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0004.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4655,8 +4656,8 @@ material texture SB0004 //original texture
 
 material texture SB0005 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0005.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0005.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4664,8 +4665,8 @@ material texture SB0005 //original texture
 
 material texture SB0006 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0006.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0006.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4673,8 +4674,8 @@ material texture SB0006 //original texture
 
 material texture SB0007 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0007.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0007.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4682,8 +4683,8 @@ material texture SB0007 //original texture
 
 material texture SB0008 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0008.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0008.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4691,8 +4692,8 @@ material texture SB0008 //original texture
 
 material texture SB0009 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0009.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0009.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4700,8 +4701,8 @@ material texture SB0009 //original texture
 
 material texture SB0010 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0010.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0010.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4709,8 +4710,8 @@ material texture SB0010 //original texture
 
 material texture SB0011 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0011.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0011.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4718,8 +4719,8 @@ material texture SB0011 //original texture
 
 material texture SB0012 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0012.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0012.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4727,8 +4728,8 @@ material texture SB0012 //original texture
 
 material texture SB0013 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0013.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0013.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4736,8 +4737,8 @@ material texture SB0013 //original texture
 
 material texture SB0014 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0014.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0014.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4745,8 +4746,8 @@ material texture SB0014 //original texture
 
 material texture SB0015 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0015.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0015.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4754,8 +4755,8 @@ material texture SB0015 //original texture
 
 material texture SB0016 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0016.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0016.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4763,8 +4764,8 @@ material texture SB0016 //original texture
 
 material texture SB0017 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0017.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0017.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4772,8 +4773,8 @@ material texture SB0017 //original texture
 
 material texture SB0018 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0018.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0018.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4781,8 +4782,8 @@ material texture SB0018 //original texture
 
 material texture SB0019 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0019.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0019.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4790,8 +4791,8 @@ material texture SB0019 //original texture
 
 material texture SB0020 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0020.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0020.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4799,8 +4800,8 @@ material texture SB0020 //original texture
 
 material texture SB0021 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0021.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0021.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4808,8 +4809,8 @@ material texture SB0021 //original texture
 
 material texture SB0022 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0022.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0022.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4817,8 +4818,8 @@ material texture SB0022 //original texture
 
 material texture SB0023 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0023.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0023.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4826,8 +4827,8 @@ material texture SB0023 //original texture
 
 material texture SB0024 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0024.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0024.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4835,8 +4836,8 @@ material texture SB0024 //original texture
 
 material texture SB0025 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0025.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0025.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4844,8 +4845,8 @@ material texture SB0025 //original texture
 
 material texture SB0026 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0026.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0026.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4853,8 +4854,8 @@ material texture SB0026 //original texture
 
 material texture SB0027 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0027.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0027.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4862,8 +4863,8 @@ material texture SB0027 //original texture
 
 material texture SB0028 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0028.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0028.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4871,8 +4872,8 @@ material texture SB0028 //original texture
 
 material texture SB0029 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0029.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0029.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4880,8 +4881,8 @@ material texture SB0029 //original texture
 
 material texture SB0030 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0030.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0030.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4889,8 +4890,8 @@ material texture SB0030 //original texture
 
 material texture SB0031 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0031.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0031.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSB.dds"
@@ -4902,8 +4903,8 @@ material texture SB0031 //original texture
 
 material texture BF0000 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0000.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0000.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
@@ -4911,248 +4912,248 @@ material texture BF0000 //original texture
 
 material texture BF0001 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0001.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0001.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0002 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0002.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0002.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0003 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0003.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0003.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0004 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0004.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0004.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0005 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0005.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0005.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0006 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0006.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0006.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0007 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0007.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0007.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0008 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0008.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0008.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0009 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0009.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0009.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0010 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0010.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0010.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0011 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0011.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0011.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0012 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0012.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0012.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0013 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0013.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0013.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0014 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0014.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0014.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0015 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0015.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0015.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0016 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0016.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0016.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0017 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0017.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0017.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0018 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0018.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0018.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0019 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0019.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0019.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0020 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0020.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0020.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0021 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0021.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0021.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0022 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0022.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0022.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0023 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0023.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0023.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0024 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0024.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0024.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0025 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0025.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0025.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0026 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0026.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0026.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0027 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0027.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0027.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0028 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0028.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0028.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0029 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0029.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0029.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0030 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0030.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0030.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
 }
 material texture BF0031 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0031.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0031.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMBF.dds"
@@ -5164,8 +5165,8 @@ material texture BF0031 //original texture
 
 material texture SS0000 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0000.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0000.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5173,8 +5174,8 @@ material texture SS0000 //original texture
 
 material texture SS0001 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0001.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0001.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5182,8 +5183,8 @@ material texture SS0001 //original texture
 
 material texture SS0002 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0002.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0002.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5191,8 +5192,8 @@ material texture SS0002 //original texture
 
 material texture SS0003 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0003.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0003.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5200,8 +5201,8 @@ material texture SS0003 //original texture
 
 material texture SS0004 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0004.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0004.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5209,8 +5210,8 @@ material texture SS0004 //original texture
 
 material texture SS0005 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0005.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0005.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5218,8 +5219,8 @@ material texture SS0005 //original texture
 
 material texture SS0006 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0006.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0006.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5227,8 +5228,8 @@ material texture SS0006 //original texture
 
 material texture SS0007 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0007.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0007.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5236,8 +5237,8 @@ material texture SS0007 //original texture
 
 material texture SS0008 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0008.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0008.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5245,8 +5246,8 @@ material texture SS0008 //original texture
 
 material texture SS0009 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0009.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0009.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5254,8 +5255,8 @@ material texture SS0009 //original texture
 
 material texture SS0010 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0010.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0010.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5263,8 +5264,8 @@ material texture SS0010 //original texture
 
 material texture SS0011 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0011.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0011.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5272,8 +5273,8 @@ material texture SS0011 //original texture
 
 material texture SS0012 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0012.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0012.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5281,8 +5282,8 @@ material texture SS0012 //original texture
 
 material texture SS0013 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0013.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0013.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5290,8 +5291,8 @@ material texture SS0013 //original texture
 
 material texture SS0014 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0014.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0014.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5299,8 +5300,8 @@ material texture SS0014 //original texture
 
 material texture SS0015 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0015.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0015.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5308,8 +5309,8 @@ material texture SS0015 //original texture
 
 material texture SS0016 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0016.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0016.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5317,8 +5318,8 @@ material texture SS0016 //original texture
 
 material texture SS0017 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0017.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0017.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5326,8 +5327,8 @@ material texture SS0017 //original texture
 
 material texture SS0018 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0018.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0018.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5335,8 +5336,8 @@ material texture SS0018 //original texture
 
 material texture SS0019 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0019.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0019.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5344,8 +5345,8 @@ material texture SS0019 //original texture
 
 material texture SS0020 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0020.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0020.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5353,8 +5354,8 @@ material texture SS0020 //original texture
 
 material texture SS0021 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0021.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0021.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5362,8 +5363,8 @@ material texture SS0021 //original texture
 
 material texture SS0022 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0022.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0022.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5371,8 +5372,8 @@ material texture SS0022 //original texture
 
 material texture SS0023 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0023.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0023.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5380,8 +5381,8 @@ material texture SS0023 //original texture
 
 material texture SS0024 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0024.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0024.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5389,8 +5390,8 @@ material texture SS0024 //original texture
 
 material texture SS0025 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0025.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0025.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5398,8 +5399,8 @@ material texture SS0025 //original texture
 
 material texture SS0026 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0026.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0026.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5407,8 +5408,8 @@ material texture SS0026 //original texture
 
 material texture SS0027 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0027.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0027.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5416,8 +5417,8 @@ material texture SS0027 //original texture
 
 material texture SS0028 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0028.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0028.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5425,8 +5426,8 @@ material texture SS0028 //original texture
 
 material texture SS0029 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0029.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0029.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5434,8 +5435,8 @@ material texture SS0029 //original texture
 
 material texture SS0030 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0030.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0030.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5443,8 +5444,8 @@ material texture SS0030 //original texture
 
 material texture SS0031 //original texture
 { 
-   normal "normalmaps/FLATS/NSW0031.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/sw1.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FLATS/NSW0031.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/sw1.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSS.dds"
@@ -5456,8 +5457,8 @@ material texture SS0031 //original texture
 
 material texture SF0000 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0000.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0000.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
@@ -5465,248 +5466,248 @@ material texture SF0000 //original texture
 
 material texture SF0001 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0001.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0001.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0002 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0002.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0002.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0003 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0003.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0003.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0004 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0004.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0004.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0005 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0005.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0005.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0006 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0006.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0006.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0007 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0007.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0007.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0008 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0008.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0008.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0009 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0009.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0009.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0010 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0010.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0010.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0011 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0011.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0011.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0012 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0012.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0012.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0013 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0013.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0013.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0014 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0014.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0014.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0015 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0015.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0015.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0016 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0016.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0016.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0017 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0017.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0017.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0018 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0018.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0018.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0019 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0019.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0019.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0020 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0020.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0020.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0021 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0021.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0021.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0022 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0022.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0022.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0023 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0023.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0023.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0024 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0024.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0024.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0025 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0025.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0025.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0026 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0026.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0026.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0027 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0027.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0027.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0028 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0028.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0028.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0029 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0029.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0029.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0030 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0030.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0030.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
 }
 material texture SF0031 //original texture
 { 
-   normal "normalmaps/FALLS/NLF0031.dds"	   // depth map (purple texture)
-   specular "specularmaps/water/SLF.dds" //gloss map   (black and white texture)
+   normal "materials/normalmaps/FALLS/NLF0031.dds"	   // depth map (purple texture)
+   specular "materials/specularmaps/water/SLF.dds" //gloss map   (black and white texture)
    specularlevel "3"
    glossiness "20"
    brightmap "Brightmaps/BMSF.dds"
@@ -6199,3 +6200,4 @@ GLOW
 	Texture "LF0030", "99, 50, 00", "250"
 	Texture "LF0031", "99, 50, 00", "250"
 }
+
