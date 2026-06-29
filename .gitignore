@@ -1,6 +1,12 @@
 # Agent / local tooling (not shipped in the PK3)
 AGENTS.md
 _*.py
+*.py
+*.pyw
+*.ps1
+*.log
+*.tmp
+cursor_audit_*.md
 
 # Cursor / IDE
 .cursor/
