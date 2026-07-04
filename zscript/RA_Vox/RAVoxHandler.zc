@@ -1,27 +1,22 @@
 //===========================================================================
 //
-// CHEELLO VOXEL DOOM
-//
-// ZScript code: Copyright (C) 2022 Nash Muhandes
-//
-// License: MIT
+// DDS VOXEL GORE HELPERS
 //
 //===========================================================================
 
 //===========================================================================
 //
-// CheelloVoxHandler
-// General helper functionality
+// DDSRAVoxHandler
+// General helper functionality for voxel-gore angle alignment.
 //
 //===========================================================================
 
-class CheelloVoxHandler : EventHandler
+class DDSRAVoxHandler : EventHandler
 {
 	override void WorldThingDied(WorldEvent e)
 	{
-		// make monsters face the player who killed them
+		// Make monsters face the player who killed them.
 		if (e.Thing && e.Thing.bIsMonster && e.Thing.Target && e.Thing.Target is "PlayerPawn")
 			e.Thing.Angle = e.Thing.AngleTo(e.Thing.Target);
 	}
-
 }
