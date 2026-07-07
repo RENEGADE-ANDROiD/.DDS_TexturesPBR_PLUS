@@ -13,7 +13,6 @@ server bool blood_chunky = true;
 server bool blood_alwaysgib = false;
 server bool blood_splash = true;
 server bool blood_mist = true;
-server bool nashgore_slaughtermapmode = false;
 
 nosave string teleporter_flats_red = "GATE1,GATE2,GATE3,GATE4RD,TLITE_5,TELEP2_6,AVFLAT11,ROSA05,ADEL_J16,ADEL_F51,FLAT22RD,FLOOR1_6,TLITEVRO,TLITEVR,TLITE61R";
 nosave string teleporter_flats_white = "GATE4,TLITE6_1,TLITE6_4,FLAT23,MTTKF06,TLITE65W";
