@@ -1,5 +1,6 @@
 version "4.10.0"
 
+// DDSRAVoxHandler: DDS-local death-angle helper. CheelloVoxHandler ships with BrutalVoxelDoomMonsters.
 #include "zscript/RA_Vox/RAVoxHandler.zc"
 #include "zscript/RA_Vox/RABlood.zc"
 #include "zscript/RA_Vox/RASpinMixin.zc"
