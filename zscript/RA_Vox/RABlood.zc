@@ -1,20 +1,16 @@
 //===========================================================================
 //
-// CHEELLO VOXEL DOOM
-//
-// ZScript code: Copyright (C) 2022 Nash Muhandes
-//
-// License: MIT
+// DDS VOXEL GORE HELPERS
 //
 //===========================================================================
 
 //===========================================================================
 //
-// CheelloBlood
+// DDSRABlood
 //
 //===========================================================================
 
-class CheelloBlood : Blood replaces Blood
+class DDSRABlood : Blood replaces Blood
 {
 	Default
 	{

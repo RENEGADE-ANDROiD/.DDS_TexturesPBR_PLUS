@@ -8,7 +8,5 @@
 //
 //===========================================================================
 
-// Doom II-specific Cheello monster/powerup overrides intentionally disabled
+// Doom II-specific voxel monster/powerup overrides intentionally disabled
 // to avoid conflicts with external monster packs (e.g. BrutalVoxelDoomMonsters).
-//#include "zscript/CheelloVox/CheelloPowerupsDoom2.zc"
-//#include "zscript/CheelloVox/CheelloMonstersDoom2.zc"
