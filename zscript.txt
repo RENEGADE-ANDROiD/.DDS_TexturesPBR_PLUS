@@ -1,6 +1,6 @@
 version "4.8.2"
 
-#include "zscript/CheelloVox/CheelloVoxHandler.zc"
+// CheelloVoxHandler lives in BrutalVoxelDoomMonsters when using the CSZ stack.
 #include "zscript/CheelloVox/CheelloBlood.zc"
 //#include "zscript/CheelloVox/CheelloRocketPlugin.zc"
 //#include "zscript/CheelloVox/CheelloSphereShell.zc"
