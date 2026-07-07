@@ -7,7 +7,7 @@
 //===========================================================================
 //
 // DDSRAVoxHandler
-// Death-angle helper for voxel gore (BVD owns CheelloVoxHandler in CSZ stacks).
+// Death-angle helper for voxel gore (BVD owns the stack handler in CSZ loads).
 //
 //===========================================================================
 

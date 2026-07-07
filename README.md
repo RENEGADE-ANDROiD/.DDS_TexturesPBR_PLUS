@@ -86,7 +86,7 @@ Textures are shipped in **.DDS format with pre-generated mipmaps**. Normally GZD
 | **Ambient environmental FX** | Invisible "probe" actors scan each map and spawn context-appropriate effects: waterfalls, drips, steam, fire flicker, tech hum, and liquid surface motion based on the floor/ceiling/wall textures present. |
 | **Liquid splashes** | Nash-style splash actors react to things entering nukage, water, slime, and lava (wired through `terrain.txt`). |
 | **Enhanced projectiles** | "Enchanted Vanilla Projectiles" add smoke trails, sparks, and better visuals to rockets, plasma, the BFG, and imp fireballs via DECORATE replacements. |
-| **Voxel gore (Cheello/Nashgore)** | Voxel models replace flat blood/gibs; a small ZScript layer fixes blood billboarding and makes dying monsters face the player. |
+| **Voxel gore (Nashgore/RA_Vox)** | Voxel models replace flat blood/gibs; a small ZScript layer fixes blood billboarding and makes dying monsters face the player. |
 | **Teleporter FX** | A handler scans for teleporter sectors and spawns colored particle fountains over them (colors are configurable via CVars/menu). |
 | **Death screen wipe** | A postprocess shader (`DPWipe`) animates a screen effect when the player dies. |
 | **Scripted ambience** | ACS modules drive ambient sound/fog (sources in `Source/` / `SRC/`, loaded via `LOADACS`). |
@@ -94,7 +94,7 @@ Textures are shipped in **.DDS format with pre-generated mipmaps**. Normally GZD
 
 ### EXTRAS
 
-Several heavier gore/weather subsystems (RealGore v3.0, extra blood, UDV Fog, Rain Remixed, shiny gore materials) are marked **EXTRAS only**. In this repo some are present but intentionally *not enabled* by default (for example, the gore ZScript under `zscript/Gore/` is not included in `zscript.txt`, and several Cheello includes are commented out). They are surfaced through the in-game ".DDS Texture Pack EXTRAS" options menu / separate optional loads.
+Several heavier gore/weather subsystems (RealGore v3.0, extra blood, UDV Fog, Rain Remixed, shiny gore materials) are marked **EXTRAS only**. In this repo some are present but intentionally *not enabled* by default (for example, the gore ZScript under `zscript/Gore/` is not included in `zscript.txt`; NO-EXTRAS uses `zscript/RA_Vox/` for voxel helpers). They are surfaced through the in-game ".DDS Texture Pack EXTRAS" options menu / separate optional loads.
 
 ### Installing / running
 
