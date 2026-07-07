@@ -1,0 +1,237 @@
+// Ancient Aliens flat stubs for TERRAIN.lmp (hydroponics / filtration flats).
+// Maps such as Backrooms and Brisk2 use these names without loading Ancient Aliens.
+
+Flat ATWAT1, 64, 64
+{
+	Patch SLIME01, 0, 0
+}
+
+Flat ATWAT2, 64, 64
+{
+	Patch SLIME02, 0, 0
+}
+
+Flat ATWAT3, 64, 64
+{
+	Patch SLIME03, 0, 0
+}
+
+Flat ATWAT4, 64, 64
+{
+	Patch SLIME04, 0, 0
+}
+
+Flat ATWAT5, 64, 64
+{
+	Patch SLIME01, 0, 0
+}
+
+Flat ATWAT6, 64, 64
+{
+	Patch SLIME02, 0, 0
+}
+
+Flat ATWAT7, 64, 64
+{
+	Patch SLIME03, 0, 0
+}
+
+Flat ATWAT8, 64, 64
+{
+	Patch SLIME04, 0, 0
+}
+
+Flat ATWAT9, 64, 64
+{
+	Patch SLIME01, 0, 0
+}
+
+Flat ATWAT10, 64, 64
+{
+	Patch SLIME02, 0, 0
+}
+
+Flat ATWAT11, 64, 64
+{
+	Patch SLIME03, 0, 0
+}
+
+Flat ATWAT12, 64, 64
+{
+	Patch SLIME04, 0, 0
+}
+
+Flat ATWAT13, 64, 64
+{
+	Patch SLIME01, 0, 0
+}
+
+Flat ATWAT14, 64, 64
+{
+	Patch SLIME02, 0, 0
+}
+
+Flat ATWAT15, 64, 64
+{
+	Patch SLIME03, 0, 0
+}
+
+Flat ATWAT16, 64, 64
+{
+	Patch SLIME04, 0, 0
+}
+
+Flat ATWAT17, 64, 64
+{
+	Patch SLIME01, 0, 0
+}
+
+Flat ATWAT18, 64, 64
+{
+	Patch SLIME02, 0, 0
+}
+
+Flat ATWAT19, 64, 64
+{
+	Patch SLIME03, 0, 0
+}
+
+Flat ATWAT20, 64, 64
+{
+	Patch SLIME04, 0, 0
+}
+
+Flat ATWAT21, 64, 64
+{
+	Patch SLIME01, 0, 0
+}
+
+Flat ATWAT22, 64, 64
+{
+	Patch SLIME02, 0, 0
+}
+
+Flat ATWAT23, 64, 64
+{
+	Patch SLIME03, 0, 0
+}
+
+Flat ATWAT24, 64, 64
+{
+	Patch SLIME04, 0, 0
+}
+
+Flat ATSwamp1, 64, 64
+{
+	Patch SLIME09, 0, 0
+}
+
+Flat ATWATER, 64, 64
+{
+	Patch FWATER1, 0, 0
+}
+
+Flat ATWTR01, 64, 64
+{
+	Patch FWATER1, 0, 0
+}
+
+Flat ATWTR02, 64, 64
+{
+	Patch FWATER2, 0, 0
+}
+
+Flat ATWTR03, 64, 64
+{
+	Patch FWATER3, 0, 0
+}
+
+Flat ATWTR04, 64, 64
+{
+	Patch FWATER4, 0, 0
+}
+
+Flat ATWTR05, 64, 64
+{
+	Patch FWATER1, 0, 0
+}
+
+Flat ATWTR06, 64, 64
+{
+	Patch FWATER2, 0, 0
+}
+
+Flat ATWTR07, 64, 64
+{
+	Patch FWATER3, 0, 0
+}
+
+Flat ATWTR08, 64, 64
+{
+	Patch FWATER4, 0, 0
+}
+
+Flat ATWTR09, 64, 64
+{
+	Patch FWATER1, 0, 0
+}
+
+Flat ATWTR10, 64, 64
+{
+	Patch FWATER2, 0, 0
+}
+
+Flat ATWTR11, 64, 64
+{
+	Patch FWATER3, 0, 0
+}
+
+Flat ATWTR12, 64, 64
+{
+	Patch FWATER4, 0, 0
+}
+
+Flat ATWTR13, 64, 64
+{
+	Patch FWATER1, 0, 0
+}
+
+Flat ATWTR14, 64, 64
+{
+	Patch FWATER2, 0, 0
+}
+
+Flat ATWTR15, 64, 64
+{
+	Patch FWATER3, 0, 0
+}
+
+Flat ATWTR16, 64, 64
+{
+	Patch FWATER4, 0, 0
+}
+
+Flat ATWTR17, 64, 64
+{
+	Patch FWATER1, 0, 0
+}
+
+Flat ATOcean1, 64, 64
+{
+	Patch FWATER2, 0, 0
+}
+
+Flat ATOcean2, 64, 64
+{
+	Patch FWATER3, 0, 0
+}
+
+Flat ATALGE1, 64, 64
+{
+	Patch FWATER4, 0, 0
+}
+
+Flat ATNUKAGE, 64, 64
+{
+	Patch NUKAGE1, 0, 0
+}
