@@ -19,24 +19,31 @@ https://youtu.be/STJPOUyMFAA
 
 -----------------
 
-**WHAT'S INCLUDED IN THIS PACK:**
+**WHAT'S INCLUDED IN THESE PACKS:**
+
+Two branches ship as separate PK3 builds — **`NO-EXTRAS`** (base visuals) and **`EXTRAS`** (base + heavier optional FX). CodeFX smoke and the standalone Gore Particles mod were removed to reduce mod conflicts; lava/nukage smoke still comes from Nash's Liquid Splashes, and EXTRAS bundles RealGore blood effects instead.
+
+**Base pack (`NO-EXTRAS`):**
 
 - Deep Water
 - Morelights
+- Lamp FX
 - FancyWorld
 - Nash's Liquid Splashes
 - HS's Enchanted Vanilla Projectiles
 - Scripted Ambience
-- Nashgore/Cheelo Gore Voxels Official
+- Nashgore/Cheello Gore Voxels
 - Teleport FX
-- Lamp FX
-- Nashgore Shiny Materials (EXTRAS only)
-- RealGore v3.0 (EXTRAS only)
-- Better Wall Blood Compressed (EXTRAS only)
-- ExtraBloodGorev4.0 (EXTRAS only)
-- New_blood (EXTRAS only)
-- UDV Fog (EXTRAS only)
-- Rain Remixed (EXTRAS only)
+
+**EXTRAS pack adds (`EXTRAS` branch):**
+
+- Nashgore Shiny Materials
+- RealGore v3.0
+- Better Wall Blood Compressed
+- ExtraBloodGorev4.0
+- New_blood
+- UDV Fog
+- Rain Remixed
 
 -----------------
 
@@ -74,9 +81,10 @@ A **visual enhancement resource pack (PK3)** for **GZDoom / UZDoom**. It loads *
 
 Pack-owned actors (Nash splashes, enchanted projectiles, D64 decorations) are prefixed with `DDS_` so they do not collide with other mods in a stacked load order. Splash actors are defined once in `DECORATE.Splash` (not duplicated in `decorate.txt`).
 
-### EXTRAS branch
+### Branches
 
-This branch enables the heavier optional subsystems: RealGore ZScript, extra blood, UDV Fog, Rain Remixed, shiny gore materials, hires assets, and related menu CVars in `cvarinfo`. Options are surfaced through the in-game **".DDS Texture Pack EXTRAS"** menu (`MENUDEF.txt`).
+- **`NO-EXTRAS`** — base visual stack only; in-game menu is teleport settings (`MENUDEF.txt`).
+- **`EXTRAS`** — everything above plus RealGore ZScript, extra blood, UDV Fog, Rain Remixed, shiny gore materials, hires assets, and related menu CVars in `cvarinfo`. Options are surfaced through the in-game **".DDS Texture Pack EXTRAS"** menu (`MENUDEF.txt`).
 
 ### Installing / running
 
