@@ -32,7 +32,7 @@ Two branches ship as separate PK3 builds — **`NO-EXTRAS`** (base visuals) and 
 - Nash's Liquid Splashes
 - HS's Enchanted Vanilla Projectiles
 - Scripted Ambience
-- Nashgore/Cheello Gore Voxels
+- Nashgore voxel gore
 - Teleport FX
 
 **EXTRAS pack adds (`EXTRAS` branch):**
