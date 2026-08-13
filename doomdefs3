@@ -3008,7 +3008,7 @@ material texture "ROCKRED3"
 	specularlevel 0.5
 }
 
-material texture "rrock01"
+material flat "rrock01"
 {
 	normal "materials/normalmaps/auto/rrock01.dds"
 	specular "materials/specular/auto/rrock01.dds"
@@ -3016,7 +3016,7 @@ material texture "rrock01"
 	specularlevel 0.5
 }
 
-material texture "rrock02"
+material flat "rrock02"
 {
 	normal "materials/normalmaps/auto/rrock02.dds"
 	specular "materials/specular/auto/rrock02.dds"
@@ -3024,7 +3024,7 @@ material texture "rrock02"
 	specularlevel 0.5
 }
 
-material texture "rrock03"
+material flat "rrock03"
 {
 	normal "materials/normalmaps/auto/rrock03.dds"
 	specular "materials/specular/auto/rrock03.dds"
@@ -3032,7 +3032,7 @@ material texture "rrock03"
 	specularlevel 0.5
 }
 
-material texture "rrock04"
+material flat "rrock04"
 {
 	normal "materials/normalmaps/auto/rrock04.dds"
 	specular "materials/specular/auto/rrock04.dds"
@@ -3040,7 +3040,7 @@ material texture "rrock04"
 	specularlevel 0.5
 }
 
-material texture "rrock05"
+material flat "rrock05"
 {
 	normal "materials/normalmaps/auto/rrock05.dds"
 	specular "materials/specular/auto/rrock05.dds"
@@ -3048,7 +3048,7 @@ material texture "rrock05"
 	specularlevel 0.5
 }
 
-material texture "rrock06"
+material flat "rrock06"
 {
 	normal "materials/normalmaps/auto/rrock06.dds"
 	specular "materials/specular/auto/rrock06.dds"
@@ -3056,7 +3056,7 @@ material texture "rrock06"
 	specularlevel 0.5
 }
 
-material texture "rrock07"
+material flat "rrock07"
 {
 	normal "materials/normalmaps/auto/rrock07.dds"
 	specular "materials/specular/auto/rrock07.dds"
@@ -3064,7 +3064,7 @@ material texture "rrock07"
 	specularlevel 0.5
 }
 
-material texture "rrock08"
+material flat "rrock08"
 {
 	normal "materials/normalmaps/auto/rrock08.dds"
 	specular "materials/specular/auto/rrock08.dds"
@@ -3072,7 +3072,7 @@ material texture "rrock08"
 	specularlevel 0.5
 }
 
-material texture "rrock09"
+material flat "rrock09"
 {
 	normal "materials/normalmaps/auto/rrock09.dds"
 	specular "materials/specular/auto/rrock09.dds"
@@ -3080,7 +3080,7 @@ material texture "rrock09"
 	specularlevel 0.5
 }
 
-material texture "rrock10"
+material flat "rrock10"
 {
 	normal "materials/normalmaps/auto/rrock10.dds"
 	specular "materials/specular/auto/rrock10.dds"
@@ -3088,7 +3088,7 @@ material texture "rrock10"
 	specularlevel 0.5
 }
 
-material texture "rrock13"
+material flat "rrock13"
 {
 	normal "materials/normalmaps/auto/rrock13.dds"
 	specular "materials/specular/auto/rrock13.dds"
@@ -3096,7 +3096,7 @@ material texture "rrock13"
 	specularlevel 0.5
 }
 
-material texture "rrock14"
+material flat "rrock14"
 {
 	normal "materials/normalmaps/auto/rrock14.dds"
 	specular "materials/specular/auto/rrock14.dds"
@@ -3104,7 +3104,7 @@ material texture "rrock14"
 	specularlevel 0.5
 }
 
-material texture "rrock15"
+material flat "rrock15"
 {
 	normal "materials/normalmaps/auto/rrock15.dds"
 	specular "materials/specular/auto/rrock15.dds"
@@ -3112,7 +3112,7 @@ material texture "rrock15"
 	specularlevel 0.5
 }
 
-material texture "RROCK16"
+material flat "RROCK16"
 {
 	normal "materials/normalmaps/auto/RROCK16.dds"
 	specular "materials/specular/auto/RROCK16.dds"
@@ -3120,7 +3120,7 @@ material texture "RROCK16"
 	specularlevel 0.5
 }
 
-material texture "rrock19"
+material flat "rrock19"
 {
 	normal "materials/normalmaps/auto/rrock19.dds"
 	specular "materials/specular/auto/rrock19.dds"
@@ -3128,7 +3128,7 @@ material texture "rrock19"
 	specularlevel 0.5
 }
 
-material texture "rrock20"
+material flat "rrock20"
 {
 	normal "materials/normalmaps/auto/rrock20.dds"
 	specular "materials/specular/auto/rrock20.dds"

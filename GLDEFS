@@ -236,8 +236,8 @@ ao "materials/ao/auto/ao_blank2.dds"
 material texture COMPUTE1  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/COMPUTE1.dds"
-	normal MATERIALS/normalmaps/auto/COMPUTE1.dds
-	specular MATERIALS/specular/auto/COMPUTE1.dds
+	//normal MATERIALS/normalmaps/auto/COMPUTE1.dds
+	//specular MATERIALS/specular/auto/COMPUTE1.dds
 	normal "materials/normalmaps/auto/compute1.dds"
 	metallic "materials/metallic/auto/compute1.dds"
 	roughness "materials/roughness/auto/compute1.dds"

@@ -1868,7 +1868,6 @@ material Texture "FLOOR52A"
 {
 	shader "shaders/parallax2.fp"
 	normal "materials/normalmaps/auto/FLOOR52A.dds"
-	roughness "materials/roughness/auto/FLOOR52A.dds"
 	ao "materials/ao/auto/ao_blank2.dds"
 	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52A.dds"
 }
@@ -1877,7 +1876,6 @@ material Texture "FLOOR52B"
 {
 	shader "shaders/parallax2.fp"
 	normal "materials/normalmaps/auto/FLOOR52B.dds"
-	roughness "materials/roughness/auto/FLOOR52B.dds"
 	ao "materials/ao/auto/ao_blank2.dds"
 	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52B.dds"
 }
@@ -1886,7 +1884,6 @@ material Texture "FLOOR52C"
 {
 	shader "shaders/parallax2.fp"
 	normal "materials/normalmaps/auto/FLOOR52C.dds"
-	roughness "materials/roughness/auto/FLOOR52C.dds"
 	ao "materials/ao/auto/ao_blank2.dds"
 	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52C.dds"
 }
@@ -1895,7 +1892,6 @@ material Texture "FLOOR52D"
 {
 	shader "shaders/parallax2.fp"
 	normal "materials/normalmaps/auto/FLOOR52D.dds"
-	roughness "materials/roughness/auto/FLOOR52D.dds"
 	ao "materials/ao/auto/ao_blank2.dds"
 	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52D.dds"
 }
@@ -1904,7 +1900,6 @@ material Texture "FLOOR52E"
 {
 	shader "shaders/parallax2.fp"
 	normal "materials/normalmaps/auto/FLOOR52E.dds"
-	roughness "materials/roughness/auto/FLOOR52E.dds"
 	ao "materials/ao/auto/ao_blank2.dds"
 	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52E.dds"
 }

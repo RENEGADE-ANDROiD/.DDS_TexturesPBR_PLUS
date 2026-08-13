@@ -530,67 +530,9 @@ brightmap texture ZZZFACE4
 }
 
 ////
-brightmap texture Zeldoor
-{
-	map "brightmaps/doom/Zeldoor.dds"
-	//iwad
-}
-
-brightmap texture ashwall4
-{
-	map "brightmaps/doom/ashwall4.dds"
-	//iwad
-}
-brightmap texture ashwall6
-{
-	map "brightmaps/doom/ashwall6.dds"
-	//iwad
-}
-brightmap texture ashwall7
-{
-	map "brightmaps/doom/ashwall7.dds"
-	//iwad
-}
-
-brightmap texture A-yellow
-{
-	map "brightmaps/doom/A-yellow.dds"
-	//iwad
-}
-
-brightmap texture brownwel
-{
-	map "brightmaps/doom/brownwel.dds"
-	//iwad
-}
-
 brightmap texture BIGBRIK3
 {
 	map "brightmaps/doom/BIGBRIK3.dds"
-	//iwad
-}
-
-brightmap texture brick1
-{
-	map "brightmaps/doom/brick1.dds"
-	//iwad
-}
-
-brightmap texture brick11
-{
-	map "brightmaps/doom/brick11.dds"
-	//iwad
-}
-
-brightmap texture brick3
-{
-	map "brightmaps/doom/brick3.dds"
-	//iwad
-}
-
-brightmap texture brick4
-{
-	map "brightmaps/doom/brick4.dds"
 	//iwad
 }
 
@@ -615,12 +557,6 @@ brightmap texture COMPSTA2
 brightmap texture COMPTILE
 {
 	map "brightmaps/doom/COMPTILE.dds"
-	//iwad
-}
-
-brightmap texture CUBICLE
-{
-	map "brightmaps/doom/CUBICLE.dds"
 	//iwad
 }
 
@@ -660,50 +596,15 @@ brightmap texture DOORYEL2
 	//iwad
 }
 
-brightmap texture doorstop
-{
-	map "brightmaps/doom/doorstop.dds"
-	//iwad
-}
-
 brightmap texture EXITSIGN
 {
 	map "brightmaps/doom/EXITSIGN.dds"
 	//iwad
 }
 
-brightmap texture Eggreeni
-{
-	map "brightmaps/doom/Eggreeni.dds"
-	//iwad
-}
-
-brightmap texture Egredi
-{
-	map "brightmaps/doom/Egredi.dds"
-	//iwad
-}
-
 brightmap texture EXITSTON
 {
 	map "brightmaps/doom/EXITSTON.dds"
-	//iwad
-}
-
-brightmap texture firelav2
-{
-	map "brightmaps/doom/firelav2.dds"
-	//iwad
-}
-brightmap texture firelav3
-{
-	map "brightmaps/doom/firelav3.dds"
-	//iwad
-}
-
-brightmap texture Firelava
-{
-	map "brightmaps/doom/Firelava.dds"
 	//iwad
 }
 
@@ -798,12 +699,6 @@ brightmap texture LITEBLU4
 	//iwad
 }
 
-brightmap texture LITEGRN1
-{
-	map "brightmaps/doom/LITEGRN1.dds"
-	//iwad
-}
-
 brightmap texture LITEMET
 {
 	map "brightmaps/doom/LITEMET.dds"
@@ -816,123 +711,15 @@ brightmap texture LITERED
 	//iwad
 }
 
-brightmap texture LITERED1
-{
-	map "brightmaps/doom/LITERED1.dds"
-	//iwad
-}
-
-brightmap texture LITERED2
-{
-	map "brightmaps/doom/LITERED2.dds"
-	//iwad
-}
-
 brightmap texture LITESTON
 {
 	map "brightmaps/doom/LITESTON.dds"
 	//iwad
 }
 
-brightmap texture LITEYEL1
-{
-	map "brightmaps/doom/LITEYEL1.dds"
-	//iwad
-}
-
-brightmap texture LITEYEL2
-{
-	map "brightmaps/doom/LITEYEL2.dds"
-	//iwad
-}
-
-brightmap texture LITEYEL3
-{
-	map "brightmaps/doom/LITEYEL3.dds"
-	//iwad
-}
-
-brightmap texture M_RDOOR
-{
-	map "brightmaps/doom/M_RDOOR.dds"
-	//iwad
-}
-
-brightmap texture M_Tec
-{
-	map "brightmaps/doom/M_Tec.dds"
-	//iwad
-}
-
-brightmap texture M_YDOOR
-{
-	map "brightmaps/doom/M_YDOOR.dds"
-	//iwad
-}
-
-brightmap texture modwall1
-{
-	map "brightmaps/doom/modwall1.dds"
-	//iwad
-}
-
 brightmap texture panbook
 {
 	map "brightmaps/doom/panbook.dds"
-	//iwad
-}
-
-brightmap texture panbord1
-{
-	map "brightmaps/doom/panbord1.dds"
-	//iwad
-}
-
-brightmap texture panbord2
-{
-	map "brightmaps/doom/panbord2.dds"
-	//iwad
-}
-
-brightmap texture pancase1
-{
-	map "brightmaps/doom/pancase1.dds"
-	//iwad
-}
-
-brightmap texture pancase2
-{
-	map "brightmaps/doom/pancase2.dds"
-	//iwad
-}
-
-brightmap texture panel4
-{
-	map "brightmaps/doom/panel4.dds"
-	//iwad
-}
-
-brightmap texture panel6
-{
-	map "brightmaps/doom/panel6.dds"
-	//iwad
-}
-
-brightmap texture panel7
-{
-	map "brightmaps/doom/panel7.dds"
-	//iwad
-}
-
-brightmap texture panel8
-{
-	map "brightmaps/doom/panel8.dds"
-	//iwad
-}
-
-brightmap texture panel9
-{
-	map "brightmaps/doom/panel9.dds"
 	//iwad
 }
 
@@ -948,69 +735,15 @@ brightmap texture Pnk4exit
 	//iwad
 }
 
-brightmap texture Sp_dude1
-{
-	map "brightmaps/doom/Sp_dude1.dds"
-	//iwad
-}
-
-brightmap texture Sp_dude2
-{
-	map "brightmaps/doom/Sp_dude2.dds"
-	//iwad
-}
-
-brightmap texture Sp_dude7
-{
-	map "brightmaps/doom/Sp_dude7.dds"
-	//iwad
-}
-
-brightmap texture Sp_dude8
-{
-	map "brightmaps/doom/Sp_dude8.dds"
-	//iwad
-}
-
 brightmap texture Step1
 {
 	map "brightmaps/doom/Step1.dds"
 	//iwad
 }
 
-brightmap texture steplad1
-{
-	map "brightmaps/doom/steplad1.dds"
-	//iwad
-}
-
-brightmap texture stucco1
-{
-	map "brightmaps/doom/stucco1.dds"
-	//iwad
-}
-
-brightmap texture stucco2
-{
-	map "brightmaps/doom/stucco2.dds"
-	//iwad
-}
-
-brightmap texture stucco3
-{
-	map "brightmaps/doom/stucco3.dds"
-	//iwad
-}
-
 brightmap texture TEKBRON2
 {
 	map "brightmaps/doom/TEKBRON2.dds"
-	//iwad
-}
-
-brightmap texture tanrock7
-{
-	map "brightmaps/doom/tanrock7.dds"
 	//iwad
 }
 
@@ -1026,28 +759,6 @@ brightmap texture WOODSKUL
 	//iwad
 }
 
-brightmap texture ZZZFACE1
-{
-	map "brightmaps/doom/ZZZFACE1.dds"
-	//iwad
-}
-
-brightmap texture ZZZFACE2
-{
-	map "brightmaps/doom/ZZZFACE2.dds"
-	//iwad
-}
-
-brightmap texture ZZZFACE3
-{
-	map "brightmaps/doom/ZZZFACE3.dds"
-	//iwad
-}
-
-
-
-
-
 // Off Switches
 brightmap texture SW1BLUE
 {
@@ -1061,45 +772,9 @@ brightmap texture SW1BRCOM
 	//iwad
 }
 
-brightmap texture Sw1brik
-{
-	map "brightmaps/doom/Sw1brik.dds"
-	//iwad
-}
-
-brightmap texture Sw1brn2
-{
-	map "brightmaps/doom/Sw1brn2.dds"
-	//iwad
-}
-
 brightmap texture SW1COMM
 {
 	map "brightmaps/doom/SW1COMM.dds"
-	//iwad
-}
-
-brightmap texture sw1comp
-{
-	map "brightmaps/doom/sw1comp.dds"
-	//iwad
-}
-
-brightmap texture SW1GRAY
-{
-	map "brightmaps/doom/SW1GRAY.dds"
-	//iwad
-}
-
-brightmap texture SW1PANEL
-{
-	map "brightmaps/doom/SW1PANEL.dds"
-	//iwad
-}
-
-brightmap texture sw1pipe
-{
-	map "brightmaps/doom/sw1pipe.dds"
 	//iwad
 }
 
@@ -1129,27 +804,9 @@ brightmap texture SW2BRCOM
 }
 
 
-brightmap texture SW2BRIK
-{
-	map "brightmaps/doom/SW2BRIK.dds"
-	//iwad
-}
-
 brightmap texture SW2BRN2
 {
 	map "brightmaps/doom/SW2BRN2.dds"
-	//iwad
-}
-
-brightmap texture SW2TEK
-{
-	map "brightmaps/doom/SW2TEK.dds"
-	//iwad
-}
-
-brightmap texture SW2MOD1
-{
-	map "brightmaps/doom/SW2MOD1.dds"
 	//iwad
 }
 
@@ -1164,20 +821,6 @@ brightmap texture SW2COMP
 	map "brightmaps/doom/SW2COMP.dds"
 	//iwad
 }
-
-brightmap texture SW2STON6
-{
-	map "brightmaps/doom/SW2STON6.dds"
-	//iwad
-}
-
-brightmap texture SW2MET2
-{
-	map "brightmaps/doom/SW2MET2.dds"
-	//iwad
-}
-
-
 
 brightmap texture SW2GRAY
 {
@@ -1196,13 +839,6 @@ brightmap texture SW2METAL
 	map "brightmaps/doom/SW2METAL.dds"
 	//iwad
 }
-
-brightmap texture sw2pipe
-{
-	map "brightmaps/doom/sw2pipe.dds"
-	//iwad
-}
-
 
 brightmap texture SW2STRTN
 {
@@ -1226,12 +862,6 @@ brightmap texture SW2LION
 brightmap texture SW2SATYR
 {
 	map "brightmaps/doom/SW2SATYR.dds"
-	//iwad
-}
-
-brightmap texture SW2ROCK
-{
-	map "brightmaps/doom/SW2ROCK.dds"
 	//iwad
 }
 
