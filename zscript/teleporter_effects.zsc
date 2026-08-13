@@ -12,7 +12,7 @@ class TeleporterEffects : EventHandler
         if(e.Thing is "TeleportDest")
         {
             let pos = e.Thing.pos;
-            let fountain = TeleporterEffect(Actor.Spawn("TeleporterEffect",(pos.x,pos.y,0)));
+            let fountain = TeleporterEffect(Actor.Spawn("TeleporterEffect",(pos.x, pos.y, pos.z)));
             fountain.SetDest(true);
             if (teleporter_debug)
                 Console.Printf("Spawning fountain at "..pos.x..", "..pos.y.." (dest)");
@@ -21,7 +21,7 @@ class TeleporterEffects : EventHandler
 
     override void WorldLoaded(WorldEvent e)
     {   
-        if (e.IsReopen)
+        if (e.IsSaveGame || e.IsReopen)
             return;
             
         int sectors = level.sectors.size();
@@ -67,7 +67,8 @@ class TeleporterEffects : EventHandler
             
             if ((walk || monster) && (usable || exit))
             {
-                let fountain = TeleporterEffect(Actor.Spawn("TeleporterEffect",(center.x,center.y,0)));
+                double floorz = sect.floorplane.ZAtPoint(center);
+                let fountain = TeleporterEffect(Actor.Spawn("TeleporterEffect",(center.x, center.y, floorz)));
                 fountain.SetExit(exit);
                 fountain.SetMonster(monster);
                 if (teleporter_debug)

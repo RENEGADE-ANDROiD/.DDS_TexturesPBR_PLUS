@@ -1,0 +1,4575 @@
+// Auto-generated PBR for hires textures that had no material.
+// Do not hand-edit; regenerate with _gen_missing_pbr.py
+
+material Texture "_OSTCCC03"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/_OSTCCC03.dds"
+	roughness "materials/roughness/auto/_OSTCCC03.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/_OSTCCC03.dds"
+}
+
+material Texture "_OSTONI02"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/_OSTONI02.dds"
+	roughness "materials/roughness/auto/_OSTONI02.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/_OSTONI02.dds"
+}
+
+material Texture "A-grate"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/A-grate.dds"
+	roughness "materials/roughness/auto/A-grate.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/A-grate.dds"
+}
+
+material Texture "A-rail1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/A-rail1.dds"
+	roughness "materials/roughness/auto/A-rail1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/A-rail1.dds"
+}
+
+material Texture "A-vine1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/A-vine1.dds"
+	roughness "materials/roughness/auto/A-vine1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/A-vine1.dds"
+}
+
+material Texture "A-vine2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/A-vine2.dds"
+	roughness "materials/roughness/auto/A-vine2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/A-vine2.dds"
+}
+
+material Texture "ASHWALL"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ASHWALL.dds"
+	roughness "materials/roughness/auto/ASHWALL.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ASHWALL.dds"
+}
+
+material Texture "ashwall2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ashwall2.dds"
+	roughness "materials/roughness/auto/ashwall2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ashwall2.dds"
+}
+
+material Texture "ASHWALL3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ASHWALL3.dds"
+	roughness "materials/roughness/auto/ASHWALL3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ASHWALL3.dds"
+}
+
+material Texture "ASHWALL4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ASHWALL4.dds"
+	roughness "materials/roughness/auto/ASHWALL4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ASHWALL4.dds"
+}
+
+material Texture "ASHWALL6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ASHWALL6.dds"
+	roughness "materials/roughness/auto/ASHWALL6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ASHWALL6.dds"
+}
+
+material Texture "ASHWALL7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ASHWALL7.dds"
+	roughness "materials/roughness/auto/ASHWALL7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ASHWALL7.dds"
+}
+
+material Texture "BFALL01"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL01.dds"
+	roughness "materials/roughness/auto/BFALL01.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL01.dds"
+}
+
+material Texture "BFALL02"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL02.dds"
+	roughness "materials/roughness/auto/BFALL02.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL02.dds"
+}
+
+material Texture "BFALL03"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL03.dds"
+	roughness "materials/roughness/auto/BFALL03.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL03.dds"
+}
+
+material Texture "BFALL04"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL04.dds"
+	roughness "materials/roughness/auto/BFALL04.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL04.dds"
+}
+
+material Texture "BFALL05"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL05.dds"
+	roughness "materials/roughness/auto/BFALL05.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL05.dds"
+}
+
+material Texture "BFALL06"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL06.dds"
+	roughness "materials/roughness/auto/BFALL06.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL06.dds"
+}
+
+material Texture "BFALL07"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL07.dds"
+	roughness "materials/roughness/auto/BFALL07.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL07.dds"
+}
+
+material Texture "BFALL08"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL08.dds"
+	roughness "materials/roughness/auto/BFALL08.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL08.dds"
+}
+
+material Texture "BFALL09"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL09.dds"
+	roughness "materials/roughness/auto/BFALL09.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL09.dds"
+}
+
+material Texture "BFALL10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL10.dds"
+	roughness "materials/roughness/auto/BFALL10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL10.dds"
+}
+
+material Texture "BFALL11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL11.dds"
+	roughness "materials/roughness/auto/BFALL11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL11.dds"
+}
+
+material Texture "BFALL12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL12.dds"
+	roughness "materials/roughness/auto/BFALL12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL12.dds"
+}
+
+material Texture "BFALL13"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL13.dds"
+	roughness "materials/roughness/auto/BFALL13.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL13.dds"
+}
+
+material Texture "BFALL14"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL14.dds"
+	roughness "materials/roughness/auto/BFALL14.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL14.dds"
+}
+
+material Texture "BFALL15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL15.dds"
+	roughness "materials/roughness/auto/BFALL15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL15.dds"
+}
+
+material Texture "BFALL16"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL16.dds"
+	roughness "materials/roughness/auto/BFALL16.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL16.dds"
+}
+
+material Texture "BFALL17"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL17.dds"
+	roughness "materials/roughness/auto/BFALL17.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL17.dds"
+}
+
+material Texture "BFALL18"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL18.dds"
+	roughness "materials/roughness/auto/BFALL18.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL18.dds"
+}
+
+material Texture "BFALL19"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL19.dds"
+	roughness "materials/roughness/auto/BFALL19.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL19.dds"
+}
+
+material Texture "BFALL20"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL20.dds"
+	roughness "materials/roughness/auto/BFALL20.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL20.dds"
+}
+
+material Texture "BFALL21"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL21.dds"
+	roughness "materials/roughness/auto/BFALL21.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL21.dds"
+}
+
+material Texture "BFALL22"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL22.dds"
+	roughness "materials/roughness/auto/BFALL22.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL22.dds"
+}
+
+material Texture "BFALL23"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL23.dds"
+	roughness "materials/roughness/auto/BFALL23.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL23.dds"
+}
+
+material Texture "BFALL24"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL24.dds"
+	roughness "materials/roughness/auto/BFALL24.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL24.dds"
+}
+
+material Texture "BFALL25"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL25.dds"
+	roughness "materials/roughness/auto/BFALL25.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL25.dds"
+}
+
+material Texture "BFALL26"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL26.dds"
+	roughness "materials/roughness/auto/BFALL26.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL26.dds"
+}
+
+material Texture "BFALL27"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL27.dds"
+	roughness "materials/roughness/auto/BFALL27.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL27.dds"
+}
+
+material Texture "BFALL28"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL28.dds"
+	roughness "materials/roughness/auto/BFALL28.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL28.dds"
+}
+
+material Texture "BFALL29"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL29.dds"
+	roughness "materials/roughness/auto/BFALL29.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL29.dds"
+}
+
+material Texture "BFALL30"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL30.dds"
+	roughness "materials/roughness/auto/BFALL30.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL30.dds"
+}
+
+material Texture "BFALL31"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL31.dds"
+	roughness "materials/roughness/auto/BFALL31.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL31.dds"
+}
+
+material Texture "BFALL32"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL32.dds"
+	roughness "materials/roughness/auto/BFALL32.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL32.dds"
+}
+
+material Texture "BFALL33"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL33.dds"
+	roughness "materials/roughness/auto/BFALL33.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL33.dds"
+}
+
+material Texture "BFALL34"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL34.dds"
+	roughness "materials/roughness/auto/BFALL34.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL34.dds"
+}
+
+material Texture "BFALL35"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL35.dds"
+	roughness "materials/roughness/auto/BFALL35.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL35.dds"
+}
+
+material Texture "BFALL36"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL36.dds"
+	roughness "materials/roughness/auto/BFALL36.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL36.dds"
+}
+
+material Texture "BFALL37"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL37.dds"
+	roughness "materials/roughness/auto/BFALL37.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL37.dds"
+}
+
+material Texture "BFALL38"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL38.dds"
+	roughness "materials/roughness/auto/BFALL38.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL38.dds"
+}
+
+material Texture "BFALL39"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL39.dds"
+	roughness "materials/roughness/auto/BFALL39.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL39.dds"
+}
+
+material Texture "BFALL40"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL40.dds"
+	roughness "materials/roughness/auto/BFALL40.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL40.dds"
+}
+
+material Texture "BFALL41"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL41.dds"
+	roughness "materials/roughness/auto/BFALL41.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL41.dds"
+}
+
+material Texture "BFALL42"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL42.dds"
+	roughness "materials/roughness/auto/BFALL42.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL42.dds"
+}
+
+material Texture "BFALL43"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL43.dds"
+	roughness "materials/roughness/auto/BFALL43.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL43.dds"
+}
+
+material Texture "BFALL44"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL44.dds"
+	roughness "materials/roughness/auto/BFALL44.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL44.dds"
+}
+
+material Texture "BFALL45"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL45.dds"
+	roughness "materials/roughness/auto/BFALL45.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL45.dds"
+}
+
+material Texture "BFALL46"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL46.dds"
+	roughness "materials/roughness/auto/BFALL46.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL46.dds"
+}
+
+material Texture "BFALL47"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL47.dds"
+	roughness "materials/roughness/auto/BFALL47.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL47.dds"
+}
+
+material Texture "BFALL48"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL48.dds"
+	roughness "materials/roughness/auto/BFALL48.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL48.dds"
+}
+
+material Texture "BFALL49"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL49.dds"
+	roughness "materials/roughness/auto/BFALL49.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL49.dds"
+}
+
+material Texture "BFALL50"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL50.dds"
+	roughness "materials/roughness/auto/BFALL50.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL50.dds"
+}
+
+material Texture "BFALL51"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL51.dds"
+	roughness "materials/roughness/auto/BFALL51.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL51.dds"
+}
+
+material Texture "BFALL52"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL52.dds"
+	roughness "materials/roughness/auto/BFALL52.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL52.dds"
+}
+
+material Texture "BFALL53"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL53.dds"
+	roughness "materials/roughness/auto/BFALL53.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL53.dds"
+}
+
+material Texture "BFALL54"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL54.dds"
+	roughness "materials/roughness/auto/BFALL54.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL54.dds"
+}
+
+material Texture "BFALL55"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL55.dds"
+	roughness "materials/roughness/auto/BFALL55.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL55.dds"
+}
+
+material Texture "BFALL56"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL56.dds"
+	roughness "materials/roughness/auto/BFALL56.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL56.dds"
+}
+
+material Texture "BFALL57"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL57.dds"
+	roughness "materials/roughness/auto/BFALL57.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL57.dds"
+}
+
+material Texture "BFALL58"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL58.dds"
+	roughness "materials/roughness/auto/BFALL58.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL58.dds"
+}
+
+material Texture "BFALL59"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL59.dds"
+	roughness "materials/roughness/auto/BFALL59.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL59.dds"
+}
+
+material Texture "BFALL60"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL60.dds"
+	roughness "materials/roughness/auto/BFALL60.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL60.dds"
+}
+
+material Texture "BFALL61"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL61.dds"
+	roughness "materials/roughness/auto/BFALL61.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL61.dds"
+}
+
+material Texture "BFALL62"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL62.dds"
+	roughness "materials/roughness/auto/BFALL62.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL62.dds"
+}
+
+material Texture "BFALL63"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL63.dds"
+	roughness "materials/roughness/auto/BFALL63.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL63.dds"
+}
+
+material Texture "BFALL64"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BFALL64.dds"
+	roughness "materials/roughness/auto/BFALL64.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BFALL64.dds"
+}
+
+material Texture "BIGBRIK1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BIGBRIK1.dds"
+	roughness "materials/roughness/auto/BIGBRIK1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BIGBRIK1.dds"
+}
+
+material Texture "bigbrik2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/bigbrik2.dds"
+	roughness "materials/roughness/auto/bigbrik2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/bigbrik2.dds"
+}
+
+material Texture "Bigmural"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Bigmural.dds"
+	roughness "materials/roughness/auto/Bigmural.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Bigmural.dds"
+}
+
+material Texture "Bigwall"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Bigwall.dds"
+	roughness "materials/roughness/auto/Bigwall.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Bigwall.dds"
+}
+
+material Texture "blood10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood10.dds"
+	roughness "materials/roughness/auto/blood10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood10.dds"
+}
+
+material Texture "blood11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood11.dds"
+	roughness "materials/roughness/auto/blood11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood11.dds"
+}
+
+material Texture "blood12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood12.dds"
+	roughness "materials/roughness/auto/blood12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood12.dds"
+}
+
+material Texture "blood13"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood13.dds"
+	roughness "materials/roughness/auto/blood13.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood13.dds"
+}
+
+material Texture "blood14"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood14.dds"
+	roughness "materials/roughness/auto/blood14.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood14.dds"
+}
+
+material Texture "blood15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood15.dds"
+	roughness "materials/roughness/auto/blood15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood15.dds"
+}
+
+material Texture "blood16"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood16.dds"
+	roughness "materials/roughness/auto/blood16.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood16.dds"
+}
+
+material Texture "blood5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood5.dds"
+	roughness "materials/roughness/auto/blood5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood5.dds"
+}
+
+material Texture "blood6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood6.dds"
+	roughness "materials/roughness/auto/blood6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood6.dds"
+}
+
+material Texture "blood7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood7.dds"
+	roughness "materials/roughness/auto/blood7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood7.dds"
+}
+
+material Texture "blood8"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood8.dds"
+	roughness "materials/roughness/auto/blood8.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood8.dds"
+}
+
+material Texture "blood9"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/blood9.dds"
+	roughness "materials/roughness/auto/blood9.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/blood9.dds"
+}
+
+material Texture "brick10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/brick10.dds"
+	roughness "materials/roughness/auto/brick10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/brick10.dds"
+}
+
+material Texture "BRICK11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BRICK11.dds"
+	roughness "materials/roughness/auto/BRICK11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BRICK11.dds"
+}
+
+material Texture "BRICK12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BRICK12.dds"
+	roughness "materials/roughness/auto/BRICK12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BRICK12.dds"
+}
+
+material Texture "Brnopen"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Brnopen.dds"
+	roughness "materials/roughness/auto/Brnopen.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Brnopen.dds"
+}
+
+material Texture "brnsmal1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/brnsmal1.dds"
+	roughness "materials/roughness/auto/brnsmal1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/brnsmal1.dds"
+}
+
+material Texture "brnsmal2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/brnsmal2.dds"
+	roughness "materials/roughness/auto/brnsmal2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/brnsmal2.dds"
+}
+
+material Texture "BRONZE1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BRONZE1.dds"
+	roughness "materials/roughness/auto/BRONZE1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BRONZE1.dds"
+}
+
+material Texture "BRONZE2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BRONZE2.dds"
+	roughness "materials/roughness/auto/BRONZE2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BRONZE2.dds"
+}
+
+material Texture "BRONZE3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BRONZE3.dds"
+	roughness "materials/roughness/auto/BRONZE3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BRONZE3.dds"
+}
+
+material Texture "BRONZE4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BRONZE4.dds"
+	roughness "materials/roughness/auto/BRONZE4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BRONZE4.dds"
+}
+
+material Texture "BROV1A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1A.dds"
+	roughness "materials/roughness/auto/BROV1A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1A.dds"
+}
+
+material Texture "BROV1B"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1B.dds"
+	roughness "materials/roughness/auto/BROV1B.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1B.dds"
+}
+
+material Texture "BROV1C"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1C.dds"
+	roughness "materials/roughness/auto/BROV1C.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1C.dds"
+}
+
+material Texture "BROV1D"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1D.dds"
+	roughness "materials/roughness/auto/BROV1D.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1D.dds"
+}
+
+material Texture "BROV1E"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1E.dds"
+	roughness "materials/roughness/auto/BROV1E.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1E.dds"
+}
+
+material Texture "BROV1F"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1F.dds"
+	roughness "materials/roughness/auto/BROV1F.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1F.dds"
+}
+
+material Texture "BROV1G"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1G.dds"
+	roughness "materials/roughness/auto/BROV1G.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1G.dds"
+}
+
+material Texture "BROV1H"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1H.dds"
+	roughness "materials/roughness/auto/BROV1H.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1H.dds"
+}
+
+material Texture "BROV1I"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1I.dds"
+	roughness "materials/roughness/auto/BROV1I.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1I.dds"
+}
+
+material Texture "BROV1J"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1J.dds"
+	roughness "materials/roughness/auto/BROV1J.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1J.dds"
+}
+
+material Texture "BROV1K"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1K.dds"
+	roughness "materials/roughness/auto/BROV1K.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1K.dds"
+}
+
+material Texture "BROV1L"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1L.dds"
+	roughness "materials/roughness/auto/BROV1L.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1L.dds"
+}
+
+material Texture "BROV1M"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1M.dds"
+	roughness "materials/roughness/auto/BROV1M.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1M.dds"
+}
+
+material Texture "BROV1N"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1N.dds"
+	roughness "materials/roughness/auto/BROV1N.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1N.dds"
+}
+
+material Texture "BROV1O"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1O.dds"
+	roughness "materials/roughness/auto/BROV1O.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1O.dds"
+}
+
+material Texture "BROV1P"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BROV1P.dds"
+	roughness "materials/roughness/auto/BROV1P.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BROV1P.dds"
+}
+
+material Texture "brovine"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/brovine.dds"
+	roughness "materials/roughness/auto/brovine.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/brovine.dds"
+}
+
+material Texture "brovine2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/brovine2.dds"
+	roughness "materials/roughness/auto/brovine2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/brovine2.dds"
+}
+
+material Texture "brownlit"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/brownlit.dds"
+	roughness "materials/roughness/auto/brownlit.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/brownlit.dds"
+}
+
+material Texture "BSTONE2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BSTONE2.dds"
+	roughness "materials/roughness/auto/BSTONE2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BSTONE2.dds"
+}
+
+material Texture "BSTONE3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/BSTONE3.dds"
+	roughness "materials/roughness/auto/BSTONE3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/BSTONE3.dds"
+}
+
+material Texture "CAVERN5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CAVERN5.dds"
+	roughness "materials/roughness/auto/CAVERN5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CAVERN5.dds"
+}
+
+material Texture "CCOMPA90"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CCOMPA90.dds"
+	roughness "materials/roughness/auto/CCOMPA90.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CCOMPA90.dds"
+}
+
+material Texture "CCOMPA9A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CCOMPA9A.dds"
+	roughness "materials/roughness/auto/CCOMPA9A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CCOMPA9A.dds"
+}
+
+material Texture "CCOMPA9B"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CCOMPA9B.dds"
+	roughness "materials/roughness/auto/CCOMPA9B.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CCOMPA9B.dds"
+}
+
+material Texture "CCOMPA9C"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CCOMPA9C.dds"
+	roughness "materials/roughness/auto/CCOMPA9C.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CCOMPA9C.dds"
+}
+
+material Texture "CCOMPA9D"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CCOMPA9D.dds"
+	roughness "materials/roughness/auto/CCOMPA9D.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CCOMPA9D.dds"
+}
+
+material Texture "CCOMPA9E"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CCOMPA9E.dds"
+	roughness "materials/roughness/auto/CCOMPA9E.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CCOMPA9E.dds"
+}
+
+material Texture "CCOMPA9F"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CCOMPA9F.dds"
+	roughness "materials/roughness/auto/CCOMPA9F.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CCOMPA9F.dds"
+}
+
+material Texture "CCOMPA9G"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CCOMPA9G.dds"
+	roughness "materials/roughness/auto/CCOMPA9G.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CCOMPA9G.dds"
+}
+
+material Texture "ceil1_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ceil1_1.dds"
+	roughness "materials/roughness/auto/ceil1_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ceil1_1.dds"
+}
+
+material Texture "ceil1_2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ceil1_2.dds"
+	roughness "materials/roughness/auto/ceil1_2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ceil1_2.dds"
+}
+
+material Texture "ceil1_3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ceil1_3.dds"
+	roughness "materials/roughness/auto/ceil1_3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ceil1_3.dds"
+}
+
+material Texture "CEIL3_4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEIL3_4.dds"
+	roughness "materials/roughness/auto/CEIL3_4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEIL3_4.dds"
+}
+
+material Texture "CEIL3_6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEIL3_6.dds"
+	roughness "materials/roughness/auto/CEIL3_6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEIL3_6.dds"
+}
+
+material Texture "CEIL4_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEIL4_1.dds"
+	roughness "materials/roughness/auto/CEIL4_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEIL4_1.dds"
+}
+
+material Texture "CEMENT1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEMENT1.dds"
+	roughness "materials/roughness/auto/CEMENT1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEMENT1.dds"
+}
+
+material Texture "CEMENT2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEMENT2.dds"
+	roughness "materials/roughness/auto/CEMENT2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEMENT2.dds"
+}
+
+material Texture "CEMENT4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEMENT4.dds"
+	roughness "materials/roughness/auto/CEMENT4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEMENT4.dds"
+}
+
+material Texture "cement5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/cement5.dds"
+	roughness "materials/roughness/auto/cement5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/cement5.dds"
+}
+
+material Texture "cement6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/cement6.dds"
+	roughness "materials/roughness/auto/cement6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/cement6.dds"
+}
+
+material Texture "CEMENT7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEMENT7.dds"
+	roughness "materials/roughness/auto/CEMENT7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEMENT7.dds"
+}
+
+material Texture "CEMENT8"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEMENT8.dds"
+	roughness "materials/roughness/auto/CEMENT8.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEMENT8.dds"
+}
+
+material Texture "CEMENT9"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEMENT9.dds"
+	roughness "materials/roughness/auto/CEMENT9.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEMENT9.dds"
+}
+
+material Texture "CEMPOIS"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CEMPOIS.dds"
+	roughness "materials/roughness/auto/CEMPOIS.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CEMPOIS.dds"
+}
+
+material Texture "CMETLC92"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CMETLC92.dds"
+	roughness "materials/roughness/auto/CMETLC92.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CMETLC92.dds"
+}
+
+material Texture "CMETLC93"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CMETLC93.dds"
+	roughness "materials/roughness/auto/CMETLC93.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CMETLC93.dds"
+}
+
+material Texture "CMETLC94"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CMETLC94.dds"
+	roughness "materials/roughness/auto/CMETLC94.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CMETLC94.dds"
+}
+
+material Texture "CMETLC95"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CMETLC95.dds"
+	roughness "materials/roughness/auto/CMETLC95.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CMETLC95.dds"
+}
+
+material Texture "COMP01A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP01A.dds"
+	roughness "materials/roughness/auto/COMP01A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP01A.dds"
+}
+
+material Texture "COMP01B"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP01B.dds"
+	roughness "materials/roughness/auto/COMP01B.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP01B.dds"
+}
+
+material Texture "COMP01C"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP01C.dds"
+	roughness "materials/roughness/auto/COMP01C.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP01C.dds"
+}
+
+material Texture "COMP2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2.dds"
+	roughness "materials/roughness/auto/COMP2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2.dds"
+}
+
+material Texture "COMP2A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2A.dds"
+	roughness "materials/roughness/auto/COMP2A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2A.dds"
+}
+
+material Texture "COMP2B"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2B.dds"
+	roughness "materials/roughness/auto/COMP2B.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2B.dds"
+}
+
+material Texture "COMP2C"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2C.dds"
+	roughness "materials/roughness/auto/COMP2C.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2C.dds"
+}
+
+material Texture "COMP2D"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2D.dds"
+	roughness "materials/roughness/auto/COMP2D.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2D.dds"
+}
+
+material Texture "COMP2E"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2E.dds"
+	roughness "materials/roughness/auto/COMP2E.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2E.dds"
+}
+
+material Texture "COMP2F"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2F.dds"
+	roughness "materials/roughness/auto/COMP2F.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2F.dds"
+}
+
+material Texture "COMP2G"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2G.dds"
+	roughness "materials/roughness/auto/COMP2G.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2G.dds"
+}
+
+material Texture "COMP2H"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMP2H.dds"
+	roughness "materials/roughness/auto/COMP2H.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMP2H.dds"
+}
+
+material Texture "COMPTL1A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPTL1A.dds"
+	roughness "materials/roughness/auto/COMPTL1A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPTL1A.dds"
+}
+
+material Texture "COMPTL1B"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPTL1B.dds"
+	roughness "materials/roughness/auto/COMPTL1B.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPTL1B.dds"
+}
+
+material Texture "COMPTL1C"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPTL1C.dds"
+	roughness "materials/roughness/auto/COMPTL1C.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPTL1C.dds"
+}
+
+material Texture "COMPTL1D"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPTL1D.dds"
+	roughness "materials/roughness/auto/COMPTL1D.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPTL1D.dds"
+}
+
+material Texture "COMPTL1E"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPTL1E.dds"
+	roughness "materials/roughness/auto/COMPTL1E.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPTL1E.dds"
+}
+
+material Texture "COMPTL1F"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPTL1F.dds"
+	roughness "materials/roughness/auto/COMPTL1F.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPTL1F.dds"
+}
+
+material Texture "COMPTL1G"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPTL1G.dds"
+	roughness "materials/roughness/auto/COMPTL1G.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPTL1G.dds"
+}
+
+material Texture "COMPUT2A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPUT2A.dds"
+	roughness "materials/roughness/auto/COMPUT2A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPUT2A.dds"
+}
+
+material Texture "COMPUT2B"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPUT2B.dds"
+	roughness "materials/roughness/auto/COMPUT2B.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPUT2B.dds"
+}
+
+material Texture "COMPUT2C"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPUT2C.dds"
+	roughness "materials/roughness/auto/COMPUT2C.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPUT2C.dds"
+}
+
+material Texture "COMPUT2D"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPUT2D.dds"
+	roughness "materials/roughness/auto/COMPUT2D.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPUT2D.dds"
+}
+
+material Texture "COMPUT2E"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPUT2E.dds"
+	roughness "materials/roughness/auto/COMPUT2E.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPUT2E.dds"
+}
+
+material Texture "COMPUT2F"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPUT2F.dds"
+	roughness "materials/roughness/auto/COMPUT2F.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPUT2F.dds"
+}
+
+material Texture "COMPUT2G"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMPUT2G.dds"
+	roughness "materials/roughness/auto/COMPUT2G.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMPUT2G.dds"
+}
+
+material Texture "COMRACK"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/COMRACK.dds"
+	roughness "materials/roughness/auto/COMRACK.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/COMRACK.dds"
+}
+
+material Texture "cratop1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/cratop1.dds"
+	roughness "materials/roughness/auto/cratop1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/cratop1.dds"
+}
+
+material Texture "cratop2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/cratop2.dds"
+	roughness "materials/roughness/auto/cratop2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/cratop2.dds"
+}
+
+material Texture "CTEL"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CTEL.dds"
+	roughness "materials/roughness/auto/CTEL.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CTEL.dds"
+}
+
+material Texture "CTEL1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/CTEL1.dds"
+	roughness "materials/roughness/auto/CTEL1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/CTEL1.dds"
+}
+
+material Texture "dobwire"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/dobwire.dds"
+	roughness "materials/roughness/auto/dobwire.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/dobwire.dds"
+}
+
+material Texture "dobwire2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/dobwire2.dds"
+	roughness "materials/roughness/auto/dobwire2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/dobwire2.dds"
+}
+
+material Texture "Dogrid"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Dogrid.dds"
+	roughness "materials/roughness/auto/Dogrid.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Dogrid.dds"
+}
+
+material Texture "door2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/door2.dds"
+	roughness "materials/roughness/auto/door2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/door2.dds"
+}
+
+material Texture "door2_4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/door2_4.dds"
+	roughness "materials/roughness/auto/door2_4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/door2_4.dds"
+}
+
+material Texture "DOOR3_4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/DOOR3_4.dds"
+	roughness "materials/roughness/auto/DOOR3_4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/DOOR3_4.dds"
+}
+
+material Texture "door3_5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/door3_5.dds"
+	roughness "materials/roughness/auto/door3_5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/door3_5.dds"
+}
+
+material Texture "door9_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/door9_1.dds"
+	roughness "materials/roughness/auto/door9_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/door9_1.dds"
+}
+
+material Texture "door9_2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/door9_2.dds"
+	roughness "materials/roughness/auto/door9_2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/door9_2.dds"
+}
+
+material Texture "FIREBLU1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FIREBLU1.dds"
+	roughness "materials/roughness/auto/FIREBLU1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FIREBLU1.dds"
+}
+
+material Texture "FIREBLU2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FIREBLU2.dds"
+	roughness "materials/roughness/auto/FIREBLU2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FIREBLU2.dds"
+}
+
+material Texture "flat-floor6_2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/flat-floor6_2.dds"
+	roughness "materials/roughness/auto/flat-floor6_2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/flat-floor6_2.dds"
+}
+
+material Texture "flat0_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/flat0_1.dds"
+	roughness "materials/roughness/auto/flat0_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/flat0_1.dds"
+}
+
+material Texture "flat0_2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/flat0_2.dds"
+	roughness "materials/roughness/auto/flat0_2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/flat0_2.dds"
+}
+
+material Texture "flat0_3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/flat0_3.dds"
+	roughness "materials/roughness/auto/flat0_3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/flat0_3.dds"
+}
+
+material Texture "Flat0_5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Flat0_5.dds"
+	roughness "materials/roughness/auto/Flat0_5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Flat0_5.dds"
+}
+
+material Texture "Flat0_6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Flat0_6.dds"
+	roughness "materials/roughness/auto/Flat0_6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Flat0_6.dds"
+}
+
+material Texture "Flat0_7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Flat0_7.dds"
+	roughness "materials/roughness/auto/Flat0_7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Flat0_7.dds"
+}
+
+material Texture "FLAT15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLAT15.dds"
+	roughness "materials/roughness/auto/FLAT15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLAT15.dds"
+}
+
+material Texture "flat1_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/flat1_1.dds"
+	roughness "materials/roughness/auto/flat1_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/flat1_1.dds"
+}
+
+material Texture "flat1_2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/flat1_2.dds"
+	roughness "materials/roughness/auto/flat1_2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/flat1_2.dds"
+}
+
+material Texture "FLAT1_3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLAT1_3.dds"
+	roughness "materials/roughness/auto/FLAT1_3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLAT1_3.dds"
+}
+
+material Texture "flat5_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/flat5_1.dds"
+	roughness "materials/roughness/auto/flat5_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/flat5_1.dds"
+}
+
+material Texture "FLAT5_3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLAT5_3.dds"
+	roughness "materials/roughness/auto/FLAT5_3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLAT5_3.dds"
+}
+
+material Texture "FLAT5_6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLAT5_6.dds"
+	roughness "materials/roughness/auto/FLAT5_6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLAT5_6.dds"
+}
+
+material Texture "FLOOR52A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLOOR52A.dds"
+	roughness "materials/roughness/auto/FLOOR52A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52A.dds"
+}
+
+material Texture "FLOOR52B"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLOOR52B.dds"
+	roughness "materials/roughness/auto/FLOOR52B.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52B.dds"
+}
+
+material Texture "FLOOR52C"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLOOR52C.dds"
+	roughness "materials/roughness/auto/FLOOR52C.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52C.dds"
+}
+
+material Texture "FLOOR52D"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLOOR52D.dds"
+	roughness "materials/roughness/auto/FLOOR52D.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52D.dds"
+}
+
+material Texture "FLOOR52E"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLOOR52E.dds"
+	roughness "materials/roughness/auto/FLOOR52E.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52E.dds"
+}
+
+material Texture "FLOORMETAL1A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/FLOORMETAL1A.dds"
+	roughness "materials/roughness/auto/FLOORMETAL1A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/FLOORMETAL1A.dds"
+}
+
+material Texture "fwater10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater10.dds"
+	roughness "materials/roughness/auto/fwater10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater10.dds"
+}
+
+material Texture "fwater11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater11.dds"
+	roughness "materials/roughness/auto/fwater11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater11.dds"
+}
+
+material Texture "fwater12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater12.dds"
+	roughness "materials/roughness/auto/fwater12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater12.dds"
+}
+
+material Texture "fwater13"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater13.dds"
+	roughness "materials/roughness/auto/fwater13.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater13.dds"
+}
+
+material Texture "fwater14"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater14.dds"
+	roughness "materials/roughness/auto/fwater14.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater14.dds"
+}
+
+material Texture "fwater15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater15.dds"
+	roughness "materials/roughness/auto/fwater15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater15.dds"
+}
+
+material Texture "fwater16"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater16.dds"
+	roughness "materials/roughness/auto/fwater16.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater16.dds"
+}
+
+material Texture "fwater5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater5.dds"
+	roughness "materials/roughness/auto/fwater5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater5.dds"
+}
+
+material Texture "fwater6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater6.dds"
+	roughness "materials/roughness/auto/fwater6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater6.dds"
+}
+
+material Texture "fwater7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater7.dds"
+	roughness "materials/roughness/auto/fwater7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater7.dds"
+}
+
+material Texture "fwater8"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater8.dds"
+	roughness "materials/roughness/auto/fwater8.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater8.dds"
+}
+
+material Texture "fwater9"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/fwater9.dds"
+	roughness "materials/roughness/auto/fwater9.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/fwater9.dds"
+}
+
+material Texture "GATE1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GATE1.dds"
+	roughness "materials/roughness/auto/GATE1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GATE1.dds"
+}
+
+material Texture "GATE2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GATE2.dds"
+	roughness "materials/roughness/auto/GATE2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GATE2.dds"
+}
+
+material Texture "GATE3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GATE3.dds"
+	roughness "materials/roughness/auto/GATE3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GATE3.dds"
+}
+
+material Texture "GATE4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GATE4.dds"
+	roughness "materials/roughness/auto/GATE4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GATE4.dds"
+}
+
+material Texture "GRATE1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GRATE1.dds"
+	roughness "materials/roughness/auto/GRATE1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GRATE1.dds"
+}
+
+material Texture "GRNLITE1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GRNLITE1.dds"
+	roughness "materials/roughness/auto/GRNLITE1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GRNLITE1.dds"
+}
+
+material Texture "gstfont1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/gstfont1.dds"
+	roughness "materials/roughness/auto/gstfont1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/gstfont1.dds"
+}
+
+material Texture "gstfont2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/gstfont2.dds"
+	roughness "materials/roughness/auto/gstfont2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/gstfont2.dds"
+}
+
+material Texture "gstfont3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/gstfont3.dds"
+	roughness "materials/roughness/auto/gstfont3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/gstfont3.dds"
+}
+
+material Texture "GSTVINE1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GSTVINE1.dds"
+	roughness "materials/roughness/auto/GSTVINE1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GSTVINE1.dds"
+}
+
+material Texture "GSTVINE2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GSTVINE2.dds"
+	roughness "materials/roughness/auto/GSTVINE2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GSTVINE2.dds"
+}
+
+material Texture "GTEL1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/GTEL1.dds"
+	roughness "materials/roughness/auto/GTEL1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/GTEL1.dds"
+}
+
+material Texture "HTEL1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/HTEL1.dds"
+	roughness "materials/roughness/auto/HTEL1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/HTEL1.dds"
+}
+
+material Texture "HTELA"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/HTELA.dds"
+	roughness "materials/roughness/auto/HTELA.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/HTELA.dds"
+}
+
+material Texture "JAILCELL"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/JAILCELL.dds"
+	roughness "materials/roughness/auto/JAILCELL.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/JAILCELL.dds"
+}
+
+material Texture "los_p029"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/los_p029.dds"
+	roughness "materials/roughness/auto/los_p029.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/los_p029.dds"
+}
+
+material Texture "m_skull2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/m_skull2.dds"
+	roughness "materials/roughness/auto/m_skull2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/m_skull2.dds"
+}
+
+material Texture "marbfac1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/marbfac1.dds"
+	roughness "materials/roughness/auto/marbfac1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/marbfac1.dds"
+}
+
+material Texture "marbfac2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/marbfac2.dds"
+	roughness "materials/roughness/auto/marbfac2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/marbfac2.dds"
+}
+
+material Texture "marbfac3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/marbfac3.dds"
+	roughness "materials/roughness/auto/marbfac3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/marbfac3.dds"
+}
+
+material Texture "MARBFAC4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/MARBFAC4.dds"
+	roughness "materials/roughness/auto/MARBFAC4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/MARBFAC4.dds"
+}
+
+material Texture "Marble2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Marble2.dds"
+	roughness "materials/roughness/auto/Marble2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Marble2.dds"
+}
+
+material Texture "Marble3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Marble3.dds"
+	roughness "materials/roughness/auto/Marble3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Marble3.dds"
+}
+
+material Texture "marblod1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/marblod1.dds"
+	roughness "materials/roughness/auto/marblod1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/marblod1.dds"
+}
+
+material Texture "marfac1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/marfac1.dds"
+	roughness "materials/roughness/auto/marfac1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/marfac1.dds"
+}
+
+material Texture "marfac2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/marfac2.dds"
+	roughness "materials/roughness/auto/marfac2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/marfac2.dds"
+}
+
+material Texture "metal2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/metal2.dds"
+	roughness "materials/roughness/auto/metal2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/metal2.dds"
+}
+
+material Texture "metal5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/metal5.dds"
+	roughness "materials/roughness/auto/metal5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/metal5.dds"
+}
+
+material Texture "metal6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/metal6.dds"
+	roughness "materials/roughness/auto/metal6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/metal6.dds"
+}
+
+material Texture "metal7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/metal7.dds"
+	roughness "materials/roughness/auto/metal7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/metal7.dds"
+}
+
+material Texture "metl1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/metl1.dds"
+	roughness "materials/roughness/auto/metl1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/metl1.dds"
+}
+
+material Texture "MFLR8_3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/MFLR8_3.dds"
+	roughness "materials/roughness/auto/MFLR8_3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/MFLR8_3.dds"
+}
+
+material Texture "Midbars2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Midbars2.dds"
+	roughness "materials/roughness/auto/Midbars2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Midbars2.dds"
+}
+
+material Texture "midbars3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/midbars3.dds"
+	roughness "materials/roughness/auto/midbars3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/midbars3.dds"
+}
+
+material Texture "MIDBRN1-CK"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/MIDBRN1-CK.dds"
+	roughness "materials/roughness/auto/MIDBRN1-CK.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/MIDBRN1-CK.dds"
+}
+
+material Texture "midbrn1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/midbrn1.dds"
+	roughness "materials/roughness/auto/midbrn1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/midbrn1.dds"
+}
+
+material Texture "Midbronz"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Midbronz.dds"
+	roughness "materials/roughness/auto/Midbronz.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Midbronz.dds"
+}
+
+material Texture "midgrat2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/midgrat2.dds"
+	roughness "materials/roughness/auto/midgrat2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/midgrat2.dds"
+}
+
+material Texture "midspace"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/midspace.dds"
+	roughness "materials/roughness/auto/midspace.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/midspace.dds"
+}
+
+material Texture "midvine1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/midvine1.dds"
+	roughness "materials/roughness/auto/midvine1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/midvine1.dds"
+}
+
+material Texture "midvine2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/midvine2.dds"
+	roughness "materials/roughness/auto/midvine2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/midvine2.dds"
+}
+
+material Texture "Mural1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Mural1.dds"
+	roughness "materials/roughness/auto/Mural1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Mural1.dds"
+}
+
+material Texture "Mural2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Mural2.dds"
+	roughness "materials/roughness/auto/Mural2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Mural2.dds"
+}
+
+material Texture "nukage10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage10.dds"
+	roughness "materials/roughness/auto/nukage10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage10.dds"
+}
+
+material Texture "nukage11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage11.dds"
+	roughness "materials/roughness/auto/nukage11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage11.dds"
+}
+
+material Texture "nukage12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage12.dds"
+	roughness "materials/roughness/auto/nukage12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage12.dds"
+}
+
+material Texture "nukage13"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage13.dds"
+	roughness "materials/roughness/auto/nukage13.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage13.dds"
+}
+
+material Texture "nukage14"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage14.dds"
+	roughness "materials/roughness/auto/nukage14.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage14.dds"
+}
+
+material Texture "nukage15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage15.dds"
+	roughness "materials/roughness/auto/nukage15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage15.dds"
+}
+
+material Texture "nukage16"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage16.dds"
+	roughness "materials/roughness/auto/nukage16.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage16.dds"
+}
+
+material Texture "nukage5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage5.dds"
+	roughness "materials/roughness/auto/nukage5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage5.dds"
+}
+
+material Texture "nukage6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage6.dds"
+	roughness "materials/roughness/auto/nukage6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage6.dds"
+}
+
+material Texture "nukage7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage7.dds"
+	roughness "materials/roughness/auto/nukage7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage7.dds"
+}
+
+material Texture "nukage8"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage8.dds"
+	roughness "materials/roughness/auto/nukage8.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage8.dds"
+}
+
+material Texture "nukage9"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/nukage9.dds"
+	roughness "materials/roughness/auto/nukage9.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/nukage9.dds"
+}
+
+material Texture "PIPE4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/PIPE4.dds"
+	roughness "materials/roughness/auto/PIPE4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/PIPE4.dds"
+}
+
+material Texture "redopen"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/redopen.dds"
+	roughness "materials/roughness/auto/redopen.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/redopen.dds"
+}
+
+material Texture "ROCK4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ROCK4.dds"
+	roughness "materials/roughness/auto/ROCK4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ROCK4.dds"
+}
+
+material Texture "ROCK5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/ROCK5.dds"
+	roughness "materials/roughness/auto/ROCK5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/ROCK5.dds"
+}
+
+material Texture "rrip1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip1.dds"
+	roughness "materials/roughness/auto/rrip1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip1.dds"
+}
+
+material Texture "rrip10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip10.dds"
+	roughness "materials/roughness/auto/rrip10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip10.dds"
+}
+
+material Texture "rrip11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip11.dds"
+	roughness "materials/roughness/auto/rrip11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip11.dds"
+}
+
+material Texture "rrip12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip12.dds"
+	roughness "materials/roughness/auto/rrip12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip12.dds"
+}
+
+material Texture "rrip13"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip13.dds"
+	roughness "materials/roughness/auto/rrip13.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip13.dds"
+}
+
+material Texture "rrip14"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip14.dds"
+	roughness "materials/roughness/auto/rrip14.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip14.dds"
+}
+
+material Texture "rrip15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip15.dds"
+	roughness "materials/roughness/auto/rrip15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip15.dds"
+}
+
+material Texture "rrip2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip2.dds"
+	roughness "materials/roughness/auto/rrip2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip2.dds"
+}
+
+material Texture "rrip3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip3.dds"
+	roughness "materials/roughness/auto/rrip3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip3.dds"
+}
+
+material Texture "rrip4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip4.dds"
+	roughness "materials/roughness/auto/rrip4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip4.dds"
+}
+
+material Texture "rrip5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip5.dds"
+	roughness "materials/roughness/auto/rrip5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip5.dds"
+}
+
+material Texture "rrip6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip6.dds"
+	roughness "materials/roughness/auto/rrip6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip6.dds"
+}
+
+material Texture "rrip7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip7.dds"
+	roughness "materials/roughness/auto/rrip7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip7.dds"
+}
+
+material Texture "rrip8"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip8.dds"
+	roughness "materials/roughness/auto/rrip8.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip8.dds"
+}
+
+material Texture "rrip9"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrip9.dds"
+	roughness "materials/roughness/auto/rrip9.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrip9.dds"
+}
+
+material Texture "rrock11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrock11.dds"
+	roughness "materials/roughness/auto/rrock11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrock11.dds"
+}
+
+material Texture "rrock12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrock12.dds"
+	roughness "materials/roughness/auto/rrock12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrock12.dds"
+}
+
+material Texture "rrock17"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrock17.dds"
+	roughness "materials/roughness/auto/rrock17.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrock17.dds"
+}
+
+material Texture "rrock18"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/rrock18.dds"
+	roughness "materials/roughness/auto/rrock18.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/rrock18.dds"
+}
+
+material Texture "sfall01"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall01.dds"
+	roughness "materials/roughness/auto/sfall01.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall01.dds"
+}
+
+material Texture "sfall02"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall02.dds"
+	roughness "materials/roughness/auto/sfall02.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall02.dds"
+}
+
+material Texture "sfall03"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall03.dds"
+	roughness "materials/roughness/auto/sfall03.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall03.dds"
+}
+
+material Texture "sfall04"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall04.dds"
+	roughness "materials/roughness/auto/sfall04.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall04.dds"
+}
+
+material Texture "sfall05"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall05.dds"
+	roughness "materials/roughness/auto/sfall05.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall05.dds"
+}
+
+material Texture "sfall06"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall06.dds"
+	roughness "materials/roughness/auto/sfall06.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall06.dds"
+}
+
+material Texture "sfall07"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall07.dds"
+	roughness "materials/roughness/auto/sfall07.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall07.dds"
+}
+
+material Texture "sfall08"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall08.dds"
+	roughness "materials/roughness/auto/sfall08.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall08.dds"
+}
+
+material Texture "sfall09"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall09.dds"
+	roughness "materials/roughness/auto/sfall09.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall09.dds"
+}
+
+material Texture "sfall10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall10.dds"
+	roughness "materials/roughness/auto/sfall10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall10.dds"
+}
+
+material Texture "sfall11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall11.dds"
+	roughness "materials/roughness/auto/sfall11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall11.dds"
+}
+
+material Texture "sfall12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall12.dds"
+	roughness "materials/roughness/auto/sfall12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall12.dds"
+}
+
+material Texture "sfall13"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall13.dds"
+	roughness "materials/roughness/auto/sfall13.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall13.dds"
+}
+
+material Texture "sfall14"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall14.dds"
+	roughness "materials/roughness/auto/sfall14.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall14.dds"
+}
+
+material Texture "sfall15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall15.dds"
+	roughness "materials/roughness/auto/sfall15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall15.dds"
+}
+
+material Texture "sfall16"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall16.dds"
+	roughness "materials/roughness/auto/sfall16.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall16.dds"
+}
+
+material Texture "sfall17"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall17.dds"
+	roughness "materials/roughness/auto/sfall17.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall17.dds"
+}
+
+material Texture "sfall18"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall18.dds"
+	roughness "materials/roughness/auto/sfall18.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall18.dds"
+}
+
+material Texture "sfall19"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall19.dds"
+	roughness "materials/roughness/auto/sfall19.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall19.dds"
+}
+
+material Texture "sfall20"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall20.dds"
+	roughness "materials/roughness/auto/sfall20.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall20.dds"
+}
+
+material Texture "sfall21"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall21.dds"
+	roughness "materials/roughness/auto/sfall21.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall21.dds"
+}
+
+material Texture "sfall22"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall22.dds"
+	roughness "materials/roughness/auto/sfall22.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall22.dds"
+}
+
+material Texture "sfall23"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall23.dds"
+	roughness "materials/roughness/auto/sfall23.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall23.dds"
+}
+
+material Texture "sfall24"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall24.dds"
+	roughness "materials/roughness/auto/sfall24.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall24.dds"
+}
+
+material Texture "sfall25"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall25.dds"
+	roughness "materials/roughness/auto/sfall25.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall25.dds"
+}
+
+material Texture "sfall26"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall26.dds"
+	roughness "materials/roughness/auto/sfall26.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall26.dds"
+}
+
+material Texture "sfall27"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall27.dds"
+	roughness "materials/roughness/auto/sfall27.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall27.dds"
+}
+
+material Texture "sfall28"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall28.dds"
+	roughness "materials/roughness/auto/sfall28.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall28.dds"
+}
+
+material Texture "sfall29"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall29.dds"
+	roughness "materials/roughness/auto/sfall29.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall29.dds"
+}
+
+material Texture "sfall30"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall30.dds"
+	roughness "materials/roughness/auto/sfall30.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall30.dds"
+}
+
+material Texture "sfall31"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall31.dds"
+	roughness "materials/roughness/auto/sfall31.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall31.dds"
+}
+
+material Texture "sfall32"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall32.dds"
+	roughness "materials/roughness/auto/sfall32.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall32.dds"
+}
+
+material Texture "sfall33"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall33.dds"
+	roughness "materials/roughness/auto/sfall33.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall33.dds"
+}
+
+material Texture "sfall34"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall34.dds"
+	roughness "materials/roughness/auto/sfall34.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall34.dds"
+}
+
+material Texture "sfall35"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall35.dds"
+	roughness "materials/roughness/auto/sfall35.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall35.dds"
+}
+
+material Texture "sfall36"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall36.dds"
+	roughness "materials/roughness/auto/sfall36.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall36.dds"
+}
+
+material Texture "sfall37"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall37.dds"
+	roughness "materials/roughness/auto/sfall37.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall37.dds"
+}
+
+material Texture "sfall38"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall38.dds"
+	roughness "materials/roughness/auto/sfall38.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall38.dds"
+}
+
+material Texture "sfall39"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall39.dds"
+	roughness "materials/roughness/auto/sfall39.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall39.dds"
+}
+
+material Texture "sfall40"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall40.dds"
+	roughness "materials/roughness/auto/sfall40.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall40.dds"
+}
+
+material Texture "sfall41"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall41.dds"
+	roughness "materials/roughness/auto/sfall41.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall41.dds"
+}
+
+material Texture "sfall42"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall42.dds"
+	roughness "materials/roughness/auto/sfall42.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall42.dds"
+}
+
+material Texture "sfall43"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall43.dds"
+	roughness "materials/roughness/auto/sfall43.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall43.dds"
+}
+
+material Texture "sfall44"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall44.dds"
+	roughness "materials/roughness/auto/sfall44.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall44.dds"
+}
+
+material Texture "sfall45"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall45.dds"
+	roughness "materials/roughness/auto/sfall45.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall45.dds"
+}
+
+material Texture "sfall46"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall46.dds"
+	roughness "materials/roughness/auto/sfall46.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall46.dds"
+}
+
+material Texture "sfall47"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall47.dds"
+	roughness "materials/roughness/auto/sfall47.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall47.dds"
+}
+
+material Texture "sfall48"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall48.dds"
+	roughness "materials/roughness/auto/sfall48.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall48.dds"
+}
+
+material Texture "sfall49"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall49.dds"
+	roughness "materials/roughness/auto/sfall49.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall49.dds"
+}
+
+material Texture "sfall50"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall50.dds"
+	roughness "materials/roughness/auto/sfall50.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall50.dds"
+}
+
+material Texture "sfall51"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall51.dds"
+	roughness "materials/roughness/auto/sfall51.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall51.dds"
+}
+
+material Texture "sfall52"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall52.dds"
+	roughness "materials/roughness/auto/sfall52.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall52.dds"
+}
+
+material Texture "sfall53"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall53.dds"
+	roughness "materials/roughness/auto/sfall53.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall53.dds"
+}
+
+material Texture "sfall54"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall54.dds"
+	roughness "materials/roughness/auto/sfall54.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall54.dds"
+}
+
+material Texture "sfall55"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall55.dds"
+	roughness "materials/roughness/auto/sfall55.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall55.dds"
+}
+
+material Texture "sfall56"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall56.dds"
+	roughness "materials/roughness/auto/sfall56.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall56.dds"
+}
+
+material Texture "sfall57"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall57.dds"
+	roughness "materials/roughness/auto/sfall57.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall57.dds"
+}
+
+material Texture "sfall58"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall58.dds"
+	roughness "materials/roughness/auto/sfall58.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall58.dds"
+}
+
+material Texture "sfall59"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall59.dds"
+	roughness "materials/roughness/auto/sfall59.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall59.dds"
+}
+
+material Texture "sfall60"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall60.dds"
+	roughness "materials/roughness/auto/sfall60.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall60.dds"
+}
+
+material Texture "sfall61"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall61.dds"
+	roughness "materials/roughness/auto/sfall61.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall61.dds"
+}
+
+material Texture "sfall62"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall62.dds"
+	roughness "materials/roughness/auto/sfall62.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall62.dds"
+}
+
+material Texture "sfall63"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall63.dds"
+	roughness "materials/roughness/auto/sfall63.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall63.dds"
+}
+
+material Texture "sfall64"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sfall64.dds"
+	roughness "materials/roughness/auto/sfall64.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sfall64.dds"
+}
+
+material Texture "SFLATDF"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SFLATDF.dds"
+	roughness "materials/roughness/auto/SFLATDF.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SFLATDF.dds"
+}
+
+material Texture "SFLATDG"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SFLATDG.dds"
+	roughness "materials/roughness/auto/SFLATDG.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SFLATDG.dds"
+}
+
+material Texture "SFLR6_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SFLR6_1.dds"
+	roughness "materials/roughness/auto/SFLR6_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SFLR6_1.dds"
+}
+
+material Texture "SFLR6_4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SFLR6_4.dds"
+	roughness "materials/roughness/auto/SFLR6_4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SFLR6_4.dds"
+}
+
+material Texture "SFLR7_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SFLR7_1.dds"
+	roughness "materials/roughness/auto/SFLR7_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SFLR7_1.dds"
+}
+
+material Texture "SFLR7_4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SFLR7_4.dds"
+	roughness "materials/roughness/auto/SFLR7_4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SFLR7_4.dds"
+}
+
+material Texture "SKSNAKE1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SKSNAKE1.dds"
+	roughness "materials/roughness/auto/SKSNAKE1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SKSNAKE1.dds"
+}
+
+material Texture "SKSNAKE2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SKSNAKE2.dds"
+	roughness "materials/roughness/auto/SKSNAKE2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SKSNAKE2.dds"
+}
+
+material Texture "SKSPINE1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SKSPINE1.dds"
+	roughness "materials/roughness/auto/SKSPINE1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SKSPINE1.dds"
+}
+
+material Texture "SKSPINE2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SKSPINE2.dds"
+	roughness "materials/roughness/auto/SKSPINE2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SKSPINE2.dds"
+}
+
+material Texture "skullwall"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/skullwall.dds"
+	roughness "materials/roughness/auto/skullwall.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/skullwall.dds"
+}
+
+material Texture "slad00"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad00.dds"
+	roughness "materials/roughness/auto/slad00.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad00.dds"
+}
+
+material Texture "slad01"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad01.dds"
+	roughness "materials/roughness/auto/slad01.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad01.dds"
+}
+
+material Texture "slad02"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad02.dds"
+	roughness "materials/roughness/auto/slad02.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad02.dds"
+}
+
+material Texture "slad03"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad03.dds"
+	roughness "materials/roughness/auto/slad03.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad03.dds"
+}
+
+material Texture "slad04"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad04.dds"
+	roughness "materials/roughness/auto/slad04.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad04.dds"
+}
+
+material Texture "slad05"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad05.dds"
+	roughness "materials/roughness/auto/slad05.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad05.dds"
+}
+
+material Texture "slad06"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad06.dds"
+	roughness "materials/roughness/auto/slad06.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad06.dds"
+}
+
+material Texture "slad07"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad07.dds"
+	roughness "materials/roughness/auto/slad07.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad07.dds"
+}
+
+material Texture "slad08"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad08.dds"
+	roughness "materials/roughness/auto/slad08.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad08.dds"
+}
+
+material Texture "slad09"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad09.dds"
+	roughness "materials/roughness/auto/slad09.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad09.dds"
+}
+
+material Texture "slad10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad10.dds"
+	roughness "materials/roughness/auto/slad10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad10.dds"
+}
+
+material Texture "slad11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad11.dds"
+	roughness "materials/roughness/auto/slad11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad11.dds"
+}
+
+material Texture "slad2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad2.dds"
+	roughness "materials/roughness/auto/slad2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad2.dds"
+}
+
+material Texture "slad3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad3.dds"
+	roughness "materials/roughness/auto/slad3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad3.dds"
+}
+
+material Texture "slad4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad4.dds"
+	roughness "materials/roughness/auto/slad4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad4.dds"
+}
+
+material Texture "slad5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad5.dds"
+	roughness "materials/roughness/auto/slad5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad5.dds"
+}
+
+material Texture "slad6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad6.dds"
+	roughness "materials/roughness/auto/slad6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad6.dds"
+}
+
+material Texture "slad7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad7.dds"
+	roughness "materials/roughness/auto/slad7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad7.dds"
+}
+
+material Texture "slad8"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad8.dds"
+	roughness "materials/roughness/auto/slad8.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad8.dds"
+}
+
+material Texture "slad9"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/slad9.dds"
+	roughness "materials/roughness/auto/slad9.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/slad9.dds"
+}
+
+material Texture "sladrip4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sladrip4.dds"
+	roughness "materials/roughness/auto/sladrip4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sladrip4.dds"
+}
+
+material Texture "SLIME14"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SLIME14.dds"
+	roughness "materials/roughness/auto/SLIME14.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SLIME14.dds"
+}
+
+material Texture "SLIME15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SLIME15.dds"
+	roughness "materials/roughness/auto/SLIME15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SLIME15.dds"
+}
+
+material Texture "SLIME16"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SLIME16.dds"
+	roughness "materials/roughness/auto/SLIME16.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SLIME16.dds"
+}
+
+material Texture "SNOW"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SNOW.dds"
+	roughness "materials/roughness/auto/SNOW.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SNOW.dds"
+}
+
+material Texture "sp_dude1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sp_dude1.dds"
+	roughness "materials/roughness/auto/sp_dude1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sp_dude1.dds"
+}
+
+material Texture "sp_dude2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sp_dude2.dds"
+	roughness "materials/roughness/auto/sp_dude2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sp_dude2.dds"
+}
+
+material Texture "Sp_dude3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Sp_dude3.dds"
+	roughness "materials/roughness/auto/Sp_dude3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Sp_dude3.dds"
+}
+
+material Texture "sp_dude4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sp_dude4.dds"
+	roughness "materials/roughness/auto/sp_dude4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sp_dude4.dds"
+}
+
+material Texture "Sp_dude5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Sp_dude5.dds"
+	roughness "materials/roughness/auto/Sp_dude5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Sp_dude5.dds"
+}
+
+material Texture "sp_dude6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sp_dude6.dds"
+	roughness "materials/roughness/auto/sp_dude6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sp_dude6.dds"
+}
+
+material Texture "sp_dude7"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sp_dude7.dds"
+	roughness "materials/roughness/auto/sp_dude7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sp_dude7.dds"
+}
+
+material Texture "sp_dude8"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/sp_dude8.dds"
+	roughness "materials/roughness/auto/sp_dude8.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/sp_dude8.dds"
+}
+
+material Texture "SPACEW4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SPACEW4.dds"
+	roughness "materials/roughness/auto/SPACEW4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SPACEW4.dds"
+}
+
+material Texture "SPACM0"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SPACM0.dds"
+	roughness "materials/roughness/auto/SPACM0.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SPACM0.dds"
+}
+
+material Texture "SPACM1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SPACM1.dds"
+	roughness "materials/roughness/auto/SPACM1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SPACM1.dds"
+}
+
+material Texture "SPACM2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SPACM2.dds"
+	roughness "materials/roughness/auto/SPACM2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SPACM2.dds"
+}
+
+material Texture "SPACM3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SPACM3.dds"
+	roughness "materials/roughness/auto/SPACM3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SPACM3.dds"
+}
+
+material Texture "SPACM4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SPACM4.dds"
+	roughness "materials/roughness/auto/SPACM4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SPACM4.dds"
+}
+
+material Texture "spcdoor3"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/spcdoor3.dds"
+	roughness "materials/roughness/auto/spcdoor3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/spcdoor3.dds"
+}
+
+material Texture "spdude2A"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/spdude2A.dds"
+	roughness "materials/roughness/auto/spdude2A.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/spdude2A.dds"
+}
+
+material Texture "spdude2B"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/spdude2B.dds"
+	roughness "materials/roughness/auto/spdude2B.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/spdude2B.dds"
+}
+
+material Texture "spdude2C"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/spdude2C.dds"
+	roughness "materials/roughness/auto/spdude2C.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/spdude2C.dds"
+}
+
+material Texture "SPORT1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SPORT1.dds"
+	roughness "materials/roughness/auto/SPORT1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SPORT1.dds"
+}
+
+material Texture "SPORTA"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/SPORTA.dds"
+	roughness "materials/roughness/auto/SPORTA.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/SPORTA.dds"
+}
+
+material Texture "STONE4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/STONE4.dds"
+	roughness "materials/roughness/auto/STONE4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/STONE4.dds"
+}
+
+material Texture "stone5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/stone5.dds"
+	roughness "materials/roughness/auto/stone5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/stone5.dds"
+}
+
+material Texture "STONE_ALT"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/STONE_ALT.dds"
+	roughness "materials/roughness/auto/STONE_ALT.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/STONE_ALT.dds"
+}
+
+material Texture "support1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/support1.dds"
+	roughness "materials/roughness/auto/support1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/support1.dds"
+}
+
+material Texture "TEKGREN2"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/TEKGREN2.dds"
+	roughness "materials/roughness/auto/TEKGREN2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/TEKGREN2.dds"
+}
+
+material Texture "tekgren5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/tekgren5.dds"
+	roughness "materials/roughness/auto/tekgren5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/tekgren5.dds"
+}
+
+material Texture "terradimerda"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/terradimerda.dds"
+	roughness "materials/roughness/auto/terradimerda.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/terradimerda.dds"
+}
+
+material Texture "title6_1"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/title6_1.dds"
+	roughness "materials/roughness/auto/title6_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/title6_1.dds"
+}
+
+material Texture "title6_4"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/title6_4.dds"
+	roughness "materials/roughness/auto/title6_4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/title6_4.dds"
+}
+
+material Texture "title6_5"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/title6_5.dds"
+	roughness "materials/roughness/auto/title6_5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/title6_5.dds"
+}
+
+material Texture "title6_6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/title6_6.dds"
+	roughness "materials/roughness/auto/title6_6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/title6_6.dds"
+}
+
+material Texture "TTEKWL01"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/TTEKWL01.dds"
+	roughness "materials/roughness/auto/TTEKWL01.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/TTEKWL01.dds"
+}
+
+material Texture "Tyironlg"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Tyironlg.dds"
+	roughness "materials/roughness/auto/Tyironlg.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Tyironlg.dds"
+}
+
+material Texture "Tyironsm"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Tyironsm.dds"
+	roughness "materials/roughness/auto/Tyironsm.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Tyironsm.dds"
+}
+
+material Texture "VEINS"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/VEINS.dds"
+	roughness "materials/roughness/auto/VEINS.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/VEINS.dds"
+}
+
+material Texture "WALL_WITH_METAL_FACE"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/WALL_WITH_METAL_FACE.dds"
+	roughness "materials/roughness/auto/WALL_WITH_METAL_FACE.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/WALL_WITH_METAL_FACE.dds"
+}
+
+material Texture "Webl"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Webl.dds"
+	roughness "materials/roughness/auto/Webl.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Webl.dds"
+}
+
+material Texture "Webr"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/Webr.dds"
+	roughness "materials/roughness/auto/Webr.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/Webr.dds"
+}
+
+material Texture "wfall01"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall01.dds"
+	roughness "materials/roughness/auto/wfall01.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall01.dds"
+}
+
+material Texture "wfall02"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall02.dds"
+	roughness "materials/roughness/auto/wfall02.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall02.dds"
+}
+
+material Texture "wfall03"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall03.dds"
+	roughness "materials/roughness/auto/wfall03.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall03.dds"
+}
+
+material Texture "wfall04"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall04.dds"
+	roughness "materials/roughness/auto/wfall04.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall04.dds"
+}
+
+material Texture "wfall05"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall05.dds"
+	roughness "materials/roughness/auto/wfall05.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall05.dds"
+}
+
+material Texture "wfall06"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall06.dds"
+	roughness "materials/roughness/auto/wfall06.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall06.dds"
+}
+
+material Texture "wfall07"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall07.dds"
+	roughness "materials/roughness/auto/wfall07.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall07.dds"
+}
+
+material Texture "wfall08"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall08.dds"
+	roughness "materials/roughness/auto/wfall08.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall08.dds"
+}
+
+material Texture "wfall09"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall09.dds"
+	roughness "materials/roughness/auto/wfall09.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall09.dds"
+}
+
+material Texture "wfall10"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall10.dds"
+	roughness "materials/roughness/auto/wfall10.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall10.dds"
+}
+
+material Texture "wfall11"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall11.dds"
+	roughness "materials/roughness/auto/wfall11.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall11.dds"
+}
+
+material Texture "wfall12"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall12.dds"
+	roughness "materials/roughness/auto/wfall12.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall12.dds"
+}
+
+material Texture "wfall13"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall13.dds"
+	roughness "materials/roughness/auto/wfall13.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall13.dds"
+}
+
+material Texture "wfall14"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall14.dds"
+	roughness "materials/roughness/auto/wfall14.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall14.dds"
+}
+
+material Texture "wfall15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall15.dds"
+	roughness "materials/roughness/auto/wfall15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall15.dds"
+}
+
+material Texture "wfall16"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall16.dds"
+	roughness "materials/roughness/auto/wfall16.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall16.dds"
+}
+
+material Texture "wfall17"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall17.dds"
+	roughness "materials/roughness/auto/wfall17.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall17.dds"
+}
+
+material Texture "wfall18"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall18.dds"
+	roughness "materials/roughness/auto/wfall18.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall18.dds"
+}
+
+material Texture "wfall19"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall19.dds"
+	roughness "materials/roughness/auto/wfall19.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall19.dds"
+}
+
+material Texture "wfall20"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall20.dds"
+	roughness "materials/roughness/auto/wfall20.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall20.dds"
+}
+
+material Texture "wfall21"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall21.dds"
+	roughness "materials/roughness/auto/wfall21.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall21.dds"
+}
+
+material Texture "wfall22"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall22.dds"
+	roughness "materials/roughness/auto/wfall22.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall22.dds"
+}
+
+material Texture "wfall23"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall23.dds"
+	roughness "materials/roughness/auto/wfall23.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall23.dds"
+}
+
+material Texture "wfall24"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall24.dds"
+	roughness "materials/roughness/auto/wfall24.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall24.dds"
+}
+
+material Texture "wfall25"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall25.dds"
+	roughness "materials/roughness/auto/wfall25.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall25.dds"
+}
+
+material Texture "wfall26"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall26.dds"
+	roughness "materials/roughness/auto/wfall26.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall26.dds"
+}
+
+material Texture "wfall27"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall27.dds"
+	roughness "materials/roughness/auto/wfall27.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall27.dds"
+}
+
+material Texture "wfall28"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall28.dds"
+	roughness "materials/roughness/auto/wfall28.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall28.dds"
+}
+
+material Texture "wfall29"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall29.dds"
+	roughness "materials/roughness/auto/wfall29.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall29.dds"
+}
+
+material Texture "wfall30"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall30.dds"
+	roughness "materials/roughness/auto/wfall30.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall30.dds"
+}
+
+material Texture "wfall31"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall31.dds"
+	roughness "materials/roughness/auto/wfall31.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall31.dds"
+}
+
+material Texture "wfall32"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall32.dds"
+	roughness "materials/roughness/auto/wfall32.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall32.dds"
+}
+
+material Texture "wfall33"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall33.dds"
+	roughness "materials/roughness/auto/wfall33.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall33.dds"
+}
+
+material Texture "wfall34"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall34.dds"
+	roughness "materials/roughness/auto/wfall34.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall34.dds"
+}
+
+material Texture "wfall35"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall35.dds"
+	roughness "materials/roughness/auto/wfall35.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall35.dds"
+}
+
+material Texture "wfall36"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall36.dds"
+	roughness "materials/roughness/auto/wfall36.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall36.dds"
+}
+
+material Texture "wfall37"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall37.dds"
+	roughness "materials/roughness/auto/wfall37.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall37.dds"
+}
+
+material Texture "wfall38"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall38.dds"
+	roughness "materials/roughness/auto/wfall38.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall38.dds"
+}
+
+material Texture "wfall39"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall39.dds"
+	roughness "materials/roughness/auto/wfall39.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall39.dds"
+}
+
+material Texture "wfall40"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall40.dds"
+	roughness "materials/roughness/auto/wfall40.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall40.dds"
+}
+
+material Texture "wfall41"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall41.dds"
+	roughness "materials/roughness/auto/wfall41.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall41.dds"
+}
+
+material Texture "wfall42"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall42.dds"
+	roughness "materials/roughness/auto/wfall42.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall42.dds"
+}
+
+material Texture "wfall43"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall43.dds"
+	roughness "materials/roughness/auto/wfall43.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall43.dds"
+}
+
+material Texture "wfall44"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall44.dds"
+	roughness "materials/roughness/auto/wfall44.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall44.dds"
+}
+
+material Texture "wfall45"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall45.dds"
+	roughness "materials/roughness/auto/wfall45.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall45.dds"
+}
+
+material Texture "wfall46"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall46.dds"
+	roughness "materials/roughness/auto/wfall46.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall46.dds"
+}
+
+material Texture "wfall47"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall47.dds"
+	roughness "materials/roughness/auto/wfall47.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall47.dds"
+}
+
+material Texture "wfall48"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall48.dds"
+	roughness "materials/roughness/auto/wfall48.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall48.dds"
+}
+
+material Texture "wfall49"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall49.dds"
+	roughness "materials/roughness/auto/wfall49.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall49.dds"
+}
+
+material Texture "wfall50"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall50.dds"
+	roughness "materials/roughness/auto/wfall50.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall50.dds"
+}
+
+material Texture "wfall51"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall51.dds"
+	roughness "materials/roughness/auto/wfall51.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall51.dds"
+}
+
+material Texture "wfall52"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall52.dds"
+	roughness "materials/roughness/auto/wfall52.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall52.dds"
+}
+
+material Texture "wfall53"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall53.dds"
+	roughness "materials/roughness/auto/wfall53.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall53.dds"
+}
+
+material Texture "wfall54"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall54.dds"
+	roughness "materials/roughness/auto/wfall54.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall54.dds"
+}
+
+material Texture "wfall55"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall55.dds"
+	roughness "materials/roughness/auto/wfall55.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall55.dds"
+}
+
+material Texture "wfall56"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall56.dds"
+	roughness "materials/roughness/auto/wfall56.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall56.dds"
+}
+
+material Texture "wfall57"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall57.dds"
+	roughness "materials/roughness/auto/wfall57.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall57.dds"
+}
+
+material Texture "wfall58"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall58.dds"
+	roughness "materials/roughness/auto/wfall58.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall58.dds"
+}
+
+material Texture "wfall59"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall59.dds"
+	roughness "materials/roughness/auto/wfall59.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall59.dds"
+}
+
+material Texture "wfall60"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall60.dds"
+	roughness "materials/roughness/auto/wfall60.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall60.dds"
+}
+
+material Texture "wfall61"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall61.dds"
+	roughness "materials/roughness/auto/wfall61.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall61.dds"
+}
+
+material Texture "wfall62"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall62.dds"
+	roughness "materials/roughness/auto/wfall62.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall62.dds"
+}
+
+material Texture "wfall63"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall63.dds"
+	roughness "materials/roughness/auto/wfall63.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall63.dds"
+}
+
+material Texture "wfall64"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/wfall64.dds"
+	roughness "materials/roughness/auto/wfall64.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/wfall64.dds"
+}
+
+material Texture "YYHER15"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/YYHER15.dds"
+	roughness "materials/roughness/auto/YYHER15.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/YYHER15.dds"
+}
+
+material Texture "YYHER16"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/YYHER16.dds"
+	roughness "materials/roughness/auto/YYHER16.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/YYHER16.dds"
+}
+
+material Texture "zimmer6"
+{
+	shader "shaders/parallax2.fp"
+	normal "materials/normalmaps/auto/zimmer6.dds"
+	roughness "materials/roughness/auto/zimmer6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/zimmer6.dds"
+}
+

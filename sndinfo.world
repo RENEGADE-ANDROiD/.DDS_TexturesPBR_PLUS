@@ -1,63 +1,3 @@
-
-// Gore
-$random misc/xdeath		{ misc/xdeath1a misc/xdeath1b misc/xdeath1c misc/xdeath1d misc/xdeath1e misc/xdeath1f misc/xdeath2a misc/xdeath2b misc/xdeath2c misc/xdeath2d misc/xdeath2e misc/xdeath2f misc/xdeath3a misc/xdeath3b misc/xdeath3c misc/xdeath4a misc/xdeath4b misc/xdeath4c }
-misc/xdeath1a			dsxdth1a
-misc/xdeath1b			dsxdth1b
-misc/xdeath1c			dsxdth1c
-misc/xdeath1d			dsxdth1d
-misc/xdeath1e			dsxdth1e
-misc/xdeath1f			dsxdth1f
-$random misc/xdeath1		{ misc/xdeath1a misc/xdeath1b misc/xdeath1c misc/xdeath1d misc/xdeath1e misc/xdeath1f }
-misc/xdeath2a			dsxdth2a
-misc/xdeath2b			dsxdth2b
-misc/xdeath2c			dsxdth2c
-misc/xdeath2d			dsxdth2d
-misc/xdeath2e			dsxdth2e
-misc/xdeath2f			dsxdth2f
-$random misc/xdeath2		{ misc/xdeath2a misc/xdeath2b misc/xdeath2c misc/xdeath2d misc/xdeath2e misc/xdeath2f }
-misc/xdeath3a			dsxdth3a
-misc/xdeath3b			dsxdth3b
-misc/xdeath3c			dsxdth3c
-$random misc/xdeath3		{ misc/xdeath3a misc/xdeath3b misc/xdeath3c }
-misc/xdeath4a			dsxdth4a
-misc/xdeath4b			dsxdth4b
-misc/xdeath4c			dsxdth4c
-$random misc/xdeath4		{ misc/xdeath4a misc/xdeath4b misc/xdeath4c }
-
-
-$random misc/xdeath5		{ misc/xdeath4a misc/xdeath4b misc/xdeath2a misc/xdeath2b misc/xdeath2e}
-
-$volume misc/xdeath 0.3
-$volume misc/xdeath1 0.5 //blop glop
-$volume misc/xdeath2 0.3 //gibs falling1
-$volume misc/xdeath3 0.3 //gibs falling2
-$volume misc/xdeath4 0.3 //bones crushing
-$volume misc/xdeath5 0.4 //bullet hit
-$limit misc/xdeath5 4
-$rolloff blooddrop 200 1000
-
-LQDRIP1 LQDRIP1
-LQDRIP2 LQDRIP2
-LQDRIP3 LQDRIP3
-LQDRIP4 LQDRIP4
-LQDRIP5 LQDRIP5
-LQDRIP6 LQDRIP6
-LQDRIP7 LQDRIP7
-LQDRIP8 LQDRIP8
-LQDRIP9 LQDRIP9
-LQDRIP10 LQDRIP10
-LQDRIP11 LQDRIP11
-LQDRIP12 LQDRIP12
-LQDRIP13 LQDRIP13
-LQDRIP14 LQDRIP14
-
-$random blooddrop  { LQDRIP1 LQDRIP2 LQDRIP3 } 
-$rolloff blooddrop 10 400
-$random blooddrop2  { LQDRIP4 LQDRIP5 LQDRIP6 LQDRIP7 }
-$rolloff blooddrop2 10 400
-$random blooddrop3  { LQDRIP8 LQDRIP9 LQDRIP10 LQDRIP11 LQDRIP12 LQDRIP13 LQDRIP14 LQDRIP14 } 
-$rolloff blooddrop3 10 400
-
 world/test				wrldtest
 ////////////////////////////////
 //world/watersplash
@@ -458,40 +398,40 @@ $Random darker/amb8 {DAR81 DAR82 DAR83 DAR84}
 $Random darker/amb9 {DAR91 DAR92 DAR93 DAR94}
 $Random darker/amb0 {DAR01 DAR02 DAR03 DAR04}
 
-DAR11	NSDARK11
-DAR12	NSDARK12
-DAR13	NSDARK13
-DAR14	NSDARK14
+DAR11	NSDARK05
+DAR12	NSDARK06
+DAR13	NSDARK07
+DAR14	NSDARK08
 
-DAR21	NSDARK21
-DAR22	NSDARK22
-DAR23	NSDARK23
-DAR24	NSDARK24
+DAR21	NSDARK09
+DAR22	NSDARK10
+DAR23	NSDARK11
+DAR24	NSDARK12
 
-DAR31	NSDARK31
-DAR32	NSDARK32
-DAR33	NSDARK33
-DAR34	NSDARK34
+DAR31	NSDARK13
+DAR32	NSDARK14
+DAR33	NSDARK15
+DAR34	NSDARK16
 
-DAR41	NSDARK41
-DAR42	NSDARK42
-DAR43	NSDARK43
-DAR44	NSDARK44
+DAR41	NSDARK17
+DAR42	NSDARK18
+DAR43	NSDARK19
+DAR44	NSDARK20
 
-DAR51	NSDARK51
-DAR52	NSDARK52
-DAR53	NSDARK53
-DAR54	NSDARK54
+DAR51	NSDARK21
+DAR52	NSDARK22
+DAR53	NSDARK23
+DAR54	NSDARK24
 
-DAR61	NSDARK61
-DAR62	NSDARK62
-DAR63	NSDARK63
-DAR64	NSDARK64
+DAR61	NSDARK25
+DAR62	NSDARK26
+DAR63	NSDARK27
+DAR64	NSDARK28
 
-DAR71	NSDARK71
-DAR72	NSDARK72
-DAR73	NSDARK73
-DAR74	NSDARK74
+DAR71	NSDARK29
+DAR72	NSDARK30
+DAR73	NSDARK31
+DAR74	NSDARK32
 
 DAR81	NSDARK81
 DAR82	NSDARK82
@@ -528,118 +468,3 @@ $Volume Darker/generator1	0.65
 $Volume Darker/generator2	0.65
 $Volume Darker/generator3	0.65
 $Volume Darker/generator4	0.65
-
-//==============================================================================
-// Ambient and Generator sounds
-//==============================================================================
-
-//All ambient sounds were taken S.T.A.L.K.E.R.: Shadow of Chernobyl.
-//Generator sounds come from Silent Hill 1 and Resident Evil 1.
-
-
-// Selects random sounds in some way I guess
-$Random darker/amb1 {DAR11 DAR12 DAR13 DAR14}
-$Random darker/amb2 {DAR21 DAR22 DAR23 DAR24}
-$Random darker/amb3 {DAR31 DAR32 DAR33 DAR34}
-$Random darker/amb4 {DAR41 DAR42 DAR43 DAR44}
-$Random darker/amb5 {DAR51 DAR52 DAR53 DAR54}
-$Random darker/amb6 {DAR61 DAR62 DAR63 DAR64}
-$Random darker/amb7 {DAR71 DAR72 DAR73 DAR74}
-$Random darker/amb8 {DAR81 DAR82 DAR83 DAR84}
-$Random darker/amb9 {DAR91 DAR92 DAR93 DAR94}
-$Random darker/amb0 {DAR01 DAR02 DAR03 DAR04}
-
-// Defining sound files into names, idle ambiance has it as: drone4lp "sounds/drone4lp.wav" etc
-//U Ambience sounds 1
-// ambience 1
-DAR11	NSDARK11
-DAR12	NSDARK12
-DAR13	NSDARK13
-DAR14	NSDARK14
-// ambience 2
-DAR21	NSDARK21
-DAR22	NSDARK22
-DAR23	NSDARK23
-DAR24	NSDARK24
-// ambience 3
-DAR31	NSDARK31
-DAR32	NSDARK32
-DAR33	NSDARK33
-DAR34	NSDARK34
-// ambience 4
-DAR41	NSDARK41
-DAR42	NSDARK42
-DAR43	NSDARK43
-DAR44	NSDARK44
-// ambience 5
-DAR51	NSDARK51
-DAR52	NSDARK52
-DAR53	NSDARK53
-DAR54	NSDARK54
-// ambience 6
-DAR61	NSDARK61
-DAR62	NSDARK62
-DAR63	NSDARK63
-DAR64	NSDARK64
-// ambience 7
-DAR71	NSDARK71
-DAR72	NSDARK72
-DAR73	NSDARK73
-DAR74	NSDARK74
-// ambience 8
-DAR81	NSDARK81
-DAR82	NSDARK82
-DAR83	NSDARK83
-DAR84	NSDARK84
-// ambience 9
-DAR91	NSDARK91
-DAR92	NSDARK92
-DAR93	NSDARK93
-DAR94	NSDARK94
-// ambience 0
-DAR01	NSDARK01
-DAR02	NSDARK02
-DAR03	NSDARK03
-DAR04	NSDARK04
-
-
-
-// not sure in what way this limits
-$Limit darker/amb1	1
-$Limit darker/amb2	1
-$Limit darker/amb3	1
-$Limit darker/amb4	1
-$Limit darker/amb5	1
-$Limit darker/amb6	1
-$Limit darker/amb7	1
-$Limit darker/amb8	1
-$Limit darker/amb9	1
-$Limit darker/amb0	1
-
-//Unneeded for my mod v
-
-/*
-Darker/generator1	NSGENE01
-Darker/generator2	NSGENE02
-Darker/generator3	NSGENE03
-Darker/generator4	NSGENE04
-
-$Pitchshift Darker/generator1 0
-$Pitchshift Darker/generator2 0
-$Pitchshift Darker/generator3 0
-$Pitchshift Darker/generator4 0
-*/
-
-/*
-$Limit Darker/generator1	1
-$Limit Darker/generator2	1
-$Limit Darker/generator3	1
-$Limit Darker/generator4	1
-*/
-
-/*
-$Volume Darker/generator1	0.65
-$Volume Darker/generator2	0.65
-$Volume Darker/generator3	0.65
-$Volume Darker/generator4	0.65
-*/

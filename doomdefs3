@@ -168,7 +168,7 @@ material texture "A-camo5"
 
 material texture "A-concte"
 {
-	normal "materials/normalmaps/auto/A-concte.dds"
+	// normal "materials/normalmaps/auto/A-concte.dds"
 	specular "materials/specular/auto/A-concte.dds"
 	glossiness 50
 	specularlevel 0.5
@@ -568,7 +568,7 @@ material texture "blood3"
 
 material texture "blood4"
 {
-	normal "materials/normalmaps/auto/blood4.dds"
+	// normal "materials/normalmaps/auto/blood4.dds"
 	specular "materials/specular/auto/blood4.dds"
 	glossiness 50
 	specularlevel 0.5
@@ -3251,7 +3251,7 @@ material texture "RW39_1"
 material texture "sfall1"
 {
 	normal "materials/normalmaps/auto/sfall1.dds"
-	specular "materials/specular/auto/sfall1.dds"
+	// specular "materials/specular/auto/sfall1.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -3259,7 +3259,7 @@ material texture "sfall1"
 material texture "sfall2"
 {
 	normal "materials/normalmaps/auto/sfall2.dds"
-	specular "materials/specular/auto/sfall2.dds"
+	// specular "materials/specular/auto/sfall2.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -3267,7 +3267,7 @@ material texture "sfall2"
 material texture "sfall3"
 {
 	normal "materials/normalmaps/auto/sfall3.dds"
-	specular "materials/specular/auto/sfall3.dds"
+	// specular "materials/specular/auto/sfall3.dds"
 	glossiness 50
 	specularlevel 0.5
 }
@@ -3275,7 +3275,7 @@ material texture "sfall3"
 material texture "sfall4"
 {
 	normal "materials/normalmaps/auto/sfall4.dds"
-	specular "materials/specular/auto/sfall4.dds"
+	// specular "materials/specular/auto/sfall4.dds"
 	glossiness 50
 	specularlevel 0.5
 }

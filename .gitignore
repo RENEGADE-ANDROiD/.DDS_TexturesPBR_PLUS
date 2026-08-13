@@ -7,8 +7,11 @@ _*.py
 *.log
 *.tmp
 cursor_audit_*.md
+tools
+tools/
 
 # Cursor / IDE
+.cursor
 .cursor/
 
 # Python cache

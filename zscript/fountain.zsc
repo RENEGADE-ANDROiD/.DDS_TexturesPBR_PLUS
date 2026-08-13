@@ -11,6 +11,17 @@ class GravityFountain : ParticleFountain
 //Do the actual heavy lifting
 class TeleporterEffect : Actor
 {
+    Default
+    {
+        -SOLID
+        +NOCLIP
+        +NOBLOCKMAP
+        +NOINTERACTION
+        Radius 1;
+        Height 1;
+        RenderStyle "None";
+    }
+
     private Actor fountain;
     private int timer;
     const TIMER_MAX = 35 * 5; //update every 5 seconds
@@ -56,7 +67,8 @@ class TeleporterEffect : Actor
     private void SpawnFountain()
     {
         DeleteFountain();
-        fountain = Actor.Spawn("GravityFountain",(pos.x,pos.y,0));
+        double floorz = cursector.floorplane.ZAtPoint((pos.x, pos.y));
+        fountain = Actor.Spawn("GravityFountain",(pos.x, pos.y, floorz));
         
         //Set the fountain health. This determines it's colour. See here for more info
         //https://zdoom.org/wiki/Particles

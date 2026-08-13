@@ -4,12 +4,12 @@
 
 splash Blood
 {
-	smallclass		NJBloodBase
+	smallclass		BloodSplash
 	smallclip		10
 	smallsound		world/sludgegloopsmall
 
-	baseclass		NJBloodBase
-	chunkclass		NJBloodChunk
+	baseclass		BloodSplashBase
+	chunkclass		BloodSplash
 	chunkxvelshift	6
 	chunkyvelshift	6
 	chunkzvelshift	6
@@ -24,12 +24,12 @@ splash Blood
 
 splash Lava
 {
-	smallclass		NJLavaBase
+	smallclass		LavaSplash
 	smallclip		12
 	smallsound		world/lavasizzlesmall
 
-	baseclass		NJLavaBase
-	chunkclass		NJLavaSmoke
+	baseclass		LavaSplash
+	chunkclass		LavaSmoke
 	chunkxvelshift	-1
 	chunkyvelshift	-1
 	chunkzvelshift	7
@@ -44,12 +44,12 @@ splash Lava
 
 splash LavaSmoke
 {
-	smallclass		NJLavaSmokeOnly
+	smallclass		LavaSmoke
 	smallclip		12
 	smallsound		world/lavsiz2
 
-	baseclass		NJLavaSmokeOnly
-	chunkclass		NJLavaSmokeOnly
+	baseclass		LavaSplash
+	chunkclass		LavaSmoke
 	chunkxvelshift	-1
 	chunkyvelshift	-1
 	chunkzvelshift	7
@@ -64,12 +64,12 @@ splash LavaSmoke
 
 splash Nuke
 {
-	smallclass		NJNukageBase
+	smallclass		LavaSplash
 	smallclip		6
 	smallsound		world/lavasizzlesmall
 
-	baseclass		NJNukageBase
-	chunkclass		NJNukageSmoke
+	baseclass		LavaSplash
+	chunkclass		LavaSmoke
 	chunkxvelshift	-1
 	chunkyvelshift	-1
 	chunkzvelshift	7
@@ -84,12 +84,12 @@ splash Nuke
 
 splash SlimeBrown
 {
-	smallclass		NJSlimeBrownBase
+	smallclass		SludgeSplash
 	smallclip		6
 	smallsound		world/sludgegloopsmall
 
-	baseclass		NJSlimeBrownBase
-	chunkclass		NJSlimeBrownChunk
+	baseclass		SludgeSplash
+	chunkclass		SludgeChunk
 	chunkxvelshift	6
 	chunkyvelshift	6
 	chunkzvelshift	6
@@ -104,12 +104,12 @@ splash SlimeBrown
 
 splash SludgeGreenBrown
 {
-	smallclass		NJSludgeBase
+	smallclass		SludgeSplash
 	smallclip		8
 	smallsound		world/sludgegloopsmall
 
-	baseclass		NJSludgeBase
-	chunkclass		NJSludgeChunk
+	baseclass		SludgeSplash
+	chunkclass		SludgeChunk
 	chunkxvelshift	5
 	chunkyvelshift	5
 	chunkzvelshift	5
@@ -124,12 +124,12 @@ splash SludgeGreenBrown
 
 splash Water
 {
-	smallclass		NJWaterSplashBase
+	smallclass		WaterSplash
 	smallclip		12
 	smallsound		world/watersplashsmall
 
-	baseclass		NJWaterSplashBase
-	chunkclass		NJWaterSplashChunk
+	baseclass		WaterSplashBase
+	chunkclass		WaterSplash
 	chunkxvelshift	8
 	chunkyvelshift	8
 	chunkzvelshift	8

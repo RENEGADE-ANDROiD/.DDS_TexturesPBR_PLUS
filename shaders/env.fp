@@ -61,7 +61,7 @@ vec3 GetBumpedNormal(mat3 tbn, vec2 texcoord)
 #if defined(NORMALMAP)
     vec3 map = texture(normaltexture, texcoord).xyz;
     map = map * 255./127. - 128./127.; // Math so "odd" because 0.5 cannot be precisely described in an unsigned format
-    map.xy *= vec2(0.5, -0.5); // Make normal map less strong and flip Y
+    map.y = -map.y;
     return normalize(tbn * map);
 #else
     return normalize(vWorldNormal.xyz);
