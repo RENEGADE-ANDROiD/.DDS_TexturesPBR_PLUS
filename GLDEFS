@@ -967,16 +967,19 @@ material texture "SP_HOT1"
 	specularlevel 3
 }
 
-material texture "STARBR2"
+material Texture "STARBR2"
 {
 	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/STARBR2.dds"
-	specular "materials/specular/auto/STARBR2.dds"
 	texture displacement "materials/displacement/STARBR2.dds"
-	glossiness 10.0
-	specularlevel 3
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/STARBR2.dds"
+	metallic "materials/metallic/auto/starg1.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARG1"
 {
 	shader "shaders/displacement.fp"
@@ -986,17 +989,21 @@ material texture "STARG1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
-material texture "STARG2"
+material Texture "STARG2"
 {
 	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/STARG2.dds"
-	specular "materials/specular/auto/STARG2.dds"
 	texture displacement "materials/displacement/STARG2.dds"
-	glossiness 10.0
-	specularlevel 3
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/STARG2.dds"
+	metallic "materials/metallic/auto/starg1.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARG3"
 {
 	shader "shaders/displacement.fp"
@@ -1006,7 +1013,9 @@ material texture "STARG3"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARGR1"
 {
 	shader "shaders/displacement.fp"
@@ -1016,17 +1025,21 @@ material texture "STARGR1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
-material texture "STARGR2"
+material Texture "STARGR2"
 {
 	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/STARGR2.dds"
-	specular "materials/specular/auto/STARGR2.dds"
 	texture displacement "materials/displacement/STARGR2.dds"
-	glossiness 10.0
-	specularlevel 3
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/STARGR2.dds"
+	metallic "materials/metallic/auto/starg1.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARTAN1"
 {
 	shader "shaders/displacement.fp"
@@ -1036,6 +1049,7 @@ material texture "STARTAN1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "STARTAN2"
 {
@@ -1397,6 +1411,7 @@ material texture "SW2METAL"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2STARG"
 {
 	shader "shaders/displacement.fp"
@@ -1406,6 +1421,7 @@ material texture "SW2STARG"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "SW2STON1"
 {
@@ -1979,44 +1995,50 @@ Texture tex_heightmap "materials/heightmaps/browngrn.dds"
 
 material Texture "starg1"
 {
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-Texture tex_heightmap "materials/heightmaps/starg1.dds"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARG1.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
 
 material Texture "starg3"
 {
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/startan3.dds"
-metallic "materials/metallic/auto/startan3.dds"
-roughness "materials/roughness/auto/startan3.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/startan3.dds"
-Define "Foobar"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARG3.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/startan3.dds"
+	metallic "materials/metallic/auto/startan3.dds"
+	roughness "materials/roughness/auto/startan3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 material Texture "startan1"
 {
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARTAN1.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 material Texture "stargr1"
 {
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-Texture tex_heightmap "materials/heightmaps/starg1.dds"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARGR1.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
 
 material Texture "support2"
@@ -2329,12 +2351,14 @@ Texture tex_heightmap "materials/heightmaps/sw1starg.dds"
 
 material Texture "sw2starg"
 {
-Shader "shaders/parallax2.fp"
-normal "materials/normalmaps/auto/sw2starg.dds"
-roughness "materials/roughness/auto/sw2starg.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-metallic "materials/metallic/auto/sw2starg.dds"
-Texture tex_heightmap "materials/heightmaps/sw2starg.dds"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2STARG.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/sw2starg.dds"
+	roughness "materials/roughness/auto/sw2starg.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	metallic "materials/metallic/auto/sw2starg.dds"
+	Texture tex_heightmap "materials/heightmaps/sw2starg.dds"
 }
 
 material Texture "sw1brown"
@@ -3137,44 +3161,50 @@ Texture tex_heightmap "materials/heightmaps/browngrn.dds"
 
 material Texture "starg1"
 {
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-Texture tex_heightmap "materials/heightmaps/starg1.dds"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARG1.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
 
 material Texture "starg3"
 {
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/startan3.dds"
-metallic "materials/metallic/auto/startan3.dds"
-roughness "materials/roughness/auto/startan3.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/startan3.dds"
-Define "Foobar"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARG3.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/startan3.dds"
+	metallic "materials/metallic/auto/startan3.dds"
+	roughness "materials/roughness/auto/startan3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 material Texture "startan1"
 {
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARTAN1.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 material Texture "stargr1"
 {
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-Texture tex_heightmap "materials/heightmaps/starg1.dds"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARGR1.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
 
 material Texture "support2"
