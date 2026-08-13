@@ -70,10 +70,10 @@ brightmap texture PLANET1 { map "brightmaps/doom/PLANET1.dds" }
 brightmap texture ROCKRED1 { map "brightmaps/doom/ROCKRED1.dds" }
 brightmap texture ROCKRED2 { map "brightmaps/doom/ROCKRED2.dds" }
 brightmap texture ROCKRED3 { map "brightmaps/doom/ROCKRED3.dds" }
-brightmap texture SK_LEFT { map "brightmaps/doom/SK_LEFT.dds" }
-brightmap texture SK_RIGHT { map "brightmaps/doom/SK_RIGHT.dds" }
-brightmap texture SLOPPY1 { map "brightmaps/doom/SLOPPY1.dds" }
-brightmap texture SLOPPY2 { map "brightmaps/doom/SLOPPY2.dds" }
+// brightmap texture SK_LEFT { map "brightmaps/doom/SK_LEFT.dds" }
+// brightmap texture SK_RIGHT { map "brightmaps/doom/SK_RIGHT.dds" }
+// brightmap texture SLOPPY1 { map "brightmaps/doom/SLOPPY1.dds" }
+// brightmap texture SLOPPY2 { map "brightmaps/doom/SLOPPY2.dds" }
 brightmap texture SLADRIP1 { map "brightmaps/doom/SLADRIP1.dds" }
 brightmap texture SLADRIP2 { map "brightmaps/doom/SLADRIP2.dds" }
 brightmap texture SLADRIP3 { map "brightmaps/doom/SLADRIP3.dds" }
@@ -99,18 +99,18 @@ brightmap texture TEKWALL6 { map "brightmaps/doom/TEKWALL6.dds" }
 ///////////////////
 
 brightmap texture SW1BLUE { map "brightmaps/doom/SW1BLUE.dds" }
-brightmap texture SW1COMP { map "brightmaps/doom/SW1COMP.dds" }
+// brightmap texture SW1COMP { map "brightmaps/doom/SW1COMP.dds" }
 brightmap texture SW1COMM { map "brightmaps/doom/SW1COMM.dds" }
 brightmap texture SW1DIRT { map "brightmaps/doom/SW1DIRT.dds" }
-brightmap texture SW1MET2 { map "brightmaps/doom/SW1MET2.dds" }
+// brightmap texture SW1MET2 { map "brightmaps/doom/SW1MET2.dds" }
 brightmap texture SW1STON1 { map "brightmaps/doom/SW1STON1.dds" }
-brightmap texture SW1STON6 { map "brightmaps/doom/SW1STON6.dds" }
-brightmap texture SW1STON2 { map "brightmaps/doom/doom1/SW1STON2.dds" }
+// brightmap texture SW1STON6 { map "brightmaps/doom/SW1STON6.dds" }
+// brightmap texture SW1STON2 { map "brightmaps/doom/doom1/SW1STON2.dds" }
 brightmap texture SW2BLUE { map "brightmaps/doom/SW2BLUE.dds" }
 brightmap texture SW2COMM { map "brightmaps/doom/SW2COMM.dds" }
 brightmap texture SW2COMP { map "brightmaps/doom/SW2COMP.dds" }
 brightmap texture SW2DIRT { map "brightmaps/doom/SW2DIRT.dds" }
-brightmap texture SW2MET2 { map "brightmaps/doom/SW2MET2.dds" }
+// brightmap texture SW2MET2 { map "brightmaps/doom/SW2MET2.dds" }
 brightmap texture SW2STON1 { map "brightmaps/doom/SW2STON1.dds" }
-brightmap texture SW2STON6 { map "brightmaps/doom/SW2STON6.dds" }
-brightmap texture SW2STON2 { map "brightmaps/doom/doom1/SW2STON2.dds" }
+// brightmap texture SW2STON6 { map "brightmaps/doom/SW2STON6.dds" }
+// brightmap texture SW2STON2 { map "brightmaps/doom/doom1/SW2STON2.dds" }

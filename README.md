@@ -27,19 +27,11 @@ https://youtu.be/STJPOUyMFAA
 - Deep Water
 - Morelights
 - FancyWorld
-- Nash's Liquid Splashes
-- HS's Enchanted Vanilla Projectiles
+- Stock GZDoom liquid splashes (`terrain.txt`)
 - Scripted Ambience
-- Nashgore/Cheelo Gore Voxels Official
 - Teleport FX
 - Lamp FX
-- Nashgore Shiny Materials (EXTRAS only)
-- RealGore v3.0 (EXTRAS only)
-- Better Wall Blood Compressed (EXTRAS only)
-- ExtraBloodGorev4.0 (EXTRAS only)
-- New_blood (EXTRAS only)
-- UDV Fog (EXTRAS only)
-- Rain Remixed (EXTRAS only)
+- UDV Fog (ACS; needs compiled BEHAVIOR lumps)
 
 -----------------
 
@@ -87,17 +79,11 @@ Textures are shipped in **.DDS format with pre-generated mipmaps**. Normally GZD
 | **Brightmaps & glow** | `.bm` lumps in `BMaps/` (included from `doomdefs.txt`) make specific texture pixels self-illuminate (screens, lamps, lava). |
 | **Texture-driven dynamic lights** | At map load, a ZScript handler reads `LTEXDEFS.txt` and places dynamic point/spot lights on surfaces using particular textures — no map editing required. |
 | **Ambient environmental FX** | Invisible "probe" actors scan each map and spawn context-appropriate effects: waterfalls, drips, steam, fire flicker, tech hum, and liquid surface motion based on the floor/ceiling/wall textures present. |
-| **Liquid splashes** | Nash-style splash actors react to things entering nukage, water, slime, and lava (wired through `terrain.txt`). |
-| **Enhanced projectiles** | "Enchanted Vanilla Projectiles" add smoke trails, sparks, and better visuals to rockets, plasma, the BFG, and imp fireballs via DECORATE replacements. |
-| **Voxel gore (Nashgore/RA_Vox)** | Voxel models replace flat blood/gibs; a small ZScript layer fixes blood billboarding and makes dying monsters face the player. |
+| **Liquid splashes** | Stock GZDoom splash classes (`WaterSplash`, `BloodSplash`, `LavaSplash`, `SludgeSplash`) wired through `terrain.txt` so blood/lava/nukage/water/slime flats stay liquid. |
 | **Teleporter FX** | A handler scans for teleporter sectors and spawns colored particle fountains over them (colors are configurable via CVars/menu). |
 | **Death screen wipe** | A postprocess shader (`DPWipe`) animates a screen effect when the player dies. |
 | **Scripted ambience** | ACS modules drive ambient sound/fog (sources in `Source/` / `SRC/`, loaded via `LOADACS`). |
 | **Texture animation** | `ANIMDEFS` defines OTEX-style animated texture sequences. |
-
-### EXTRAS
-
-Several heavier gore/weather subsystems (RealGore v3.0, extra blood, UDV Fog, Rain Remixed, shiny gore materials) are marked **EXTRAS only**. In this repo some are present but intentionally *not enabled* by default (for example, the gore ZScript under `zscript/Gore/` is not included in `zscript.txt`; NO-EXTRAS uses `zscript/RA_Vox/` for voxel helpers). They are surfaced through the in-game ".DDS Texture Pack EXTRAS" options menu / separate optional loads.
 
 ### Installing / running
 
@@ -109,4 +95,4 @@ Load it like any GZDoom PK3 — drag the `.pk3` onto the engine executable, or a
 
 ### Configuration
 
-User-facing options live in the **".DDS Texture Pack EXTRAS"** menu (`MENUDEF.txt`), backed by CVars in `CVARINFO.txt` — including teleporter particle colors and gore amount/auto-clear settings.
+User-facing options live in the **".DDS Texture Pack Options"** menu (`MENUDEF.txt`), backed by CVars in `cvarinfo` — teleporter particle colors and related flags only.

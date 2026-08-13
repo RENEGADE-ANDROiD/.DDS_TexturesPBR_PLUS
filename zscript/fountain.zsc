@@ -14,11 +14,21 @@ class TeleporterEffect : Actor
     private Actor fountain;
     private int timer;
     const TIMER_MAX = 35 * 5; //update every 5 seconds
-    //const TIMER_MAX = 2100; //update once per minute
     private int fountainColor;
     private bool exit_only;
     private bool monsters_only;
     private bool is_dest;
+
+    Default
+    {
+        -SOLID
+        +NOCLIP
+        +NOBLOCKMAP
+        +NOINTERACTION
+        RenderStyle "None";
+        Radius 1;
+        Height 1;
+    }
     //private int uses;
     //const UNLIMITED_USES = -1;
     
@@ -56,7 +66,8 @@ class TeleporterEffect : Actor
     private void SpawnFountain()
     {
         DeleteFountain();
-        fountain = Actor.Spawn("GravityFountain",(pos.x,pos.y,0));
+        double z = self.cursector.floorplane.ZAtPoint((pos.x, pos.y));
+        fountain = Actor.Spawn("GravityFountain",(pos.x,pos.y,z));
         
         //Set the fountain health. This determines it's colour. See here for more info
         //https://zdoom.org/wiki/Particles

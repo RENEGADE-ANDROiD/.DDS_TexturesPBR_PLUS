@@ -28,7 +28,7 @@ class FancyWallTestSound : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/test", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -63,7 +63,7 @@ class FancyWallWaterfall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/waterfall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -98,7 +98,7 @@ class FancyWallBloodfall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/bloodfall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -133,7 +133,7 @@ class FancyWallSlimefall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/slimefall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -168,7 +168,7 @@ class FancyWallLavafall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/lavafall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -203,7 +203,7 @@ class FancyWallSlimedrip : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/slimedrip", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -238,7 +238,7 @@ class FancyWallGargfont : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/slimedrip", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -273,7 +273,7 @@ class FancyWallCompstation : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/compstation", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -308,7 +308,7 @@ class FancyWallFirewall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/firewall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -343,7 +343,7 @@ class FancyWallFireblu : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/fireblu", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -378,7 +378,7 @@ class FancyWallFaces : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/faces", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -413,7 +413,7 @@ class FancyWallTechhum : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/techhum", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -448,7 +448,7 @@ class FancyWallLights : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/walllight", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }
@@ -483,7 +483,7 @@ class FancyWallStatic : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/static", CHAN_BODY, 1.0, 1);
-			APLS A -1;
+			TNT1 A -1;
 			loop;
 	}
 }

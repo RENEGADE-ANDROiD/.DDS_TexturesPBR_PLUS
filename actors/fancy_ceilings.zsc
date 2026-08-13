@@ -20,7 +20,7 @@ class FancySectorSky : Actor
 			TNT1 A 0 A_CheckRange(2048,"Waiter",1);
 		Idle:
 			TNT1 A 0 A_PlaySound("world/fsky", CHAN_BODY, 1.0, 1);
-			APLS A 72;
+			TNT1 A 72;
 			goto Spawn;
 		Waiter:
 			TNT1 A 0 A_StopSound(CHAN_BODY);
@@ -50,7 +50,7 @@ class FancySectorCeilingLite : Actor
 			TNT1 A 0 A_CheckRange(2048,"Waiter",1);
 		Idle:
 			TNT1 A 0 A_PlaySound("world/ceilite", CHAN_BODY, 1.0, 1);
-			APLS A 72;
+			TNT1 A 72;
 			goto Spawn;
 		Waiter:
 			TNT1 A 0 A_StopSound(CHAN_BODY);
