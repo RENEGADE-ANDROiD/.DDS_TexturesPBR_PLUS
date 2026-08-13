@@ -1227,14 +1227,16 @@ material texture "SP_HOT1"
 	specularlevel 3
 }
 
-material texture "STARBR2"
+material Texture "STARBR2"
 {
 	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/STARBR2.dds"
-	specular "materials/specular/auto/STARBR2.dds"
 	texture displacement "materials/displacement/STARBR2.dds"
-	glossiness 10.0
-	specularlevel 3
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/STARBR2.dds"
+	metallic "materials/metallic/auto/starg1.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 /* DUPLICATE material superseded by later PBR block
@@ -1249,14 +1251,16 @@ material texture "STARG1"
 }
 */
 
-material texture "STARG2"
+material Texture "STARG2"
 {
 	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/STARG2.dds"
-	specular "materials/specular/auto/STARG2.dds"
 	texture displacement "materials/displacement/STARG2.dds"
-	glossiness 10.0
-	specularlevel 3
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/STARG2.dds"
+	metallic "materials/metallic/auto/starg1.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 /* DUPLICATE material superseded by later PBR block
@@ -1283,14 +1287,16 @@ material texture "STARGR1"
 }
 */
 
-material texture "STARGR2"
+material Texture "STARGR2"
 {
 	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/STARGR2.dds"
-	specular "materials/specular/auto/STARGR2.dds"
 	texture displacement "materials/displacement/STARGR2.dds"
-	glossiness 10.0
-	specularlevel 3
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/STARGR2.dds"
+	metallic "materials/metallic/auto/starg1.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 /* DUPLICATE material superseded by later PBR block
@@ -2755,7 +2761,7 @@ material Texture "sw2starg"
 	shader "shaders/displacement.fp"
 	texture displacement "materials/displacement/SW2STARG.dds"
 
-Shader "shaders/parallax2.fp"
+Shader "shaders/parallax.fp"
 normal "materials/normalmaps/auto/sw2starg.dds"
 roughness "materials/roughness/auto/sw2starg.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -3723,13 +3729,13 @@ Define "Foobar"
 material Texture "startan1"
 {
 	shader "shaders/displacement.fp"
-	shader "shaders/displacement.fp"
 	texture displacement "materials/displacement/STARTAN1.dds"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
+	Shader "shaders/parallax.fp"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 material Texture "stargr1"
