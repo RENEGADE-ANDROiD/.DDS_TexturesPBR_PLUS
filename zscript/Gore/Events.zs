@@ -1,19 +1,32 @@
 class DropletsEventHandler : EventHandler
 {
-	bool blood_gibs, blood_pools;
+	bool blood_gibs, blood_pools, blood_alwaysgib;
+
+	void RefreshCVars()
+	{
+		CVar g = CVar.FindCVar("blood_gibs");
+		CVar p = CVar.FindCVar("blood_pools");
+		CVar a = CVar.FindCVar("blood_alwaysgib");
+		blood_gibs = g && g.GetBool();
+		blood_pools = p && p.GetBool();
+		blood_alwaysgib = a && a.GetBool();
+	}
 	
 	override void OnRegister()
 	{
-		blood_gibs = CVar.FindCVar("blood_gibs").GetBool();
-		blood_pools = CVar.FindCVar("blood_pools").GetBool();
+		RefreshCVars();
 		Super.OnRegister();
 	}
-	
+
+	override void WorldLoaded(WorldEvent e)
+	{
+		RefreshCVars();
+	}
+
 	override void WorldTick()
 	{
-		blood_gibs = CVar.FindCVar("blood_gibs").GetBool();
-		blood_pools = CVar.FindCVar("blood_pools").GetBool();
-		Super.WorldTick();
+		if (gametic % 35 == 0)
+			RefreshCVars();
 	}
 	
 	override void WorldThingDamaged(WorldEvent e)

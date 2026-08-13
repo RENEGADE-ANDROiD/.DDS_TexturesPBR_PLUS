@@ -19,10 +19,11 @@ user int udv_getgreen = 0;
 user int udv_getblue = 0;
 user bool udv_fogcolor = false;
 user bool udv_ambient = false;
+user bool fancyworld_enable = true;
 
-server int pb_sv_goreclearinterval = 120;
-server bool pb_sv_autocleargore = false;
-server bool pb_sv_alertclear = false;
+server bool dds_goreclear = false;
+server int dds_goreclear_interval = 120;
+server bool dds_goreclear_alert = false;
 
 server int blood_amt = 1;
 server float blood_rand = 1.0;

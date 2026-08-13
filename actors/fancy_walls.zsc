@@ -8,6 +8,8 @@ class FancyWallTestSound : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -28,8 +30,16 @@ class FancyWallTestSound : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/test", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/test", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -43,6 +53,8 @@ class FancyWallWaterfall : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -63,8 +75,16 @@ class FancyWallWaterfall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/waterfall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/waterfall", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -78,6 +98,8 @@ class FancyWallBloodfall : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -98,8 +120,16 @@ class FancyWallBloodfall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/bloodfall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/bloodfall", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -113,6 +143,8 @@ class FancyWallSlimefall : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -133,8 +165,16 @@ class FancyWallSlimefall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/slimefall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/slimefall", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -148,6 +188,8 @@ class FancyWallLavafall : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -168,8 +210,16 @@ class FancyWallLavafall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/lavafall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/lavafall", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -183,6 +233,8 @@ class FancyWallSlimedrip : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -203,8 +255,16 @@ class FancyWallSlimedrip : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/slimedrip", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/slimedrip", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -218,6 +278,8 @@ class FancyWallGargfont : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -238,8 +300,16 @@ class FancyWallGargfont : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/slimedrip", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/slimedrip", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -253,6 +323,8 @@ class FancyWallCompstation : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -273,8 +345,16 @@ class FancyWallCompstation : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/compstation", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/compstation", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -288,6 +368,8 @@ class FancyWallFirewall : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -308,8 +390,16 @@ class FancyWallFirewall : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/firewall", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/firewall", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -323,6 +413,8 @@ class FancyWallFireblu : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -343,8 +435,16 @@ class FancyWallFireblu : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/fireblu", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/fireblu", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -358,6 +458,8 @@ class FancyWallFaces : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -378,8 +480,16 @@ class FancyWallFaces : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/faces", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/faces", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -393,6 +503,8 @@ class FancyWallTechhum : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -413,8 +525,16 @@ class FancyWallTechhum : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/techhum", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/techhum", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -428,6 +548,8 @@ class FancyWallLights : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -448,8 +570,16 @@ class FancyWallLights : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/walllight", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/walllight", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }
 
@@ -463,6 +593,8 @@ class FancyWallStatic : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -483,7 +615,15 @@ class FancyWallStatic : Actor
 				}
 			}
 			TNT1 A 0 A_PlaySound("world/static", CHAN_BODY, 1.0, 1);
-			APLS A -1;
-			loop;
+		Live:
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 35;
+			goto Live;
+		Far:
+			TNT1 A 0 A_StopSound(CHAN_BODY);
+			TNT1 A 35;
+			TNT1 A 0 A_CheckRange(1024, "Far", 1);
+			TNT1 A 0 A_PlaySound("world/static", CHAN_BODY, 1.0, 1);
+			goto Live;
 	}
 }

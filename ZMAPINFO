@@ -2,13 +2,7 @@ gameinfo
 {
 	defaultbloodcolor = "6f0000"
 	gibfactor = 0.666667
-}
-gameinfo 
-{
-	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "VerySimpleRainHandler", "DropletsEventHandler", "TeleporterEffects", "DDSRAVoxHandler"
-}
-gameinfo
-{
+	AddEventHandlers = "LightTextureHandler", "DPWipeHandler", "VerySimpleRainHandler", "DropletsEventHandler", "TeleporterEffects", "DDSRAVoxHandler", "DDSGoreClearHandler", "DDSFogHandler"
 	PrecacheTextures =
 	"SW0000",
 	"SW0001",

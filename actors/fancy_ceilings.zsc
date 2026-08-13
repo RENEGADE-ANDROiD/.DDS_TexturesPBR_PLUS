@@ -8,6 +8,8 @@ class FancySectorSky : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -17,7 +19,7 @@ class FancySectorSky : Actor
 	{
 		Spawn:
 			TNT1 A 0;
-			TNT1 A 0 A_CheckRange(2048,"Waiter",1);
+			TNT1 A 0 A_CheckRange(1024, "Waiter", 1);
 		Idle:
 			TNT1 A 0 A_PlaySound("world/fsky", CHAN_BODY, 1.0, 1);
 			APLS A 72;
@@ -38,6 +40,8 @@ class FancySectorCeilingLite : Actor
 		+DONTSPLASH
 		+NOTELEPORT
 		+NOINTERACTION
+		+NOBLOCKMAP
+		+CLIENTSIDEONLY
 		+MOVEWITHSECTOR
 		radius 1;
 		height 1;
@@ -47,7 +51,7 @@ class FancySectorCeilingLite : Actor
 	{
 		Spawn:
 			TNT1 A 0;
-			TNT1 A 0 A_CheckRange(2048,"Waiter",1);
+			TNT1 A 0 A_CheckRange(1024, "Waiter", 1);
 		Idle:
 			TNT1 A 0 A_PlaySound("world/ceilite", CHAN_BODY, 1.0, 1);
 			APLS A 72;

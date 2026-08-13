@@ -48,6 +48,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 Texture tex_heightmap "materials/heightmaps/ceil3_3.dds"
 }
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "ceil3_5"
 {
 Shader "shaders/parallax2.fp"
@@ -60,7 +61,9 @@ specular "materials/specular/auto/ceil3_5.dds"
 Texture tex_heightmap "materials/heightmaps/flat5_1.dds"
 specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture BIGDOOR1  { 
 	//shader "SHADERS/env.fp"
 	texture displacement "MATERIALS/DISPLACEMENT/AUTO/BIGDOOR1.dds"
@@ -70,6 +73,8 @@ material texture BIGDOOR1  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
+/* DUPLICATE material superseded by later PBR block
 material texture "bigdoor2"
 {
 	shader "shaders/displacement.fp"
@@ -81,6 +86,7 @@ material texture "bigdoor2"
 	glossiness 30.0
 	specularlevel 3.0
 }
+*/
 material texture "bigdoor3"
 {
 	shader "shaders/displacement.fp"
@@ -92,6 +98,7 @@ material texture "bigdoor3"
 	glossiness 30.0
 	specularlevel 3.0
 }
+/* DUPLICATE material superseded by later PBR block
 material texture "bigdoor4"
 {
 	shader "shaders/displacement.fp"
@@ -103,6 +110,8 @@ material texture "bigdoor4"
 	glossiness 30.0
 	specularlevel 3.0
 }
+*/
+/* DUPLICATE material superseded by later PBR block
 material texture "exitdoor"
 {
 	shader "shaders/displacement.fp"
@@ -114,6 +123,7 @@ material texture "exitdoor"
 	glossiness 30.0
 	specularlevel 3.0
 }
+*/
 material Texture "bigdoor5"
 {
 Shader "shaders/parallax.fp"
@@ -187,6 +197,7 @@ material texture COMPBLUE  {
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture COMPOHSO  { 
 	//shader "SHADERS/env.fp"
 	//texture displacement "MATERIALS/ENV/env3.dds"
@@ -196,11 +207,13 @@ material texture COMPOHSO  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture COMPSTA1  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/COMPSTA1.dds"
@@ -209,9 +222,11 @@ material texture COMPSTA1  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture COMPSTA2  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/COMPSTA2.dds"
@@ -220,6 +235,7 @@ material texture COMPSTA2  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 material Texture "marbface"
 {
@@ -254,6 +270,7 @@ material texture COMPUTE1  {
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture COMPUTE3  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/COMPUTE3.dds"
@@ -262,9 +279,11 @@ material texture COMPUTE3  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture DOORBLU  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORBLU.dds"
@@ -273,6 +292,7 @@ material texture DOORBLU  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
@@ -287,6 +307,7 @@ material texture DOORBLU2  {
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture DOORRED  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORRED.dds"
@@ -295,6 +316,7 @@ material texture DOORRED  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
@@ -309,6 +331,7 @@ material texture DOORRED2  {
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture DOORSTOP  { 
 	//shader "SHADERS/env.fp"
 	//texture displacement "MATERIALS/ENV/env3.dds"
@@ -318,9 +341,11 @@ material texture DOORSTOP  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture DOORTRAK  { 
 	//shader "SHADERS/env.fp"
 	//texture displacement "MATERIALS/ENV/env3.dds"
@@ -330,9 +355,11 @@ material texture DOORTRAK  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture DOORYEL  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/DOORYEL.dds"
@@ -341,6 +368,7 @@ material texture DOORYEL  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
@@ -356,6 +384,7 @@ material texture DOORYEL2  {
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture LITEBLU1  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU1.dds"
@@ -364,9 +393,11 @@ material texture LITEBLU1  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture LITEBLU2  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU2.dds"
@@ -375,9 +406,11 @@ material texture LITEBLU2  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture LITEBLU3  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU3.dds"
@@ -386,9 +419,11 @@ material texture LITEBLU3  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture LITEBLU4  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEBLU4.dds"
@@ -397,9 +432,11 @@ material texture LITEBLU4  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture LITEMET  { 
 	//texture displacement "MATERIALS/ENV/env3.dds"
 	//texture envmask "MATERIALS/ENVMASK/LITEMET.dds"
@@ -408,6 +445,7 @@ material texture LITEMET  {
 	specularlevel 4.5
 	glossiness 35
 }
+*/
 
 
 
@@ -630,7 +668,7 @@ object DDS_Better_TeleportFog
     frame TFOGJ { light DTFOG3 }
 }
 
-material texture "GRASS1"
+material Flat "GRASS1"
 {
 	shader "shaders/displacement.fp"
 	texture displacement "materials/displacement/auto/GRASS1_d.dds"	
@@ -675,6 +713,7 @@ TEXTURE "TLITE6_5", FF2F00, 128, FULLBRIGHT
 TEXTURE "TLITE6_6", E5D4BC, 128, FULLBRIGHT
 }
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "doorblu"
 {
 normal "materials/normalmaps/auto/doorblu.dds"
@@ -683,7 +722,9 @@ ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/doorblu.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "doorred"
 {
 normal "materials/normalmaps/auto/doorblu.dds"
@@ -692,7 +733,9 @@ ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/doorred.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "dooryel"
 {
 normal "materials/normalmaps/auto/doorblu.dds"
@@ -701,7 +744,9 @@ ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/doorblu.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/dooryel.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "liteblu1"
 {
 normal "materials/normalmaps/auto/liteblu1.dds"
@@ -710,7 +755,9 @@ ao "materials/ao/auto/doorstop.dds"
 metallic "materials/metallic/auto/liteblu1.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu1.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "liteblu2"
 {
 normal "materials/normalmaps/auto/liteblu2.dds"
@@ -719,7 +766,9 @@ ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu2.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu2.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "liteblu4"
 {
 normal "materials/normalmaps/auto/liteblu4.dds"
@@ -728,7 +777,9 @@ ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu4.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu4.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "liteblu3"
 {
 normal "materials/normalmaps/auto/liteblu3.dds"
@@ -737,10 +788,12 @@ ao "materials/ao/auto/liteblu3.dds"
 metallic "materials/metallic/auto/liteblu3.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/liteblu3.dds"
 }
+*/
 
 //DR4 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture "BRNPOIS"
 {
 	shader "shaders/displacement.fp"
@@ -750,7 +803,9 @@ material texture "BRNPOIS"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "BRNPOIS2"
 {
 	shader "shaders/displacement.fp"
@@ -760,9 +815,11 @@ material texture "BRNPOIS2"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 
 
+/* DUPLICATE material superseded by later PBR block
 material texture "BROWN1"
 {
 	shader "shaders/displacement.fp"
@@ -772,9 +829,13 @@ material texture "BROWN1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material Texture "brown1"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARTAN3.dds"
+
 Shader "shaders/parallax.fp"
 
 normal "materials/normalmaps/auto/STARTAN3.dds"
@@ -784,6 +845,7 @@ ao "materials/ao/auto/STARTAN3D.dds"
 Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "BROWNGRN"
 {
 	shader "shaders/displacement.fp"
@@ -793,7 +855,9 @@ material texture "BROWNGRN"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "BROWNPIP"
 {
 	shader "shaders/displacement.fp"
@@ -803,9 +867,13 @@ material texture "BROWNPIP"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material Texture "brownpip"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/BROWNPIP.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/brownpip.dds"
 metallic "materials/metallic/auto/brownpip.dds"
@@ -843,6 +911,7 @@ material texture "COMPOHSO"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "COMPSPAN"
 {
 	shader "shaders/displacement.fp"
@@ -852,7 +921,9 @@ material texture "COMPSPAN"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "COMPTILE"
 {
 	shader "shaders/displacement.fp"
@@ -862,6 +933,7 @@ material texture "COMPTILE"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "COMPWERD"
 {
@@ -923,6 +995,7 @@ material texture "DOORHI"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "EXITSIGN"
 {
 	shader "shaders/displacement.fp"
@@ -932,6 +1005,7 @@ material texture "EXITSIGN"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "EXITSTON"
 {
@@ -963,6 +1037,7 @@ material texture "GRAY2"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "GRAY4"
 {
 	shader "shaders/displacement.fp"
@@ -972,7 +1047,9 @@ material texture "GRAY4"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "GRAY5"
 {
 	shader "shaders/displacement.fp"
@@ -982,6 +1059,7 @@ material texture "GRAY5"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "GRAYDANG"
 {
@@ -1159,6 +1237,7 @@ material texture "STARBR2"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARG1"
 {
 	shader "shaders/displacement.fp"
@@ -1168,6 +1247,7 @@ material texture "STARG1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "STARG2"
 {
@@ -1179,6 +1259,7 @@ material texture "STARG2"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARG3"
 {
 	shader "shaders/displacement.fp"
@@ -1188,7 +1269,9 @@ material texture "STARG3"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARGR1"
 {
 	shader "shaders/displacement.fp"
@@ -1198,6 +1281,7 @@ material texture "STARGR1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "STARGR2"
 {
@@ -1209,6 +1293,7 @@ material texture "STARGR2"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARTAN1"
 {
 	shader "shaders/displacement.fp"
@@ -1218,7 +1303,9 @@ material texture "STARTAN1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARTAN2"
 {
 	shader "shaders/displacement.fp"
@@ -1228,7 +1315,9 @@ material texture "STARTAN2"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STARTAN3"
 {
 	shader "shaders/displacement.fp"
@@ -1238,7 +1327,9 @@ material texture "STARTAN3"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STONE2"
 {
 	shader "shaders/displacement.fp"
@@ -1248,7 +1339,9 @@ material texture "STONE2"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "STONE3"
 {
 	shader "shaders/displacement.fp"
@@ -1258,6 +1351,7 @@ material texture "STONE3"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "STONGARG"
 {
@@ -1269,6 +1363,7 @@ material texture "STONGARG"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SUPPORT2"
 {
 	shader "shaders/displacement.fp"
@@ -1278,7 +1373,9 @@ material texture "SUPPORT2"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW1BRCOM"
 {
 	shader "shaders/displacement.fp"
@@ -1288,7 +1385,9 @@ material texture "SW1BRCOM"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW1BRN1"
 {
 	shader "shaders/displacement.fp"
@@ -1298,6 +1397,7 @@ material texture "SW1BRN1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "SW1BRN2"
 {
@@ -1319,6 +1419,7 @@ material texture "SW1BRNGN"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW1BROWN"
 {
 	shader "shaders/displacement.fp"
@@ -1328,6 +1429,7 @@ material texture "SW1BROWN"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "SW1CMT"
 {
@@ -1339,6 +1441,7 @@ material texture "SW1CMT"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW1COMP"
 {
 	shader "shaders/displacement.fp"
@@ -1348,6 +1451,7 @@ material texture "SW1COMP"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "SW1GRAY"
 {
@@ -1399,6 +1503,7 @@ material texture "SW1METAL"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW1STARG"
 {
 	shader "shaders/displacement.fp"
@@ -1408,7 +1513,9 @@ material texture "SW1STARG"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW1STON1"
 {
 	shader "shaders/displacement.fp"
@@ -1418,7 +1525,9 @@ material texture "SW1STON1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW1STON2"
 {
 	shader "shaders/displacement.fp"
@@ -1428,7 +1537,9 @@ material texture "SW1STON2"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW1STRTN"
 {
 	shader "shaders/displacement.fp"
@@ -1438,6 +1549,7 @@ material texture "SW1STRTN"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "SW1VINE"
 {
@@ -1459,6 +1571,7 @@ material texture "SW1WOOD"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2BRCOM"
 {
 	shader "shaders/displacement.fp"
@@ -1468,7 +1581,9 @@ material texture "SW2BRCOM"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2BRN1"
 {
 	shader "shaders/displacement.fp"
@@ -1478,6 +1593,7 @@ material texture "SW2BRN1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "SW2BRN2"
 {
@@ -1499,6 +1615,7 @@ material texture "SW2BRNGN"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2BROWN"
 {
 	shader "shaders/displacement.fp"
@@ -1508,6 +1625,7 @@ material texture "SW2BROWN"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "SW2CMT"
 {
@@ -1519,6 +1637,7 @@ material texture "SW2CMT"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2COMP"
 {
 	shader "shaders/displacement.fp"
@@ -1528,6 +1647,7 @@ material texture "SW2COMP"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "SW2GRAY"
 {
@@ -1579,6 +1699,7 @@ material texture "SW2METAL"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2STARG"
 {
 	shader "shaders/displacement.fp"
@@ -1588,7 +1709,9 @@ material texture "SW2STARG"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2STON1"
 {
 	shader "shaders/displacement.fp"
@@ -1598,7 +1721,9 @@ material texture "SW2STON1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2STON2"
 {
 	shader "shaders/displacement.fp"
@@ -1608,7 +1733,9 @@ material texture "SW2STON2"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "SW2STRTN"
 {
 	shader "shaders/displacement.fp"
@@ -1618,6 +1745,7 @@ material texture "SW2STRTN"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 
 
@@ -1691,6 +1819,7 @@ material texture "WOODSKUL"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "cons1_1"
 {
 	shader "shaders/displacement.fp"
@@ -1700,7 +1829,9 @@ material texture "cons1_1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "cons1_5"
 {
 	shader "shaders/displacement.fp"
@@ -1710,7 +1841,9 @@ material texture "cons1_5"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "cons1_7"
 {
 	shader "shaders/displacement.fp"
@@ -1720,8 +1853,9 @@ material texture "cons1_7"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
-material texture "flat1"
+material Flat "flat1"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/flat1.dds"
@@ -1734,7 +1868,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 	specularlevel 3
 }
 
-material texture "flat17"
+material Flat "flat17"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/flat17.dds"
@@ -1744,6 +1878,7 @@ material texture "flat17"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "flat18"
 {
 	shader "shaders/displacement.fp"
@@ -1753,6 +1888,7 @@ material texture "flat18"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "flat2"
 {
@@ -1776,6 +1912,7 @@ roughness "materials/roughness/auto/flat23.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "flat22"
 {
 	shader "shaders/displacement.fp"
@@ -1785,6 +1922,7 @@ material texture "flat22"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "flat3"
 {
@@ -1836,6 +1974,7 @@ material texture "flat9"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor0_1"
 {
 	shader "shaders/displacement.fp"
@@ -1845,7 +1984,9 @@ material texture "floor0_1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor0_2"
 {
 	shader "shaders/displacement.fp"
@@ -1855,7 +1996,9 @@ material texture "floor0_2"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor0_3"
 {
 	shader "shaders/displacement.fp"
@@ -1865,8 +2008,9 @@ material texture "floor0_3"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
-material texture "floor0_5"
+material Flat "floor0_5"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/floor0_5.dds"
@@ -1876,6 +2020,7 @@ material texture "floor0_5"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor0_6"
 {
 	shader "shaders/displacement.fp"
@@ -1885,8 +2030,9 @@ material texture "floor0_6"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
-material texture "floor0_7"
+material Flat "floor0_7"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/floor0_7.dds"
@@ -1904,7 +2050,7 @@ roughness "materials/roughness/auto/floor1_6.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 }
 
-material texture "floor1_7"
+material Flat "floor1_7"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/floor1_7.dds"
@@ -1918,6 +2064,7 @@ brightmap "materials/Brightmaps/auto/floor1_7.dds"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor4_1"
 {
 	shader "shaders/displacement.fp"
@@ -1927,6 +2074,7 @@ material texture "floor4_1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material Flat "ceil4_2"
 {
@@ -1947,7 +2095,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/ceil4_3.dds"
 }
 
-material texture "floor4_5"
+material Flat "floor4_5"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/floor4_5.dds"
@@ -1960,7 +2108,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 	specularlevel 3
 }
 
-material texture "floor4_6"
+material Flat "floor4_6"
 {
 	shader "shaders/displacement.fp"
 	normal "materials/normalmaps/auto/floor4_6.dds"
@@ -1973,6 +2121,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor4_8"
 {
 	shader "shaders/displacement.fp"
@@ -1982,7 +2131,9 @@ material texture "floor4_8"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor5_1"
 {
 	shader "shaders/displacement.fp"
@@ -1995,7 +2146,9 @@ material texture "floor5_1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor5_2"
 {
 	shader "shaders/displacement.fp"
@@ -2005,7 +2158,9 @@ material texture "floor5_2"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor5_3"
 {
 	shader "shaders/displacement.fp"
@@ -2015,6 +2170,7 @@ material texture "floor5_3"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material texture "floor5_4"
 {
@@ -2029,6 +2185,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor7_1"
 {
 	shader "shaders/displacement.fp"
@@ -2038,7 +2195,9 @@ material texture "floor7_1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "mflr8_1"
 {
 	shader "shaders/displacement.fp"
@@ -2048,6 +2207,7 @@ material texture "mflr8_1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 
 
@@ -2072,6 +2232,7 @@ material texture "step2"
 	specularlevel 3
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "tlite6_1"
 {
 	shader "shaders/displacement.fp"
@@ -2081,7 +2242,9 @@ material texture "tlite6_1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "tlite6_4"
 {
 	shader "shaders/displacement.fp"
@@ -2091,7 +2254,9 @@ material texture "tlite6_4"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "tlite6_5"
 {
 	shader "shaders/displacement.fp"
@@ -2101,7 +2266,9 @@ material texture "tlite6_5"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material texture "tlite6_6"
 {
 	shader "shaders/displacement.fp"
@@ -2111,7 +2278,9 @@ material texture "tlite6_6"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "bigdoor2"
 {
 Shader "shaders/parallax.fp"
@@ -2124,7 +2293,9 @@ ao "materials/ao/auto/ao_blank2.dds"
 Texture tex_heightmap "materials/heightmaps/bigdoor.dds"
 Define "PBR"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "bigdoor4"
 {
 Shader "shaders/parallax.fp"
@@ -2136,7 +2307,9 @@ ao "materials/ao/auto/bigdoor2.dds"
 Texture tex_heightmap "materials/heightmaps/bigdoor.dds"
 Define "Foobar"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "ceil3_5"
 {
 Shader "shaders/parallax2.fp"
@@ -2147,7 +2320,9 @@ roughness "materials/roughness/auto/ceil3_5.dds"
 ao "materials/ao/auto/ceil3_5.dds"
 Texture tex_heightmap "materials/heightmaps/ceil3_5.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "browngrn"
 {
 Shader "shaders/parallax2.fp"
@@ -2158,7 +2333,9 @@ roughness "materials/roughness/auto/browngrn.dds"
 ao "materials/ao/auto/ao_blank.dds"
 Texture tex_heightmap "materials/heightmaps/browngrn.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "starg1"
 {
 Shader "shaders/parallax.fp"
@@ -2169,7 +2346,9 @@ roughness "materials/roughness/auto/starg1.dds"
 ao "materials/ao/auto/ao_blank.dds"
 Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "starg3"
 {
 Shader "shaders/parallax.fp"
@@ -2181,7 +2360,9 @@ ao "materials/ao/auto/ao_blank2.dds"
 Texture tex_heightmap "materials/heightmaps/startan3.dds"
 Define "Foobar"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "startan1"
 {
 normal "materials/normalmaps/auto/starg1.dds"
@@ -2189,7 +2370,9 @@ metallic "materials/metallic/auto/browngrn.dds"
 roughness "materials/roughness/auto/starg1.dds"
 ao "materials/ao/auto/ao_blank.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "stargr1"
 {
 Shader "shaders/parallax.fp"
@@ -2200,7 +2383,9 @@ roughness "materials/roughness/auto/starg1.dds"
 ao "materials/ao/auto/ao_blank.dds"
 Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "support2"
 {
 normal "materials/normalmaps/auto/support2.dds"
@@ -2208,7 +2393,9 @@ metallic "materials/metallic/auto/support2.dds"
 roughness "materials/roughness/auto/support2.dds"
 ao "materials/ao/auto/support2.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "planet1"
 {
 normal "materials/normalmaps/auto/planet1.dds"
@@ -2217,7 +2404,9 @@ roughness "materials/roughness/auto/planet1.dds"
 ao "materials/ao/auto/planet1.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/planet1.dds"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "startan3"
 {
 Shader "shaders/parallax.fp"
@@ -2229,7 +2418,9 @@ ao "materials/ao/auto/ao_blank2.dds"
 Texture tex_heightmap "materials/heightmaps/startan3.dds"
 Define "Foobar"
 }
+*/
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "startan2"
 {
 Shader "shaders/parallax.fp"
@@ -2241,6 +2432,7 @@ ao "materials/ao/auto/ao_blank2.dds"
 Texture tex_heightmap "materials/heightmaps/startan2.dds"
 Define "Foobar"
 }
+*/
 
 material Texture "door1"
 {
@@ -2252,6 +2444,10 @@ ao "materials/ao/auto/door1.dds"
 
 material Flat "mflr8_1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/mflr8_1.dds"
+
 normal "materials/normalmaps/auto/mflr8_1.dds"
 metallic "materials/metallic/auto/brown1.dds"
 roughness "materials/roughness/auto/mflr8_1.dds"
@@ -2290,6 +2486,10 @@ Texture tex_heightmap "materials/heightmaps/sw2pipe.dds"
 
 material Flat "CONS1_1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/cons1_1.dds"
+
 normal "materials/normalmaps/auto/CONS1_1.dds"
 metallic "materials/metallic/auto/CONS1_1.dds"
 roughness "materials/roughness/auto/CONS1_1.dds"
@@ -2299,6 +2499,10 @@ ao "materials/ao/auto/CONS1_1.dds"
 
 material Flat "CONS1_5"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/cons1_5.dds"
+
 normal "materials/normalmaps/auto/CONS1_5.dds"
 metallic "materials/metallic/auto/CONS1_5.dds"
 roughness "materials/roughness/auto/CONS1_5.dds"
@@ -2308,6 +2512,10 @@ ao "materials/ao/auto/CONS1_1.dds"
 
 material Flat "CONS1_7"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/cons1_7.dds"
+
 normal "materials/normalmaps/auto/CONS1_7.dds"
 metallic "materials/metallic/auto/CONS1_7.dds"
 roughness "materials/roughness/auto/CONS1_7.dds"
@@ -2317,6 +2525,10 @@ ao "materials/ao/auto/CONS1_1.dds"
 
 material Flat "flat22"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/flat22.dds"
+
 normal "materials/normalmaps/auto/flat22.dds"
 metallic "materials/metallic/auto/flat22.dds"
 roughness "materials/roughness/auto/flat22.dds"
@@ -2326,6 +2538,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Flat "floor4_1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor4_1.dds"
+
 normal "materials/normalmaps/auto/floor4_1.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/floor4_1.dds"
@@ -2370,6 +2586,10 @@ metallic "materials/metallic/auto/redwall1.dds"
 
 material Flat "floor5_2"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor5_2.dds"
+
 normal "materials/normalmaps/auto/floor5_2.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/floor5_2.dds"
@@ -2378,6 +2598,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Flat "floor5_3"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor5_3.dds"
+
 normal "materials/normalmaps/auto/floor5_3.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/floor5_3.dds"
@@ -2394,6 +2618,10 @@ metallic "materials/metallic/auto/floor7_1.dds"
 
 material Flat "floor0_6"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor0_6.dds"
+
 normal "materials/normalmaps/auto/floor0_6.dds"
 roughness "materials/roughness/auto/floor0_6.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -2402,6 +2630,10 @@ metallic "materials/metallic/auto/floor0_6.dds"
 
 material Texture "gray4"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/GRAY4.dds"
+
 normal "materials/normalmaps/auto/gray4.dds"
 roughness "materials/roughness/auto/gray4.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -2410,6 +2642,10 @@ metallic "materials/metallic/auto/browngrn.dds"
 
 material Texture "gray5"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/GRAY5.dds"
+
 normal "materials/normalmaps/auto/gray5.dds"
 roughness "materials/roughness/auto/gray5.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -2481,6 +2717,8 @@ metallic "materials/metallic/auto/liteblu3.dds"
 
 material Texture "bigdoor1"
 {
+	texture displacement "MATERIALS/DISPLACEMENT/AUTO/BIGDOOR1.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/bigdoor1.dds"
 metallic "materials/metallic/auto/bigdoor1.dds"
@@ -2501,6 +2739,9 @@ Texture tex_heightmap "materials/heightmaps/plat1.dds"
 
 material Texture "sw1starg"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW1STARG.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/sw1starg.dds"
 roughness "materials/roughness/auto/sw1starg.dds"
@@ -2511,6 +2752,9 @@ Texture tex_heightmap "materials/heightmaps/sw1starg.dds"
 
 material Texture "sw2starg"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2STARG.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/sw2starg.dds"
 roughness "materials/roughness/auto/sw2starg.dds"
@@ -2521,6 +2765,9 @@ Texture tex_heightmap "materials/heightmaps/sw2starg.dds"
 
 material Texture "sw1brown"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW1BROWN.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/sw1brown.dds"
 roughness "materials/roughness/auto/sw1brown.dds"
@@ -2531,6 +2778,9 @@ Texture tex_heightmap "materials/heightmaps/sw1brown.dds"
 
 material Texture "sw2brown"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2BROWN.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/sw2brown.dds"
 roughness "materials/roughness/auto/sw2brown.dds"
@@ -2541,6 +2791,9 @@ Texture tex_heightmap "materials/heightmaps/sw2brown.dds"
 
 material Texture "sw2brn1"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2BRN1.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/sw2brn1.dds"
 roughness "materials/roughness/auto/sw2brn1.dds"
@@ -2551,6 +2804,9 @@ Texture tex_heightmap "materials/heightmaps/sw2brn1.dds"
 
 material Texture "sw1brn1"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW1BRN1.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/sw1brn1.dds"
 roughness "materials/roughness/auto/sw1brn1.dds"
@@ -2615,6 +2871,10 @@ metallic "materials/metallic/auto/sw2comm.dds"
 
 material Texture "sw1ston2"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW1STON2.dds"
+
 normal "materials/normalmaps/auto/sw1ston2.dds"
 roughness "materials/roughness/auto/sw1ston2.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -2624,6 +2884,10 @@ metallic "materials/metallic/auto/sw1slad.dds"
 
 material Texture "sw2ston2"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2STON2.dds"
+
 normal "materials/normalmaps/auto/sw2ston2.dds"
 roughness "materials/roughness/auto/sw2ston2.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -2633,6 +2897,9 @@ metallic "materials/metallic/auto/sw1slad.dds"
 
 material Texture "sw1brcom"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW1BRCOM.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/sw1brcom.dds"
 roughness "materials/roughness/auto/sw1brcom.dds"
@@ -2644,6 +2911,9 @@ Texture tex_heightmap "materials/heightmaps/sw1brcom.dds"
 
 material Texture "sw2brcom"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2BRCOM.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/sw2brcom.dds"
 roughness "materials/roughness/auto/sw2brcom.dds"
@@ -2719,6 +2989,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Flat "floor0_1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor7_1.dds"
+
 normal "materials/normalmaps/auto/BROWN144.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/floor0_1.dds"
@@ -2727,6 +3001,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Flat "floor0_2"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor0_2.dds"
+
 normal "materials/normalmaps/auto/floor0_1.dds"
 metallic "materials/metallic/auto/floor0_1.dds"
 roughness "materials/roughness/auto/floor0_1.dds"
@@ -2735,6 +3013,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Flat "floor0_3"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/ceil3_3.dds"
+
 normal "materials/normalmaps/auto/CEIL5_1.dds"
 metallic "materials/metallic/auto/CEIL5_1.dds"
 roughness "materials/roughness/auto/floor0_3.dds"
@@ -2816,6 +3098,9 @@ ao "materials/ao/auto/ao_blank.dds"
 
 material Texture "brnpois"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/BRNPOIS.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/brnpois.dds"
 metallic "materials/metallic/auto/browngrn.dds"
@@ -2826,6 +3111,9 @@ Texture tex_heightmap "materials/heightmaps/brnpois.dds"
 
 material Texture "brnpois2"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/BRNPOIS2.dds"
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/brnpois2.dds"
 metallic "materials/metallic/auto/browngrn.dds"
@@ -2863,6 +3151,10 @@ metallic "materials/metallic/auto/doorblu.dds"
 
 material Flat "tlite6_5"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/tlite6_5.dds"
+
 normal "materials/normalmaps/auto/tlite6_5.dds"
 roughness "materials/roughness/auto/tlite6_5.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -2872,6 +3164,10 @@ metallic "materials/metallic/auto/tlite6_6.dds"
 
 material Flat "tlite6_6"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/tlite6_6.dds"
+
 normal "materials/normalmaps/auto/tlite6_6.dds"
 roughness "materials/roughness/auto/tlite6_6.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -2881,6 +3177,10 @@ metallic "materials/metallic/auto/tlite6_6.dds"
 
 material Flat "tlite6_4"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/tlite6_4.dds"
+
 normal "materials/normalmaps/auto/tlite6_4.dds"
 roughness "materials/roughness/auto/tlite6_4.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -2889,6 +3189,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Flat "tlite6_1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/tlite6_1.dds"
+
 normal "materials/normalmaps/auto/tlite6_1.dds"
 roughness "materials/roughness/auto/tlite6_1.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -2897,6 +3201,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Flat "floor7_1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor7_1.dds"
+
 normal "materials/normalmaps/auto/floor7_1.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/floor7_1.dds"
@@ -2913,6 +3221,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Texture "exitsign"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/EXITSIGN.dds"
+
 normal "materials/normalmaps/auto/exitsign.dds"
 roughness "materials/roughness/auto/exitsign.dds"
 ao "materials/ao/auto/exitsign.dds"
@@ -2946,6 +3258,10 @@ metallic "materials/metallic/auto/doortrak.dds"
 
 material Texture "sw1comp"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW1COMP.dds"
+
 normal "materials/normalmaps/auto/sw1comp.dds"
 roughness "materials/roughness/auto/sw1comp.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -2971,6 +3287,10 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Texture "sw2comp"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2COMP.dds"
+
 normal "materials/normalmaps/auto/sw1comp.dds"
 roughness "materials/roughness/auto/sw1comp.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -2980,6 +3300,10 @@ metallic "materials/metallic/auto/sw1comp.dds"
 
 material Texture "sw1strtn"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW1STRTN.dds"
+
 normal "materials/normalmaps/auto/sw1strtn.dds"
 roughness "materials/roughness/auto/sw1strtn.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -2989,6 +3313,10 @@ metallic "materials/metallic/auto/sw1strtn.dds"
 
 material Texture "sw2strtn"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2STRTN.dds"
+
 normal "materials/normalmaps/auto/sw2strtn.dds"
 roughness "materials/roughness/auto/sw2strtn.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -2998,6 +3326,10 @@ metallic "materials/metallic/auto/sw2strtn.dds"
 
 material Texture "sw1ston1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW1STON1.dds"
+
 normal "materials/normalmaps/auto/sw1ston1.dds"
 roughness "materials/roughness/auto/sw1ston1.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -3007,6 +3339,10 @@ metallic "materials/metallic/auto/sw1ston1.dds"
 
 material Texture "sw2ston1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SW2STON1.dds"
+
 normal "materials/normalmaps/auto/sw2ston1.dds"
 roughness "materials/roughness/auto/sw2ston1.dds"
 ao "materials/ao/auto/ao_blank.dds"
@@ -3016,6 +3352,10 @@ metallic "materials/metallic/auto/sw2ston1.dds"
 
 material Texture "stone2"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STONE2.dds"
+
 normal "materials/normalmaps/auto/stone2.dds"
 roughness "materials/roughness/auto/stone3.dds"
 ao "materials/ao/auto/STONE3.dds"
@@ -3024,6 +3364,10 @@ metallic "materials/metallic/auto/STONE3.dds"
 
 material Texture "stone3"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STONE3.dds"
+
 normal "materials/normalmaps/auto/stone3.dds"
 roughness "materials/roughness/auto/stone3.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -3088,15 +3432,19 @@ metallic "materials/metallic/auto/comptall.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/comptall.dds"
 }
 
-material Texture "flat18"
+material Flat "flat18"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/flat18.dds"
+
 normal "materials/normalmaps/auto/flat18.dds"
 roughness "materials/roughness/auto/flat18.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/brown1.dds"
 }
 
-material Texture "flat19"
+material Flat "flat19"
 {
 normal "materials/normalmaps/auto/flat19.dds"
 roughness "materials/roughness/auto/flat19.dds"
@@ -3172,6 +3520,10 @@ metallic "materials/metallic/auto/startan3.dds"
 
 material Texture "compspan"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/COMPSPAN.dds"
+
 normal "materials/normalmaps/auto/compspan.dds"
 roughness "materials/roughness/auto/compspan.dds"
 ao "materials/ao/auto/compspan.dds"
@@ -3180,6 +3532,9 @@ metallic "materials/metallic/auto/compspan.dds"
 
 material Texture "exitdoor"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/auto/exitdoor.dds"		
+
 Shader "shaders/parallax2.fp"
 normal "materials/normalmaps/auto/exitdoor.dds"
 metallic "materials/metallic/auto/exitdoor.dds"
@@ -3196,8 +3551,12 @@ roughness "materials/roughness/auto/flat5_4.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 }
 
-material Texture "floor4_8"
+material Flat "floor4_8"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor4_8.dds"
+
 normal "materials/normalmaps/auto/floor4_8.dds"
 metallic "materials/metallic/auto/floor4_8.dds"
 roughness "materials/roughness/auto/floor4_8.dds"
@@ -3235,7 +3594,7 @@ roughness "materials/roughness/auto/brown144.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 }
 
-material Texture "flat14"
+material Flat "flat14"
 {
 normal "materials/normalmaps/auto/flat14.dds"
 // AUTO-DISABLED missing asset reference: metallic "materials/metallic/flat14.dds"
@@ -3243,6 +3602,7 @@ roughness "materials/roughness/auto/flat14.dds"
 ao "materials/ao/auto/flat14.dds"
 }
 
+/* DUPLICATE material superseded by later PBR block
 material texture "floor1_1"
 {
 	shader "shaders/displacement.fp"
@@ -3252,9 +3612,14 @@ material texture "floor1_1"
 	glossiness 10.0
 	specularlevel 3
 }
+*/
 
 material Flat "floor1_1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor7_1.dds"
+
 normal "materials/normalmaps/auto/BROWN144.dds"
 metallic "materials/metallic/auto/floor7_1.dds"
 roughness "materials/roughness/auto/floor0_1.dds"
@@ -3272,6 +3637,9 @@ brightmap "materials/Brightmaps/auto/nuke24.dds"
 
 material Texture "bigdoor2"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/auto/bigdoor2.dds"		
+
 Shader "shaders/parallax.fp"
 
 normal "materials/normalmaps/auto/bigdoor2.dds"
@@ -3285,6 +3653,9 @@ Define "PBR"
 
 material Texture "bigdoor4"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/auto/bigdoor2.dds"		
+
 Shader "shaders/parallax.fp"
 
 normal "materials/normalmaps/auto/bigdoor2.dds"
@@ -3295,7 +3666,7 @@ Texture tex_heightmap "materials/heightmaps/bigdoor.dds"
 Define "Foobar"
 }
 
-material Texture "ceil3_5"
+material Flat "ceil3_5"
 {
 Shader "shaders/parallax2.fp"
 
@@ -3308,6 +3679,9 @@ Texture tex_heightmap "materials/heightmaps/ceil3_5.dds"
 
 material Texture "browngrn"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/BROWNGRN.dds"
+
 Shader "shaders/parallax2.fp"
 
 normal "materials/normalmaps/auto/browngrn.dds"
@@ -3319,6 +3693,9 @@ Texture tex_heightmap "materials/heightmaps/browngrn.dds"
 
 material Texture "starg1"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARG1.dds"
+
 Shader "shaders/parallax.fp"
 
 normal "materials/normalmaps/auto/starg1.dds"
@@ -3330,6 +3707,9 @@ Texture tex_heightmap "materials/heightmaps/starg1.dds"
 
 material Texture "starg3"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARG3.dds"
+
 Shader "shaders/parallax.fp"
 
 normal "materials/normalmaps/auto/startan3.dds"
@@ -3342,6 +3722,10 @@ Define "Foobar"
 
 material Texture "startan1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARTAN1.dds"
+
 normal "materials/normalmaps/auto/starg1.dds"
 metallic "materials/metallic/auto/browngrn.dds"
 roughness "materials/roughness/auto/starg1.dds"
@@ -3350,6 +3734,9 @@ ao "materials/ao/auto/ao_blank.dds"
 
 material Texture "stargr1"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARGR1.dds"
+
 Shader "shaders/parallax.fp"
 
 normal "materials/normalmaps/auto/starg1.dds"
@@ -3361,6 +3748,10 @@ Texture tex_heightmap "materials/heightmaps/starg1.dds"
 
 material Texture "support2"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/SUPPORT2.dds"
+
 normal "materials/normalmaps/auto/support2.dds"
 metallic "materials/metallic/auto/support2.dds"
 roughness "materials/roughness/auto/support2.dds"
@@ -3378,6 +3769,9 @@ ao "materials/ao/auto/planet1.dds"
 
 material Texture "startan3"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARTAN3.dds"
+
 Shader "shaders/parallax.fp"
 
 normal "materials/normalmaps/auto/startan3.dds"
@@ -3390,6 +3784,9 @@ Define "Foobar"
 
 material Texture "startan2"
 {
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/STARTAN2.dds"
+
 Shader "shaders/parallax.fp"
 
 normal "materials/normalmaps/auto/startan2.dds"
@@ -3402,6 +3799,10 @@ Define "Foobar"
 
 material Texture "floor5_1"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/floor5_1.dds"
+
 normal "materials/normalmaps/auto/floor5_1.dds"
 metallic "materials/metallic/auto/floor5_1.dds"
 roughness "materials/roughness/auto/floor5_1.dds"
@@ -3411,12 +3812,17 @@ ao "materials/ao/auto/floor4_8.dds"
 
 material Texture "comptile"
 {
+	shader "shaders/displacement.fp"
+	shader "shaders/displacement.fp"
+	texture displacement "materials/displacement/COMPTILE.dds"
+
 normal "materials/normalmaps/auto/comptile.dds"
 // AUTO-DISABLED missing asset reference: specular "materials/specular/comptile.dds"
 specularlevel 3
 glossiness 10
 }
 
+/* DUPLICATE material superseded by later PBR block
 material Texture "door3"
 {
 // AUTO-DISABLED missing asset reference: normal "materials/normalmaps/auto/door3_n.dds"
@@ -3424,6 +3830,7 @@ material Texture "door3"
 // AUTO-DISABLED missing asset reference: roughness "materials/roughness/auto/door3_r.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 }
+*/
 
 material Texture "tekwall1"
 {

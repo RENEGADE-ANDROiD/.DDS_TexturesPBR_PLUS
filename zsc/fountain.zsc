@@ -173,12 +173,10 @@ class TeleporterEffect : Actor
         if (timer < TIMER_MAX)
         {
             timer++;
+            return;
         }
-        else
-        {
-            timer = 0;
-            RefreshTextures();
-            DoChecks();
-        }
+        timer = 0;
+        RefreshTextures();
+        DoChecks();
     }
 }

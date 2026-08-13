@@ -21,7 +21,7 @@ class TeleporterEffects : EventHandler
 
     override void WorldLoaded(WorldEvent e)
     {   
-        if (e.IsReopen)
+        if (e.IsSaveGame || e.IsReopen)
             return;
             
         int sectors = level.sectors.size();

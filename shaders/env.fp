@@ -21,11 +21,9 @@ Material ProcessMaterial()
     material.Glossiness = uSpecularMaterial.x;
     material.SpecularLevel = uSpecularMaterial.y;
 #endif
-#if defined(PBR)
-    material.Metallic = texture(metallictexture, texCoord).r;
-    material.Roughness = texture(roughnesstexture, texCoord).r;
-    material.AO = texture(aotexture, texCoord).r;
-#endif
+    material.Metallic = 0.0;
+    material.Roughness = 1.0;
+    material.AO = 1.0;
 #if defined(BRIGHTMAP)
     material.Bright = texture(brighttexture, texCoord).rgb;
 #endif

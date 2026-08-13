@@ -1,116 +1,231 @@
-brightmap flat CEIL5_1 { map "brightmaps/DOOM/CEIL5_1.dds" DISABLEFULLBRIGHT }
-brightmap flat CEIL5_2 { map "brightmaps/DOOM/CEIL5_2.dds" DISABLEFULLBRIGHT }
-brightmap flat flat17 { map "brightmaps/DOOM/flat17.dds" DISABLEFULLBRIGHT }
-brightmap flat flat18 { map "brightmaps/DOOM/flat18.dds" DISABLEFULLBRIGHT }
-brightmap flat FLOOR52A { map "brightmaps/DOOM/FLOOR52A.dds" DISABLEFULLBRIGHT }
-brightmap flat FLOOR52B { map "brightmaps/DOOM/FLOOR52B.dds" DISABLEFULLBRIGHT }
-brightmap flat FLOOR52C { map "brightmaps/DOOM/FLOOR52C.dds" DISABLEFULLBRIGHT }
-brightmap flat FLOOR52D { map "brightmaps/DOOM/FLOOR52D.dds" DISABLEFULLBRIGHT }
-brightmap flat FLOOR52E { map "brightmaps/DOOM/FLOOR52E.dds" DISABLEFULLBRIGHT }
-// brightmap flat FLOOR1_7 { map "brightmaps/DOOM/flr1_6A.dds" DISABLEFULLBRIGHT }
-brightmap texture COMPTALL { map "brightmaps/doom/COMPTALL.dds" DISABLEFULLBRIGHT }
-brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9H.dds" DISABLEFULLBRIGHT }
-brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9I.dds" DISABLEFULLBRIGHT }
-brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9J.dds" DISABLEFULLBRIGHT }
-brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9K.dds" DISABLEFULLBRIGHT }
-brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9L.dds" DISABLEFULLBRIGHT }
-brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9M.dds" DISABLEFULLBRIGHT }
-brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9N.dds" DISABLEFULLBRIGHT }
-
-////DOC's OTEX
-brightmap texture BRWINDOW { map "brightmaps/doom/BRWINDOW.dds" }
-brightmap texture BIGBRIK3 { map "brightmaps/doom/BIGBRIK3.dds" }
-brightmap texture BRICKLIT { map "brightmaps/doom/BRICKLIT.dds" }
-brightmap texture BSTONE3 { map "brightmaps/doom/BSTONE3.dds" }
-brightmap texture COMP2A { map "brightmaps/doom/COMP2A.dds" }
-brightmap texture COMP2B { map "brightmaps/doom/COMP2B.dds" }
-brightmap texture COMP2C { map "brightmaps/doom/COMP2C.dds" }
-brightmap texture COMP2D { map "brightmaps/doom/COMP2D.dds" }
-brightmap texture COMP2E { map "brightmaps/doom/COMP2E.dds" }
-brightmap texture COMP2F { map "brightmaps/doom/COMP2F.dds" }
-brightmap texture COMP2G { map "brightmaps/doom/COMP2G.dds" }
-brightmap texture COMP2H { map "brightmaps/doom/COMP2H.dds" }
-brightmap texture COMPSTA1 { map "brightmaps/doom/COMPSTA1.dds" }
-brightmap texture COMPSTA2 { map "brightmaps/doom/COMPSTA2.dds" }
-brightmap texture COMPUT2A { map "brightmaps/doom/COMPUT2A.dds" }
-brightmap texture COMPUT2B { map "brightmaps/doom/COMPUT2B.dds" }
-brightmap texture COMPUT2C { map "brightmaps/doom/COMPUT2C.dds" }
-brightmap texture COMPUT2D { map "brightmaps/doom/COMPUT2D.dds" }
-brightmap texture COMPUT2E { map "brightmaps/doom/COMPUT2E.dds" }
-brightmap texture COMPUT2F { map "brightmaps/doom/COMPUT2F.dds" }
-brightmap texture COMPUT2G { map "brightmaps/doom/COMPUT2G.dds" }
-brightmap texture COMPWERD { map "brightmaps/doom/COMPWERD.dds" }
-brightmap texture DOORBLU { map "brightmaps/doom/DOORBLU.dds" }
-brightmap texture DOORBLU2 { map "brightmaps/doom/DOORBLU2.dds" }
-brightmap texture DOORRED { map "brightmaps/doom/DOORRED.dds" }
-brightmap texture DOORRED2 { map "brightmaps/doom/DOORRED2.dds" }
-brightmap texture DOORYEL { map "brightmaps/doom/DOORYEL.dds" }
-brightmap texture DOORYEL2 { map "brightmaps/doom/DOORYEL2.dds" }
-brightmap texture EXITDOOR { map "brightmaps/doom/EXITDOOR.dds" }
-brightmap texture EXITSIGN { map "brightmaps/doom/EXITSIGN.dds" }
-brightmap texture EXITSTON { map "brightmaps/doom/EXITSTON.dds" }
-brightmap texture LITE2 { map "brightmaps/doom/LITE2.dds" }
-brightmap texture LITE3 { map "brightmaps/doom/LITE3.dds" }
-brightmap texture LITE4 { map "brightmaps/doom/LITE4.dds" }
-brightmap texture LITE5 { map "brightmaps/doom/LITE5.dds" }
-brightmap texture LITE96 { map "brightmaps/doom/LITE96.dds" }
-brightmap texture LITEBLU1 { map "brightmaps/doom/LITEBLU1.dds" }
-brightmap texture LITEBLU2 { map "brightmaps/doom/LITEBLU2.dds" }
-brightmap texture LITEBLU3 { map "brightmaps/doom/LITEBLU3.dds" }
-brightmap texture LITEBLU4 { map "brightmaps/doom/LITEBLU4.dds" }
-brightmap texture LITERED { map "brightmaps/doom/LITERED.dds" }
-brightmap texture LITESTON { map "brightmaps/doom/LITESTON.dds" }
-brightmap texture LITEMET { map "brightmaps/doom/LITEMET.dds" }
-brightmap texture METAL6 { map "brightmaps/doom/METAL6.dds" }
-brightmap texture METAL7 { map "brightmaps/doom/METAL7.dds" }
-brightmap texture NUKE24 { map "brightmaps/doom/NUKE24.dds" }
-brightmap texture NUKESLAD { map "brightmaps/doom/NUKESLAD.dds" }
-brightmap texture PIPE6 { map "brightmaps/doom/PIPE6.dds" }
-brightmap texture PLANET1 { map "brightmaps/doom/PLANET1.dds" }
-brightmap texture ROCKRED1 { map "brightmaps/doom/ROCKRED1.dds" }
-brightmap texture ROCKRED2 { map "brightmaps/doom/ROCKRED2.dds" }
-brightmap texture ROCKRED3 { map "brightmaps/doom/ROCKRED3.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SK_LEFT { map "brightmaps/doom/SK_LEFT.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SK_RIGHT { map "brightmaps/doom/SK_RIGHT.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SLOPPY1 { map "brightmaps/doom/SLOPPY1.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SLOPPY2 { map "brightmaps/doom/SLOPPY2.dds" }
-brightmap texture SLADRIP1 { map "brightmaps/doom/SLADRIP1.dds" }
-brightmap texture SLADRIP2 { map "brightmaps/doom/SLADRIP2.dds" }
-brightmap texture SLADRIP3 { map "brightmaps/doom/SLADRIP3.dds" }
-brightmap texture SPACEW3 { map "brightmaps/doom/SPACEW3.dds" }
-brightmap texture SPCDOOR3 { map "brightmaps/doom/SPCDOOR1.dds" }
-brightmap texture SPCDOOR3 { map "brightmaps/doom/SPCDOOR3.dds" }
-brightmap texture SPCDOOR3 { map "brightmaps/doom/SPCDOOR4.dds" }
-brightmap texture TEKBRON2 { map "brightmaps/doom/TEKBRON2.dds" }
-brightmap texture TEKGREN1 { map "brightmaps/doom/TEKGREN1.dds" }
-brightmap texture TEKGREN1 { map "brightmaps/doom/TEKGREN3.dds" }
-brightmap texture TEKGREN5 { map "brightmaps/doom/TEKGREN5.dds" }
-brightmap texture TEKLITE { map "brightmaps/doom/TEKLITE.dds" }
-brightmap texture TEKLITE { map "brightmaps/doom/TEKLITE2.dds" }
-brightmap texture TEKWALL1 { map "brightmaps/doom/TEKWALL1.dds" }
-brightmap texture TEKWALL2 { map "brightmaps/doom/TEKWALL2.dds" }
-brightmap texture TEKWALL3 { map "brightmaps/doom/TEKWALL3.dds" }
-brightmap texture TEKWALL4 { map "brightmaps/doom/TEKWALL4.dds" }
-brightmap texture TEKWALL5 { map "brightmaps/doom/TEKWALL5.dds" }
-brightmap texture TEKWALL6 { map "brightmaps/doom/TEKWALL6.dds" }
-
-////////////////////
-////  SWITCHES  ////
-///////////////////
-
-brightmap texture SW1BLUE { map "brightmaps/doom/SW1BLUE.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SW1COMP { map "brightmaps/doom/SW1COMP.dds" }
-brightmap texture SW1COMM { map "brightmaps/doom/SW1COMM.dds" }
-brightmap texture SW1DIRT { map "brightmaps/doom/SW1DIRT.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SW1MET2 { map "brightmaps/doom/SW1MET2.dds" }
-brightmap texture SW1STON1 { map "brightmaps/doom/SW1STON1.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SW1STON6 { map "brightmaps/doom/SW1STON6.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SW1STON2 { map "brightmaps/doom/doom1/SW1STON2.dds" }
-brightmap texture SW2BLUE { map "brightmaps/doom/SW2BLUE.dds" }
-brightmap texture SW2COMM { map "brightmaps/doom/SW2COMM.dds" }
-brightmap texture SW2COMP { map "brightmaps/doom/SW2COMP.dds" }
-brightmap texture SW2DIRT { map "brightmaps/doom/SW2DIRT.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SW2MET2 { map "brightmaps/doom/SW2MET2.dds" }
-brightmap texture SW2STON1 { map "brightmaps/doom/SW2STON1.dds" }
-// AUTO-DISABLED missing asset reference: brightmap texture SW2STON6 { map "brightmaps/doom/SW2STON6.dds" }
+brightmap flat CEIL5_1 { map "brightmaps/DOOM/CEIL5_1.dds" DISABLEFULLBRIGHT }
+
+brightmap flat CEIL5_2 { map "brightmaps/DOOM/CEIL5_2.dds" DISABLEFULLBRIGHT }
+
+brightmap flat flat17 { map "brightmaps/DOOM/flat17.dds" DISABLEFULLBRIGHT }
+
+brightmap flat flat18 { map "brightmaps/DOOM/flat18.dds" DISABLEFULLBRIGHT }
+
+brightmap flat FLOOR52A { map "brightmaps/DOOM/FLOOR52A.dds" DISABLEFULLBRIGHT }
+
+brightmap flat FLOOR52B { map "brightmaps/DOOM/FLOOR52B.dds" DISABLEFULLBRIGHT }
+
+brightmap flat FLOOR52C { map "brightmaps/DOOM/FLOOR52C.dds" DISABLEFULLBRIGHT }
+
+brightmap flat FLOOR52D { map "brightmaps/DOOM/FLOOR52D.dds" DISABLEFULLBRIGHT }
+
+brightmap flat FLOOR52E { map "brightmaps/DOOM/FLOOR52E.dds" DISABLEFULLBRIGHT }
+
+// brightmap flat FLOOR1_7 { map "brightmaps/DOOM/flr1_6A.dds" DISABLEFULLBRIGHT }
+
+brightmap texture COMPTALL { map "brightmaps/doom/COMPTALL.dds" DISABLEFULLBRIGHT }
+
+// brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9H.dds" DISABLEFULLBRIGHT }
+
+// brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9I.dds" DISABLEFULLBRIGHT }
+
+// brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9J.dds" DISABLEFULLBRIGHT }
+
+// brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9K.dds" DISABLEFULLBRIGHT }
+
+// brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9L.dds" DISABLEFULLBRIGHT }
+
+// brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9M.dds" DISABLEFULLBRIGHT }
+
+// brightmap texture COMPTALL { map "brightmaps/doom/BCOMPA9N.dds" DISABLEFULLBRIGHT }
+
+
+
+////DOC's OTEX
+
+brightmap texture BRWINDOW { map "brightmaps/doom/BRWINDOW.dds" }
+
+brightmap texture BIGBRIK3 { map "brightmaps/doom/BIGBRIK3.dds" }
+
+brightmap texture BRICKLIT { map "brightmaps/doom/BRICKLIT.dds" }
+
+brightmap texture BSTONE3 { map "brightmaps/doom/BSTONE3.dds" }
+
+brightmap texture COMP2A { map "brightmaps/doom/COMP2A.dds" }
+
+brightmap texture COMP2B { map "brightmaps/doom/COMP2B.dds" }
+
+brightmap texture COMP2C { map "brightmaps/doom/COMP2C.dds" }
+
+brightmap texture COMP2D { map "brightmaps/doom/COMP2D.dds" }
+
+brightmap texture COMP2E { map "brightmaps/doom/COMP2E.dds" }
+
+brightmap texture COMP2F { map "brightmaps/doom/COMP2F.dds" }
+
+brightmap texture COMP2G { map "brightmaps/doom/COMP2G.dds" }
+
+brightmap texture COMP2H { map "brightmaps/doom/COMP2H.dds" }
+
+brightmap texture COMPSTA1 { map "brightmaps/doom/COMPSTA1.dds" }
+
+brightmap texture COMPSTA2 { map "brightmaps/doom/COMPSTA2.dds" }
+
+brightmap texture COMPUT2A { map "brightmaps/doom/COMPUT2A.dds" }
+
+brightmap texture COMPUT2B { map "brightmaps/doom/COMPUT2B.dds" }
+
+brightmap texture COMPUT2C { map "brightmaps/doom/COMPUT2C.dds" }
+
+brightmap texture COMPUT2D { map "brightmaps/doom/COMPUT2D.dds" }
+
+brightmap texture COMPUT2E { map "brightmaps/doom/COMPUT2E.dds" }
+
+brightmap texture COMPUT2F { map "brightmaps/doom/COMPUT2F.dds" }
+
+brightmap texture COMPUT2G { map "brightmaps/doom/COMPUT2G.dds" }
+
+brightmap texture COMPWERD { map "brightmaps/doom/COMPWERD.dds" }
+
+brightmap texture DOORBLU { map "brightmaps/doom/DOORBLU.dds" }
+
+brightmap texture DOORBLU2 { map "brightmaps/doom/DOORBLU2.dds" }
+
+brightmap texture DOORRED { map "brightmaps/doom/DOORRED.dds" }
+
+brightmap texture DOORRED2 { map "brightmaps/doom/DOORRED2.dds" }
+
+brightmap texture DOORYEL { map "brightmaps/doom/DOORYEL.dds" }
+
+brightmap texture DOORYEL2 { map "brightmaps/doom/DOORYEL2.dds" }
+
+brightmap texture EXITDOOR { map "brightmaps/doom/EXITDOOR.dds" }
+
+brightmap texture EXITSIGN { map "brightmaps/doom/EXITSIGN.dds" }
+
+brightmap texture EXITSTON { map "brightmaps/doom/EXITSTON.dds" }
+
+brightmap texture LITE2 { map "brightmaps/doom/LITE2.dds" }
+
+brightmap texture LITE3 { map "brightmaps/doom/LITE3.dds" }
+
+brightmap texture LITE4 { map "brightmaps/doom/LITE4.dds" }
+
+brightmap texture LITE5 { map "brightmaps/doom/LITE5.dds" }
+
+brightmap texture LITE96 { map "brightmaps/doom/LITE96.dds" }
+
+brightmap texture LITEBLU1 { map "brightmaps/doom/LITEBLU1.dds" }
+
+brightmap texture LITEBLU2 { map "brightmaps/doom/LITEBLU2.dds" }
+
+brightmap texture LITEBLU3 { map "brightmaps/doom/LITEBLU3.dds" }
+
+brightmap texture LITEBLU4 { map "brightmaps/doom/LITEBLU4.dds" }
+
+brightmap texture LITERED { map "brightmaps/doom/LITERED.dds" }
+
+brightmap texture LITESTON { map "brightmaps/doom/LITESTON.dds" }
+
+brightmap texture LITEMET { map "brightmaps/doom/LITEMET.dds" }
+
+brightmap texture METAL6 { map "brightmaps/doom/METAL6.dds" }
+
+brightmap texture METAL7 { map "brightmaps/doom/METAL7.dds" }
+
+brightmap texture NUKE24 { map "brightmaps/doom/NUKE24.dds" }
+
+brightmap texture NUKESLAD { map "brightmaps/doom/NUKESLAD.dds" }
+
+brightmap texture PIPE6 { map "brightmaps/doom/PIPE6.dds" }
+
+brightmap texture PLANET1 { map "brightmaps/doom/PLANET1.dds" }
+
+brightmap texture ROCKRED1 { map "brightmaps/doom/ROCKRED1.dds" }
+
+brightmap texture ROCKRED2 { map "brightmaps/doom/ROCKRED2.dds" }
+
+brightmap texture ROCKRED3 { map "brightmaps/doom/ROCKRED3.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SK_LEFT { map "brightmaps/doom/SK_LEFT.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SK_RIGHT { map "brightmaps/doom/SK_RIGHT.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SLOPPY1 { map "brightmaps/doom/SLOPPY1.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SLOPPY2 { map "brightmaps/doom/SLOPPY2.dds" }
+
+brightmap texture SLADRIP1 { map "brightmaps/doom/SLADRIP1.dds" }
+
+brightmap texture SLADRIP2 { map "brightmaps/doom/SLADRIP2.dds" }
+
+brightmap texture SLADRIP3 { map "brightmaps/doom/SLADRIP3.dds" }
+
+brightmap texture SPACEW3 { map "brightmaps/doom/SPACEW3.dds" }
+
+brightmap texture SPCDOOR3 { map "brightmaps/doom/SPCDOOR1.dds" }
+
+brightmap texture SPCDOOR3 { map "brightmaps/doom/SPCDOOR3.dds" }
+
+brightmap texture SPCDOOR3 { map "brightmaps/doom/SPCDOOR4.dds" }
+
+brightmap texture TEKBRON2 { map "brightmaps/doom/TEKBRON2.dds" }
+
+brightmap texture TEKGREN1 { map "brightmaps/doom/TEKGREN1.dds" }
+
+brightmap texture TEKGREN1 { map "brightmaps/doom/TEKGREN3.dds" }
+
+brightmap texture TEKGREN5 { map "brightmaps/doom/TEKGREN5.dds" }
+
+brightmap texture TEKLITE { map "brightmaps/doom/TEKLITE.dds" }
+
+brightmap texture TEKLITE { map "brightmaps/doom/TEKLITE2.dds" }
+
+brightmap texture TEKWALL1 { map "brightmaps/doom/TEKWALL1.dds" }
+
+brightmap texture TEKWALL2 { map "brightmaps/doom/TEKWALL2.dds" }
+
+brightmap texture TEKWALL3 { map "brightmaps/doom/TEKWALL3.dds" }
+
+brightmap texture TEKWALL4 { map "brightmaps/doom/TEKWALL4.dds" }
+
+brightmap texture TEKWALL5 { map "brightmaps/doom/TEKWALL5.dds" }
+
+brightmap texture TEKWALL6 { map "brightmaps/doom/TEKWALL6.dds" }
+
+
+
+////////////////////
+
+////  SWITCHES  ////
+
+///////////////////
+
+
+
+brightmap texture SW1BLUE { map "brightmaps/doom/SW1BLUE.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SW1COMP { map "brightmaps/doom/SW1COMP.dds" }
+
+brightmap texture SW1COMM { map "brightmaps/doom/SW1COMM.dds" }
+
+brightmap texture SW1DIRT { map "brightmaps/doom/SW1DIRT.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SW1MET2 { map "brightmaps/doom/SW1MET2.dds" }
+
+brightmap texture SW1STON1 { map "brightmaps/doom/SW1STON1.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SW1STON6 { map "brightmaps/doom/SW1STON6.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SW1STON2 { map "brightmaps/doom/doom1/SW1STON2.dds" }
+
+brightmap texture SW2BLUE { map "brightmaps/doom/SW2BLUE.dds" }
+
+brightmap texture SW2COMM { map "brightmaps/doom/SW2COMM.dds" }
+
+brightmap texture SW2COMP { map "brightmaps/doom/SW2COMP.dds" }
+
+brightmap texture SW2DIRT { map "brightmaps/doom/SW2DIRT.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SW2MET2 { map "brightmaps/doom/SW2MET2.dds" }
+
+brightmap texture SW2STON1 { map "brightmaps/doom/SW2STON1.dds" }
+
+// AUTO-DISABLED missing asset reference: brightmap texture SW2STON6 { map "brightmaps/doom/SW2STON6.dds" }
+
 // AUTO-DISABLED missing asset reference: brightmap texture SW2STON2 { map "brightmaps/doom/doom1/SW2STON2.dds" }
