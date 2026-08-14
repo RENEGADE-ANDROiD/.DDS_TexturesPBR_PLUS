@@ -4,38 +4,41 @@
 
 material Texture "tekwall4"
 {
+	specular "materials/ao/auto/ao_blank2.dds"
 
 normal "materials/normalmaps/auto/tekwall4.dds"
 metallic "materials/metallic/auto/tekwall4.dds"
 roughness "materials/roughness/auto/tekwall4.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 //Texture tex_heightmap "materials/heightmaps/tekwall4.dds"
-specularlevel 3
-glossiness 10
+specularlevel 4.5
+glossiness 22
 }
 
 material Texture "tekwall2"
 {
+	specular "materials/ao/auto/ao_blank2.dds"
 
 normal "materials/normalmaps/auto/tekwall2.dds"
 metallic "materials/metallic/auto/tekwall2.dds"
 roughness "materials/roughness/auto/tekwall2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 //Texture tex_heightmap "materials/heightmaps/tekwall2.dds"
-specularlevel 3
-glossiness 10
+specularlevel 4.5
+glossiness 22
 }
 
 material Texture "tekwall5"
 {
+	specular "materials/ao/auto/ao_blank2.dds"
 
 normal "materials/normalmaps/auto/tekwall5.dds"
 metallic "materials/metallic/auto/tekwall5.dds"
 roughness "materials/roughness/auto/tekwall5.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 //Texture tex_heightmap "materials/heightmaps/tekwall5.dds"
-specularlevel 3
-glossiness 10
+specularlevel 4.5
+glossiness 22
 }
 
 material Flat "ceil3_3"
@@ -871,15 +874,28 @@ material texture "BROWNPIP"
 
 material Texture "brownpip"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/BROWNPIP.dds"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brownpip.dds"
+	metallic "materials/metallic/auto/brownpip.dds"
+	roughness "materials/roughness/auto/brownpip.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brownpip.dds"
+}
 
-Shader "shaders/parallax2.fp"
-normal "materials/normalmaps/auto/brownpip.dds"
-metallic "materials/metallic/auto/brownpip.dds"
-roughness "materials/roughness/auto/brownpip.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/brownpip.dds"
+material Texture "lite2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/lite2.dds"
+	metallic "materials/metallic/auto/lite2.dds"
+	roughness "materials/roughness/auto/lite2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/lite2.dds"
 }
 
 material Texture "brownhug"
@@ -1229,9 +1245,10 @@ material texture "SP_HOT1"
 
 material Texture "STARBR2"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARBR2.dds"
-	Shader "shaders/parallax.fp"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
 	normal "materials/normalmaps/auto/STARBR2.dds"
 	metallic "materials/metallic/auto/starg1.dds"
 	roughness "materials/roughness/auto/starg1.dds"
@@ -1253,9 +1270,10 @@ material texture "STARG1"
 
 material Texture "STARG2"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARG2.dds"
-	Shader "shaders/parallax.fp"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
 	normal "materials/normalmaps/auto/STARG2.dds"
 	metallic "materials/metallic/auto/starg1.dds"
 	roughness "materials/roughness/auto/starg1.dds"
@@ -1289,9 +1307,10 @@ material texture "STARGR1"
 
 material Texture "STARGR2"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARGR2.dds"
-	Shader "shaders/parallax.fp"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
 	normal "materials/normalmaps/auto/STARGR2.dds"
 	metallic "materials/metallic/auto/starg1.dds"
 	roughness "materials/roughness/auto/starg1.dds"
@@ -2758,15 +2777,15 @@ Texture tex_heightmap "materials/heightmaps/sw1starg.dds"
 
 material Texture "sw2starg"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/SW2STARG.dds"
-
-Shader "shaders/parallax.fp"
-normal "materials/normalmaps/auto/sw2starg.dds"
-roughness "materials/roughness/auto/sw2starg.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-metallic "materials/metallic/auto/sw2starg.dds"
-Texture tex_heightmap "materials/heightmaps/sw2starg.dds"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/sw2starg.dds"
+	roughness "materials/roughness/auto/sw2starg.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	metallic "materials/metallic/auto/sw2starg.dds"
+	Texture tex_heightmap "materials/heightmaps/sw2starg.dds"
 }
 
 material Texture "sw1brown"
@@ -2949,6 +2968,9 @@ metallic "materials/metallic/auto/sw2slad.dds"
 
 material Texture "compsta2"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 normal "materials/normalmaps/auto/compsta2.dds"
 roughness "materials/roughness/auto/compsta2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -2958,6 +2980,9 @@ metallic "materials/metallic/auto/compsta2.dds"
 
 material Texture "compsta1"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 normal "materials/normalmaps/auto/compsta2.dds"
 roughness "materials/roughness/auto/compsta2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -3264,6 +3289,9 @@ metallic "materials/metallic/auto/doortrak.dds"
 
 material Texture "sw1comp"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 	shader "shaders/displacement.fp"
 	shader "shaders/displacement.fp"
 	texture displacement "materials/displacement/SW1COMP.dds"
@@ -3293,6 +3321,9 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Texture "sw2comp"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 	shader "shaders/displacement.fp"
 	shader "shaders/displacement.fp"
 	texture displacement "materials/displacement/SW2COMP.dds"
@@ -3431,6 +3462,9 @@ metallic "materials/metallic/auto/brnbigr.dds"
 
 material Texture "comptall"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 normal "materials/normalmaps/auto/comptall.dds"
 roughness "materials/roughness/auto/comptall.dds"
 ao "materials/ao/auto/ao_blank3.dds"
@@ -3440,6 +3474,9 @@ ao "materials/ao/auto/ao_blank3.dds"
 
 material Texture "comp2"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 normal "materials/normalmaps/auto/comptall.dds"
 roughness "materials/roughness/auto/comptall.dds"
 ao "materials/ao/auto/ao_blank3.dds"
@@ -3516,6 +3553,9 @@ metallic "materials/metallic/auto/step5.dds"
 
 material Texture "compute2"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 normal "materials/normalmaps/auto/compute2.dds"
 roughness "materials/roughness/auto/compute2.dds"
 ao "materials/ao/auto/compute2.dds"
@@ -3525,6 +3565,9 @@ ao "materials/ao/auto/compute2.dds"
 
 material Texture "compute3"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 normal "materials/normalmaps/auto/compute3.dds"
 roughness "materials/roughness/auto/compute3.dds"
 ao "materials/ao/auto/ao_blank2.dds"
@@ -3534,6 +3577,9 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Texture "compspan"
 {
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
 	shader "shaders/displacement.fp"
 	shader "shaders/displacement.fp"
 	texture displacement "materials/displacement/COMPSPAN.dds"
@@ -3707,38 +3753,36 @@ Texture tex_heightmap "materials/heightmaps/browngrn.dds"
 
 material Texture "starg1"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARG1.dds"
-
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-Texture tex_heightmap "materials/heightmaps/starg1.dds"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
 
 material Texture "starg3"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARG3.dds"
-
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/startan3.dds"
-metallic "materials/metallic/auto/startan3.dds"
-roughness "materials/roughness/auto/startan3.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/startan3.dds"
-Define "Foobar"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/startan3.dds"
+	metallic "materials/metallic/auto/startan3.dds"
+	roughness "materials/roughness/auto/startan3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
 material Texture "startan1"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARTAN1.dds"
-	Shader "shaders/parallax.fp"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
 	normal "materials/normalmaps/auto/starg1.dds"
 	metallic "materials/metallic/auto/browngrn.dds"
 	roughness "materials/roughness/auto/starg1.dds"
@@ -3748,16 +3792,15 @@ material Texture "startan1"
 
 material Texture "stargr1"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARGR1.dds"
-
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/starg1.dds"
-metallic "materials/metallic/auto/browngrn.dds"
-roughness "materials/roughness/auto/starg1.dds"
-ao "materials/ao/auto/ao_blank.dds"
-Texture tex_heightmap "materials/heightmaps/starg1.dds"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
 
 material Texture "support2"
@@ -3783,32 +3826,28 @@ ao "materials/ao/auto/planet1.dds"
 
 material Texture "startan3"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARTAN3.dds"
-
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/startan3.dds"
-metallic "materials/metallic/auto/startan3.dds"
-roughness "materials/roughness/auto/startan3.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/startan3.dds"
-Define "Foobar"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
 
 material Texture "startan2"
 {
-	shader "shaders/displacement.fp"
-	texture displacement "materials/displacement/STARTAN2.dds"
-
-Shader "shaders/parallax.fp"
-
-normal "materials/normalmaps/auto/startan2.dds"
-metallic "materials/metallic/auto/startan3.dds"
-roughness "materials/roughness/auto/startan2.dds"
-ao "materials/ao/auto/ao_blank2.dds"
-Texture tex_heightmap "materials/heightmaps/startan2.dds"
-Define "Foobar"
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/starg1.dds"
+	metallic "materials/metallic/auto/browngrn.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
+	Texture tex_heightmap "materials/heightmaps/starg1.dds"
 }
 
 material Texture "floor5_1"
@@ -3826,14 +3865,15 @@ ao "materials/ao/auto/floor4_8.dds"
 
 material Texture "comptile"
 {
+	specular "materials/ao/auto/ao_blank2.dds"
 	shader "shaders/displacement.fp"
 	shader "shaders/displacement.fp"
 	texture displacement "materials/displacement/COMPTILE.dds"
 
 normal "materials/normalmaps/auto/comptile.dds"
 // AUTO-DISABLED missing asset reference: specular "materials/specular/comptile.dds"
-specularlevel 3
-glossiness 10
+specularlevel 4.5
+glossiness 22
 }
 
 /* DUPLICATE material superseded by later PBR block
@@ -3848,10 +3888,11 @@ ao "materials/ao/auto/ao_blank2.dds"
 
 material Texture "tekwall1"
 {
+	specular "materials/ao/auto/ao_blank2.dds"
 normal "materials/normalmaps/auto/tekwall1.dds"
 // AUTO-DISABLED missing asset reference: specular "materials/specular/tekwall1.dds"
-specularlevel 3
-glossiness 10
+specularlevel 4.5
+glossiness 22
 }
 
 /////////////////////////////////////////////
@@ -6622,3 +6663,1222 @@ GLOW
 	Texture "LF0031", "99, 50, 00", "250"
 }
 
+// UNIQUE-PBR last-wins keepers (BROV + expanded set)
+
+material Texture "brovine"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brovine.dds"
+	roughness "materials/roughness/auto/brovine.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brovine.dds"
+}
+
+material Texture "brovine2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brovine2.dds"
+	roughness "materials/roughness/auto/brovine2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brovine2.dds"
+}
+
+material Texture "brov1a"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1a.dds"
+	roughness "materials/roughness/auto/brov1a.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1a.dds"
+}
+
+material Texture "brov1b"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1b.dds"
+	roughness "materials/roughness/auto/brov1b.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1b.dds"
+}
+
+material Texture "brov1c"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1c.dds"
+	roughness "materials/roughness/auto/brov1c.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1c.dds"
+}
+
+material Texture "brov1d"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1d.dds"
+	roughness "materials/roughness/auto/brov1d.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1d.dds"
+}
+
+material Texture "brov1e"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1e.dds"
+	roughness "materials/roughness/auto/brov1e.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1e.dds"
+}
+
+material Texture "brov1f"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1f.dds"
+	roughness "materials/roughness/auto/brov1f.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1f.dds"
+}
+
+material Texture "brov1g"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1g.dds"
+	roughness "materials/roughness/auto/brov1g.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1g.dds"
+}
+
+material Texture "brov1h"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1h.dds"
+	roughness "materials/roughness/auto/brov1h.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1h.dds"
+}
+
+material Texture "brov1i"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1i.dds"
+	roughness "materials/roughness/auto/brov1i.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1i.dds"
+}
+
+material Texture "brov1j"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1j.dds"
+	roughness "materials/roughness/auto/brov1j.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1j.dds"
+}
+
+material Texture "brov1k"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1k.dds"
+	roughness "materials/roughness/auto/brov1k.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1k.dds"
+}
+
+material Texture "brov1l"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1l.dds"
+	roughness "materials/roughness/auto/brov1l.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1l.dds"
+}
+
+material Texture "brov1m"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1m.dds"
+	roughness "materials/roughness/auto/brov1m.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1m.dds"
+}
+
+material Texture "brov1n"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1n.dds"
+	roughness "materials/roughness/auto/brov1n.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1n.dds"
+}
+
+material Texture "brov1o"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1o.dds"
+	roughness "materials/roughness/auto/brov1o.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1o.dds"
+}
+
+material Texture "brov1p"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brov1p.dds"
+	roughness "materials/roughness/auto/brov1p.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brov1p.dds"
+}
+
+material Texture "brown144"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2
+	glossiness 6
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/brown144.dds"
+	roughness "materials/roughness/auto/brown144.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brown144.dds"
+}
+
+material Texture "CCOMPA90"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ccompa90.dds"
+	roughness "materials/roughness/auto/ccompa90.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ccompa90.dds"
+}
+
+material Texture "CCOMPA9A"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ccompa9a.dds"
+	roughness "materials/roughness/auto/ccompa9a.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ccompa9a.dds"
+}
+
+material Texture "CCOMPA9B"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ccompa9b.dds"
+	roughness "materials/roughness/auto/ccompa9b.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ccompa9b.dds"
+}
+
+material Texture "CCOMPA9C"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ccompa9c.dds"
+	roughness "materials/roughness/auto/ccompa9c.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ccompa9c.dds"
+}
+
+material Texture "CCOMPA9D"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ccompa9d.dds"
+	roughness "materials/roughness/auto/ccompa9d.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ccompa9d.dds"
+}
+
+material Texture "CCOMPA9E"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ccompa9e.dds"
+	roughness "materials/roughness/auto/ccompa9e.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ccompa9e.dds"
+}
+
+material Texture "CCOMPA9F"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ccompa9f.dds"
+	roughness "materials/roughness/auto/ccompa9f.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ccompa9f.dds"
+}
+
+material Texture "CCOMPA9G"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ccompa9g.dds"
+	roughness "materials/roughness/auto/ccompa9g.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ccompa9g.dds"
+}
+
+material Texture "gstfont1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/gstfont1.dds"
+	roughness "materials/roughness/auto/gstfont1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/gstfont1.dds"
+}
+
+material Texture "gstfont2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/gstfont2.dds"
+	roughness "materials/roughness/auto/gstfont2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/gstfont2.dds"
+}
+
+material Texture "gstfont3"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/gstfont3.dds"
+	roughness "materials/roughness/auto/gstfont3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/gstfont3.dds"
+}
+
+material Texture "GSTVINE1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/gstvine1.dds"
+	roughness "materials/roughness/auto/gstvine1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/gstvine1.dds"
+}
+
+material Texture "GSTVINE2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/gstvine2.dds"
+	roughness "materials/roughness/auto/gstvine2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/gstvine2.dds"
+}
+
+material Texture "LITEMET"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/litemet.dds"
+	roughness "materials/roughness/auto/litemet.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/litemet.dds"
+}
+
+material Texture "M_Tec"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/m_tec.dds"
+	roughness "materials/roughness/auto/m_tec.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/m_tec.dds"
+}
+
+material Texture "midvine1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/midvine1.dds"
+	roughness "materials/roughness/auto/midvine1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/midvine1.dds"
+}
+
+material Texture "midvine2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.2
+	glossiness 3
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/midvine2.dds"
+	roughness "materials/roughness/auto/midvine2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/midvine2.dds"
+}
+
+material Texture "PANBLACK"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panblack.dds"
+	roughness "materials/roughness/auto/panblack.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panblack.dds"
+}
+
+material Texture "PANBLUE"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panblue.dds"
+	roughness "materials/roughness/auto/panblue.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panblue.dds"
+}
+
+material Texture "PANBOOK"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panbook.dds"
+	roughness "materials/roughness/auto/panbook.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panbook.dds"
+}
+
+material Texture "PANBORD1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panbord1.dds"
+	roughness "materials/roughness/auto/panbord1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panbord1.dds"
+}
+
+material Texture "PANBORD2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panbord2.dds"
+	roughness "materials/roughness/auto/panbord2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panbord2.dds"
+}
+
+material Texture "PANCASE1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/pancase1.dds"
+	roughness "materials/roughness/auto/pancase1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/pancase1.dds"
+}
+
+material Texture "PANCASE2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/pancase2.dds"
+	roughness "materials/roughness/auto/pancase2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/pancase2.dds"
+}
+
+material Texture "PANEL1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel1.dds"
+	roughness "materials/roughness/auto/panel1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel1.dds"
+}
+
+material Texture "PANEL2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel2.dds"
+	roughness "materials/roughness/auto/panel2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel2.dds"
+}
+
+material Texture "PANEL3"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel3.dds"
+	roughness "materials/roughness/auto/panel3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel3.dds"
+}
+
+material Texture "PANEL4"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel4.dds"
+	roughness "materials/roughness/auto/panel4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel4.dds"
+}
+
+material Texture "PANEL5"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel5.dds"
+	roughness "materials/roughness/auto/panel5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel5.dds"
+}
+
+material Texture "PANEL6"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel6.dds"
+	roughness "materials/roughness/auto/panel6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel6.dds"
+}
+
+material Texture "PANEL7"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel7.dds"
+	roughness "materials/roughness/auto/panel7.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel7.dds"
+}
+
+material Texture "PANEL8"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel8.dds"
+	roughness "materials/roughness/auto/panel8.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel8.dds"
+}
+
+material Texture "PANEL9"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panel9.dds"
+	roughness "materials/roughness/auto/panel9.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panel9.dds"
+}
+
+material Texture "PANRED"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/panred.dds"
+	roughness "materials/roughness/auto/panred.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/panred.dds"
+}
+
+material Texture "SW1PANEL"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/sw1panel.dds"
+	roughness "materials/roughness/auto/sw1panel.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/sw1panel.dds"
+}
+
+material Texture "SW2PANEL"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 2.5
+	glossiness 8
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/sw2panel.dds"
+	roughness "materials/roughness/auto/sw2panel.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/sw2panel.dds"
+}
+
+material Texture "step4"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/step4.dds"
+	roughness "materials/roughness/auto/step4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/step4.dds"
+}
+
+material Texture "step5"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/step5.dds"
+	roughness "materials/roughness/auto/step5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/step5.dds"
+}
+
+material Texture "Stucco"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.5
+	glossiness 4
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/stucco.dds"
+	roughness "materials/roughness/auto/stucco.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/stucco.dds"
+}
+
+material Texture "Stucco1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.5
+	glossiness 4
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/stucco1.dds"
+	roughness "materials/roughness/auto/stucco1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/stucco1.dds"
+}
+
+material Texture "Stucco2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.5
+	glossiness 4
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/stucco2.dds"
+	roughness "materials/roughness/auto/stucco2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/stucco2.dds"
+}
+
+material Texture "Stucco3"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.5
+	glossiness 4
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/stucco3.dds"
+	roughness "materials/roughness/auto/stucco3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/stucco3.dds"
+}
+
+material Texture "TEKWALL1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	brightmap "brightmaps/doom/TEKWALL1.dds"
+	normal "materials/normalmaps/auto/tekwall1.dds"
+	roughness "materials/roughness/auto/tekwall1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekwall1.dds"
+}
+
+material Texture "TEKWALL2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	brightmap "brightmaps/doom/TEKWALL2.dds"
+	normal "materials/normalmaps/auto/tekwall2.dds"
+	roughness "materials/roughness/auto/tekwall2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekwall2.dds"
+}
+
+material Texture "TEKWALL3"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	brightmap "brightmaps/doom/TEKWALL3.dds"
+	normal "materials/normalmaps/auto/tekwall3.dds"
+	roughness "materials/roughness/auto/tekwall3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekwall3.dds"
+}
+
+material Texture "TEKWALL4"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	brightmap "brightmaps/doom/TEKWALL4.dds"
+	normal "materials/normalmaps/auto/tekwall4.dds"
+	roughness "materials/roughness/auto/tekwall4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekwall4.dds"
+}
+
+material Texture "TEKWALL5"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	brightmap "brightmaps/doom/TEKWALL5.dds"
+	normal "materials/normalmaps/auto/tekwall5.dds"
+	roughness "materials/roughness/auto/tekwall5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekwall5.dds"
+}
+
+material Texture "TEKWALL6"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 4.5
+	glossiness 22
+	specular "materials/ao/auto/ao_blank2.dds"
+	brightmap "brightmaps/doom/TEKWALL6.dds"
+	normal "materials/normalmaps/auto/tekwall6.dds"
+	roughness "materials/roughness/auto/tekwall6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekwall6.dds"
+}
+
+material Texture "TEKGREN1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/tekgren1.dds"
+	roughness "materials/roughness/auto/tekgren1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekgren1.dds"
+}
+
+material Texture "TEKGREN2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/tekgren2.dds"
+	roughness "materials/roughness/auto/tekgren2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekgren2.dds"
+}
+
+material Texture "TEKGREN3"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/tekgren3.dds"
+	roughness "materials/roughness/auto/tekgren3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekgren3.dds"
+}
+
+material Texture "TEKGREN4"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/tekgren4.dds"
+	roughness "materials/roughness/auto/tekgren4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekgren4.dds"
+}
+
+material Texture "TEKGREN5"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/tekgren5.dds"
+	roughness "materials/roughness/auto/tekgren5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekgren5.dds"
+}
+
+material Texture "TEKLITE"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/teklite.dds"
+	roughness "materials/roughness/auto/teklite.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/teklite.dds"
+}
+
+material Texture "TEKLITE2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/teklite2.dds"
+	roughness "materials/roughness/auto/teklite2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/teklite2.dds"
+}
+
+material Texture "TEKBRON1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/tekbron1.dds"
+	roughness "materials/roughness/auto/tekbron1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekbron1.dds"
+}
+
+material Texture "TEKBRON2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/tekbron2.dds"
+	roughness "materials/roughness/auto/tekbron2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/tekbron2.dds"
+}
+
+material Texture "SW1TEK"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/sw1tek.dds"
+	roughness "materials/roughness/auto/sw1tek.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/sw1tek.dds"
+}
+
+material Texture "SW2TEK"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/sw2tek.dds"
+	roughness "materials/roughness/auto/sw2tek.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/sw2tek.dds"
+}
+
+material Texture "SKINTEK1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/skintek1.dds"
+	roughness "materials/roughness/auto/skintek1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/skintek1.dds"
+}
+
+material Texture "SKINTEK2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/skintek2.dds"
+	roughness "materials/roughness/auto/skintek2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/skintek2.dds"
+}
+
+material Texture "TTEKWL01"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ttekwl01.dds"
+	roughness "materials/roughness/auto/ttekwl01.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ttekwl01.dds"
+}
+
+material Flat "F_STEP1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/f_step1.dds"
+	roughness "materials/roughness/auto/f_step1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/f_step1.dds"
+}
+
+material Flat "F_STEP2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/f_step2.dds"
+	roughness "materials/roughness/auto/f_step2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/f_step2.dds"
+}
+
+material Flat "FLOOR1_6"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/floor1_6.dds"
+	roughness "materials/roughness/auto/floor1_6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/floor1_6.dds"
+}
+
+material Flat "FLOOR1_1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/floor1_1.dds"
+	roughness "materials/roughness/auto/floor1_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/floor1_1.dds"
+}
+
+material Texture "FLOOR1_1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/floor1_1.dds"
+	roughness "materials/roughness/auto/floor1_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/floor1_1.dds"
+}
+
+material Flat "FLOOR4_1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/floor4_1.dds"
+	roughness "materials/roughness/auto/floor4_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/floor4_1.dds"
+}
+
+material Texture "FLOOR4_1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/floor4_1.dds"
+	roughness "materials/roughness/auto/floor4_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/floor4_1.dds"
+}
+
+material Flat "FLOOR4_5"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/floor4_5.dds"
+	roughness "materials/roughness/auto/floor4_5.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/floor4_5.dds"
+}
+
+material Flat "FLOOR4_6"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/floor4_6.dds"
+	roughness "materials/roughness/auto/floor4_6.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/floor4_6.dds"
+}
+
+material Flat "FLAT4"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/flat4.dds"
+	roughness "materials/roughness/auto/flat4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/flat4.dds"
+}
+
+material Texture "FLAT4"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/flat4.dds"
+	roughness "materials/roughness/auto/flat4.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/flat4.dds"
+}
+
+material Flat "flat0_1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/flat0_1.dds"
+	roughness "materials/roughness/auto/flat0_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/flat0_1.dds"
+}
+
+material Flat "flat0_2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/flat0_2.dds"
+	roughness "materials/roughness/auto/flat0_2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/flat0_2.dds"
+}
+
+material Flat "flat0_3"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/flat0_3.dds"
+	roughness "materials/roughness/auto/flat0_3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/flat0_3.dds"
+}
+
+material Flat "ceil5_1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ceil5_1.dds"
+	roughness "materials/roughness/auto/ceil5_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ceil5_1.dds"
+}
+
+material Texture "ceil5_1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/ceil5_1.dds"
+	roughness "materials/roughness/auto/ceil5_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/ceil5_1.dds"
+}
+
+material Flat "floor0_1"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/flat0_1.dds"
+	roughness "materials/roughness/auto/flat0_1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/flat0_1.dds"
+}
+
+material Flat "floor0_2"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/flat0_2.dds"
+	roughness "materials/roughness/auto/flat0_2.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/flat0_2.dds"
+}
+
+material Flat "floor0_3"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 1.8
+	glossiness 5
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/flat0_3.dds"
+	roughness "materials/roughness/auto/flat0_3.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/flat0_3.dds"
+}
+
+material Texture "sw1starg"
+{
+	Shader "shaders/parallax_pbr.fp"
+	specularlevel 3
+	glossiness 10
+	specular "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/sw1starg.dds"
+	roughness "materials/roughness/auto/sw1starg.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/sw1starg.dds"
+}

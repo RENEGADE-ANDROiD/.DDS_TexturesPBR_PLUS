@@ -43,7 +43,7 @@ class BloodPool2 : Droplets
 		PLUD C 35 {if (!master) Destroy();}
 		Wait;
 	Fog:
-		TNT1 A 0;
+		TNT1 A 0 A_BloodFog('BloodFog');
 		Stop;
 	}
 }

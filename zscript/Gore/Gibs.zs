@@ -55,6 +55,7 @@ class GibletA : Droplets
 		GIBL A random(7,11) A_Drip;
 		Wait;
 	Death:
+		TNT1 A 0 A_JumpIf(LiquidCheck(), "LiquidFog");
 		"----" A -1
 		{
 			A_FloorSplat(1.0);
@@ -64,6 +65,9 @@ class GibletA : Droplets
 			if (random(0,2))
 				A_QueueCorpse();
 		}
+		Stop;
+	LiquidFog:
+		TNT1 A 0 A_BloodFog('BloodFog');
 		Stop;
 	Bounce:
 		"----" A 1 { rollFactor *= -0.833333; }

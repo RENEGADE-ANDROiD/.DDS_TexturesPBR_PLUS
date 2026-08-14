@@ -1,6 +1,6 @@
 class Droplets : actor abstract
 {
-	static const String[] liquidpics = { "NUKAGE1", "NUKAGE2", "NUKAGE3", "BLOOD1", "BLOOD2", "BLOOD3", "SLIME01",
+	static const String[] liquidpics = { "NUKAGE1", "NUKAGE2", "NUKAGE3", "NUKAGE4", "BLOOD1", "BLOOD2", "BLOOD3", "SLIME01",
 		"SLIME02", "SLIME03", "SLIME04", "SLIME05", "SLIME06", "SLIME07", "SLIME08", "LAVA1", "LAVA2", "LAVA3", "LAVA4",
 		"FWATER1", "FWATER2", "FWATER3", "FWATER4", "F_HWATR1", "F_HWATR2", "F_HWATR3", "F_PWATR1", "F_PWATR2",
 		"F_PWATR3", "P_VWATR1", "F_VWATR2", "F_VWATR3", "F_WATR01","F_WATR02", "F_WATR03", "FLATHUH1",

@@ -920,6 +920,28 @@ brightmap texture TEKWALL2
 }
 
 
+brightmap texture TEKWALL3
+
+{
+
+	map "brightmaps/doom/TEKWALL3.dds"
+
+	DISABLEFULLBRIGHT
+
+}
+
+
+brightmap texture TEKWALL4
+
+{
+
+	map "brightmaps/doom/TEKWALL4.dds"
+
+	DISABLEFULLBRIGHT
+
+}
+
+
 brightmap texture TEKWALL5
 
 {
@@ -1619,4 +1641,157 @@ brightmap texture SW2WDMET
 
 }
 
+
+
+// UNIQUE-PBR brightmaps (BROV frames + missing lights)
+
+brightmap texture BROV1A
+{
+	map "brightmaps/doom/BROV1A.dds"
+}
+
+brightmap texture BROV1B
+{
+	map "brightmaps/doom/BROV1B.dds"
+}
+
+brightmap texture BROV1C
+{
+	map "brightmaps/doom/BROV1C.dds"
+}
+
+brightmap texture BROV1D
+{
+	map "brightmaps/doom/BROV1D.dds"
+}
+
+brightmap texture BROV1E
+{
+	map "brightmaps/doom/BROV1E.dds"
+}
+
+brightmap texture BROV1F
+{
+	map "brightmaps/doom/BROV1F.dds"
+}
+
+brightmap texture BROV1G
+{
+	map "brightmaps/doom/BROV1G.dds"
+}
+
+brightmap texture BROV1H
+{
+	map "brightmaps/doom/BROV1H.dds"
+}
+
+brightmap texture BROV1I
+{
+	map "brightmaps/doom/BROV1I.dds"
+}
+
+brightmap texture BROV1J
+{
+	map "brightmaps/doom/BROV1J.dds"
+}
+
+brightmap texture BROV1K
+{
+	map "brightmaps/doom/BROV1K.dds"
+}
+
+brightmap texture BROV1L
+{
+	map "brightmaps/doom/BROV1L.dds"
+}
+
+brightmap texture BROV1M
+{
+	map "brightmaps/doom/BROV1M.dds"
+}
+
+brightmap texture BROV1N
+{
+	map "brightmaps/doom/BROV1N.dds"
+}
+
+brightmap texture BROV1O
+{
+	map "brightmaps/doom/BROV1O.dds"
+}
+
+brightmap texture BROV1P
+{
+	map "brightmaps/doom/BROV1P.dds"
+}
+
+brightmap texture CCOMPA90
+{
+	map "brightmaps/doom/CCOMPA90.dds"
+}
+
+brightmap texture CCOMPA9A
+{
+	map "brightmaps/doom/CCOMPA9A.dds"
+}
+
+brightmap texture CCOMPA9B
+{
+	map "brightmaps/doom/CCOMPA9B.dds"
+}
+
+brightmap texture CCOMPA9C
+{
+	map "brightmaps/doom/CCOMPA9C.dds"
+}
+
+brightmap texture CCOMPA9D
+{
+	map "brightmaps/doom/CCOMPA9D.dds"
+}
+
+brightmap texture CCOMPA9E
+{
+	map "brightmaps/doom/CCOMPA9E.dds"
+}
+
+brightmap texture CCOMPA9F
+{
+	map "brightmaps/doom/CCOMPA9F.dds"
+}
+
+brightmap texture CCOMPA9G
+{
+	map "brightmaps/doom/CCOMPA9G.dds"
+}
+
+brightmap texture M_TEC
+{
+	map "brightmaps/doom/M_TEC.dds"
+}
+
+brightmap texture PANBLUE
+{
+	map "brightmaps/doom/PANBLUE.dds"
+}
+
+brightmap texture SW1TEK
+{
+	map "brightmaps/doom/SW1TEK.dds"
+}
+
+brightmap texture SW2TEK
+{
+	map "brightmaps/doom/SW2TEK.dds"
+}
+
+brightmap texture TEKGREN2
+{
+	map "brightmaps/doom/TEKGREN2.dds"
+}
+
+brightmap texture TEKGREN4
+{
+	map "brightmaps/doom/TEKGREN4.dds"
+}
 

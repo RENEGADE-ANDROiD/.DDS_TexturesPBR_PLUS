@@ -21,7 +21,7 @@ class FloorSplat : Droplets
 	States
 	{
 	Spawn:
-		TNT1 A 12 NoDelay A_JumpIf(LiquidCheck(),"Null");
+		TNT1 A 12 NoDelay A_JumpIf(LiquidCheck(),"Fog");
 		PLUD A 0
 		{
 			alpha = GetCVar("blood_alpha");
@@ -39,6 +39,9 @@ class FloorSplat : Droplets
 				A_QueueCorpse();
 		}
 		"####" "#" -1;
+		Stop;
+	Fog:
+		TNT1 A 0 A_BloodFog('BloodFog');
 		Stop;
 	}
 }
