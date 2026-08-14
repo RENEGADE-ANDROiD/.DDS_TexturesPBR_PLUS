@@ -2035,10 +2035,10 @@ material Texture "starg3"
 	specularlevel 3
 	glossiness 10
 	specular "materials/ao/auto/ao_blank2.dds"
-	normal "materials/normalmaps/auto/startan3.dds"
-	metallic "materials/metallic/auto/startan3.dds"
-	roughness "materials/roughness/auto/startan3.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/STARG2.dds"
+	metallic "materials/metallic/auto/starg1.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
 	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
@@ -3243,10 +3243,10 @@ material Texture "starg3"
 	specularlevel 3
 	glossiness 10
 	specular "materials/ao/auto/ao_blank2.dds"
-	normal "materials/normalmaps/auto/startan3.dds"
-	metallic "materials/metallic/auto/startan3.dds"
-	roughness "materials/roughness/auto/startan3.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
+	normal "materials/normalmaps/auto/STARG2.dds"
+	metallic "materials/metallic/auto/starg1.dds"
+	roughness "materials/roughness/auto/starg1.dds"
+	ao "materials/ao/auto/ao_blank.dds"
 	Texture tex_heightmap "materials/heightmaps/startan3.dds"
 }
 
@@ -3295,28 +3295,21 @@ brightmap "materials/Brightmaps/auto/planet1.dds"
 
 material Texture "startan3"
 {
-	Shader "shaders/parallax_pbr.fp"
-	specularlevel 3
-	glossiness 10
-	specular "materials/ao/auto/ao_blank2.dds"
-	normal "materials/normalmaps/auto/starg1.dds"
-	metallic "materials/metallic/auto/browngrn.dds"
-	roughness "materials/roughness/auto/starg1.dds"
-	ao "materials/ao/auto/ao_blank.dds"
-	Texture tex_heightmap "materials/heightmaps/starg1.dds"
+	normal "materials/normalmaps/auto/Brown2.dds"
+	specular "materials/specular/auto/Brown2.dds"
+	glossiness 50
+	specularlevel 0.5
 }
 
 material Texture "startan2"
 {
-	Shader "shaders/parallax_pbr.fp"
-	specularlevel 3
-	glossiness 10
-	specular "materials/ao/auto/ao_blank2.dds"
-	normal "materials/normalmaps/auto/starg1.dds"
-	metallic "materials/metallic/auto/browngrn.dds"
-	roughness "materials/roughness/auto/starg1.dds"
-	ao "materials/ao/auto/ao_blank.dds"
-	Texture tex_heightmap "materials/heightmaps/starg1.dds"
+	Shader "shaders/parallax.fp"
+
+	normal "materials/normalmaps/auto/brown1.dds"
+	metallic "materials/metallic/auto/brown1.dds"
+	roughness "materials/roughness/auto/brown1.dds"
+	ao "materials/ao/auto/ao_blank2.dds"
+	Texture tex_heightmap "materials/heightmaps/brown1.dds"
 }
 
 material Texture "floor5_1"
