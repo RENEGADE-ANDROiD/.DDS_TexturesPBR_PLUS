@@ -258,14 +258,14 @@ material texture COMPUTE1  {
 	//texture envmask "MATERIALS/ENVMASK/COMPUTE1.dds"
 	// Duplicate normal definition disabled; keep the canonical lowercase path below.
 	// normal MATERIALS/normalmaps/auto/COMPUTE1.dds
-	specular MATERIALS/specular/auto/COMPUTE1.dds
+	//specular MATERIALS/specular/auto/COMPUTE1.dds
 	normal "materials/normalmaps/auto/compute1.dds"
 	metallic "materials/metallic/auto/compute1.dds"
 	roughness "materials/roughness/auto/compute1.dds"
 	ao "materials/ao/auto/ao_blank2.dds"
 // AUTO-DISABLED missing asset reference: 	brightmap "materials/Brightmaps/auto/compute1.dds"
-	specularlevel 4.5
-	glossiness 35
+	//specularlevel 4.5
+	//glossiness 35
 }
 
 
@@ -3434,8 +3434,16 @@ material Texture "comptall"
 normal "materials/normalmaps/auto/comptall.dds"
 roughness "materials/roughness/auto/comptall.dds"
 ao "materials/ao/auto/ao_blank3.dds"
-metallic "materials/metallic/auto/comptall.dds"
+//metallic "materials/metallic/auto/comptall.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/comptall.dds"
+}
+
+material Texture "comp2"
+{
+normal "materials/normalmaps/auto/comptall.dds"
+roughness "materials/roughness/auto/comptall.dds"
+ao "materials/ao/auto/ao_blank3.dds"
+//metallic "materials/metallic/auto/comptall.dds"
 }
 
 material Flat "flat18"
@@ -3512,7 +3520,7 @@ normal "materials/normalmaps/auto/compute2.dds"
 roughness "materials/roughness/auto/compute2.dds"
 ao "materials/ao/auto/compute2.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/compute2.dds"
-metallic "materials/metallic/auto/compute2.dds"
+//metallic "materials/metallic/auto/compute2.dds"
 }
 
 material Texture "compute3"
@@ -3521,7 +3529,7 @@ normal "materials/normalmaps/auto/compute3.dds"
 roughness "materials/roughness/auto/compute3.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 // AUTO-DISABLED missing asset reference: brightmap "materials/Brightmaps/auto/compute3.dds"
-metallic "materials/metallic/auto/startan3.dds"
+//metallic "materials/metallic/auto/startan3.dds"
 }
 
 material Texture "compspan"
