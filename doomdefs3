@@ -1,656 +1,697 @@
-material texture "A-askin1"
+// disabled: missing texture (a-askin1)
+// material texture "A-askin1"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-askin1.dds"
+// 
+// 	specular "materials/specular/auto/A-askin1.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-askin2)
+// material texture "A-askin2"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-askin2.dds"
+// 
+// 	specular "materials/specular/auto/A-askin2.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-askin3)
+// material texture "A-ASKIN3"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-ASKIN3.dds"
+// 
+// 	specular "materials/specular/auto/A-ASKIN3.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-askin4)
+// material texture "A-ASKIN4"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-ASKIN4.dds"
+// 
+// 	specular "materials/specular/auto/A-ASKIN4.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-askin5)
+// material texture "A-ASKIN5"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-ASKIN5.dds"
+// 
+// 	specular "materials/specular/auto/A-ASKIN5.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brbrk)
+// material texture "A-BRBRK"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-BRBRK.dds"
+// 
+// 	specular "materials/specular/auto/A-BRBRK.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
 
-{
-
-	normal "materials/normalmaps/auto/A-askin1.dds"
-
-	specular "materials/specular/auto/A-askin1.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-askin2"
-
-{
-
-	normal "materials/normalmaps/auto/A-askin2.dds"
-
-	specular "materials/specular/auto/A-askin2.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-ASKIN3"
-
-{
-
-	normal "materials/normalmaps/auto/A-ASKIN3.dds"
-
-	specular "materials/specular/auto/A-ASKIN3.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-ASKIN4"
-
-{
-
-	normal "materials/normalmaps/auto/A-ASKIN4.dds"
-
-	specular "materials/specular/auto/A-ASKIN4.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-ASKIN5"
-
-{
-
-	normal "materials/normalmaps/auto/A-ASKIN5.dds"
-
-	specular "materials/specular/auto/A-ASKIN5.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-BRBRK"
-
-{
-
-	normal "materials/normalmaps/auto/A-BRBRK.dds"
-
-	specular "materials/specular/auto/A-BRBRK.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-BRBRK2"
-
-{
-
-	normal "materials/normalmaps/auto/A-BRBRK2.dds"
-
-	specular "materials/specular/auto/A-BRBRK2.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-BRICK1"
-
-{
-
-	normal "materials/normalmaps/auto/A-BRICK1.dds"
-
-	specular "materials/specular/auto/A-BRICK1.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-BRICK2"
-
-{
-
-	normal "materials/normalmaps/auto/A-BRICK2.dds"
-
-	specular "materials/specular/auto/A-BRICK2.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-BRICK3"
-
-{
-
-	normal "materials/normalmaps/auto/A-BRICK3.dds"
-
-	specular "materials/specular/auto/A-BRICK3.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-BROCK2"
-
-{
-
-	normal "materials/normalmaps/auto/A-BROCK2.dds"
-
-	specular "materials/specular/auto/A-BROCK2.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-brown1"
-
-{
-
-	normal "materials/normalmaps/auto/A-brown1.dds"
-
-	specular "materials/specular/auto/A-brown1.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-brown2"
-
-{
-
-	normal "materials/normalmaps/auto/A-brown2.dds"
-
-	specular "materials/specular/auto/A-brown2.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-brown3"
-
-{
-
-	normal "materials/normalmaps/auto/A-brown3.dds"
-
-	specular "materials/specular/auto/A-brown3.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-BROWN4"
-
-{
-
-	normal "materials/normalmaps/auto/A-BROWN4.dds"
-
-	specular "materials/specular/auto/A-BROWN4.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-brown5"
-
-{
-
-	normal "materials/normalmaps/auto/A-brown5.dds"
-
-	specular "materials/specular/auto/A-brown5.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-camo1"
-
-{
-
-	normal "materials/normalmaps/auto/A-camo1.dds"
-
-	specular "materials/specular/auto/A-camo1.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-camo2"
-
-{
-
-	normal "materials/normalmaps/auto/A-camo2.dds"
-
-	specular "materials/specular/auto/A-camo2.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-camo3"
-
-{
-
-	normal "materials/normalmaps/auto/A-camo3.dds"
-
-	specular "materials/specular/auto/A-camo3.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-camo4"
-
-{
-
-	normal "materials/normalmaps/auto/A-camo4.dds"
-
-	specular "materials/specular/auto/A-camo4.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-camo5"
-
-{
-
-	normal "materials/normalmaps/auto/A-camo5.dds"
-
-	specular "materials/specular/auto/A-camo5.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-concte"
-
-{
-
+// disabled: missing texture (a-brbrk2)
+// material texture "A-BRBRK2"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-BRBRK2.dds"
+// 
+// 	specular "materials/specular/auto/A-BRBRK2.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brick1)
+// material texture "A-BRICK1"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-BRICK1.dds"
+// 
+// 	specular "materials/specular/auto/A-BRICK1.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brick2)
+// material texture "A-BRICK2"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-BRICK2.dds"
+// 
+// 	specular "materials/specular/auto/A-BRICK2.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brick3)
+// material texture "A-BRICK3"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-BRICK3.dds"
+// 
+// 	specular "materials/specular/auto/A-BRICK3.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brock2)
+// material texture "A-BROCK2"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-BROCK2.dds"
+// 
+// 	specular "materials/specular/auto/A-BROCK2.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brown1)
+// material texture "A-brown1"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-brown1.dds"
+// 
+// 	specular "materials/specular/auto/A-brown1.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brown2)
+// material texture "A-brown2"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-brown2.dds"
+// 
+// 	specular "materials/specular/auto/A-brown2.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brown3)
+// material texture "A-brown3"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-brown3.dds"
+// 
+// 	specular "materials/specular/auto/A-brown3.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brown4)
+// material texture "A-BROWN4"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-BROWN4.dds"
+// 
+// 	specular "materials/specular/auto/A-BROWN4.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-brown5)
+// material texture "A-brown5"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-brown5.dds"
+// 
+// 	specular "materials/specular/auto/A-brown5.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-camo1)
+// material texture "A-camo1"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-camo1.dds"
+// 
+// 	specular "materials/specular/auto/A-camo1.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-camo2)
+// material texture "A-camo2"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-camo2.dds"
+// 
+// 	specular "materials/specular/auto/A-camo2.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-camo3)
+// material texture "A-camo3"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-camo3.dds"
+// 
+// 	specular "materials/specular/auto/A-camo3.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-camo4)
+// material texture "A-camo4"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-camo4.dds"
+// 
+// 	specular "materials/specular/auto/A-camo4.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-camo5)
+// material texture "A-camo5"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-camo5.dds"
+// 
+// 	specular "materials/specular/auto/A-camo5.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-concte)
+// material texture "A-concte"
+// 
+// {
+// 
 // AUTO-DISABLED missing asset reference: 	normal "materials/normalmaps/auto/A-concte.dds"
-
-	specular "materials/specular/auto/A-concte.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-DBRI1"
-
-{
-
-	normal "materials/normalmaps/auto/A-DBRI1.dds"
-
-	specular "materials/specular/auto/A-DBRI1.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-DBRI2"
-
-{
-
-	normal "materials/normalmaps/auto/A-DBRI2.dds"
-
-	specular "materials/specular/auto/A-DBRI2.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-drock1"
-
-{
-
-	normal "materials/normalmaps/auto/A-drock1.dds"
-
-	specular "materials/specular/auto/A-drock1.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-drock2"
-
-{
-
-	normal "materials/normalmaps/auto/A-drock2.dds"
-
-	specular "materials/specular/auto/A-drock2.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-marble"
-
-{
-
-	normal "materials/normalmaps/auto/A-marble.dds"
-
-	specular "materials/specular/auto/A-marble.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-MOSBRI"
-
-{
-
-	normal "materials/normalmaps/auto/A-MOSBRI.dds"
-
-	specular "materials/specular/auto/A-MOSBRI.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-mosrok"
-
-{
-
-	normal "materials/normalmaps/auto/A-mosrok.dds"
-
-	specular "materials/specular/auto/A-mosrok.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "a-mould"
-
-{
-
-	normal "materials/normalmaps/auto/a-mould.dds"
-
-	specular "materials/specular/auto/a-mould.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-mud"
-
-{
-
-	normal "materials/normalmaps/auto/A-mud.dds"
-
-	specular "materials/specular/auto/A-mud.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-mywood"
-
-{
-
-	normal "materials/normalmaps/auto/A-mywood.dds"
-
-	specular "materials/specular/auto/A-mywood.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-pois"
-
-{
-
-	normal "materials/normalmaps/auto/A-pois.dds"
-
-	specular "materials/specular/auto/A-pois.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-redrok"
-
-{
-
-	normal "materials/normalmaps/auto/A-redrok.dds"
-
-	specular "materials/specular/auto/A-redrok.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-rock"
-
-{
-
-	normal "materials/normalmaps/auto/A-rock.dds"
-
-	specular "materials/specular/auto/A-rock.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-tile"
-
-{
-
-	normal "materials/normalmaps/auto/A-tile.dds"
-
-	specular "materials/specular/auto/A-tile.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-vine3"
-
-{
-
-	normal "materials/normalmaps/auto/A-vine3.dds"
-
-	specular "materials/specular/auto/A-vine3.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-vine4"
-
-{
-
-	normal "materials/normalmaps/auto/A-vine4.dds"
-
-	specular "materials/specular/auto/A-vine4.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-vines"
-
-{
-
-	normal "materials/normalmaps/auto/A-vines.dds"
-
-	specular "materials/specular/auto/A-vines.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-WOOD1"
-
-{
-
-	normal "materials/normalmaps/auto/A-WOOD1.dds"
-
-	specular "materials/specular/auto/A-WOOD1.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
-
-
-
-material texture "A-yellow"
-
-{
-
-	normal "materials/normalmaps/auto/A-yellow.dds"
-
-	specular "materials/specular/auto/A-yellow.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
+// 
+// 	specular "materials/specular/auto/A-concte.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-dbri1)
+// material texture "A-DBRI1"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-DBRI1.dds"
+// 
+// 	specular "materials/specular/auto/A-DBRI1.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-dbri2)
+// material texture "A-DBRI2"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-DBRI2.dds"
+// 
+// 	specular "materials/specular/auto/A-DBRI2.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-drock1)
+// material texture "A-drock1"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-drock1.dds"
+// 
+// 	specular "materials/specular/auto/A-drock1.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-drock2)
+// material texture "A-drock2"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-drock2.dds"
+// 
+// 	specular "materials/specular/auto/A-drock2.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-marble)
+// material texture "A-marble"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-marble.dds"
+// 
+// 	specular "materials/specular/auto/A-marble.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-mosbri)
+// material texture "A-MOSBRI"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-MOSBRI.dds"
+// 
+// 	specular "materials/specular/auto/A-MOSBRI.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-mosrok)
+// material texture "A-mosrok"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-mosrok.dds"
+// 
+// 	specular "materials/specular/auto/A-mosrok.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-mould)
+// material texture "a-mould"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/a-mould.dds"
+// 
+// 	specular "materials/specular/auto/a-mould.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-mud)
+// material texture "A-mud"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-mud.dds"
+// 
+// 	specular "materials/specular/auto/A-mud.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-mywood)
+// material texture "A-mywood"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-mywood.dds"
+// 
+// 	specular "materials/specular/auto/A-mywood.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-pois)
+// material texture "A-pois"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-pois.dds"
+// 
+// 	specular "materials/specular/auto/A-pois.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-redrok)
+// material texture "A-redrok"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-redrok.dds"
+// 
+// 	specular "materials/specular/auto/A-redrok.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-rock)
+// material texture "A-rock"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-rock.dds"
+// 
+// 	specular "materials/specular/auto/A-rock.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-tile)
+// material texture "A-tile"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-tile.dds"
+// 
+// 	specular "materials/specular/auto/A-tile.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-vine3)
+// material texture "A-vine3"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-vine3.dds"
+// 
+// 	specular "materials/specular/auto/A-vine3.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-vine4)
+// material texture "A-vine4"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-vine4.dds"
+// 
+// 	specular "materials/specular/auto/A-vine4.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-vines)
+// material texture "A-vines"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-vines.dds"
+// 
+// 	specular "materials/specular/auto/A-vines.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-wood1)
+// material texture "A-WOOD1"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-WOOD1.dds"
+// 
+// 	specular "materials/specular/auto/A-WOOD1.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
+
+
+
+// disabled: missing texture (a-yellow)
+// material texture "A-yellow"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/A-yellow.dds"
+// 
+// 	specular "materials/specular/auto/A-yellow.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
 
 
 
@@ -4904,19 +4945,20 @@ material texture "mc8"
 
 
 
-material texture "METAL-RM"
-
-{
-
-	normal "materials/normalmaps/auto/METAL-RM.dds"
-
-	specular "materials/specular/auto/METAL-RM.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
+// disabled: missing texture (metal-rm)
+// material texture "METAL-RM"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/METAL-RM.dds"
+// 
+// 	specular "materials/specular/auto/METAL-RM.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
 
 
 
@@ -7494,19 +7536,20 @@ material texture "spcdoor4"
 
 
 
-material texture "sp_face1"
-
-{
-
-	normal "materials/normalmaps/auto/sp_face1.dds"
-
-	specular "materials/specular/auto/sp_face1.dds"
-
-	glossiness 50
-
-	specularlevel 0.5
-
-}
+// disabled: warp+shader (sp_face1)
+// material texture "sp_face1"
+// 
+// {
+// 
+// 	normal "materials/normalmaps/auto/sp_face1.dds"
+// 
+// 	specular "materials/specular/auto/sp_face1.dds"
+// 
+// 	glossiness 50
+// 
+// 	specularlevel 0.5
+// 
+// }
 
 
 
