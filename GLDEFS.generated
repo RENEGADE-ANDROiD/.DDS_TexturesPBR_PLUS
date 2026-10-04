@@ -1,59 +1,65 @@
 // Auto-generated PBR for hires textures that had no material.
 // Do not hand-edit; regenerate with _gen_missing_pbr.py
 
-material Texture "_OSTCCC03"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/_OSTCCC03.dds"
-	roughness "materials/roughness/auto/_OSTCCC03.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/_OSTCCC03.dds"
-}
+// disabled: missing texture (_ostccc03)
+// material Texture "_OSTCCC03"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/_OSTCCC03.dds"
+// 	roughness "materials/roughness/auto/_OSTCCC03.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/_OSTCCC03.dds"
+// }
 
-material Texture "_OSTONI02"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/_OSTONI02.dds"
-	roughness "materials/roughness/auto/_OSTONI02.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/_OSTONI02.dds"
-}
+// disabled: missing texture (_ostoni02)
+// material Texture "_OSTONI02"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/_OSTONI02.dds"
+// 	roughness "materials/roughness/auto/_OSTONI02.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/_OSTONI02.dds"
+// }
 
-material Texture "A-grate"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/A-grate.dds"
-	roughness "materials/roughness/auto/A-grate.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/A-grate.dds"
-}
+// disabled: missing texture (a-grate)
+// material Texture "A-grate"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/A-grate.dds"
+// 	roughness "materials/roughness/auto/A-grate.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/A-grate.dds"
+// }
 
-material Texture "A-rail1"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/A-rail1.dds"
-	roughness "materials/roughness/auto/A-rail1.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/A-rail1.dds"
-}
+// disabled: missing texture (a-rail1)
+// material Texture "A-rail1"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/A-rail1.dds"
+// 	roughness "materials/roughness/auto/A-rail1.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/A-rail1.dds"
+// }
 
-material Texture "A-vine1"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/A-vine1.dds"
-	roughness "materials/roughness/auto/A-vine1.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/A-vine1.dds"
-}
+// disabled: missing texture (a-vine1)
+// material Texture "A-vine1"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/A-vine1.dds"
+// 	roughness "materials/roughness/auto/A-vine1.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/A-vine1.dds"
+// }
 
-material Texture "A-vine2"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/A-vine2.dds"
-	roughness "materials/roughness/auto/A-vine2.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/A-vine2.dds"
-}
+// disabled: missing texture (a-vine2)
+// material Texture "A-vine2"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/A-vine2.dds"
+// 	roughness "materials/roughness/auto/A-vine2.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/A-vine2.dds"
+// }
 
 material Texture "ASHWALL"
 {
@@ -1738,14 +1744,15 @@ material Texture "FIREBLU2"
 	Texture tex_heightmap "materials/heightmaps/auto/FIREBLU2.dds"
 }
 
-material Texture "flat-floor6_2"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/flat-floor6_2.dds"
-	roughness "materials/roughness/auto/flat-floor6_2.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/flat-floor6_2.dds"
-}
+// disabled: missing texture (flat-floor6_2)
+// material Texture "flat-floor6_2"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/flat-floor6_2.dds"
+// 	roughness "materials/roughness/auto/flat-floor6_2.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/flat-floor6_2.dds"
+// }
 
 material Texture "flat0_1"
 {
@@ -1904,14 +1911,15 @@ material Texture "FLOOR52E"
 	Texture tex_heightmap "materials/heightmaps/auto/FLOOR52E.dds"
 }
 
-material Texture "FLOORMETAL1A"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/FLOORMETAL1A.dds"
-	roughness "materials/roughness/auto/FLOORMETAL1A.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/FLOORMETAL1A.dds"
-}
+// disabled: missing texture (floormetal1a)
+// material Texture "FLOORMETAL1A"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/FLOORMETAL1A.dds"
+// 	roughness "materials/roughness/auto/FLOORMETAL1A.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/FLOORMETAL1A.dds"
+// }
 
 material Texture "fwater10"
 {
@@ -2327,14 +2335,15 @@ material Texture "midbars3"
 	Texture tex_heightmap "materials/heightmaps/auto/midbars3.dds"
 }
 
-material Texture "MIDBRN1-CK"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/MIDBRN1-CK.dds"
-	roughness "materials/roughness/auto/MIDBRN1-CK.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/MIDBRN1-CK.dds"
-}
+// disabled: missing texture (midbrn1-ck)
+// material Texture "MIDBRN1-CK"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/MIDBRN1-CK.dds"
+// 	roughness "materials/roughness/auto/MIDBRN1-CK.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/MIDBRN1-CK.dds"
+// }
 
 material Texture "midbrn1"
 {
@@ -3317,59 +3326,65 @@ material Texture "SFLATDG"
 	Texture tex_heightmap "materials/heightmaps/auto/SFLATDG.dds"
 }
 
-material Texture "SFLR6_1"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/SFLR6_1.dds"
-	roughness "materials/roughness/auto/SFLR6_1.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/SFLR6_1.dds"
-}
+// disabled: warp+shader (sflr6_1)
+// material Texture "SFLR6_1"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/SFLR6_1.dds"
+// 	roughness "materials/roughness/auto/SFLR6_1.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/SFLR6_1.dds"
+// }
 
-material Texture "SFLR6_4"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/SFLR6_4.dds"
-	roughness "materials/roughness/auto/SFLR6_4.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/SFLR6_4.dds"
-}
+// disabled: warp+shader (sflr6_4)
+// material Texture "SFLR6_4"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/SFLR6_4.dds"
+// 	roughness "materials/roughness/auto/SFLR6_4.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/SFLR6_4.dds"
+// }
 
-material Texture "SFLR7_1"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/SFLR7_1.dds"
-	roughness "materials/roughness/auto/SFLR7_1.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/SFLR7_1.dds"
-}
+// disabled: warp+shader (sflr7_1)
+// material Texture "SFLR7_1"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/SFLR7_1.dds"
+// 	roughness "materials/roughness/auto/SFLR7_1.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/SFLR7_1.dds"
+// }
 
-material Texture "SFLR7_4"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/SFLR7_4.dds"
-	roughness "materials/roughness/auto/SFLR7_4.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/SFLR7_4.dds"
-}
+// disabled: warp+shader (sflr7_4)
+// material Texture "SFLR7_4"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/SFLR7_4.dds"
+// 	roughness "materials/roughness/auto/SFLR7_4.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/SFLR7_4.dds"
+// }
 
-material Texture "SKSNAKE1"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/SKSNAKE1.dds"
-	roughness "materials/roughness/auto/SKSNAKE1.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/SKSNAKE1.dds"
-}
+// disabled: warp+shader (sksnake1)
+// material Texture "SKSNAKE1"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/SKSNAKE1.dds"
+// 	roughness "materials/roughness/auto/SKSNAKE1.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/SKSNAKE1.dds"
+// }
 
-material Texture "SKSNAKE2"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/SKSNAKE2.dds"
-	roughness "materials/roughness/auto/SKSNAKE2.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/SKSNAKE2.dds"
-}
+// disabled: warp+shader (sksnake2)
+// material Texture "SKSNAKE2"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/SKSNAKE2.dds"
+// 	roughness "materials/roughness/auto/SKSNAKE2.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/SKSNAKE2.dds"
+// }
 
 material Texture "SKSPINE1"
 {
@@ -3389,14 +3404,15 @@ material Texture "SKSPINE2"
 	Texture tex_heightmap "materials/heightmaps/auto/SKSPINE2.dds"
 }
 
-material Texture "skullwall"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/skullwall.dds"
-	roughness "materials/roughness/auto/skullwall.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/skullwall.dds"
-}
+// disabled: missing texture (skullwall)
+// material Texture "skullwall"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/skullwall.dds"
+// 	roughness "materials/roughness/auto/skullwall.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/skullwall.dds"
+// }
 
 material Texture "slad00"
 {
@@ -3821,14 +3837,15 @@ material Texture "stone5"
 	Texture tex_heightmap "materials/heightmaps/auto/stone5.dds"
 }
 
-material Texture "STONE_ALT"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/STONE_ALT.dds"
-	roughness "materials/roughness/auto/STONE_ALT.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/STONE_ALT.dds"
-}
+// disabled: missing texture (stone_alt)
+// material Texture "STONE_ALT"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/STONE_ALT.dds"
+// 	roughness "materials/roughness/auto/STONE_ALT.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/STONE_ALT.dds"
+// }
 
 material Texture "support1"
 {
@@ -3857,14 +3874,15 @@ material Texture "tekgren5"
 	Texture tex_heightmap "materials/heightmaps/auto/tekgren5.dds"
 }
 
-material Texture "terradimerda"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/terradimerda.dds"
-	roughness "materials/roughness/auto/terradimerda.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/terradimerda.dds"
-}
+// disabled: missing texture (terradimerda)
+// material Texture "terradimerda"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/terradimerda.dds"
+// 	roughness "materials/roughness/auto/terradimerda.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/terradimerda.dds"
+// }
 
 material Texture "title6_1"
 {
@@ -3938,14 +3956,15 @@ material Texture "VEINS"
 	Texture tex_heightmap "materials/heightmaps/auto/VEINS.dds"
 }
 
-material Texture "WALL_WITH_METAL_FACE"
-{
-	shader "shaders/parallax2.fp"
-	normal "materials/normalmaps/auto/WALL_WITH_METAL_FACE.dds"
-	roughness "materials/roughness/auto/WALL_WITH_METAL_FACE.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/auto/WALL_WITH_METAL_FACE.dds"
-}
+// disabled: missing texture (wall_with_metal_face)
+// material Texture "WALL_WITH_METAL_FACE"
+// {
+// 	shader "shaders/parallax2.fp"
+// 	normal "materials/normalmaps/auto/WALL_WITH_METAL_FACE.dds"
+// 	roughness "materials/roughness/auto/WALL_WITH_METAL_FACE.dds"
+// 	ao "materials/ao/auto/ao_blank2.dds"
+// 	Texture tex_heightmap "materials/heightmaps/auto/WALL_WITH_METAL_FACE.dds"
+// }
 
 material Texture "Webl"
 {

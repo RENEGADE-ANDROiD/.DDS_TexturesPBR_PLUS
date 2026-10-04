@@ -1,1 +1,3 @@
-#include "sndinfo.world"
+// GZDoom auto-loads lump SNDINFO from this file.
+$include "sndinfo.world"
+// end of SNDINFO
