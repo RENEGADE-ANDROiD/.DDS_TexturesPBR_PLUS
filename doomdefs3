@@ -1179,7 +1179,7 @@ material flat "blood4"
 
 {
 
-// AUTO-DISABLED missing asset reference: 	normal "materials/normalmaps/auto/blood4.dds"
+normal "materials/normalmaps/auto/blood4.dds"
 
 	specular "materials/specular/auto/blood4.dds"
 
@@ -3585,9 +3585,9 @@ material flat "floor1_1"
 
 {
 
-	normal "materials/normalmaps/auto/flat20.dds"
+	normal "materials/normalmaps/auto/floor1_1.dds"
 
-	specular "materials/specular/auto/flat20.dds"
+	specular "materials/specular/auto/floor1_1.dds"
 
 	glossiness 50
 
