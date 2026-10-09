@@ -242,7 +242,7 @@ material texture COMPUTE1  {
 	//normal MATERIALS/normalmaps/auto/COMPUTE1.dds
 	//specular MATERIALS/specular/auto/COMPUTE1.dds
 	normal "materials/normalmaps/auto/compute1.dds"
-	//metallic "materials/metallic/auto/compute1.dds"
+	metallic "materials/metallic/auto/compute1.dds"
 	roughness "materials/roughness/auto/compute1.dds"
 	ao "materials/ao/auto/ao_blank2.dds"
 	brightmap "materials/Brightmaps/auto/compute1.dds"
@@ -1797,10 +1797,10 @@ Texture tex_heightmap "materials/heightmaps/ceil4_2.dds"
 
 material Flat "ceil4_3"
 {
-normal "materials/normalmaps/auto/ceil4_2.dds"
-metallic "materials/metallic/auto/ceil4_2.dds"
-roughness "materials/roughness/auto/ceil4_2.dds"
-ao "materials/ao/auto/ao_blank2.dds"
+normal "materials/normalmaps/auto/ceil4_3.dds"
+metallic "materials/metallic/auto/ceil4_3.dds"
+roughness "materials/roughness/auto/ceil4_3.dds"
+ao "materials/ao/auto/ceil4_3.dds"
 brightmap "materials/Brightmaps/auto/ceil4_3.dds"
 }
 
@@ -2289,7 +2289,7 @@ material Texture "lite3"
 {
 normal "materials/normalmaps/auto/lite3.dds"
 roughness "materials/roughness/auto/lite3.dds"
-// ao "materials/ao/auto/brnbigl.dds"
+ao "materials/ao/auto/brnbigl.dds"
 metallic "materials/metallic/auto/lite3.dds"
 brightmap "materials/Brightmaps/auto/lite3.dds"
 }
@@ -2549,7 +2549,7 @@ material Texture "compsta2"
 normal "materials/normalmaps/auto/compsta2.dds"
 roughness "materials/roughness/auto/compsta2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-//metallic "materials/metallic/auto/compsta2.dds"
+metallic "materials/metallic/auto/compsta2.dds"
 brightmap "materials/Brightmaps/auto/compsta2.dds"
 specularlevel 4.5
 glossiness 22
@@ -2561,7 +2561,7 @@ material Texture "compsta1"
 normal "materials/normalmaps/auto/compsta1.dds"
 roughness "materials/roughness/auto/compsta1.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-//metallic "materials/metallic/auto/compsta2.dds"
+metallic "materials/metallic/auto/compsta2.dds"
 brightmap "materials/Brightmaps/auto/compsta1.dds"
 specularlevel 4.5
 glossiness 22
@@ -2830,24 +2830,24 @@ material Texture "sw1comp"
 normal "materials/normalmaps/auto/sw1comp.dds"
 roughness "materials/roughness/auto/sw1comp.dds"
 ao "materials/ao/auto/ao_blank.dds"
-//metallic "materials/metallic/auto/sw1comp.dds"
+metallic "materials/metallic/auto/sw1comp.dds"
 brightmap "materials/Brightmaps/auto/sw1comp.dds"
 }
 
 material Flat "F_STEP1"
 {
-// normal "materials/normalmaps/auto/F_STEP1.dds"
-// roughness "materials/roughness/auto/F_STEP1.dds"
+normal "materials/normalmaps/auto/F_STEP1.dds"
+roughness "materials/roughness/auto/F_STEP1.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-// metallic "materials/metallic/auto/F_STEP1.dds"
+metallic "materials/metallic/auto/F_STEP1.dds"
 }
 
 material Flat "F_STEP2"
 {
-// normal "materials/normalmaps/auto/F_STEP2.dds"
-// roughness "materials/roughness/auto/F_STEP2.dds"
+normal "materials/normalmaps/auto/F_STEP2.dds"
+roughness "materials/roughness/auto/F_STEP2.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-// metallic "materials/metallic/auto/F_STEP2.dds"
+metallic "materials/metallic/auto/F_STEP2.dds"
 }
 
 material Texture "sw2comp"
@@ -2858,7 +2858,7 @@ material Texture "sw2comp"
 normal "materials/normalmaps/auto/sw2comp.dds"
 roughness "materials/roughness/auto/sw2comp.dds"
 ao "materials/ao/auto/ao_blank.dds"
-//metallic "materials/metallic/auto/sw1comp.dds"
+metallic "materials/metallic/auto/sw1comp.dds"
 brightmap "materials/Brightmaps/auto/sw2comp.dds"
 }
 
@@ -2917,49 +2917,49 @@ metallic "materials/metallic/auto/brown1.dds"
 
 material Texture "brnsmalc"
 {
-// normal "materials/normalmaps/auto/brnsmalc.dds"
-// roughness "materials/roughness/auto/brnsmalc.dds"
+normal "materials/normalmaps/auto/brnsmalc.dds"
+roughness "materials/roughness/auto/brnsmalc.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/brnsmalc.dds"
 }
 
 material Texture "brnsmall"
 {
-// normal "materials/normalmaps/auto/brnsmall.dds"
-// roughness "materials/roughness/auto/brnsmall.dds"
+normal "materials/normalmaps/auto/brnsmall.dds"
+roughness "materials/roughness/auto/brnsmall.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/brnsmall.dds"
 }
 
 material Texture "brnsmalr"
 {
-// normal "materials/normalmaps/auto/brnsmalr.dds"
-// roughness "materials/roughness/auto/brnsmalr.dds"
+normal "materials/normalmaps/auto/brnsmalr.dds"
+roughness "materials/roughness/auto/brnsmalr.dds"
 ao "materials/ao/auto/ao_blank.dds"
 metallic "materials/metallic/auto/brnsmalr.dds"
 }
 
 material Texture "brnbigc"
 {
-// normal "materials/normalmaps/auto/brnbigc.dds"
-// roughness "materials/roughness/auto/brnbigc.dds"
+normal "materials/normalmaps/auto/brnbigc.dds"
+roughness "materials/roughness/auto/brnbigc.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 metallic "materials/metallic/auto/brnbigc.dds"
 }
 
 material Texture "brnbigl"
 {
-// normal "materials/normalmaps/auto/brnbigl.dds"
-// roughness "materials/roughness/auto/brnbigl.dds"
-// ao "materials/ao/auto/brnbigl.dds"
+normal "materials/normalmaps/auto/brnbigl.dds"
+roughness "materials/roughness/auto/brnbigl.dds"
+ao "materials/ao/auto/brnbigl.dds"
 metallic "materials/metallic/auto/brnbigl.dds"
 }
 
 material Texture "brnbigr"
 {
-// normal "materials/normalmaps/auto/brnbigr.dds"
-// roughness "materials/roughness/auto/brnbigr.dds"
-// ao "materials/ao/auto/brnbigl.dds"
+normal "materials/normalmaps/auto/brnbigr.dds"
+roughness "materials/roughness/auto/brnbigr.dds"
+ao "materials/ao/auto/brnbigl.dds"
 metallic "materials/metallic/auto/brnbigr.dds"
 }
 
@@ -2971,7 +2971,7 @@ material Texture "comptall"
 normal "materials/normalmaps/auto/comptall.dds"
 roughness "materials/roughness/auto/comptall.dds"
 ao "materials/ao/auto/ao_blank3.dds"
-//metallic "materials/metallic/auto/comptall.dds"
+metallic "materials/metallic/auto/comptall.dds"
 brightmap "materials/Brightmaps/auto/comptall.dds"
 }
 
@@ -2983,7 +2983,7 @@ material Texture "comp2"
 normal "materials/normalmaps/auto/COMP2.dds"
 roughness "materials/roughness/auto/COMP2.dds"
 ao "materials/ao/auto/ao_blank3.dds"
-//metallic "materials/metallic/auto/comptall.dds"
+metallic "materials/metallic/auto/comptall.dds"
 }
 
 material Texture "flat18"
@@ -3059,7 +3059,7 @@ normal "materials/normalmaps/auto/compute2.dds"
 roughness "materials/roughness/auto/compute2.dds"
 ao "materials/ao/auto/compute2.dds"
 brightmap "materials/Brightmaps/auto/compute2.dds"
-//metallic "materials/metallic/auto/compute2.dds"
+metallic "materials/metallic/auto/compute2.dds"
 }
 
 material Texture "compute3"
@@ -3071,7 +3071,7 @@ normal "materials/normalmaps/auto/compute3.dds"
 roughness "materials/roughness/auto/compute3.dds"
 ao "materials/ao/auto/ao_blank2.dds"
 brightmap "materials/Brightmaps/auto/compute3.dds"
-//metallic "materials/metallic/auto/startan3.dds"
+metallic "materials/metallic/auto/startan3.dds"
 }
 
 material Texture "compspan"
@@ -3082,7 +3082,7 @@ material Texture "compspan"
 normal "materials/normalmaps/auto/compspan.dds"
 roughness "materials/roughness/auto/compspan.dds"
 ao "materials/ao/auto/compspan.dds"
-//metallic "materials/metallic/auto/compspan.dds"
+metallic "materials/metallic/auto/compspan.dds"
 }
 
 material Texture "exitdoor"
@@ -3153,19 +3153,19 @@ ao "materials/ao/auto/flat14.dds"
 material texture "floor1_1"
 {
 	shader "shaders/displacement.fp"
-	normal "materials/normalmaps/auto/BROWN144.dds"
-	specular "materials/specular/auto/graybig.dds"
-	texture displacement "materials/displacement/floor7_1.dds"
+	normal "materials/normalmaps/auto/floor1_1.dds"
+	specular "materials/specular/auto/floor1_1.dds"
+	texture displacement "materials/heightmaps/auto/floor1_1.dds"
 	glossiness 10.0
 	specularlevel 3
 }
 
 material Flat "floor1_1"
 {
-normal "materials/normalmaps/auto/BROWN144.dds"
-metallic "materials/metallic/auto/floor7_1.dds"
-roughness "materials/roughness/auto/floor0_1.dds"
-ao "materials/ao/auto/ao_blank2.dds"
+normal "materials/normalmaps/auto/floor1_1.dds"
+metallic "materials/metallic/auto/floor1_1.dds"
+roughness "materials/roughness/auto/floor1_1.dds"
+ao "materials/ao/auto/floor1_1.dds"
 }
 
 material Texture "nuke24"
@@ -3339,7 +3339,7 @@ material Texture "comptile"
 normal "materials/normalmaps/auto/comptile.dds"
 roughness "materials/roughness/auto/comptile.dds"
 ao "materials/ao/auto/ao_blank2.dds"
-//metallic "materials/metallic/auto/comptile.dds"
+metallic "materials/metallic/auto/comptile.dds"
 }
 
 material Texture "door3"
@@ -7150,11 +7150,11 @@ material Flat "FLOOR1_1"
 	Shader "shaders/parallax_pbr.fp"
 	specularlevel 1.8
 	glossiness 5
-	specular "materials/ao/auto/ao_blank2.dds"
+	specular "materials/specular/auto/floor1_1.dds"
 	normal "materials/normalmaps/auto/floor1_1.dds"
 	roughness "materials/roughness/auto/floor1_1.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/floor1_1.dds"
+	ao "materials/ao/auto/floor1_1.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/floor1_1.dds"
 }
 
 material Texture "FLOOR1_1"
@@ -7162,11 +7162,11 @@ material Texture "FLOOR1_1"
 	Shader "shaders/parallax_pbr.fp"
 	specularlevel 1.8
 	glossiness 5
-	specular "materials/ao/auto/ao_blank2.dds"
+	specular "materials/specular/auto/floor1_1.dds"
 	normal "materials/normalmaps/auto/floor1_1.dds"
 	roughness "materials/roughness/auto/floor1_1.dds"
-	ao "materials/ao/auto/ao_blank2.dds"
-	Texture tex_heightmap "materials/heightmaps/floor1_1.dds"
+	ao "materials/ao/auto/floor1_1.dds"
+	Texture tex_heightmap "materials/heightmaps/auto/floor1_1.dds"
 }
 
 material Flat "FLOOR4_1"
