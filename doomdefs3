@@ -609,7 +609,7 @@ material texture "blood3"
 
 material texture "blood4"
 {
-	// normal "materials/normalmaps/auto/blood4.dds"
+	normal "materials/normalmaps/auto/blood4.dds"
 	specular "materials/specular/auto/blood4.dds"
 	glossiness 50
 	specularlevel 0.5
@@ -1810,8 +1810,8 @@ material texture "floor0_7"
 
 material texture "floor1_1"
 {
-	normal "materials/normalmaps/auto/flat20.dds"
-	specular "materials/specular/auto/flat20.dds"
+	normal "materials/normalmaps/auto/floor1_1.dds"
+	specular "materials/specular/auto/floor1_1.dds"
 	glossiness 50
 	specularlevel 0.5
 }
